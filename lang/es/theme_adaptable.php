@@ -17,10 +17,10 @@
 /**
  * Version details
  *
- * @package   theme adaptable
- * @copyright 2015 Jeremy Hopkins (Coventry University)
- * @copyright 2015 Fernando Acedo (3-bits.com)
- * @copyright 2016 Fernando Acedo (3-bits.com) Traducción es-ES
+ * @package    theme adaptable
+ * @copyright  2015 Jeremy Hopkins (Coventry University)
+ * @copyright  2015 Fernando Acedo (3-bits.com)
+ * @copyright  2016 Fernando Acedo (3-bits.com) Traducción es-ES
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  */
@@ -66,6 +66,27 @@ $string['region-side-post'] = 'Derecha';
 $string['region-side-pre'] = 'Izquierda';
 $string['frnt-footer'] = 'Los bloques situados en esta zona son solo visibles para los administradores.';
 
+$string['region-frnt-market-a'] = 'Marketing';
+$string['region-frnt-market-b'] = 'Marketing';
+$string['region-frnt-market-c'] = 'Marketing';
+$string['region-frnt-market-d'] = 'Marketing';
+$string['region-frnt-market-e'] = 'Marketing';
+$string['region-frnt-market-f'] = 'Marketing';
+$string['region-frnt-market-g'] = 'Marketing';
+$string['region-frnt-market-h'] = 'Marketing';
+$string['region-frnt-market-i'] = 'Marketing';
+$string['region-frnt-market-j'] = 'Marketing';
+$string['region-frnt-market-k'] = 'Marketing';
+$string['region-frnt-market-l'] = 'Marketing';
+$string['region-frnt-market-m'] = 'Marketing';
+$string['region-frnt-market-n'] = 'Marketing';
+$string['region-frnt-market-o'] = 'Marketing';
+$string['region-frnt-market-p'] = 'Marketing';
+$string['region-frnt-market-q'] = 'Marketing';
+$string['region-frnt-market-r'] = 'Marketing';
+$string['region-frnt-market-s'] = 'Marketing';
+$string['region-frnt-market-t'] = 'Marketing';
+
 
 // Settings page headings ******************************************.
 $string['settingsmaincolors'] = 'Colores principales';
@@ -87,11 +108,11 @@ $string['analyticssettings'] = 'Analítica Web';
 // Admin Menu Strings.
 $string['blocksettings'] = 'Bloques';
 $string['frontpagealertsettings'] = 'Alertas';
+$string['frontpageblockregionsettings'] = 'Creador de regiones para bloques';
 $string['frontpageblocksettings'] = 'Bloques promocionales';
 $string['frontpagetickersettings'] = 'Anuncios';
 $string['frontpageslidersettings'] = 'Presentación diapositivas';
 $string['frontpagecoursesettings'] = 'Cursos';
-
 $string['frontpagesettingsheading'] = 'Página Inicial';
 $string['frontpagedesc'] = 'Configurar la forma en que los cursos son mostrados en la página inicial.';
 $string['frontpagerenderer'] = 'Bloques de cursos';
@@ -104,12 +125,10 @@ $string['frontpagerendereroption4'] = 'Tipo Coventry';
 
 // Ticker **********************************************************.
 $string['tickersettings'] = 'Anuncios';
-$string['ticker'] = 'Anuncios';
-
-$string['tickersettingsheading'] = 'Configura anuncios de la página de inicio. Ver posición <a href="./adaptable/pix/layout.png" target="_blank"> aquí</a>';
+$string['tickersettingsheading'] = 'Configura los anuncios de la página de inicio. Ver posición <a href="./adaptable/pix/layout.png" target="_blank"> aquí</a>';
 $string['tickerdesc'] = 'Aquí puedes configurar los anuncios de la página de inicio de tu moodle.
     Solo debes introducir una lista tipo HTML e incluir enlaces.
-    Nota: No debes añadir etiquetas ul en la lista, solo li. Moodle tiende a añadir etiquetas ul.
+    Nota: No debes añadir etiquetas ul en la lista, solo li. Los editores de Moodle tienden a añadir etiquetas ul en las listas.
     Si no funciona correctamente, cambia a modo HTML y comprueba que solo hay etiquetas li:
     <pre>
     &lt;li&gt;Anuncio 1.....&lt;/li&gt;
@@ -117,7 +136,6 @@ $string['tickerdesc'] = 'Aquí puedes configurar los anuncios de la página de i
     </pre>
     <br>
     Puedes controlar diferentes secciones de anuncios dependiendo de un campo de perfil de usuario personalizado y así mostrar diferentes anuncios a diferentes perfiles.';
-
 $string['tickerdefault'] = 'No hay anuncios para mostrar';
 
 $string['enableticker'] = 'Activar los anuncios en la página de inicio';
@@ -136,10 +154,11 @@ $string['tickertext2'] = 'Texto Anuncios 2';
 $string['tickertext2desc'] = 'Añadir los anuncios en formato de lista HTML para un segundo tipo de usuario. Ver <a href="adaptable/README.txt">README.txt</a> para más información.';
 
 $string['tickertextprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=student"';
+$string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
 
 $string['newstickercount'] = 'Número de secciones en el tablón de anuncios';
 $string['newstickercountdesc'] = 'Define el número de multiple secciones de anuncios basadas en campos de perfil de usuario personalizados.';
+$string['ticker'] = 'Anuncios';
 
 
 // Slideshow *******************************************************.
@@ -147,50 +166,14 @@ $string['slideshowsettings'] = 'Presentación de diapositivas';
 $string['slideshowsettingsheading'] = 'Personaliza la presentación de diapositivas de la página de inicio';
 $string['slideshowdesc'] = 'Sube imagenes, añade enlaces y descripciones en las dispositivas de la presentación de la página de inicio.';
 
-$string['p1'] = 'Imagen 1';
-$string['p1desc'] = 'Añadir una imagen en la presentación de diapositivas de la página de inicio. Introducir la URL de la imagen.';
+$string['sliderimage'] = 'Imagen de la diapositiva';
+$string['sliderimagedesc'] = 'Añade una imagen a la diapositiva.';
 
-$string['p2'] = 'Imagen 2';
-$string['p2desc'] = 'Añadir una imagen en la presentación de diapositivas de la página de inicio. Introducir la URL de la imagen.';
+$string['slidercaption'] = 'Texto de la diapositiva';
+$string['slidercaptiondesc'] = 'Añade un texto a la diapositiva.';
 
-$string['p3'] = 'Imagen 3';
-$string['p3desc'] = 'Añadir una imagen en la presentación de diapositivas de la página de inicio. Introducir la URL de la imagen.';
-
-$string['p4'] = 'Imagen 4';
-$string['p4desc'] = 'Añadir una imagen en la presentación de diapositivas de la página de inicio. Introducir la URL de la imagen.';
-
-$string['p5'] = 'Imagen 5';
-$string['p5desc'] = 'Añadir una imagen en la presentación de diapositivas de la página de inicio. Introducir la URL de la imagen.';
-
-$string['p1cap'] = 'Imagen 1 caption';
-$string['p1capdesc'] = 'Añadir el texto de la imagen. Usa una etiqueta H3 para el título.';
-
-$string['p2cap'] = 'Imagen 2 caption';
-$string['p2capdesc'] = 'Añadir el texto de la imagen. Usa una etiqueta H3 para el título.';
-
-$string['p3cap'] = 'Imagen 3 caption';
-$string['p3capdesc'] = 'Añadir el texto de la imagen. Usa una etiqueta H3 para el título.';
-
-$string['p4cap'] = 'Imagen 4 caption';
-$string['p4capdesc'] = 'Añadir el texto de la imagen. Usa una etiqueta H3 para el título.';
-
-$string['p5cap'] = 'Imagen 5 caption';
-$string['p5capdesc'] = 'Añadir el texto de la imagen. Usa una etiqueta H3 para el título.';
-
-$string['p1url'] = 'URL Diapositiva 1';
-$string['p1urldesc'] = 'Añadir la URL de la diapositiva 1.';
-
-$string['p2url'] = 'URL Diapositiva 2';
-$string['p2urldesc'] = 'Añadir la URL de la diapositiva 2.';
-
-$string['p3url'] = 'URL Diapositiva 3';
-$string['p3urldesc'] = 'Añadir la URL de la diapositiva 3.';
-
-$string['p4url'] = 'URL Diapositiva 4';
-$string['p4urldesc'] = 'Añadir la URL de la diapositiva 4.';
-
-$string['p5url'] = 'URL Diapositiva 5';
-$string['p5urldesc'] = 'Añadir la URL de la diapositiva 5.';
+$string['sliderurl'] = 'URL de la diapositiva';
+$string['sliderurldesc'] = 'Añade una URL a enlazar desde la diapositiva.';
 
 $string['slidermargintop'] = 'Margen superior de la presentación de diapositivas';
 $string['slidermargintopdesc'] = 'Establece el margen superior de la presentación de diapositivas.';
@@ -198,81 +181,135 @@ $string['slidermargintopdesc'] = 'Establece el margen superior de la presentaci�
 $string['slidermarginbottom'] = 'Margen inferior de la presentación de diapositivas';
 $string['slidermarginbottomdesc'] = 'Establece el margen inferior de la presentación de diapositivas.';
 
+$string['sliderenabled'] = 'Activar la presentación de diapositivas';
+$string['sliderenableddesc'] = 'Activa la presentación de diapositivas en la página principal.';
+
 $string['sliderfullscreen'] = 'Presentación de diapositivas en ancho completo';
 $string['sliderfullscreendesc'] = 'Muestra la presentación de diapositivas en todo el ancho de la pantalla.';
 
-$string['slideroption2'] = 'Presentación de diapositivas tipo 2';
-$string['slideroption2desc'] = 'Muestra la presentación de diapositivas utilizando el segundo estilo.';
+$string['slideroption2'] = 'Seleccionar tipo de presentación de diapositivas';
+$string['slideroption2desc'] = 'Selecciona el tipo de presentación de diapositivas <strong>y pulsar Guardar</strong>para mostrar los colores del estilo seleccionado.';
+
+$string['slideroption2snippet'] = '<p>Ejemplo HTML para el texto de las diapositivas:</p>
+<pre>
+&#x3C;div class=&#x22;span6 col-sm-6&#x22;&#x3E;
+&#x3C;h3&#x3E;Hecho a mano&#x3C;/h3&#x3E; &#x3C;h4&#x3E;pixels y código para la comunidad Moodle&#x3C;/h4&#x3E;
+&#x3C;a href=&#x22;#&#x22; class=&#x22;submit&#x22;&#x3E;Por favor, haz Adaptable uno de tus temas favoritos&#x3C;/a&#x3E;
+</pre>';
+
+$string['slidercount'] = 'Número de dispositivas';
+$string['slidercountdesc'] = 'Establece el número de diapositivas a mostrar en la página principal y <strong>haz clic en Guardar</strong> para introducir la información del resto de campos.';
+
+$string['sliderh3color'] = 'Color del texto H3 del estilo de presentación 1';
+$string['sliderh3colordesc'] = 'Establece el color del texto de la etiqueta H3 cuando se utiliza el estilo de presentación 1.';
+
+$string['sliderh4color'] = 'Color del texto H4 del estilo de presentación 1';
+$string['sliderh4colordesc'] = 'Establece el color del texto de la etiqueta H4 cuando se utiliza el estilo de presentación 1.';
+
+$string['slidersubmitcolor'] = 'Color del texto del boton del estilo de presentación 1';
+$string['slidersubmitcolordesc'] = 'Establece el color del texto del boton cuando se utiliza el estilo de presentación 1.';
+
+$string['slidersubmitbgcolor'] = 'Color del botón del estilo de presentación 1';
+$string['slidersubmitbgcolordesc'] = 'Establece el color del boton cuando se utiliza el estilo de presentación 1.';
+
+$string['slider2h3color'] = 'Color del texto H3 del estilo de presentación 2';
+$string['slider2h3colordesc'] = 'Establece el color del texto de la etiqueta H3 cuando se utiliza el estilo de presentación 2.';
+
+$string['slider2h4color'] = 'Color del texto H4 del estilo de presentación 2';
+$string['slider2h4colordesc'] = 'Establece el color del texto de la eqiqueta H4 cuando se utiliza el estilo de presentación 2.';
+
+$string['slider2h3bgcolor'] = 'Color de fondo H3 del estilo de presentación 2';
+$string['slider2h3bgcolordesc'] = 'Establece el color de fondo de la etiqueta H3 cuando se utiliza el estilo de presentación 2.';
+
+$string['slider2h4bgcolor'] = 'Color de fondo H4 del estilo de presentación 2';
+$string['slider2h4bgcolordesc'] = 'Establece el color de fondo de la etiqueta H4 cuando se utiliza el estilo de presentación 2.';
+
+$string['slideroption2submitcolor'] = 'Color de fondo del enlace del estilo de presentación 2';
+$string['slideroption2submitcolordesc'] = 'Establece el color de fondo del texto del enlace cuando se utiliza el estilo de presentación 2.';
 
 $string['slideroption2color'] = 'Color de fondo de la presentación de diapositivas tipo 2';
-$string['slideroption2colordesc'] = 'Configura el color de fondo de la presentación de diapositivas usando el segundo estilo.';
+$string['slideroption2colordesc'] = 'Establece el color de fondo de la diapositiva cuando se utiliza el estilo de presentación 2.';
 
 $string['slideroption2a'] = 'Color de fondo de las flechas de la presentación de diapositivas tipo 2';
-$string['slideroption2adesc'] = 'Configura el color de fondo de las flechas de la presentación de diapositivas usando el segundo estilo.';
+$string['slideroption2adesc'] = 'Establece el color de fondo de las flechas de la presentación de diapositivas cuando se utiliza el estilo de presentación 2.';
+
+// Regiones para Bloques ***************************************************.
+$string['blocklayoutbuilder'] = 'Creador de regiones para bloques';
+$string['blocklayoutbuilderdesc'] = 'A continuación puedes crear tu propia distribución de regiones para los bloques de moodle en la página principal.
+Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>.
+Entonces podrás arrastras y soltar los bloques en las regiones creadas.';
+
+$string['blocklayoutlayoutcheck'] = 'Comprueba la distribución';
+$string['blocklayoutlayoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
+$string['blocklayoutlayoutcount1'] = 'Puedes crear un máximo de ';
+$string['blocklayoutlayoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
+
+$string['blocklayoutlayoutrow'] = 'Filas de regiones para bloques';
+$string['blocklayoutlayoutrowdesc'] = 'Añade / establece la distribución de filas de las regiones para bloques de la página principal.';
+
+$string['frontpageblocksenabled'] = 'Activa las regiones para bloques en la página principal';
+$string['frontpageblocksenableddesc'] = 'Activa o desactiva las regiones para bloques de la página principal.
+Puedes arrastrar y soltar los bloques en las regiones creadas.';
+
+$string['layoutcheck'] = 'Comprueba la distribución';
+$string['layoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
+$string['layoutcount1'] = 'Puedes crear un máximo de ';
+$string['layoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
 
 
 // Bloques promocionales & Cuadros Informativos *************************************.
 $string['marketingsettings'] = 'Bloques promocionales';
-$string['marketingsettingsheading'] = 'Personaliza los bloques promocionales que aparecen en la página de inicio';
-$string['marketingdesc'] = 'Puedes añadir hasta 12 bloques promocionales en la página de inicio. Puedes ver ejemplos en el archivo
- <a href="/adaptable/README.txt" target="_blank">README.txt</a>';
+$string['marketingsettingsheading'] = 'Personaliza los bloques promocionales que aparecen en la página de inicio. Ver la distribución <a href="./../theme/adaptable/pix/layout.png" target="_blank">aqui</a>';
+$string['marketingdesc'] = 'Dispones de dos cuadros informativos a los que puedes aplicar diferentes estilos. Además puedes activar el creador de regiones
+para bloques y decidir cuantos bloques quieres mostrar y su distribución en la página de inicio. Puedes ver la distribución de las diferentes regiones en el archivo  <a href="/adaptable/README.txt" target="_blank">README.txt</a>';
 
-$string['market1'] = 'Bloque promocional 1';
-$string['market1desc'] = 'Añadir el código HTML.';
+$string['marketingbuilderheading'] = 'Creador de regiones para bloques promocionales';
+$string['marketingbuilderdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques promocionales que has utilizado.';
 
-$string['market2'] = 'Bloque promocional 2';
-$string['market2desc'] = 'Añadir el código HTML.';
+$string['marketlayoutrow'] = 'Filas de regiones para bloques promocionales';
+$string['marketlayoutrowdesc'] = 'Añade / establece la distribución de filas de las regiones para bloques promocionales de la página principal.';
 
-$string['market3'] = 'Bloque promocional 3';
-$string['market3desc'] = 'Añadir el código HTML.';
+$string['market'] = 'Bloque promocional ';
+$string['marketdesc'] = 'Añade el código HTML del bloque promocional (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos).';
 
-$string['market4'] = 'Bloque promocional 4';
-$string['market4desc'] = 'Añadir el código HTML.';
-
-$string['market5'] = 'Bloque promocional 5';
-$string['market5desc'] = 'Añadir el código HTML.';
-
-$string['market6'] = 'Bloque promocional 6';
-$string['market6desc'] = 'Añadir el código HTML.';
-
-$string['market7'] = 'Bloque promocional 7';
-$string['market7desc'] = 'Añadir el código HTML.';
-
-$string['market8'] = 'Bloque promocional 8';
-$string['market8desc'] = 'Añadir el código HTML.';
-
-$string['market9'] = 'Bloque promocional 9';
-$string['market9desc'] = 'Añadir el código HTML.';
-
-$string['market10'] = 'Bloque promocional 10';
-$string['market10desc'] = 'Añadir el código HTML.';
-
-$string['market11'] = 'Bloque promocional 11';
-$string['market11desc'] = 'Añadir el código HTML.';
-
-$string['market12'] = 'Bloque promocional 12';
-$string['market12desc'] = 'Añadir el código HTML.';
+$string['layoutaddcontent'] = 'Añade contenido a los bloques promocionales:';
+$string['layoutaddcontentdesc1'] = 'Has configurado ';
+$string['layoutaddcontentdesc2'] = ' bloques promocionales. Si estás conforme con la distribución añade el contenido de los bloques promocionales.
+Si no estás conforme, usa el creador de regiones para bloques promocionales para realizar cambios<br />';
 
 $string['infobox'] = 'Cuadro informativo 1';
-$string['infoboxdesc'] = 'Añadir el código HTML.';
+$string['infoboxdesc'] = 'Añade el código HTML del cuadro informativo 1 (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
 
-$string['infoboxfullscreen'] = 'Cuadros informativos a pantalla completa';
-$string['infoboxfullscreendesc'] = 'Marcar está opción para mostrar los cuadros informativos a ancho completo.';
+$string['infoboxfullscreen'] = 'Cuadros informativos a ancho completo';
+$string['infoboxfullscreendesc'] = 'Marca está opción para mostrar los cuadros informativos a ancho completo de pantalla.';
+
+$string['infoboxcolor'] = 'Color de fondo del cuadro informativo 1';
+$string['infoboxcolordesc'] = 'Establece el color de fondo del cuadro informativo 1';
+
+$string['infoboxtextcolor'] = 'Color de texto del cuadro informativo 1';
+$string['infoboxtextcolordesc'] = 'Establece el color de texto del cuadro informativo 1.';
 
 $string['infobox2'] = 'Cuadro informativo 2';
-$string['infobox2desc'] = 'Añadir el código HTML.';
+$string['infobox2desc'] = 'Añade el código HTML del cuadro informativo 2 (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
+
+$string['infoboxcolor2'] = 'Color de fondo del cuadro informativo 2';
+$string['infoboxcolor2desc'] = 'Establece el color de fondo del cuadro informativo 2';
+
+$string['infoboxtextcolor2'] = 'Color de texto del cuadro informativo 2';
+$string['infoboxtextcolor2desc'] = 'Establece el color de texto del cuadro informativo 2';
 
 $string['frontpagemarketenabled'] = 'Activar los bloques promocionales';
 $string['frontpagemarketenableddesc'] = 'Activar los bloques promocionales en la pagina de inicio.';
 
-$string['frontpagemarketoption'] = 'Bloques promocionales tipo Coventry';
+$string['frontpagemarketoption'] = 'Estilo de los bloques promocionales';
 $string['frontpagemarketoptiondesc'] = 'Establecer los bloques promocionales tipo Coventry. Configurar el color de esta opción en la página de colores.';
 
 
 // Footer **********************************************************.
 $string['footersettings'] = 'Pie de Página';
-$string['footersettingsheading'] = 'Configurar el contenido del pie de página. Ver posición <a href="./adaptable/pix/layout.png" target="_blank"> aquí</a>';
-$string['footerdesc'] = 'Configurar el contenido de los diferentes bloques que se muestran en el pie de página';
+$string['footersettingsheading'] = 'A continuación puedes crear tu propia distribución de regiones para el pie de página.
+Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>.
+Entonces podrás arrastras y soltar los bloques en las regiones creadas.';
 
 $string['showfooterblocks'] = 'Mostrar bloques en el pie de página';
 $string['showfooterblocksdesc'] = 'Mostrar los bloques personalizados en el pie de página.';
@@ -283,36 +320,31 @@ $string['footerblocksplacement1'] = 'Todo el sitio';
 $string['footerblocksplacement2'] = 'Página Inicial';
 $string['footerblocksplacement3'] = 'Nunca';
 
-$string['footnote'] = 'Copyright';
-$string['footnotedesc'] = 'Añadir un texto de copyright al pie de página.';
+$string['footerlayoutrow'] = 'Creador de regiones para los bloques del pie de página';
+$string['footerlayoutrowdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques del pie de página que has utilizado.';
 
-$string['footer1header'] = 'Título del bloque 1';
-$string['footer2header'] = 'Título del bloque 2';
-$string['footer3header'] = 'Título del bloque 3';
-$string['footer4header'] = 'Título del bloque 4';
+$string['footnote'] = 'Texto del bloque del pie de página ';
+$string['footnotedesc'] = 'Añade el código HTML del bloque de pie de página (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
 
-$string['footer1desc'] = 'Introducir el título del bloque 1 del pie de página';
-$string['footer2desc'] = 'Introducir el título del bloque 2 del pie de página';
-$string['footer3desc'] = 'Introducir el título del bloque 3 del pie de página';
-$string['footer4desc'] = 'Introducir el título del bloque 4 del pie de página';
+$string['footerheader'] = 'Titulo del bloque del pie de página ';
+$string['footerdesc'] = 'Añade el titulo del bloque del pie de página ';
 
-$string['footer1content'] = 'Contenido del bloque 1';
-$string['footer2content'] = 'Contenido del bloque 2';
-$string['footer3content'] = 'Contenido del bloque 3';
-$string['footer4content'] = 'Contenido del bloque 4';
-
-$string['footer1contentdesc'] = 'Introducir el contenido del bloque de pie de página 1';
-$string['footer2contentdesc'] = 'Introducir el contenido del bloque de pie de página 2';
-$string['footer3contentdesc'] = 'Introducir el contenido del bloque de pie de página 3';
-$string['footer4contentdesc'] = 'Introducir el contenido del bloque de pie de página 4';
+$string['footercontent'] = 'Contenido del bloque del pie de página ';
+$string['footercontentdesc'] = 'Añade el código HTML del bloque del pie de página (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
 
 
 // Moodle Docs link.
 $string['moodledocs'] = 'Mostrar enlace a Moodle Docs';
-$string['moodledocsdesc'] = 'Mostrar enlace a Moodle Docs en el pie de página.';
+$string['moodledocsdesc'] = 'Mostrar un enlace a Moodle Docs en el pie de página.';
 
 
 // NavBar **********************************************************.
+$string['stickynavbar'] = 'Fijar la barra de navegación';
+$string['stickynavbardesc'] = 'Fijar la barra de navegación a la parte superior de la página.';
+
+$string['navbarcachetime'] = 'Caché de la barra de navegación';
+$string['navbarcachetimedesc'] = 'El tiempo, en minutos, que se guarda la barra de navegación.';
+
 $string['navbarmenusettings'] = 'Menú Navegación';
 $string['navbarmenusettingsheading'] = 'Personalizar el menú de la barra de navegación';
 $string['navbarmenusettingsdesc'] = 'Añadir menús en la barra de navegación.';
@@ -320,9 +352,6 @@ $string['navbarmenusettingsdesc'] = 'Añadir menús en la barra de navegación.'
 $string['navbarsettings'] = 'Barra de navegación';
 $string['navbarsettingsheading'] = 'Personalizar la barra de navegación';
 $string['navbardesc'] = 'Controlar los diferentes elementos a mostrar en la barra de navegación.';
-
-$string['headerprofilefontsize'] = 'Tamaño fuente';
-$string['headerprofilefontsizedesc'] = 'Cambiar el tamaño de la fuente de la barra de navegación.';
 
 if ($CFG->version > 2015051100) {
     $string['enablemy'] = 'Área Personal';
@@ -350,6 +379,9 @@ $string['enablecalendardesc'] = 'Mostrar el enlace al calendario del usuario.';
 $string['enableprivatefiles'] = 'Archivos privados';
 $string['enableprivatefilesdesc'] = 'Mostrar el enlace a los archivos privados del usuario.';
 
+$string['enablesearchbox'] = 'Activar cuadro de búsqueda';
+$string['enablesearchboxdesc'] = 'Mostrar el cuadro de búsqueda en la parte superior de la pantalla.';
+
 $string['enablepref'] = 'Preferencias';
 $string['enableprefdesc'] = 'Mostrar el enlace a las preferencias del usuario.';
 
@@ -374,12 +406,25 @@ $string['enableeventsdesc'] = 'Mostrar un enlace al calendario';
 $string['enablemysitesdesc'] = 'Mostrar los cursos del usuario';
 $string['enablethiscoursedesc'] = 'Mostrar las actividades del curso actual';
 
+$string['mysitessortoverride'] = 'Activar el orden personalizado de "Mis Cursos"';
+$string['mysitessortoverridedesc'] = 'Usa campos personalizados o textos (año, edad, ...) para colapsar los cursos en un desplegable.';
+$string['mysitessortoverridefield'] = 'Campo personalizado o texto para filtrar "Mis Cursos"';
+$string['mysitessortoverridefielddesc'] = 'Lista con delimitación por comas de los campos o textos a comprobar en el nombre corto de curso.';
+
+$string['mysitessortoverrideoff'] = 'Mostrar lista de cursos.';
+$string['mysitessortoverridestrings'] = 'Muestra todos los cursos en los que está matriculado el alumno en una lista. El resto son mostrados en un submenú.';
+$string['mysitessortoverrideprofilefields'] = 'Muestra los cursos coincidentes con un campo personalizado en una lista. El resto son mostrados en un submenú.';
+$string['mysitessortoverrideprofilefieldscohort'] = 'Muestra los cursos coincidentes con un campo de perfil y los cohortes en primer lugar. El resto son mostrados en un submenú.';
+
+$string['mysitesmaxlength'] = 'Longitud máxima del título del curso en "Mis Cursos"';
+$string['mysitesmaxlengthdesc'] = 'Ajusta la longitud máxima del título del curso a mostrar en "Mis Cursos". La longitud dependerá del tamaño y de la fuente usada.';
+
 $string['usernavheading'] = 'Personalizar el menu de usuario';
 $string['usernavdesc'] = 'Permite personalizar los elementos que aparecen Allows you to control all of the elements that appear in the user navigation dropdown.';
 $string['enablehomedesc'] = 'Mostrar enlace a Inicio';
 
 $string['enablehomeredirect'] = 'Activar redirect=0';
-$string['enablehomeredirectdesc'] = 'Activa la opción redirect=0 para redirigir a la página inicial del sitio. Está opción puede  utilizarse en sitios que tienen el Área Personal como página inicial por defecto. Desactivada previene redireccionar a los usuarios a la página inicial y ser redirigidos al Área Personal';
+$string['enablehomeredirectdesc'] = 'Activa la opción redirect=0 para redirigir a la página inicial del sitio. Está opción puede utilizarse en sitios que tienen el Área Personal como página inicial por defecto. Desactivada previene redireccionar a los usuarios a la página inicial y ser redirigidos al Área Personal';
 
 
 // Colours *********************************************************.
@@ -395,23 +440,29 @@ $string['linkhoverdesc'] = 'Establece el color cuando pasa el cursor sobre los e
 $string['backcolor'] = 'Color de fondo';
 $string['backcolordesc'] = 'Establece el color de fondo de la plantilla.';
 
+$string['regionmaincolor'] = 'Color de la región principal';
+$string['regionmaincolordesc'] = 'Establece el color de fondo de la región principal.';
+
 $string['maincolor'] = 'Color principal';
 $string['maincolordesc'] = 'Establece el color principal del sitio.';
 
 $string['footertextcolor'] = 'Color de texto del pie de página superior';
-$string['footertextcolordesc'] = 'Establece el color usado por el texto en el pie de página superior.';
+$string['footertextcolordesc'] = 'Establece el color de texto en el pie de página superior.';
 
-$string['footerbkcolor'] = 'Color del fondo del pie de página superior';
-$string['footerbkcolordesc'] = 'Establece el color de fondo usado por el pie de página superior.';
+$string['footerbkcolor'] = 'Color de fondo del pie de página superior';
+$string['footerbkcolordesc'] = 'Establece el color de fondo del pie de página superior.';
 
 $string['footertextcolor2'] = 'Color del texto del pie de página inferior';
-$string['footertextcolor2desc'] = 'Establece el color usado por el texto en el pie de página inferior.';
+$string['footertextcolor2desc'] = 'Establece el color del texto del pie de página inferior.';
 
 $string['footerlinkcolor'] = 'Color de los enlaces del pie de página';
 $string['footerlinkcolordesc'] = 'Establece el color de los enlaces del pie de página.';
 
 $string['headerbkcolor'] = 'Color de fondo de la parte superior de la cabecera';
 $string['headerbkcolordesc'] = 'Establece el color de fondo de la parte superior de la cabecera.';
+
+$string['msgbadgecolor'] = 'Color de fondo del marcador de mensajes.';
+$string['msgbadgecolordesc'] = 'Establece el color de fondo del marcador de mensajes en la cabecera (donde se muestra el número de mensajes no leidos)';
 
 $string['headerbkcolor2'] = 'Color de fondo de la parte inferior de la cabecera';
 $string['headerbkcolor2desc'] = 'Establece el color de fondo de la parte inferior de la cabecera.';
@@ -426,7 +477,7 @@ $string['blockheadercolor'] = 'Color de fondo de la cabecera de los bloques';
 $string['blockheadercolordesc'] = 'Establece el color de fondo de la cabecera de los bloques.';
 
 $string['blockbackgroundcolor'] = 'Color de fondo de los bloques';
-$string['blockbackgroundcolordesc'] = 'establece el color de fondo de los bloques.';
+$string['blockbackgroundcolordesc'] = 'Establece el color de fondo de los bloques.';
 
 $string['blockheaderbackgroundcolor'] = 'Color del texto de los encabezados de los bloques';
 $string['blockheaderbackgroundcolordesc'] = 'Establece el color del texto de los encabezados de los bloques.';
@@ -436,6 +487,12 @@ $string['blockbordercolordesc'] = 'Establece el color del borde de los bloques.'
 
 $string['blocklinkcolor'] = 'Color de enlace de los bloques';
 $string['blocklinkcolordesc'] = 'Establece el color de los enlaces de los bloques.';
+
+$string['blocklinkhovercolor'] = 'Color de los enlaces de los bloques';
+$string['blocklinkhovercolordesc'] = 'Establece el color hover de los enlaces de los bloques.';
+
+$string['blockregionbackground'] = 'Color de fondo de las regiones para bloques';
+$string['blockregionbackgrounddesc'] = 'Establece el color de fondo del contenedor del constructor de bloques de la página principal.';
 
 $string['blockheaderbordertop'] = 'Grueso del borde superior de los bloques';
 $string['blockheaderbordertopdesc'] = 'Establece el grosor del borde superior de los bloques.';
@@ -485,14 +542,11 @@ $string['marketblockbordercolordesc'] = 'Establece el color del borde de los blo
 $string['marketblocksbackgroundcolor'] = 'Color de fondo de la región de los bloques promocionales.';
 $string['marketblocksbackgroundcolordesc'] = 'Establece el color de fondo de la región de los bloques promocionales.';
 
-$string['currentcolor'] = 'Color de realce de la sección actual';
-$string['currentcolordesc'] = 'Establece el color de realce de la sección actual.';
-
 $string['sectionheadingcolor'] = 'Color de fondo de la cabecera de sección';
 $string['sectionheadingcolordesc'] = 'Establece el color de fondo de la cabecera del tema actual.';
 
 $string['homebk'] = 'Imagen de fondo';
-$string['homebkdesc'] = 'Sube la imagen de fondo para la plantilla.';
+$string['homebkdesc'] = 'Carga la imagen de fondo para la plantilla.';
 
 $string['editonbk'] = 'Color de fondo de los botones de edición y personalización activados';
 $string['editonbkdesc'] = 'Establece el color de fondo de los botones de edición y personalización cuando están activados.';
@@ -530,42 +584,73 @@ $string['menubordercolordesc'] = 'Establece el color de la linea divisoria de la
 $string['menufontcolor'] = 'Color de texto del menú principal';
 $string['menufontcolordesc'] = 'Establece el color del texto del menú principal.';
 
-$string['menufonthovercolor'] = 'Color de texto hover del menú principal';
-$string['menufonthovercolordesc'] = 'Establece el color del texto del menú principal al pasar el cursor sobre él.';
-
 $string['mobilemenubkcolor'] = 'Color de fondo del menú para móvil';
 $string['mobilemenubkcolordesc'] = 'Establece el color de fondo del menú principal en móviles (colapsado)';
 
 $string['mobilemenufontcolor'] = 'Color del texto del menú para móvil';
 $string['mobilemenufontcolordesc'] = 'Establece el color de texto del menú principal en móviles (colapsado)';
 
+// Course *********************************************************.
+$string['coursesettings'] = 'Secciones del curso';
+$string['coursesettingsheading'] = 'Configuración de las secciones del curso.';
+$string['coursedesc'] = 'Configura las opciones de las secciones de los cursos como el título, color de fondo y bordes.';
+
+$string['coursesectionheaderbg'] = 'Color de fondo de la cabecera';
+$string['coursesectionheaderbgdesc'] = 'Establece el color de fondo de la cabecera de la sección del curso.';
+
+$string['currentcolor'] = 'Color de realce de la sección actual';
+$string['currentcolordesc'] = 'Establece el color de realce de la sección actual.';
+
+$string['coursesectionheaderborderstyle'] = 'Estilo del borde inferior de la cabecera';
+$string['coursesectionheaderborderstyledesc'] = 'Establece el estilo del borde inferior de la cabecera de la sección del curso.';
+
+$string['coursesectionheaderbordercolor'] = 'Color del borde inferior de la cabecera';
+$string['coursesectionheaderbordercolordesc'] = 'Establece el color del borde inferior de la cabecera de la sección del curso.';
+
+$string['coursesectionheaderborderwidth'] = 'Grueso del borde inferior de la cabecera';
+$string['coursesectionheaderborderwidthdesc'] = 'Establece el grueso del borde inferior de la cabecera de la sección del curso.';
+
+$string['coursesectionheaderborderradiustop'] = 'Radio de las esquinas del borde superior de la cabecera';
+$string['coursesectionheaderborderradiustopdesc'] = 'Establece el radio de las esquinas del borde superior de la cabecera de la sección del curso.';
+
+$string['coursesectionheaderborderradiusbottom'] = 'Radio de las esquinas del borde inferior de la cabecera';
+$string['coursesectionheaderborderradiusbottomdesc'] = 'Establece el radio de las esquinas del borde inferior de la cabecera de la sección del curso.';
+
+$string['coursesectionborderstyle'] = 'Estilo del borde de la sección del curso';
+$string['coursesectionborderstyledesc'] = 'Establece el estilo del borde de la sección del curso.';
+
+$string['coursesectionborderwidth'] = 'Grueso del borde de la sección';
+$string['coursesectionborderwidthdesc'] = 'Establece el grueso del borde de la sección del curso.';
+
+$string['coursesectionbordercolor'] = 'Color del borde de la sección';
+$string['coursesectionbordercolordesc'] = 'Establece el color del borde de la sección del curso.';
+
+$string['coursesectionborderradius'] = 'Radio del borde de la sección';
+$string['coursesectionborderradiusdesc'] = 'Establece el radio del borde de las esquinas de la sección del curso.';
 
 // Fonts ***********************************************************.
 $string['fontsettings'] = 'Fuentes';
 $string['fontsettingsheading'] = 'Establece las fuentes utilizadas por la plantilla.';
 $string['fontdesc'] = 'Selecciona la fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> para el texto, los encabezamientos y el título. Selecciona también el juego de caracteres a usar (latin está incluido por defecto) e introduce el valor correcto para el grueso de fuente utilizado o no se mostrará.';
 
-// Fuente principal.
 $string['fontname'] = 'Fuente principal';
 $string['fontnamedesc'] = 'Establece la fuente principal. Selecciona defecto o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+
+$string['fontheadername'] = 'Fuente encabezamientos';
+$string['fontheadernamedesc'] = 'Establece la fuente de los encabezamientos utilizados en la plantilla. Selecciona default o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
 $string['fontcolor'] = 'Color de la fuente principal';
 $string['fontcolordesc'] = 'Establece el color de la fuente principal.';
 
-$string['fontweight'] = 'Grueso de la fuente principal';
-$string['fontweightdesc'] = 'Establece el grueso de la fuente principal. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
-
-// Fuente encabezamientos.
-$string['fontheadername'] = 'Fuente encabezamientos';
-$string['fontheadernamedesc'] = 'Establece la fuente de los encabezamientos utilizados en la plantilla. Selecciona default o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
-
 $string['fontheadercolor'] = 'Color de la fuente de encabezamientos';
 $string['fontheadercolordesc'] = 'Establece el color de la fuente de los encabezamientos utilizados en la plantilla.';
+
+$string['fontweight'] = 'Grueso de la fuente principal';
+$string['fontweightdesc'] = 'Establece el grueso de la fuente principal. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
 
 $string['fontheaderweight'] = 'Grueso de la fuente de encabezamientos';
 $string['fontheaderweightdesc'] = 'Establece el grueso de la fuente de los encabezamientos. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
 
-// Fuente titulo.
 $string['fonttitlename'] = 'Fuente del título del sitio';
 $string['fonttitlenamedesc'] = 'Establece la fuente del título del sitio situado en la cabecera. Selecciona default o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
@@ -576,14 +661,28 @@ $string['fonttitleweight'] = 'Grueso de la fuente del título del sitio';
 $string['fonttitleweightdesc'] = 'Establece el grueso de la fuente del título del sitio. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
 
 $string['fonttitlesize'] = 'Tamaño de la fuente del título del sitio';
-$string['fonttitlesizedesc'] = 'Tamaño de la fuente del título del sitio situado en la cabecera. Introducir un valor decimal,, por ejemplo: 24px';
+$string['fonttitlesizedesc'] = 'Tamaño de la fuente del título del sitio situado en la cabecera. Introducir un valor decimal, por ejemplo: 24px';
+
+$string['fonttitlenamecourse'] = 'Fuente del título del curso';
+$string['fonttitlenamecoursedesc'] = 'Selecciona la fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> para el título del curso.';
+
+$string['fonttitlecolorcourse'] = 'Color de la fuente del título del curso';
+$string['fonttitlecolorcoursedesc'] = 'Establece el color de la fuente usada en el título del curso.';
+
+$string['fonttitleweightcourse'] = 'Grueso de la fuente del título del curso';
+$string['fonttitleweightcoursedesc'] = 'Establece el grueso de la fuente usada en el título del curso. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
+
+$string['fonttitlesizecourse'] = 'Tamaño de la fuente del título del curso';
+$string['fonttitlesizecoursedesc'] = 'Establece el tamaño de la fuente del título del curso. Introducir un valor decimal, por ejemplo: 24px';
 
 $string['fontsubset'] = 'Juego de caracteres de Google Fonts';
-$string['fontsubsetdesc'] = 'Seleccionar el juego de caracteres de Google Fonts a usar, además del latin ya incluido por defecto. Se aplicará a toda la plantilla.';
+$string['fontsubsetdesc'] = 'Seleccionar el juego de caracteres de Google Fonts a usar además del latin ya incluido por defecto. Se aplicará a toda las fuentes seleccionadas.';
 
 $string['menufontsize'] = 'Tamaño de la fuente del Navbar';
 $string['menufontsizedesc'] = 'Establece el tamaño de la fuente utilizada en la barra de navegación.';
 
+$string['menufontpadding'] = 'Separación entre los items de la barra de navegación';
+$string['menufontpaddingdesc'] = 'Establece la separación entre los items de la barra de navegación.';
 
 // Buttons *********************************************************.
 $string['buttonsettings'] = 'Botones';
@@ -611,6 +710,8 @@ $string['edittopmargin'] = 'Margen superior de los botones de edición';
 
 
 // Login.
+$string['logintextbutton'] = 'Entrar';
+
 $string['buttonlogincolor'] = 'Color del botón Entrar';
 $string['buttonlogincolordesc'] = 'Color del botón Entrar.';
 
@@ -629,32 +730,69 @@ $string['buttonloginheightdesc'] = 'Altura del botón Entrar. Solo si se utiliza
 $string['buttonloginmargintop'] = 'Margen superior del botón Entrar';
 $string['buttonloginmargintopdesc'] = 'Permite posicionar el boton Entrar si se han cambiado los valores indicados anteriormente.';
 
-$string['logintextbutton'] = 'Entrar';
-
 
 // Header ***********************************************************.
 $string['headersettings'] = 'Cabecera';
 $string['headersettingsheading'] = 'Personalización de la cabecera.';
 $string['headerdesc'] = 'Mostrar Alertas para avisar a los usuarios, controlar la barra de navegación, mostrar el título del sitio o el logo son algunas de las opciones de la cabecera.';
 
-$string['enableheading'] = 'Nombre del curso';
+
+$string['enableheading'] = 'Mostrar nombre del curso';
 $string['enableheadingdesc'] = 'Establece el mode de visualización del título del curso en la cabecera.';
+
+$string['sitetitlecoursesdisabled'] = 'Desactivado - muestra solo el título del curso en las páginas del curso';
+$string['sitetitlecoursesenabled'] = 'Activado - muestra el nombre del sitio y el título del cursos en las páginas del curso';
+
+$string['sitetitlepaddingtop'] = 'Separación superior del nombre del sitio';
+$string['sitetitlepaddingtopdesc'] = 'Permite ajustar la separación, en pixeles, de la parte superior del nombre del sitio.';
+
+$string['sitetitlepaddingleft'] = 'Separación izquierda del nombre del sitio';
+$string['sitetitlepaddingleftdesc'] = 'Permite ajustar la separación, en pixeles, de la parte izquierda del nombre del sitio.';
+
+$string['sitetitlemaxwidth'] = 'Longitud máxima del nombre del sitio';
+$string['sitetitlemaxwidthdesc'] = 'Establece la longitud máxima de caracteres del nombre del sitio. La longitud final dependerá de la fuente, tamaño y resolución de pantalla.';
+
+$string['coursetitlepaddingtop'] = 'Separación superior del título del curso';
+$string['coursetitlepaddingtopdesc'] = 'Permite ajustar la separación, en pixeles, de la parte superior del título del curso.';
+
+$string['coursetitlepaddingleft'] = 'Separación izquierda del título del curso';
+$string['coursetitlepaddingleftdesc'] = 'Permite ajustar la separación, en pixeles, de la parte izquierda del título del curso.';
+
+$string['coursetitlemaxwidth'] = 'Ancho máximo del título del curso';
+$string['coursetitlemaxwidthdesc'] = 'Establece el ancho máximo del area donde se muestra el título del curso.';
+
+$string['pageheaderheight'] = 'Altura de la cabecera';
+$string['pageheaderheightdesc'] = 'Establece la altura de la cabecera (incluyendo logo y títulos)';
 
 $string['breadcrumbtitle'] = 'Nombre del curso en la guía de exploración';
 $string['breadcrumbtitledesc'] = 'Establece el modo de visualización del título del curso en la guía de exploración.';
 
-$string['usernavheading'] = 'Personaliza el menú desplegable del perfíl de usuario.';
+$string['breadcrumbtitlefullname'] = 'Nombre completo del curso';
+$string['breadcrumbtitleshortname'] = 'Nombre corto del curso / Código';
+
+$string['socialorsearch'] = 'Mostrar cuadro de búsqueda o íconos sociales';
+$string['socialorsearchdesc'] = 'Puedes mostrar los iconos sociales o el cuadro de búsqueda en la cabecera. <br />
+    <strong>Puedes configurar los íconos sociales en la sección "Redes sociales"</strong>.';
+
+$string['socialorsearchsocial'] = 'Nostrar iconos de redes sociales';
+$string['socialorsearchsearch'] = 'Mostrar cuadro de búsqueda';
+
+$string['searchboxpaddingtop'] = 'Separación superior del cuadro de búsqueda';
+$string['searchboxpaddingtopdesc'] = 'Permite ajustar la separación, en pixeles, del cuadro de búsqueda (si se muestra).<br />
+    <strong>Nota: La separación de los íconos de redes sociales puede configurarse en la sección "Redes sociales"</strong>.';
+
+$string['usernav'] = 'Barra de usuario';
 
 $string['menusettings'] = 'Menús de cabecera';
 $string['menusettingsheading'] = 'Personaliza los menús de la cabecera superior.';
 
 $string['logo'] = 'Logo';
-$string['logodesc'] = 'Sube el archivo con la imagen del logo (170 x 80px max.). Formatos admitidos: .png, .jpg y .gif';
+$string['logodesc'] = 'Sube el archivo con la imagen del logo (170px x 80px max.). Formatos admitidos: .png, .jpg y .gif';
 
 $string['favicon'] = 'Favicon';
-$string['favicondesc'] = 'Sube el archvo favicon.ico';
+$string['favicondesc'] = 'Carga el archvo favicon.ico que se muestra en la pestaña del navegador.';
 
-$string['enableavailablecourses'] = 'Mostrar el texto Cursos Disponibles';
+$string['enableavailablecourses'] = 'Mostrar el texto "Cursos Disponibles"';
 $string['enableavailablecoursesdesc'] = 'Mostrar el texto <i>Cursos Disponibles</i> sobre el listado de cursos en la página inicial.';
 
 $string['thiscourse'] = 'Este curso';
@@ -667,8 +805,12 @@ $string['loadingcolordesc'] = 'Color del cargador situado en la parte superior d
 $string['sitetitle'] = 'Mostrar título del sitio';
 $string['sitetitledesc'] = 'Mostrar / Ocultar el título del sitio.';
 
-$string['sitetitletext'] = 'Título del sitio';
-$string['sitetitletextdesc'] = 'El título del sitio que se mostrará en la cabecera.';
+$string['sitetitletext'] = 'Nombre del sitio';
+$string['sitetitletextdesc'] = 'El nombre del sitio que se mostrará en la cabecera.';
+$string['sitetitlecustom'] = 'Usar nombre del sitio personalizado (introducir el texto en el siguiente campo)';
+
+$string['sitetitletext'] = 'Nombre del sitio';
+$string['sitetitletextdesc'] = 'Introducir el nombre del sitio que se mostrará en la cabecera (el nombre del sitio configurado en el apartado "Página Principal" no es mostrado por Adaptable)';
 
 $string['frontpagelogin'] = 'Formulario de entrada en la cabecera';
 $string['frontpagelogindesc'] = 'Mostrar el formulario de entrada en la parte superior de la cabecera. En caso contrario, se mostrará solo el botón.';
@@ -699,7 +841,7 @@ $string['helptitle'] = 'Ayuda por perfíl';
 $string['helptitle2'] = 'Enlace de ayuda dependiente del campo personalizado en el perfíl.';
 
 $string['helpprofilefield'] = 'Campo personalizado para la ayuda (opcional)';
-$string['helpprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=student"';
+$string['helpprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
 
 
 // Courses Overlay *************************************************.
@@ -720,9 +862,6 @@ $string['covhidebuttondesc'] = 'Mostrar / ocultar el botón del curso cuando se 
 
 $string['frontpagerendererdefaultimage'] = 'Imagen por defecto para los cursos';
 $string['frontpagerendererdefaultimagedesc'] = 'Sube la imagen que se utilizará por defecto en los cursos que no dispngan de ella.  (solo se aplica en el estilo "Bloques Superpuestos")';
-
-$string['coursetitlemaxwidth'] = 'Ancho máximo del título del curso';
-$string['coursetitlemaxwidthdesc'] = 'Establece el ancho máximo del título del curso. (en pixels)';
 
 $string['tilesshowcontacts'] = 'Mostrar los contactos del curso';
 $string['tilesshowcontactsdesc'] = 'Muestra / Oculta los contactos del curso.';
@@ -749,6 +888,9 @@ $string['alerttypedesc'] = 'Selecciona el tipo de alerta: info (azul), aviso (am
 $string['alerttext'] = 'Texto de la Alerta';
 $string['alerttextdesc'] = 'Introduce el texto a mostrar en la alerta.';
 
+$string['enablealerts'] = 'Enable / Disable Alerts';
+$string['enablealertsdesc'] = 'Enable / disable alerts on your site';
+
 $string['enablealertcoursepages'] = 'Activar Alertas en las páginas de los cursos';
 $string['enablealertcoursepagesdesc'] = 'Activar las alertas también en las páginas de los cursos.';
 
@@ -771,14 +913,14 @@ $string['alertdesc'] = 'Introduce y personaliza el texto de las Alertas mostrada
 $string['alertinfo'] = 'Info';
 $string['alertinfodesc'] = 'Muestra un mensaje de información.';
 
-$string['alertwarning'] = 'Warning';
+$string['alertwarning'] = 'Aviso';
 $string['alertinfodesc'] = 'Muestra un mensaje de aviso.';
 
-$string['alertannounce'] = 'Announcement';
+$string['alertannounce'] = 'Anuncio';
 $string['alertinfodesc'] = 'Muestra un mensaje de anuncio.';
 
 $string['alertprofilefield'] = 'Campo de usuario personalizado Nombre=Valor (opcional)';
-$string['alertprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=student"';
+$string['alertprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
 
 // Alert Access - Visibility.
 $string['alertaccessglobal'] = 'Visible para todo el mundo';
@@ -789,13 +931,36 @@ $string['alertaccessprofile'] = 'Añadir restricción por campo personalizado';
 $string['alertaccess'] = 'Visibilidad de la Alerta';
 $string['alertaccessdesc'] = 'Establece la visibilidad de la Alerta según su tipo. Nota: Si se usa "Añadir restricción por campo personalizado" necesitrás añadir el campo personalizado de usuario.';
 
+// Social Wall Settings ********************************************.
+$string['socialwall'] = 'Formato Social Wall';
+$string['socialwallheading'] = 'Formato Social Wall';
+$string['socialwalldesc'] = 'Personaliza el estilo del <a href="https://moodle.org/plugins/format_socialwall">Formato de curso SocialWall</a> (si se utiliza en el sitio)';
+
+$string['socialwallbackgroundcolor'] = 'Color de fondo';
+$string['socialwallbackgroundcolordesc'] = 'Establece el color de fondo.';
+
+$string['socialwallsectionradius'] = 'Radio del borde';
+$string['socialwallsectionradiusdesc'] = 'Establece el borde del radio de las secciones.';
+
+$string['socialwallbordertopstyle'] = 'Estilo del borde';
+$string['socialwallbordertopstyledesc'] = 'Establece el estilo del borde de las secciones.';
+
+$string['socialwallborderwidth'] = 'Grueso del borde';
+$string['socialwallborderwidthdesc'] = 'Establece el grueso del borde de las secciones.';
+
+$string['socialwallbordercolor'] = 'Color del borde';
+$string['socialwallbordercolordesc'] = 'Establece el color del borde de las secciones.';
+
+$string['socialwallactionlinkcolor'] = 'Color de los enlaces de acción';
+$string['socialwallactionlinkcolordesc'] = 'Establece el color de los enlaces de acción.';
+
+$string['socialwallactionlinkhovercolor'] = 'Color hover de los enlaces de acción';
+$string['socialwallactionlinkhovercolordesc'] = 'Establece el color hover de los enlaces de acción.';
+
 
 // Mobile **********************************************************.
 $string['mobilesettings'] = 'Configuración para dispositivos Móviles';
 $string['mobilesettingsheading'] = 'Configura la plantilla para ser visualizada en dispositivos móviles.';
-
-$string['coursetitlepaddingtop'] = 'Separación superior del título del curso';
-$string['coursetitlepaddingtopdesc'] = 'Establece la separación superior (en pixels) del título del curso.';
 
 $string['layoutmobilesettings'] = 'Configuración Móvil';
 $string['layoutmobilesettingsdesc'] = 'Configuración especifica para dispositivos móviles.';
@@ -863,8 +1028,16 @@ $string['toolsmenulabel'] = 'Herramientas';
 $string['toolsmenulabel2'] = 'Herramientas 2';
 $string['events'] = 'Eventos';
 $string['mysites'] = 'Mis Cursos';
+$string['hiddencourses'] = 'Cursos ocultos';
+$string['pastcourses'] = 'Cursos anteriores';
 $string['people'] = 'Gente';
 $string['help'] = 'Ayuda';
+
+$string['dividingline'] = 'Línea divisora de la cabecera';
+$string['dividinglinedesc'] = 'Establece el color de la línea divisora de la cabecera.';
+
+$string['dividingline2'] = 'Línea divisora del pie de página';
+$string['dividingline2desc'] = 'Establece el color de la línea divisora del pie de página.';
 
 $string['navbarborder'] = 'Color del borde de la parte inferior de la barra de navegación';
 $string['navbarborderdesc'] = 'Color del borde de la parte inferior de la barra de navegación.';
@@ -875,12 +1048,6 @@ $string['navbarhoverdesc'] = 'Color de los botones de la barra de navegación al
 $string['showfooterblocks'] = 'Mostrar bloques en el pie de página';
 $string['showfooterblocksdesc'] = 'Mostrar / Ocultar los bloques personalizables del pie de página.';
 
-$string['footerblocksplacement'] = 'Posición de los bloques del pie de página';
-$string['footerblocksplacementdesc'] = 'Páginas donde mostrar los bloques de pie de página. Sitewide (todo el sitio) es la opción por defecto.';
-$string['footerblocksplacement1'] = 'Sitewide';
-$string['footerblocksplacement2'] = 'Homepage_only';
-$string['footerblocksplacement3'] = 'Never';
-
 $string['breadcrumb'] = 'Color de fondo de la ruta de navegación';
 $string['breadcrumbdesc'] = 'Establece el color de fondo de la ruta de navegación.';
 
@@ -890,14 +1057,47 @@ $string['breadcrumbtextcolordesc'] = 'Establece el color del texto de la ruta de
 $string['activebreadcrumb'] = 'Color de fondo de la ruta de navegación activa';
 $string['activebreadcrumbdesc'] = 'Establece el color de fondo de la ruta de navegación activa.';
 
+$string['breadcrumbseparator'] = 'Separador de la ruta de navegación';
+$string['breadcrumbseparatordesc'] = 'Establece el icono de <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>  usado como separador entre los items de la ruta de navegación. Introducir el nombre del icono SIN el prefijo fa-';
+
+$string['breadcrumbhome'] = 'Inicio de la ruta de navegación';
+$string['breadcrumbhomedesc'] = 'Muestra el inicio de la ruta de navegación como ícono o texto.';
+
+$string['breadcrumbhometext'] = 'Texto';
+$string['breadcrumbhomeicon'] = 'Icono';
+
 $string['menufontsize'] = 'Tamaño de fuente de la barra de navegación';
 $string['menufontsizedesc'] = 'Establece el tamaño de fuente de la barra de navegación.';
+
+$string['enablemysitesdesc'] = 'Mostrar las actividades del curso';
+$string['enablethiscoursedesc'] = 'Mostrar un desplegable con las actividades del curso.';
+
+$string['mysitesexclude'] = 'Mostrar excluyendo los cursos ocultos';
+$string['mysitesinclude'] = 'Mostrar incluyendo los cursos ocultos';
+$string['mysitesdisabled'] = 'Desactivado';
+
+$string['frnt-footer'] = 'Los bloques de esta área solo serán visibles para los administradores.';
+
+$string['enableticker'] = 'Mostrar los anuncios en la página principal';
+$string['enabletickerdesc'] = 'Muestra la barra de anuncios en la página principal.';
+
+$string['enabletickermy'] = 'Mostrar la barra de anuncios en Mi Area personal / Panel de control';
+$string['enabletickermydesc'] = 'Muestra la barra de anuncios en Mi Area personal / Panel de control.';
+
+$string['enabletickerc'] = 'Mostrar la barra de anuncios en las páginas internas';
+$string['enabletickercdesc'] = 'Muestra la barra de anuncios en las páginas internas de moodle.';
+
+$string['newstickercount'] = 'Número de barras de anuncios';
+$string['newstickercountdesc'] = 'Define barras de anuncios con diferentes reglas de acceso para mostrarlas a diferentes tipos de usuarios.';
+
+$string['tickertext'] = 'Texto de la barra de anuncios';
+$string['tickertextdesc'] = 'Añade el texto a mostrar en la barra de anuncios en formato de lista. Ver el archivo <a href="adaptable/README.txt">README.txt</a> para más información.';
 
 $string['newmenu1trigger'] = 'Palabra clave para el Menú desplegable superior';
 $string['newmenu1triggerdesc'] = 'Establece una palabra clave para el Menú desplegable superior. Puedes utilizar los iconos de Font Awesome.';
 
 $string['menusheading'] = 'Configurar Navegación para los menús de la parte superior de la cabecera';
-$string['menustitledesc'] = 'los menús de herramientas (en la barra de navegación) y los menús superiores (cabecera superior) pueden ser restringidos dependiendo de un campo personalizado del perfíl de usuario (opcional). Los menús siguen el formato de los menús estandar de moodle:
+$string['menustitledesc'] = 'Los menús de herramientas (en la barra de navegación) y los menús superiores (cabecera superior) pueden ser restringidos dependiendo de un campo personalizado del perfíl de usuario (opcional). Los menús siguen el formato de los menús estandar de moodle:
 <pre>
 Moodle community|https://moodle.org
 -Moodle free support|https://moodle.org/support
@@ -920,9 +1120,9 @@ $string['menusessionttldesc'] = 'Número de minutos antes de reiniciar la sesió
 
 // Tool menus ******************************************************.
 $string['newmenudesc'] = 'Configurar los enlaces mostrados bajo el menú de la cabecera superior.';
-$string['newmenufield'] = 'Custom Profile Field Name=Value (optional)';
-$string['newmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=student"';
-$string['newmenurequirelogin'] = 'Require Entrar';
+$string['newmenufield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
+$string['newmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
+$string['newmenurequirelogin'] = 'Requiere Entrar';
 $string['newmenurequirelogindesc'] = 'Si está activado este menú será visible a los usuarios que autenticados';
 
 $string['menusdesc'] = '';
@@ -935,6 +1135,9 @@ $string['enablemenusdesc'] = 'Por motivos de rendimiendo, se recomienda no activ
 
 $string['disablemenuscoursepages'] = 'Desactivar menús en las páginas de los cursos';
 $string['disablemenuscoursepagesdesc'] = 'Activando esta opción los menús solo se mostrarán en las páginas del sitio, la página inicial, el Área Personal, etc. y no se mostrará en las páginas de los cursos.';
+
+$string['topmenufontsize'] = 'Tamaño fuente menu superior';
+$string['topmenufontsizedesc'] = 'Establece el tamaño de la fuente usada en el menu superior.';
 
 $string['menuuseroverride'] = 'Permitir la anulación por usuario';
 $string['menuuseroverridedesc'] = 'Esta configuración controla el uso de los menus a través del perfíl de usuario. Para usar esta función, se ha de crear un campo personalizado de usuario tipo lista con los siguientes valores:
@@ -992,25 +1195,21 @@ $string['toolsmenufielddesc'] = 'Añade una regla de acceso usando un campo de p
 // Social settings *************************************************.
 $string['socialsettings'] = 'Redes sociales';
 $string['socialheading'] = 'Configuración de los iconos de redes sociales';
-$string['socialtitledesc'] = 'Puedes desactivar la búsqueda y activar los iconos de redes sociales en su lugar.
+$string['socialtitledesc'] = '<pre>Puedes desactivar la búsqueda y activar los iconos de redes sociales en su lugar.
 Para configurar los iconos, introduce una lista delimitada en el campo "Lista de iconos sociales".
 El formato debe ser:
 
 url|titulo|icono
 
 Ejemplo:
-<pre>
+
 http://localhost/moodle/course/search.php|Buscar en Moodle|fa-search
 http://facebook.com/|Facebook|fa-facebook-square
 http://twitter.com/|Twitter|fa-twitter-square
 http://instagram.com|Instagram|fa-instagram
 http://example.com|Mi Web|fa-globe
-</pre>
-<br>
-El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>';
 
-$string['socialset'] = 'Añadir iconos sociales y ocultar la barra de búsqueda';
-$string['socialsetdesc'] = 'Marca esta casilla para ocultar la búsqueda y añadir los iconos de redes sociales en el mismo lugar.';
+El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
 
 $string['socialsize'] = 'Configurar tamaño de los iconos sociales';
 $string['socialsizemobile'] = 'Configurar tamaño de los iconos sociales en móviles';
@@ -1019,9 +1218,13 @@ $string['socialpaddingtop'] = 'Ajustar la separación debajo los iconos sociales
 $string['socialtarget'] = 'Formato de apertura de la ventana de enlaces sociales';
 $string['socialtargetdesc'] = 'Abrir la red social en la misma venta o en una nueva';
 
-$string['socialiconlist'] = 'Lista de iconos sociales';
-$string['socialiconlistdesc'] = 'Introducir una lista delimitada para configurar los iconos de redes sociales que necesites usando el formato: url|titulo|icono';
+$string['socialsearchicon'] = 'Buscar en Moodle';
+$string['socialsearchicondesc'] = 'Muestra el cuadro de búsqueda al lado de los iconos sociales.';
 
+$string['socialicondesc'] = 'Selecciona el icono de Font Awesome. Por ejemplo: fa-facebook';
+
+$string['socialiconlist'] = 'Lista de iconos sociales';
+$string['socialiconlistdesc'] = 'Introducir una lista delimitada por comas para configurar los iconos de redes sociales que necesites usando el formato: url|titulo|icono';
 
 // Analytics.
 $string['analyticssettingsheading'] = 'Configurar Google Analytics';
@@ -1031,14 +1234,13 @@ $string ['enableanalytics'] = 'Activar Google Analytics';
 $string ['enableanalyticsdesc'] = 'Activar Google Analytics en el sitio.';
 
 $string ['analyticstext'] = 'Analytics ID';
-$string ['analyticstextdesc'] = 'Introducir el código de Google Analytics.';
+$string ['analyticstextdesc'] = 'Introducir la ID de Google Analytics.';
 
 $string['analyticscount'] = 'Número de campos de perfil';
 $string['analyticscountdesc'] = 'Número de campos personalizados a introducir en el área inferior.';
 
 $string ['analyticsprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string ['analyticsprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=student"';
-
+$string ['analyticsprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
 
 // Custom CSS.
 $string['customcssjssettings'] = 'CSS y JS personalizado';
@@ -1046,7 +1248,10 @@ $string['genericsettingsheading'] = 'Introduce tu propio código CSS y Javascrip
 $string['genericsettingsdescription'] = 'Introduce tu propio código CSS y Javascript.';
 
 $string['customcss'] = 'CSS personalizado';
-$string['customcssdesc'] = 'Introduce las reglas CSS.';
+$string['customcssdesc'] = 'Introduce las reglas CSS personalizadas.';
 
 $string['jssection'] = 'Javascript personalizado';
-$string['jssectiondesc'] = 'Introduce el código Javascript.';
+$string['jssectiondesc'] = 'Introduce el código Javascript personalizado.';
+
+// Cache definitions.
+$string['cachedef_userdata'] = 'El tiempo para guardar una sesión de un usuario específico.';
