@@ -64,7 +64,7 @@ $string['region-middle'] = 'Centro';
 $string['region-frnt-footer'] = 'Pie';
 $string['region-side-post'] = 'Derecha';
 $string['region-side-pre'] = 'Izquierda';
-$string['frnt-footer'] = 'Los bloques situados en esta zona son solo visibles para los administradores.';
+$string['frnt-footer'] = 'Los bloques situados en esta zona solo son visibles para los administradores.';
 
 $string['region-frnt-market-a'] = 'Marketing';
 $string['region-frnt-market-b'] = 'Marketing';
@@ -154,17 +154,17 @@ $string['tickertext2'] = 'Texto Anuncios 2';
 $string['tickertext2desc'] = 'Añadir los anuncios en formato de lista HTML para un segundo tipo de usuario. Ver <a href="adaptable/README.txt">README.txt</a> para más información.';
 
 $string['tickertextprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
+$string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
 
 $string['newstickercount'] = 'Número de secciones en el tablón de anuncios';
-$string['newstickercountdesc'] = 'Define el número de multiple secciones de anuncios basadas en campos de perfil de usuario personalizados.';
+$string['newstickercountdesc'] = 'Define el número de múltiple secciones de anuncios basadas en campos de perfil de usuario personalizados.';
 $string['ticker'] = 'Anuncios';
 
 
 // Slideshow *******************************************************.
 $string['slideshowsettings'] = 'Presentación de diapositivas';
 $string['slideshowsettingsheading'] = 'Personaliza la presentación de diapositivas de la página de inicio';
-$string['slideshowdesc'] = 'Sube imagenes, añade enlaces y descripciones en las dispositivas de la presentación de la página de inicio.';
+$string['slideshowdesc'] = 'Sube imágenes, añade enlaces y descripciones en las dispositivas de la presentación de la página de inicio.';
 
 $string['sliderimage'] = 'Imagen de la diapositiva';
 $string['sliderimagedesc'] = 'Añade una imagen a la diapositiva.';
@@ -206,17 +206,17 @@ $string['sliderh3colordesc'] = 'Establece el color del texto de la etiqueta H3 c
 $string['sliderh4color'] = 'Color del texto H4 del estilo de presentación 1';
 $string['sliderh4colordesc'] = 'Establece el color del texto de la etiqueta H4 cuando se utiliza el estilo de presentación 1.';
 
-$string['slidersubmitcolor'] = 'Color del texto del boton del estilo de presentación 1';
-$string['slidersubmitcolordesc'] = 'Establece el color del texto del boton cuando se utiliza el estilo de presentación 1.';
+$string['slidersubmitcolor'] = 'Color del texto del botón del estilo de presentación 1';
+$string['slidersubmitcolordesc'] = 'Establece el color del texto del botón cuando se utiliza el estilo de presentación 1.';
 
 $string['slidersubmitbgcolor'] = 'Color del botón del estilo de presentación 1';
-$string['slidersubmitbgcolordesc'] = 'Establece el color del boton cuando se utiliza el estilo de presentación 1.';
+$string['slidersubmitbgcolordesc'] = 'Establece el color del botón cuando se utiliza el estilo de presentación 1.';
 
 $string['slider2h3color'] = 'Color del texto H3 del estilo de presentación 2';
 $string['slider2h3colordesc'] = 'Establece el color del texto de la etiqueta H3 cuando se utiliza el estilo de presentación 2.';
 
 $string['slider2h4color'] = 'Color del texto H4 del estilo de presentación 2';
-$string['slider2h4colordesc'] = 'Establece el color del texto de la eqiqueta H4 cuando se utiliza el estilo de presentación 2.';
+$string['slider2h4colordesc'] = 'Establece el color del texto de la etiqueta H4 cuando se utiliza el estilo de presentación 2.';
 
 $string['slider2h3bgcolor'] = 'Color de fondo H3 del estilo de presentación 2';
 $string['slider2h3bgcolordesc'] = 'Establece el color de fondo de la etiqueta H3 cuando se utiliza el estilo de presentación 2.';
@@ -389,7 +389,7 @@ $string['enablenote'] = 'Notificaciones';
 $string['enablenotedesc'] = 'Mostrar el enlace página de notificaciones.';
 
 $string['enableblog'] = 'Blogs del usuario';
-$string['enableblogdesc'] = 'Mostrar el enlace a ls blogs del usurio.';
+$string['enableblogdesc'] = 'Mostrar el enlace a los blogs del usuario.';
 
 $string['enableposts'] = 'Mis entradas';
 $string['enablepostsdesc'] = 'Mostrar el enlace a las entradas en los foros realizadas por el usuario.';
@@ -419,18 +419,18 @@ $string['mysitessortoverrideprofilefieldscohort'] = 'Muestra los cursos coincide
 $string['mysitesmaxlength'] = 'Longitud máxima del título del curso en "Mis Cursos"';
 $string['mysitesmaxlengthdesc'] = 'Ajusta la longitud máxima del título del curso a mostrar en "Mis Cursos". La longitud dependerá del tamaño y de la fuente usada.';
 
-$string['usernavheading'] = 'Personalizar el menu de usuario';
-$string['usernavdesc'] = 'Permite personalizar los elementos que aparecen Allows you to control all of the elements that appear in the user navigation dropdown.';
+$string['usernavheading'] = 'Personalizar el menú de usuario';
+$string['usernavdesc'] = 'Permite personalizar los elementos que aparecen en el menú de usuario.';
 $string['enablehomedesc'] = 'Mostrar enlace a Inicio';
 
 $string['enablehomeredirect'] = 'Activar redirect=0';
-$string['enablehomeredirectdesc'] = 'Activa la opción redirect=0 para redirigir a la página inicial del sitio. Está opción puede utilizarse en sitios que tienen el Área Personal como página inicial por defecto. Desactivada previene redireccionar a los usuarios a la página inicial y ser redirigidos al Área Personal';
+$string['enablehomeredirectdesc'] = 'Activa la opción redirect=0 para redirigir a la página inicial del sitio. Está opción puede utilizarse en sitios que tienen el Área Personal como página inicial por defecto. Desactivada previene redirigir a los usuarios a la página inicial y ser redirigidos al Área Personal';
 
 
 // Colours *********************************************************.
 $string['colorsettings'] = 'Colores';
 $string['colorsettingsheading'] = 'Modifica los principales colores utilizados en la plantilla.';
-$string['colordesc'] = 'Puedes seleccionar los colores que desees para ser usados por la plantilla. Usa la notacion HEX estandar. También puedes usar como valores <i>transparent</i> e <i>inherited.</i>';
+$string['colordesc'] = 'Puedes seleccionar los colores que desees para ser usados por la plantilla. Usa la notación HEX estándar. También puedes usar como valores <i>transparent</i> e <i>inherited.</i>';
 $string['linkcolor'] = 'Color enlace';
 $string['linkcolordesc'] = 'Establece el color de los enlaces.';
 
@@ -560,20 +560,20 @@ $string['dividinglinedesc'] = 'Establece el color de la línea divisoria de la c
 $string['dividingline2'] = 'Color de la línea divisoria del pie de página';
 $string['dividingline2desc'] = 'Establece el color de la línea divisoria del pie de página. Usar el mismo color que el pie para eliminarla.';
 
-$string['navbarborder'] = 'Color del borde inferior de Navbar';
+$string['navbarborder'] = 'Color del borde inferior de la barra de navegación';
 $string['navbarborderdesc'] = 'Establece el color del borde inferior de la barra de navegación.';
 
-$string['navbarhover'] = 'Color Hover de la barra de navegaciòn';
-$string['navbarhoverdesc'] = 'Establece el color de fondo al pasar el cursos sobre los items del menu de la barra de navegación.';
+$string['navbarhover'] = 'Color Hover de la barra de navegación';
+$string['navbarhoverdesc'] = 'Establece el color de fondo al pasar el cursos sobre los items del menú de la barra de navegación.';
 
-$string['breadcrumb'] = 'Color de fondo de la guia de exploración';
-$string['breadcrumbdesc'] = 'Establece el color de fondo de la guia de exploración.';
+$string['breadcrumb'] = 'Color de fondo de la guía de exploración';
+$string['breadcrumbdesc'] = 'Establece el color de fondo de la guía de exploración.';
 
-$string['breadcrumbtextcolor'] = 'Color de texto de la guia de exploración';
-$string['breadcrumbtextcolordesc'] = 'Establece el color de texto de la guia de exploración.';
+$string['breadcrumbtextcolor'] = 'Color de texto de la guía de exploración';
+$string['breadcrumbtextcolordesc'] = 'Establece el color de texto de la guía de exploración.';
 
-$string['activebreadcrumb'] = 'Color de fondo de la guia de exploración activa';
-$string['activebreadcrumbdesc'] = 'Establece el color de fondo de la guia de exploración activa.';
+$string['activebreadcrumb'] = 'Color de fondo de la guía de exploración activa';
+$string['activebreadcrumbdesc'] = 'Establece el color de fondo de la guía de exploración activa.';
 
 $string['menubkcolor'] = 'Color de fondo del menú principal';
 $string['menubkcolordesc'] = 'Establece el color de fondo del menú principal.';
@@ -631,7 +631,7 @@ $string['coursesectionborderradiusdesc'] = 'Establece el radio del borde de las 
 // Fonts ***********************************************************.
 $string['fontsettings'] = 'Fuentes';
 $string['fontsettingsheading'] = 'Establece las fuentes utilizadas por la plantilla.';
-$string['fontdesc'] = 'Selecciona la fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> para el texto, los encabezamientos y el título. Selecciona también el juego de caracteres a usar (latin está incluido por defecto) e introduce el valor correcto para el grueso de fuente utilizado o no se mostrará.';
+$string['fontdesc'] = 'Selecciona la fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> para el texto, los encabezamientos y el título. Selecciona también el juego de caracteres a usar (latín está incluido por defecto) e introduce el valor correcto para el grueso de fuente utilizado o no se mostrará.';
 
 $string['fontname'] = 'Fuente principal';
 $string['fontnamedesc'] = 'Establece la fuente principal. Selecciona defecto o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
@@ -676,13 +676,13 @@ $string['fonttitlesizecourse'] = 'Tamaño de la fuente del título del curso';
 $string['fonttitlesizecoursedesc'] = 'Establece el tamaño de la fuente del título del curso. Introducir un valor decimal, por ejemplo: 24px';
 
 $string['fontsubset'] = 'Juego de caracteres de Google Fonts';
-$string['fontsubsetdesc'] = 'Seleccionar el juego de caracteres de Google Fonts a usar además del latin ya incluido por defecto. Se aplicará a toda las fuentes seleccionadas.';
+$string['fontsubsetdesc'] = 'Seleccionar el juego de caracteres de Google Fonts a usar además del latín ya incluido por defecto. Se aplicará a toda las fuentes seleccionadas.';
 
-$string['menufontsize'] = 'Tamaño de la fuente del Navbar';
+$string['menufontsize'] = 'Tamaño de la fuente de la barra de navegación';
 $string['menufontsizedesc'] = 'Establece el tamaño de la fuente utilizada en la barra de navegación.';
 
-$string['menufontpadding'] = 'Separación entre los items de la barra de navegación';
-$string['menufontpaddingdesc'] = 'Establece la separación entre los items de la barra de navegación.';
+$string['menufontpadding'] = 'Separación entre los ítems de la barra de navegación';
+$string['menufontpaddingdesc'] = 'Establece la separación entre los ítems de la barra de navegación.';
 
 // Buttons *********************************************************.
 $string['buttonsettings'] = 'Botones';
@@ -721,14 +721,14 @@ $string['buttonloginhovercolordesc'] = 'Color del botón Entrar al pasar el curs
 $string['buttonlogintextcolor'] = 'Color del texto del botón Entrar';
 $string['buttonlogintextcolordesc'] = 'Color del texto del botón Entrar.';
 
-$string['buttonloginpadding'] = 'Separacion del texto del botón Entrar';
-$string['buttonloginpaddingdesc'] = 'Separacion alrededor del texto del botón Entrar. Número más alto = Botón más grande.';
+$string['buttonloginpadding'] = 'Separación del texto del botón Entrar';
+$string['buttonloginpaddingdesc'] = 'Separación alrededor del texto del botón Entrar. Número más alto = Botón más grande.';
 
 $string['buttonloginheight'] = 'Altura del botón Entrar';
 $string['buttonloginheightdesc'] = 'Altura del botón Entrar. Solo si se utiliza el formulario de entrada en la cabecera.';
 
 $string['buttonloginmargintop'] = 'Margen superior del botón Entrar';
-$string['buttonloginmargintopdesc'] = 'Permite posicionar el boton Entrar si se han cambiado los valores indicados anteriormente.';
+$string['buttonloginmargintopdesc'] = 'Permite posicionar el botón Entrar si se han cambiado los valores indicados anteriormente.';
 
 
 // Header ***********************************************************.
@@ -738,28 +738,28 @@ $string['headerdesc'] = 'Mostrar Alertas para avisar a los usuarios, controlar l
 
 
 $string['enableheading'] = 'Mostrar nombre del curso';
-$string['enableheadingdesc'] = 'Establece el mode de visualización del título del curso en la cabecera.';
+$string['enableheadingdesc'] = 'Establece el modo de visualización del título del curso en la cabecera.';
 
 $string['sitetitlecoursesdisabled'] = 'Desactivado - muestra solo el título del curso en las páginas del curso';
 $string['sitetitlecoursesenabled'] = 'Activado - muestra el nombre del sitio y el título del cursos en las páginas del curso';
 
 $string['sitetitlepaddingtop'] = 'Separación superior del nombre del sitio';
-$string['sitetitlepaddingtopdesc'] = 'Permite ajustar la separación, en pixeles, de la parte superior del nombre del sitio.';
+$string['sitetitlepaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, de la parte superior del nombre del sitio.';
 
 $string['sitetitlepaddingleft'] = 'Separación izquierda del nombre del sitio';
-$string['sitetitlepaddingleftdesc'] = 'Permite ajustar la separación, en pixeles, de la parte izquierda del nombre del sitio.';
+$string['sitetitlepaddingleftdesc'] = 'Permite ajustar la separación, en píxeles, de la parte izquierda del nombre del sitio.';
 
 $string['sitetitlemaxwidth'] = 'Longitud máxima del nombre del sitio';
 $string['sitetitlemaxwidthdesc'] = 'Establece la longitud máxima de caracteres del nombre del sitio. La longitud final dependerá de la fuente, tamaño y resolución de pantalla.';
 
 $string['coursetitlepaddingtop'] = 'Separación superior del título del curso';
-$string['coursetitlepaddingtopdesc'] = 'Permite ajustar la separación, en pixeles, de la parte superior del título del curso.';
+$string['coursetitlepaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, de la parte superior del título del curso.';
 
 $string['coursetitlepaddingleft'] = 'Separación izquierda del título del curso';
-$string['coursetitlepaddingleftdesc'] = 'Permite ajustar la separación, en pixeles, de la parte izquierda del título del curso.';
+$string['coursetitlepaddingleftdesc'] = 'Permite ajustar la separación, en píxeles, de la parte izquierda del título del curso.';
 
 $string['coursetitlemaxwidth'] = 'Ancho máximo del título del curso';
-$string['coursetitlemaxwidthdesc'] = 'Establece el ancho máximo del area donde se muestra el título del curso.';
+$string['coursetitlemaxwidthdesc'] = 'Establece el ancho máximo del área donde se muestra el título del curso.';
 
 $string['pageheaderheight'] = 'Altura de la cabecera';
 $string['pageheaderheightdesc'] = 'Establece la altura de la cabecera (incluyendo logo y títulos)';
@@ -770,16 +770,16 @@ $string['breadcrumbtitledesc'] = 'Establece el modo de visualización del títul
 $string['breadcrumbtitlefullname'] = 'Nombre completo del curso';
 $string['breadcrumbtitleshortname'] = 'Nombre corto del curso / Código';
 
-$string['socialorsearch'] = 'Mostrar cuadro de búsqueda o íconos sociales';
+$string['socialorsearch'] = 'Mostrar cuadro de búsqueda o iconos sociales';
 $string['socialorsearchdesc'] = 'Puedes mostrar los iconos sociales o el cuadro de búsqueda en la cabecera. <br />
-    <strong>Puedes configurar los íconos sociales en la sección "Redes sociales"</strong>.';
+    <strong>Puedes configurar los iconos sociales en la sección "Redes sociales"</strong>.';
 
 $string['socialorsearchsocial'] = 'Nostrar iconos de redes sociales';
 $string['socialorsearchsearch'] = 'Mostrar cuadro de búsqueda';
 
 $string['searchboxpaddingtop'] = 'Separación superior del cuadro de búsqueda';
-$string['searchboxpaddingtopdesc'] = 'Permite ajustar la separación, en pixeles, del cuadro de búsqueda (si se muestra).<br />
-    <strong>Nota: La separación de los íconos de redes sociales puede configurarse en la sección "Redes sociales"</strong>.';
+$string['searchboxpaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, del cuadro de búsqueda (si se muestra).<br />
+    <strong>Nota: La separación de los iconos de redes sociales puede configurarse en la sección "Redes sociales"</strong>.';
 
 $string['usernav'] = 'Barra de usuario';
 
@@ -790,7 +790,7 @@ $string['logo'] = 'Logo';
 $string['logodesc'] = 'Sube el archivo con la imagen del logo (170px x 80px max.). Formatos admitidos: .png, .jpg y .gif';
 
 $string['favicon'] = 'Favicon';
-$string['favicondesc'] = 'Carga el archvo favicon.ico que se muestra en la pestaña del navegador.';
+$string['favicondesc'] = 'Carga el archivo favicon.ico que se muestra en la pestaña del navegador.';
 
 $string['enableavailablecourses'] = 'Mostrar el texto "Cursos Disponibles"';
 $string['enableavailablecoursesdesc'] = 'Mostrar el texto <i>Cursos Disponibles</i> sobre el listado de cursos en la página inicial.';
@@ -837,11 +837,11 @@ $string['fullscreenwidthdesc'] = 'Establece el ancho máximo de la pantalla en m
 $string['enablehelp'] = 'Enlace de ayuda';
 $string['enablehelpdesc'] = 'Añade un enlace de ayuda en la barra de navegación.';
 
-$string['helptitle'] = 'Ayuda por perfíl';
-$string['helptitle2'] = 'Enlace de ayuda dependiente del campo personalizado en el perfíl.';
+$string['helptitle'] = 'Ayuda por perfil';
+$string['helptitle2'] = 'Enlace de ayuda dependiente del campo personalizado en el perfil.';
 
 $string['helpprofilefield'] = 'Campo personalizado para la ayuda (opcional)';
-$string['helpprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
+$string['helpprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
 
 
 // Courses Overlay *************************************************.
@@ -861,7 +861,7 @@ $string['covhidebutton'] = 'Mostrar el botón del curso en los bloques estilo Co
 $string['covhidebuttondesc'] = 'Mostrar / ocultar el botón del curso cuando se utiliza el estilo Coventry.';
 
 $string['frontpagerendererdefaultimage'] = 'Imagen por defecto para los cursos';
-$string['frontpagerendererdefaultimagedesc'] = 'Sube la imagen que se utilizará por defecto en los cursos que no dispngan de ella.  (solo se aplica en el estilo "Bloques Superpuestos")';
+$string['frontpagerendererdefaultimagedesc'] = 'Sube la imagen que se utilizará por defecto en los cursos que no dispongan de ella.  (solo se aplica en el estilo "Bloques Superpuestos")';
 
 $string['tilesshowcontacts'] = 'Mostrar los contactos del curso';
 $string['tilesshowcontactsdesc'] = 'Muestra / Oculta los contactos del curso.';
@@ -883,13 +883,13 @@ $string['enablealertdesc'] = 'Activar la alerta {$a}.';
 
 // Alert Box Generic Strings.
 $string['alerttype'] = 'Tipo de Alerta';
-$string['alerttypedesc'] = 'Selecciona el tipo de alerta: info (azul), aviso (amarillo) o anuncio (verde)';
+$string['alerttypedesc'] = 'Selecciona el tipo de alerta: información (azul), aviso (amarillo) o anuncio (verde)';
 
 $string['alerttext'] = 'Texto de la Alerta';
 $string['alerttextdesc'] = 'Introduce el texto a mostrar en la alerta.';
 
-$string['enablealerts'] = 'Enable / Disable Alerts';
-$string['enablealertsdesc'] = 'Enable / disable alerts on your site';
+$string['enablealerts'] = 'Activar / Desactivar Alertas';
+$string['enablealertsdesc'] = 'Activar / desactivar alertas en el sitio.';
 
 $string['enablealertcoursepages'] = 'Activar Alertas en las páginas de los cursos';
 $string['enablealertcoursepagesdesc'] = 'Activar las alertas también en las páginas de los cursos.';
@@ -920,7 +920,7 @@ $string['alertannounce'] = 'Anuncio';
 $string['alertinfodesc'] = 'Muestra un mensaje de anuncio.';
 
 $string['alertprofilefield'] = 'Campo de usuario personalizado Nombre=Valor (opcional)';
-$string['alertprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
+$string['alertprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
 
 // Alert Access - Visibility.
 $string['alertaccessglobal'] = 'Visible para todo el mundo';
@@ -959,10 +959,10 @@ $string['socialwallactionlinkhovercolordesc'] = 'Establece el color hover de los
 
 
 // Mobile **********************************************************.
-$string['mobilesettings'] = 'Configuración para dispositivos Móviles';
+$string['mobilesettings'] = 'Configuración para dispositivos móviles';
 $string['mobilesettingsheading'] = 'Configura la plantilla para ser visualizada en dispositivos móviles.';
 
-$string['layoutmobilesettings'] = 'Configuración Móvil';
+$string['layoutmobilesettings'] = 'Configuración móvil';
 $string['layoutmobilesettingsdesc'] = 'Configuración especifica para dispositivos móviles.';
 
 $string['hidealertsmobile'] = 'Ocultar Alertas';
@@ -1042,7 +1042,7 @@ $string['dividingline2desc'] = 'Establece el color de la línea divisora del pie
 $string['navbarborder'] = 'Color del borde de la parte inferior de la barra de navegación';
 $string['navbarborderdesc'] = 'Color del borde de la parte inferior de la barra de navegación.';
 
-$string['navbarhover'] = 'Color hover del boton del navbar';
+$string['navbarhover'] = 'Color hover del botón de la barra de navegación';
 $string['navbarhoverdesc'] = 'Color de los botones de la barra de navegación al desplazar el cursor por encima.';
 
 $string['showfooterblocks'] = 'Mostrar bloques en el pie de página';
@@ -1058,10 +1058,10 @@ $string['activebreadcrumb'] = 'Color de fondo de la ruta de navegación activa';
 $string['activebreadcrumbdesc'] = 'Establece el color de fondo de la ruta de navegación activa.';
 
 $string['breadcrumbseparator'] = 'Separador de la ruta de navegación';
-$string['breadcrumbseparatordesc'] = 'Establece el icono de <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>  usado como separador entre los items de la ruta de navegación. Introducir el nombre del icono SIN el prefijo fa-';
+$string['breadcrumbseparatordesc'] = 'Establece el icono de <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>  usado como separador entre los ítems de la ruta de navegación. Introducir el nombre del icono SIN el prefijo fa-';
 
 $string['breadcrumbhome'] = 'Inicio de la ruta de navegación';
-$string['breadcrumbhomedesc'] = 'Muestra el inicio de la ruta de navegación como ícono o texto.';
+$string['breadcrumbhomedesc'] = 'Muestra el inicio de la ruta de navegación como icono o texto.';
 
 $string['breadcrumbhometext'] = 'Texto';
 $string['breadcrumbhomeicon'] = 'Icono';
@@ -1081,8 +1081,8 @@ $string['frnt-footer'] = 'Los bloques de esta área solo serán visibles para lo
 $string['enableticker'] = 'Mostrar los anuncios en la página principal';
 $string['enabletickerdesc'] = 'Muestra la barra de anuncios en la página principal.';
 
-$string['enabletickermy'] = 'Mostrar la barra de anuncios en Mi Area personal / Panel de control';
-$string['enabletickermydesc'] = 'Muestra la barra de anuncios en Mi Area personal / Panel de control.';
+$string['enabletickermy'] = 'Mostrar la barra de anuncios en Mi Área personal / Panel de control';
+$string['enabletickermydesc'] = 'Muestra la barra de anuncios en Mi Área personal / Panel de control.';
 
 $string['enabletickerc'] = 'Mostrar la barra de anuncios en las páginas internas';
 $string['enabletickercdesc'] = 'Muestra la barra de anuncios en las páginas internas de moodle.';
@@ -1097,7 +1097,7 @@ $string['newmenu1trigger'] = 'Palabra clave para el Menú desplegable superior';
 $string['newmenu1triggerdesc'] = 'Establece una palabra clave para el Menú desplegable superior. Puedes utilizar los iconos de Font Awesome.';
 
 $string['menusheading'] = 'Configurar Navegación para los menús de la parte superior de la cabecera';
-$string['menustitledesc'] = 'Los menús de herramientas (en la barra de navegación) y los menús superiores (cabecera superior) pueden ser restringidos dependiendo de un campo personalizado del perfíl de usuario (opcional). Los menús siguen el formato de los menús estandar de moodle:
+$string['menustitledesc'] = 'Los menús de herramientas (en la barra de navegación) y los menús superiores (cabecera superior) pueden ser restringidos dependiendo de un campo personalizado del perfil de usuario (opcional). Los menús siguen el formato de los menús estándar de moodle:
 <pre>
 Moodle community|https://moodle.org
 -Moodle free support|https://moodle.org/support
@@ -1109,7 +1109,7 @@ Moodle.com|http://moodle.com/
 ';
 
 $string['menusession'] = 'Almacenar los detalles de acceso en la sesión';
-$string['menusessiondesc'] = 'Se aconseja activar esta opción para optimizar el rendimiento en caso de utilizar varios menúes. Mantener desactivado para pruebas.';
+$string['menusessiondesc'] = 'Se aconseja activar esta opción para optimizar el rendimiento en caso de utilizar varios menús. Mantener desactivado para pruebas.';
 
 $string['disablecustommenu'] = 'Desactivar el menú personalizado de Moodle';
 $string['disablecustommenudesc'] = 'Desactiva el menú personalizado de Moodle en la barra de navegación (seguirá funcionando en otras plantillas instaladas)';
@@ -1121,35 +1121,35 @@ $string['menusessionttldesc'] = 'Número de minutos antes de reiniciar la sesió
 // Tool menus ******************************************************.
 $string['newmenudesc'] = 'Configurar los enlaces mostrados bajo el menú de la cabecera superior.';
 $string['newmenufield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['newmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
+$string['newmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
 $string['newmenurequirelogin'] = 'Requiere Entrar';
 $string['newmenurequirelogindesc'] = 'Si está activado este menú será visible a los usuarios que autenticados';
 
 $string['menusdesc'] = '';
 
 $string['newmenu2trigger'] = 'Palabra clave para el Menú desplegable superior';
-$string['newmenu2triggerdesc'] = 'Establece la palabra clave para el Menú desplegable superior Set a Top Menu Dropdown 2 trigger word.';
+$string['newmenu2triggerdesc'] = 'Establece la palabra clave para el Menú desplegable superior.';
 
 $string['enablemenus'] = 'Activar Menús';
-$string['enablemenusdesc'] = 'Por motivos de rendimiendo, se recomienda no activarlo si no se utilizan los menús.';
+$string['enablemenusdesc'] = 'Por motivos de rendimiento, se recomienda no activarlo si no se utilizan los menús.';
 
 $string['disablemenuscoursepages'] = 'Desactivar menús en las páginas de los cursos';
 $string['disablemenuscoursepagesdesc'] = 'Activando esta opción los menús solo se mostrarán en las páginas del sitio, la página inicial, el Área Personal, etc. y no se mostrará en las páginas de los cursos.';
 
-$string['topmenufontsize'] = 'Tamaño fuente menu superior';
-$string['topmenufontsizedesc'] = 'Establece el tamaño de la fuente usada en el menu superior.';
+$string['topmenufontsize'] = 'Tamaño fuente menú superior';
+$string['topmenufontsizedesc'] = 'Establece el tamaño de la fuente usada en el menú superior.';
 
 $string['menuuseroverride'] = 'Permitir la anulación por usuario';
-$string['menuuseroverridedesc'] = 'Esta configuración controla el uso de los menus a través del perfíl de usuario. Para usar esta función, se ha de crear un campo personalizado de usuario tipo lista con los siguientes valores:
+$string['menuuseroverridedesc'] = 'Esta configuración controla el uso de los menús a través del perfil de usuario. Para usar esta función, se ha de crear un campo personalizado de usuario tipo lista con los siguientes valores:
 <pre>1. Sitewide (mostrará el menú en todo el sitio)
 2. Homepages Only (mostrará el menú solo en la página principal)
 3. Hidden (no se mostrarán los menús)</pre>
-NO debes utilizar la opción "Desactivar menús en las páginas de los cursos" junto a los campos de perfíl. En su lugar, selecciona  "Homepages Only".
+NO debes utilizar la opción "Desactivar menús en las páginas de los cursos" junto a los campos de perfil. En su lugar, selecciona "Homepage Only".
 
 Nota: Los usuarios deberán salir de moodle y volver a entrar para que los cambios hagan efecto. Puede indicarse una nota al crear el campo personalizado.';
 
 $string['menuoverrideprofilefield'] = 'Nombre del campo personalizado';
-$string['menuoverrideprofilefielddesc'] = 'El nombre del campo de perfíl "list" usado por la anulacion por usuario.';
+$string['menuoverrideprofilefielddesc'] = 'El nombre del campo de perfil "list" usado por la anulación por usuario.';
 $string['menuoverrideprofilefielddefault'] = 'topmenusettings';
 
 $string['topmenuscount'] = 'Número de menús superiores';
@@ -1158,7 +1158,7 @@ $string['topmenuscountdesc'] = 'Establece el número de menús superiores que qu
 $string['menusheadingvisibility'] = 'Configuración para la visibilidad del menú superior';
 $string['menusheadingvisibilitydesc'] = 'La siguiente configuración permite controlar donde mostrar los menús y opcionalmente permitir a los usuarios su personalización.';
 
-$string['newmenuheading'] = 'Menu superior';
+$string['newmenuheading'] = 'Menú superior';
 $string['newmenu'] = 'Menú superior desplegable';
 $string['newmenutitle'] = 'Título menú superior';
 $string['newmenutitledesc'] = 'El título del menú aparecerá en la cabecera del sitio';
@@ -1186,10 +1186,10 @@ $string['toolsmenutitle'] = 'Título menú de herramientas';
 $string['toolsmenutitledefault'] = 'Herramientas';
 $string['toolsmenutitledesc'] = 'Añade el título a mostrar en la barra de navegación.';
 
-$string['toolsmenulabel'] = 'Menu Herramientas';
+$string['toolsmenulabel'] = 'Menú Herramientas';
 
 $string['toolsmenufield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['toolsmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=student"';
+$string['toolsmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=student';
 
 
 // Social settings *************************************************.
@@ -1240,7 +1240,7 @@ $string['analyticscount'] = 'Número de campos de perfil';
 $string['analyticscountdesc'] = 'Número de campos personalizados a introducir en el área inferior.';
 
 $string ['analyticsprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string ['analyticsprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: "usertype=alumno"';
+$string ['analyticsprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
 
 // Custom CSS.
 $string['customcssjssettings'] = 'CSS y JS personalizado';
