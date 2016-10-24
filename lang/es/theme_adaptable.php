@@ -18,9 +18,7 @@
  * Version details
  *
  * @package    theme adaptable
- * @copyright  2015 Jeremy Hopkins (Coventry University)
  * @copyright  2015 Fernando Acedo (3-bits.com)
- * @copyright  2016 Fernando Acedo (3-bits.com) Traducción es-ES
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  */
@@ -39,21 +37,32 @@ $string['choosereadme'] = '
  <p>Esta plantilla está bajo licencia GPL (GNU General Public License). Puedes encontrar la licencia completa en: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a></p>
  <p>Modifícala / Mejórala / Compártela</p>
  <br>
- <p>Esta plantilla ha sido creada por:<br>
+ <p>Este tema ha sido creada por:<br>
  Jeremy Hopkins (Coventry University)<br>
- Fernando Acedo (3-bits.com)<br>
- </p>
+ Fernando Acedo (<a href="http://3-bits.com" target="_blank">3-bits.com</a>)</p>
+ <br>
+ <p>y otros desarrolladores, probadores, traductores y voluntarios (Ver <a href="adaptable/README.txt" target="_blank">README.txt</a>)</p>
  <br>
  <h3>Informar de errores</h3>
- <p>Puedes informar de errores encontrados en esta plantilla a través del foro de moodle o en https://bitbucket.org/covuni/moodle-theme_adaptable/issues</p>
+ <p>Puedes informar de errores encontrados en este tema (y por favor, sólo errores) a través de nuestro <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositorio en Bitbucket</a></p>
+ <br>
+ <h3>Soporte Técnico</h3>
+ <p>Puedes preguntar tus dudas y cuestiones a través de los foros oficiales en moodle.org:</p>
+ <ul>
+ <li>Inglés: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
+ <li>Español: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
+ <li>Català: <a href="https://moodle.org/mod/forum/discuss.php?d=340406" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340406</a>
+ </ul>
  <br>
  <h3>Documentación</h3>
- <br>
+ <p>Próximamente</p>
  <br>
  <h3>Demo</h3>
  <p>Puedes ver una demostración del sitio y descargar un archivo de instalación en <a href="http://3-bits.com/demo/adaptable">http://3-bits.com/demo/adaptable</a></p>
  <br>
 <p>Traducción es-ES: Fernando Acedo (3-bits.com)</p>
+<p>Traducción es-MX: Germán Valero (UNAM)</p>
+<p>Traducció ca-ES: Fernando Acedo (3-bits.com)</p>
 </div>
 </div>';
 
@@ -66,26 +75,26 @@ $string['region-side-post'] = 'Derecha';
 $string['region-side-pre'] = 'Izquierda';
 $string['frnt-footer'] = 'Los bloques situados en esta zona solo son visibles para los administradores.';
 
-$string['region-frnt-market-a'] = 'Marketing';
-$string['region-frnt-market-b'] = 'Marketing';
-$string['region-frnt-market-c'] = 'Marketing';
-$string['region-frnt-market-d'] = 'Marketing';
-$string['region-frnt-market-e'] = 'Marketing';
-$string['region-frnt-market-f'] = 'Marketing';
-$string['region-frnt-market-g'] = 'Marketing';
-$string['region-frnt-market-h'] = 'Marketing';
-$string['region-frnt-market-i'] = 'Marketing';
-$string['region-frnt-market-j'] = 'Marketing';
-$string['region-frnt-market-k'] = 'Marketing';
-$string['region-frnt-market-l'] = 'Marketing';
-$string['region-frnt-market-m'] = 'Marketing';
-$string['region-frnt-market-n'] = 'Marketing';
-$string['region-frnt-market-o'] = 'Marketing';
-$string['region-frnt-market-p'] = 'Marketing';
-$string['region-frnt-market-q'] = 'Marketing';
-$string['region-frnt-market-r'] = 'Marketing';
-$string['region-frnt-market-s'] = 'Marketing';
-$string['region-frnt-market-t'] = 'Marketing';
+$string['region-frnt-market-a'] = 'Marketing-a';
+$string['region-frnt-market-b'] = 'Marketing-b';
+$string['region-frnt-market-c'] = 'Marketing-c';
+$string['region-frnt-market-d'] = 'Marketing-d';
+$string['region-frnt-market-e'] = 'Marketing-e';
+$string['region-frnt-market-f'] = 'Marketing-f';
+$string['region-frnt-market-g'] = 'Marketing-g';
+$string['region-frnt-market-h'] = 'Marketing-h';
+$string['region-frnt-market-i'] = 'Marketing-i';
+$string['region-frnt-market-j'] = 'Marketing-j';
+$string['region-frnt-market-k'] = 'Marketing-k';
+$string['region-frnt-market-l'] = 'Marketing-l';
+$string['region-frnt-market-m'] = 'Marketing-m';
+$string['region-frnt-market-n'] = 'Marketing-n';
+$string['region-frnt-market-o'] = 'Marketing-o';
+$string['region-frnt-market-p'] = 'Marketing-p';
+$string['region-frnt-market-q'] = 'Marketing-q';
+$string['region-frnt-market-r'] = 'Marketing-r';
+$string['region-frnt-market-s'] = 'Marketing-s';
+$string['region-frnt-market-t'] = 'Marketing-t';
 
 
 // Settings page headings ******************************************.
@@ -158,8 +167,8 @@ $string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un ca
 
 $string['newstickercount'] = 'Número de secciones en el tablón de anuncios';
 $string['newstickercountdesc'] = 'Define el número de múltiple secciones de anuncios basadas en campos de perfil de usuario personalizados.';
-$string['ticker'] = 'Anuncios';
 
+$string['ticker'] = 'Anuncios';
 
 // Slideshow *******************************************************.
 $string['slideshowsettings'] = 'Presentación de diapositivas';
@@ -233,6 +242,10 @@ $string['slideroption2colordesc'] = 'Establece el color de fondo de la diapositi
 $string['slideroption2a'] = 'Color de fondo de las flechas de la presentación de diapositivas tipo 2';
 $string['slideroption2adesc'] = 'Establece el color de fondo de las flechas de la presentación de diapositivas cuando se utiliza el estilo de presentación 2.';
 
+$string['sliderstyle1'] = 'Diapositivas estilo 1';
+$string['sliderstyle2'] = 'Diapositivas estilo 2';
+
+
 // Regiones para Bloques ***************************************************.
 $string['blocklayoutbuilder'] = 'Creador de regiones para bloques';
 $string['blocklayoutbuilderdesc'] = 'A continuación puedes crear tu propia distribución de regiones para los bloques de moodle en la página principal.
@@ -283,33 +296,26 @@ $string['infoboxdesc'] = 'Añade el código HTML del cuadro informativo 1 (ver e
 $string['infoboxfullscreen'] = 'Cuadros informativos a ancho completo';
 $string['infoboxfullscreendesc'] = 'Marca está opción para mostrar los cuadros informativos a ancho completo de pantalla.';
 
-$string['infoboxcolor'] = 'Color de fondo del cuadro informativo 1';
-$string['infoboxcolordesc'] = 'Establece el color de fondo del cuadro informativo 1';
-
-$string['infoboxtextcolor'] = 'Color de texto del cuadro informativo 1';
-$string['infoboxtextcolordesc'] = 'Establece el color de texto del cuadro informativo 1.';
-
 $string['infobox2'] = 'Cuadro informativo 2';
 $string['infobox2desc'] = 'Añade el código HTML del cuadro informativo 2 (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
-
-$string['infoboxcolor2'] = 'Color de fondo del cuadro informativo 2';
-$string['infoboxcolor2desc'] = 'Establece el color de fondo del cuadro informativo 2';
-
-$string['infoboxtextcolor2'] = 'Color de texto del cuadro informativo 2';
-$string['infoboxtextcolor2desc'] = 'Establece el color de texto del cuadro informativo 2';
 
 $string['frontpagemarketenabled'] = 'Activar los bloques promocionales';
 $string['frontpagemarketenableddesc'] = 'Activar los bloques promocionales en la pagina de inicio.';
 
 $string['frontpagemarketoption'] = 'Estilo de los bloques promocionales';
-$string['frontpagemarketoptiondesc'] = 'Establecer los bloques promocionales tipo Coventry. Configurar el color de esta opción en la página de colores.';
+$string['frontpagemarketoptiondesc'] = 'Establece el estilo de los bloques promocionales. Configura el color de esta opción en la página de colores.
+Nota: El estilo BCU está creado para mostrar la imagen en la pparte superior del bloque.';
+
+$string['bcustyle'] = 'Estilo BCU';
+$string['coventrystyle'] = 'Estilo Coventry';
+$string['nostyle'] = 'Sin estilo';
 
 
 // Footer **********************************************************.
 $string['footersettings'] = 'Pie de Página';
-$string['footersettingsheading'] = 'A continuación puedes crear tu propia distribución de regiones para el pie de página.
-Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>.
-Entonces podrás arrastras y soltar los bloques en las regiones creadas.';
+$string['footersettingsheading'] = 'A continuación puedes crear tu propia distribución de regiones para el pie de página. Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>. Entonces podrás arrastras y soltar los bloques en las regiones creadas.';
+
+$string['footerdesc'] = 'Controla el contenido que se muestra en las secciones del pie de página.';
 
 $string['showfooterblocks'] = 'Mostrar bloques en el pie de página';
 $string['showfooterblocksdesc'] = 'Mostrar los bloques personalizados en el pie de página.';
@@ -584,11 +590,21 @@ $string['menubordercolordesc'] = 'Establece el color de la linea divisoria de la
 $string['menufontcolor'] = 'Color de texto del menú principal';
 $string['menufontcolordesc'] = 'Establece el color del texto del menú principal.';
 
+$string['menuhovercolor'] = 'Color de fondo sobre el menú principal';
+$string['menuhovercolordesc'] = 'Establece el color de fondo del menú principal cuando pasa el cursor sobre los enlaces.';
+
 $string['mobilemenubkcolor'] = 'Color de fondo del menú para móvil';
 $string['mobilemenubkcolordesc'] = 'Establece el color de fondo del menú principal en móviles (colapsado)';
 
 $string['mobilemenufontcolor'] = 'Color del texto del menú para móvil';
 $string['mobilemenufontcolordesc'] = 'Establece el color de texto del menú principal en móviles (colapsado)';
+
+$string['selectiontext'] = 'Color del texto seleccionado';
+$string['selectiontextdesc'] = 'Establece el color del texto seleccionado en pantalla.';
+
+$string['selectionbackground'] = 'Color de fondo del texto seleccionado';
+$string['selectionbackgrounddesc'] = 'Establece el color de fondo del texto seleccionado en pantalla.';
+
 
 // Course *********************************************************.
 $string['coursesettings'] = 'Secciones del curso';
@@ -635,6 +651,9 @@ $string['fontdesc'] = 'Selecciona la fuente de <a href="https://www.google.com/f
 
 $string['fontname'] = 'Fuente principal';
 $string['fontnamedesc'] = 'Establece la fuente principal. Selecciona defecto o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+
+$string['fontsize'] = 'Tamaño de la fuente principal';
+$string['fontsizedesc'] = 'Selecciona el tamaño por defecto de la fuente principal (en porcentaje) usada en el sitio.';
 
 $string['fontheadername'] = 'Fuente encabezamientos';
 $string['fontheadernamedesc'] = 'Establece la fuente de los encabezamientos utilizados en la plantilla. Selecciona default o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
@@ -709,7 +728,7 @@ $string['edithorizontalpadding'] = 'Espaciado horizontal de los botones de edici
 $string['edittopmargin'] = 'Margen superior de los botones de edición';
 
 
-// Login.
+// Boton Login.
 $string['logintextbutton'] = 'Entrar';
 
 $string['buttonlogincolor'] = 'Color del botón Entrar';
@@ -729,6 +748,9 @@ $string['buttonloginheightdesc'] = 'Altura del botón Entrar. Solo si se utiliza
 
 $string['buttonloginmargintop'] = 'Margen superior del botón Entrar';
 $string['buttonloginmargintopdesc'] = 'Permite posicionar el botón Entrar si se han cambiado los valores indicados anteriormente.';
+
+$string['loginplaceholder'] = 'Usuario';
+$string['passwordplaceholder'] = 'Contraseña';
 
 
 // Header ***********************************************************.
@@ -815,6 +837,16 @@ $string['sitetitletextdesc'] = 'Introducir el nombre del sitio que se mostrará 
 $string['frontpagelogin'] = 'Formulario de entrada en la cabecera';
 $string['frontpagelogindesc'] = 'Mostrar el formulario de entrada en la parte superior de la cabecera. En caso contrario, se mostrará solo el botón.';
 
+$string['displaylogin'] = 'Mostrar la entrada de usuario';
+$string['displaylogindesc'] = 'Selecciona el método de entrada del usuario (cuando esté activado)';
+
+$string['displayloginbutton'] = 'Botón';
+$string['displayloginbox'] = 'Formulario';
+$string['displayloginno'] = 'Sin entrada';
+
+$string['enablemessagemenu'] = 'Mostrar Menú Mensajes';
+$string['enablemessagemenudesc'] = 'Muestra el menú mensajes en la cabecera.';
+
 $string['hideblocks'] = 'Ocultar bloques';
 $string['showblocks'] = 'Mostrar bloques';
 $string['fullscreen'] = 'Pantalla completa';
@@ -875,6 +907,8 @@ $string['tilescontactstitledesc'] = 'Muestra / Oculta el rol del contacto en el 
 $string['tilesshowallcontacts'] = 'Mostrar todos los contactos del curso';
 $string['tilesshowallcontactsdesc'] = 'Muestra todos los contactos del curso o solo el principal.';
 
+$string['course'] = 'Course';
+
 
 // Alerts **********************************************************.
 // Alert Box Enable.
@@ -914,10 +948,10 @@ $string['alertinfo'] = 'Info';
 $string['alertinfodesc'] = 'Muestra un mensaje de información.';
 
 $string['alertwarning'] = 'Aviso';
-$string['alertinfodesc'] = 'Muestra un mensaje de aviso.';
+$string['alertwarningdesc'] = 'Muestra un mensaje de aviso.';
 
 $string['alertannounce'] = 'Anuncio';
-$string['alertinfodesc'] = 'Muestra un mensaje de anuncio.';
+$string['alertannouncedesc'] = 'Muestra un mensaje de anuncio.';
 
 $string['alertprofilefield'] = 'Campo de usuario personalizado Nombre=Valor (opcional)';
 $string['alertprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
@@ -998,11 +1032,14 @@ $string['layoutsettingsheading'] = 'Controlar las diferentes disposiciones de la
 $string['blockside'] = 'Posición de los bloques';
 $string['blocksidedesc'] = 'Mostrar los bloques en la columna derecha o izquierda.';
 
+$string['rightblocks'] = 'Columna derecha';
+$string['leftblocks'] = 'Columna izquierda';
+
 $string['blockicons'] = 'Mostrar iconos en los bloques';
 $string['blockiconsdesc'] = 'Mostrar / Ocultar un icono relacionado con el tipo de bloque al lado del encabezamiento.';
 
-$string['leftblocks'] = 'Izquierda';
-$string['rightblocks'] = 'Derecha';
+$string['emoticonsize'] = 'Tamaño emoticonos';
+$string['emoticonsizedesc'] = 'Establece el tamaño (ancho y alto) de los emoticonos.';
 
 $string['helptarget'] = 'Nueva ventana de ayuda';
 $string['helptargetdesc'] = 'Abrir la ayuda en la misma ventana o en una nueva.';
@@ -1076,7 +1113,7 @@ $string['mysitesexclude'] = 'Mostrar excluyendo los cursos ocultos';
 $string['mysitesinclude'] = 'Mostrar incluyendo los cursos ocultos';
 $string['mysitesdisabled'] = 'Desactivado';
 
-$string['frnt-footer'] = 'Los bloques de esta área solo serán visibles para los administradores.';
+$string['frnt-footer'] = 'Los bloques de este área solo serán visibles para los administradores.';
 
 $string['enableticker'] = 'Mostrar los anuncios en la página principal';
 $string['enabletickerdesc'] = 'Muestra la barra de anuncios en la página principal.';
@@ -1226,9 +1263,15 @@ $string['socialicondesc'] = 'Selecciona el icono de Font Awesome. Por ejemplo: f
 $string['socialiconlist'] = 'Lista de iconos sociales';
 $string['socialiconlistdesc'] = 'Introducir una lista delimitada por comas para configurar los iconos de redes sociales que necesites usando el formato: url|titulo|icono';
 
-// Analytics.
-$string['analyticssettingsheading'] = 'Configurar Google Analytics';
-$string['analyticssettingsdesc'] = 'Puedes configurar múltiples códigos para Google Analytics y enlazarlos con diversos campos personalizados.';
+// Analytics **********************************.
+$string['analyticssettings'] = 'Analytics';
+$string['analyticssettingsheading'] = 'Configura Google Analytics y/o Piwik';
+$string['analyticssettingsdesc'] = 'Puedes configurar Google Analytics y/o Piwik para tu sitio moodle.';
+
+// GA.
+$string ['googleanalyticssettings'] = 'Google Analytics';
+$string ['googleanalyticssettingsheading'] = 'Configura Google Analytics para tu sitio';
+$string ['googleanalyticssettingsdesc'] = 'Puedes configurar multiple códigos para Google Analytics y configurarlos para diferentes campus personalizados de usuario.';
 
 $string ['enableanalytics'] = 'Activar Google Analytics';
 $string ['enableanalyticsdesc'] = 'Activar Google Analytics en el sitio.';
@@ -1242,13 +1285,34 @@ $string['analyticscountdesc'] = 'Número de campos personalizados a introducir e
 $string ['analyticsprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
 $string ['analyticsprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
 
-// Custom CSS.
+// Piwik.
+$string['piwiksettings'] = 'Piwik';
+$string['piwiksettingsheading'] = 'Configurar Piwik';
+$string['piwiksettingsdesc'] = 'Generar una URL limpia para el rastreo avanzado.';
+
+$string['piwikenabled'] = 'Activar Piwik';
+$string['piwikenableddesc'] = 'Activar el rastreo de Piwik para Moodle.';
+
+$string['piwiksiteid'] = 'ID del sitio';
+$string['piwiksiteiddesc'] = 'Introducir la ID del sitio.';
+
+$string['piwikimagetrack'] = 'Rastreo de imagen';
+$string['piwikimagetrackdesc'] = 'Activar el rastreo por imagen para navegadores con JavaScript desactivado.';
+
+$string['piwiksiteurl'] = 'URL de Piwik';
+$string['piwiksiteurldesc'] = 'Introducir la dirección del sitio Piwik sin http (o https) ni la barra invertida.';
+
+$string['piwiktrackadmin'] = 'Rastreo de administradores';
+$string['piwiktrackadmindesc'] = 'Activar el rastreo de administradores (no recommendado)';
+
+
+// Custom CSS ******************************.
+$string['customcss'] = 'CSS y JS personalizado';
+$string['customcssdesc'] = 'Introduce las reglas CSS y código JS personalizadas.';
+
 $string['customcssjssettings'] = 'CSS y JS personalizado';
 $string['genericsettingsheading'] = 'Introduce tu propio código CSS y Javascript';
 $string['genericsettingsdescription'] = 'Introduce tu propio código CSS y Javascript.';
-
-$string['customcss'] = 'CSS personalizado';
-$string['customcssdesc'] = 'Introduce las reglas CSS personalizadas.';
 
 $string['jssection'] = 'Javascript personalizado';
 $string['jssectiondesc'] = 'Introduce el código Javascript personalizado.';
