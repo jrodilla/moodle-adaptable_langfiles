@@ -18,8 +18,9 @@
  * Version details
  *
  * @package    theme adaptable
- * @copyright  2015 Fernando Acedo (3-bits.com)
+ * @copyright  2015-2016 Fernando Acedo (3-bits.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ *
  *
  */
 
@@ -27,39 +28,39 @@
 $string['choosereadme'] = '
 <div class="clearfix">
 <div class="well">
- <h2>Adaptable</h2>
- <p><img class="img-polaroid" src="adaptable/pix/screenshot.png" /></p>
+<h2>Adaptable</h2>
+<p><img class="img-polaroid" src="adaptable/pix/screenshot.png" /></p>
 </div>
 <div class="well">
- <h2>Créditos</h2>
- <h3>Acerca de...</h3>
- <p>Adaptable es una plantilla para Moodle, de dos columnas y tipo responsive, altamente personalizable y basada en la popular plantilla BCU.</p>
- <p>Esta plantilla está bajo licencia GPL (GNU General Public License). Puedes encontrar la licencia completa en: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a></p>
- <p>Modifícala / Mejórala / Compártela</p>
- <br>
- <p>Este tema ha sido creada por:<br>
- Jeremy Hopkins (Coventry University)<br>
- Fernando Acedo (<a href="http://3-bits.com" target="_blank">3-bits.com</a>)</p>
- <br>
- <p>y otros desarrolladores, probadores, traductores y voluntarios (Ver <a href="adaptable/README.txt" target="_blank">README.txt</a>)</p>
- <br>
- <h3>Informar de errores</h3>
- <p>Puedes informar de errores encontrados en este tema (y por favor, sólo errores) a través de nuestro <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositorio en Bitbucket</a></p>
- <br>
- <h3>Soporte Técnico</h3>
- <p>Puedes preguntar tus dudas y cuestiones a través de los foros oficiales en moodle.org:</p>
- <ul>
- <li>Inglés: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
- <li>Español: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
- <li>Català: <a href="https://moodle.org/mod/forum/discuss.php?d=340406" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340406</a>
- </ul>
- <br>
- <h3>Documentación</h3>
- <p>Próximamente</p>
- <br>
- <h3>Demo</h3>
- <p>Puedes ver una demostración del sitio y descargar un archivo de instalación en <a href="http://3-bits.com/demo/adaptable">http://3-bits.com/demo/adaptable</a></p>
- <br>
+<h2>Créditos</h2>
+<h3>Acerca de...</h3>
+<p>Adaptable es una plantilla para Moodle, de dos columnas y tipo responsive, altamente personalizable y basada en la popular plantilla BCU.</p>
+<p>Esta plantilla está bajo licencia GPL (GNU General Public License). Puedes encontrar la licencia completa en: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a></p>
+<p>Modifícala / Mejórala / Compártela</p>
+<br>
+<p>Este tema ha sido creada por:<br>
+Jeremy Hopkins (Coventry University)<br>
+Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
+<br>
+<p>y otros desarrolladores, probadores, traductores y voluntarios (Ver <a href="adaptable/README.md" target="_blank">README.md</a>)</p>
+<br>
+<h3>Informar de errores</h3>
+<p>Puedes informar de errores encontrados en este tema (y por favor, sólo errores) a través de nuestro <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositorio en Bitbucket</a></p>
+<br>
+<h3>Soporte Técnico</h3>
+<p>Puedes preguntar tus dudas y cuestiones a través de los foros oficiales en moodle.org:</p>
+<ul>
+<li>Inglés: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
+<li>Español: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
+<li>Català: <a href="https://moodle.org/mod/forum/discuss.php?d=340406" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340406</a>
+</ul>
+<br>
+<h3>Documentación</h3>
+<p>Próximamente</p>
+<br>
+<h3>Demo</h3>
+<p>Puedes ver una demostración del sitio y descargar un archivo de instalación en <a href="https://3-bits.com/demo/adaptable">https://3-bits.com/demo/adaptable</a></p>
+<br>
 <p>Traducción es-ES: Fernando Acedo (3-bits.com)</p>
 <p>Traducción es-MX: Germán Valero (UNAM)</p>
 <p>Traducció ca-ES: Fernando Acedo (3-bits.com)</p>
@@ -109,6 +110,7 @@ $string['settingsoverlaycolors'] = 'Colores bloques cursos';
 $string['settingsnavbarcolors'] = 'Colores de la barra de navegación';
 $string['settingsalertbox'] = 'Alertas';
 $string['settingsbreadcrumbcolors'] = 'Colores de la ruta de navegación';
+$string['settingsmessagescolors'] = 'Colores de los mensajes emergentes';
 $string['settingsfootercolors'] = 'Colores del pie de página';
 $string['settingsfonts'] = 'Fuentes';
 $string['analyticssettings'] = 'Analítica Web';
@@ -157,10 +159,10 @@ $string['enabletickerc'] = 'Activar los anuncios en las páginas internas';
 $string['enabletickercdesc'] = 'Marcar para activar los anuncios en las páginas internas.';
 
 $string['tickertext1'] = 'Texto Anuncios 1';
-$string['tickertext1desc'] = 'Añadir los anuncios en formato de lista HTML. Ver <a href="adaptable/README.txt">README.txt</a> para más información.';
+$string['tickertext1desc'] = 'Añadir los anuncios en formato de lista HTML. Ver <a href="adaptable/README.md">README.md</a> para más información.';
 
 $string['tickertext2'] = 'Texto Anuncios 2';
-$string['tickertext2desc'] = 'Añadir los anuncios en formato de lista HTML para un segundo tipo de usuario. Ver <a href="adaptable/README.txt">README.txt</a> para más información.';
+$string['tickertext2desc'] = 'Añadir los anuncios en formato de lista HTML para un segundo tipo de usuario. Ver <a href="adaptable/README.md">README.md</a> para más información.';
 
 $string['tickertextprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
 $string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
@@ -274,7 +276,7 @@ $string['layoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
 $string['marketingsettings'] = 'Bloques promocionales';
 $string['marketingsettingsheading'] = 'Personaliza los bloques promocionales que aparecen en la página de inicio. Ver la distribución <a href="./../theme/adaptable/pix/layout.png" target="_blank">aqui</a>';
 $string['marketingdesc'] = 'Dispones de dos cuadros informativos a los que puedes aplicar diferentes estilos. Además puedes activar el creador de regiones
-para bloques y decidir cuantos bloques quieres mostrar y su distribución en la página de inicio. Puedes ver la distribución de las diferentes regiones en el archivo  <a href="/adaptable/README.txt" target="_blank">README.txt</a>';
+para bloques y decidir cuantos bloques quieres mostrar y su distribución en la página de inicio. Puedes ver la distribución de las diferentes regiones en el archivo  <a href="/adaptable/README.md" target="_blank">README.md</a>';
 
 $string['marketingbuilderheading'] = 'Creador de regiones para bloques promocionales';
 $string['marketingbuilderdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques promocionales que has utilizado.';
@@ -283,7 +285,7 @@ $string['marketlayoutrow'] = 'Filas de regiones para bloques promocionales';
 $string['marketlayoutrowdesc'] = 'Añade / establece la distribución de filas de las regiones para bloques promocionales de la página principal.';
 
 $string['market'] = 'Bloque promocional ';
-$string['marketdesc'] = 'Añade el código HTML del bloque promocional (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos).';
+$string['marketdesc'] = 'Añade el código HTML del bloque promocional (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos).';
 
 $string['layoutaddcontent'] = 'Añade contenido a los bloques promocionales:';
 $string['layoutaddcontentdesc1'] = 'Has configurado ';
@@ -291,13 +293,13 @@ $string['layoutaddcontentdesc2'] = ' bloques promocionales. Si estás conforme c
 Si no estás conforme, usa el creador de regiones para bloques promocionales para realizar cambios<br />';
 
 $string['infobox'] = 'Cuadro informativo 1';
-$string['infoboxdesc'] = 'Añade el código HTML del cuadro informativo 1 (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
+$string['infoboxdesc'] = 'Añade el código HTML del cuadro informativo 1 (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
 
 $string['infoboxfullscreen'] = 'Cuadros informativos a ancho completo';
 $string['infoboxfullscreendesc'] = 'Marca está opción para mostrar los cuadros informativos a ancho completo de pantalla.';
 
 $string['infobox2'] = 'Cuadro informativo 2';
-$string['infobox2desc'] = 'Añade el código HTML del cuadro informativo 2 (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
+$string['infobox2desc'] = 'Añade el código HTML del cuadro informativo 2 (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
 
 $string['frontpagemarketenabled'] = 'Activar los bloques promocionales';
 $string['frontpagemarketenableddesc'] = 'Activar los bloques promocionales en la pagina de inicio.';
@@ -330,13 +332,13 @@ $string['footerlayoutrow'] = 'Creador de regiones para los bloques del pie de p�
 $string['footerlayoutrowdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques del pie de página que has utilizado.';
 
 $string['footnote'] = 'Texto del bloque del pie de página ';
-$string['footnotedesc'] = 'Añade el código HTML del bloque de pie de página (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
+$string['footnotedesc'] = 'Añade el código HTML del bloque de pie de página (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
 
 $string['footerheader'] = 'Titulo del bloque del pie de página ';
 $string['footerdesc'] = 'Añade el titulo del bloque del pie de página ';
 
 $string['footercontent'] = 'Contenido del bloque del pie de página ';
-$string['footercontentdesc'] = 'Añade el código HTML del bloque del pie de página (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
+$string['footercontentdesc'] = 'Añade el código HTML del bloque del pie de página (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
 
 
 // Moodle Docs link.
@@ -479,14 +481,14 @@ $string['headertextcolordesc'] = 'Establece el color de texto y enlaces de la pa
 $string['headertextcolor2'] = 'Color del texto y enlaces de la parte inferior de la cabecera';
 $string['headertextcolor2desc'] = 'Establece el color de texto y enlaces de la parte inferior de la cabecera.';
 
-$string['blockheadercolor'] = 'Color de fondo de la cabecera de los bloques';
-$string['blockheadercolordesc'] = 'Establece el color de fondo de la cabecera de los bloques.';
+$string['blockheadercolor'] = 'Color del texto de la cabecera de los bloques';
+$string['blockheadercolordesc'] = 'Establece el color del texto de la cabecera de los bloques.';
 
 $string['blockbackgroundcolor'] = 'Color de fondo de los bloques';
 $string['blockbackgroundcolordesc'] = 'Establece el color de fondo de los bloques.';
 
-$string['blockheaderbackgroundcolor'] = 'Color del texto de los encabezados de los bloques';
-$string['blockheaderbackgroundcolordesc'] = 'Establece el color del texto de los encabezados de los bloques.';
+$string['blockheaderbackgroundcolor'] = 'Color de fondo de los encabezados de los bloques';
+$string['blockheaderbackgroundcolordesc'] = 'Establece el color de fondo de los encabezados de los bloques.';
 
 $string['blockbordercolor'] = 'Color del borde de los bloques';
 $string['blockbordercolordesc'] = 'Establece el color del borde de los bloques.';
@@ -548,8 +550,8 @@ $string['marketblockbordercolordesc'] = 'Establece el color del borde de los blo
 $string['marketblocksbackgroundcolor'] = 'Color de fondo de la región de los bloques promocionales.';
 $string['marketblocksbackgroundcolordesc'] = 'Establece el color de fondo de la región de los bloques promocionales.';
 
-$string['sectionheadingcolor'] = 'Color de fondo de la cabecera de sección';
-$string['sectionheadingcolordesc'] = 'Establece el color de fondo de la cabecera del tema actual.';
+$string['sectionheadingcolor'] = 'Color del texto de la cabecera de sección';
+$string['sectionheadingcolordesc'] = 'Establece el color del texto de la cabecera del tema actual.';
 
 $string['homebk'] = 'Imagen de fondo';
 $string['homebkdesc'] = 'Carga la imagen de fondo para la plantilla.';
@@ -580,6 +582,12 @@ $string['breadcrumbtextcolordesc'] = 'Establece el color de texto de la guía de
 
 $string['activebreadcrumb'] = 'Color de fondo de la guía de exploración activa';
 $string['activebreadcrumbdesc'] = 'Establece el color de fondo de la guía de exploración activa.';
+
+$string['messagepopupbackground'] = 'Color de fondo de los mensajes emergentes';
+$string['messagepopupbackgrounddesc'] = 'Establece el color de fondo de la cabecera de los mensajes emergentes.';
+
+$string['messagepopupcolor'] = 'Color de texto de los mensajes emergentes';
+$string['messagepopupcolordesc'] = ' Establece el color de texto de la cabecera de los mensajes emergentes.';
 
 $string['menubkcolor'] = 'Color de fondo del menú principal';
 $string['menubkcolordesc'] = 'Establece el color de fondo del menú principal.';
@@ -703,6 +711,15 @@ $string['menufontsizedesc'] = 'Establece el tamaño de la fuente utilizada en la
 $string['menufontpadding'] = 'Separación entre los ítems de la barra de navegación';
 $string['menufontpaddingdesc'] = 'Establece la separación entre los ítems de la barra de navegación.';
 
+$string['fontblockheadercolor'] = 'Color de la fuente de la cabecera de los bloques';
+$string['fontblockheadercolordesc'] = 'Establece el color de la fuente de la cabecera de los bloques de moodle.';
+
+$string['fontblockheaderweight'] = 'Grueso de la fuente de la cabecera de los bloques de moodle';
+$string['fontblockheaderweightdesc'] = 'Establece grueso de la fuente de la cabecera de los bloques de moodle. Seleccionar un valor entre 100 y 900 dependiendo de la fuente seleccionada.';
+
+$string['fontblockheadersize'] = 'Tamaño de la fuente de la cabecera de la cabecera de los bloques de moodle';
+$string['fontblockheadersizedesc'] = 'Establece el tamaño de la fuente utilizada en la cabecera de los bloques de moodle. Seleccionar un valor de la lista.';
+
 // Buttons *********************************************************.
 $string['buttonsettings'] = 'Botones';
 $string['buttonsettingsheading'] = 'Personalizar los botones.';
@@ -796,7 +813,7 @@ $string['socialorsearch'] = 'Mostrar cuadro de búsqueda o iconos sociales';
 $string['socialorsearchdesc'] = 'Puedes mostrar los iconos sociales o el cuadro de búsqueda en la cabecera. <br />
     <strong>Puedes configurar los iconos sociales en la sección "Redes sociales"</strong>.';
 
-$string['socialorsearchsocial'] = 'Nostrar iconos de redes sociales';
+$string['socialorsearchsocial'] = 'Mostrar iconos de redes sociales';
 $string['socialorsearchsearch'] = 'Mostrar cuadro de búsqueda';
 
 $string['searchboxpaddingtop'] = 'Separación superior del cuadro de búsqueda';
@@ -846,6 +863,9 @@ $string['displayloginno'] = 'Sin entrada';
 
 $string['enablemessagemenu'] = 'Mostrar Menú Mensajes';
 $string['enablemessagemenudesc'] = 'Muestra el menú mensajes en la cabecera.';
+
+$string['filteradminmessages'] = 'Filtrar mensajes del administradorer Admin Messages';
+$string['filteradminmessagesdesc'] = 'Activar para eliminar los mensajes del administrador. Esto puede reducir los mensajes del sistema recibidos por los alumnos y profesores.';
 
 $string['hideblocks'] = 'Ocultar bloques';
 $string['showblocks'] = 'Mostrar bloques';
@@ -964,6 +984,10 @@ $string['alertaccessprofile'] = 'Añadir restricción por campo personalizado';
 
 $string['alertaccess'] = 'Visibilidad de la Alerta';
 $string['alertaccessdesc'] = 'Establece la visibilidad de la Alerta según su tipo. Nota: Si se usa "Añadir restricción por campo personalizado" necesitrás añadir el campo personalizado de usuario.';
+
+// Moodle/Adaptable version alert messages.
+$string['beta'] = 'VERSION EN DESARROLLO. NO USAR EN SITIOS EN PRODUCCIÓN';
+$string['deprecated'] = 'VERSIÓN DE MOODLE OBSOLETA. NO USAR ADAPTABLE EN ESTE SITIO';
 
 // Social Wall Settings ********************************************.
 $string['socialwall'] = 'Formato Social Wall';
@@ -1095,7 +1119,7 @@ $string['activebreadcrumb'] = 'Color de fondo de la ruta de navegación activa';
 $string['activebreadcrumbdesc'] = 'Establece el color de fondo de la ruta de navegación activa.';
 
 $string['breadcrumbseparator'] = 'Separador de la ruta de navegación';
-$string['breadcrumbseparatordesc'] = 'Establece el icono de <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>  usado como separador entre los ítems de la ruta de navegación. Introducir el nombre del icono SIN el prefijo fa-';
+$string['breadcrumbseparatordesc'] = 'Establece el icono de <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>  usado como separador entre los ítems de la ruta de navegación. Introducir el nombre del icono SIN el prefijo fa-';
 
 $string['breadcrumbhome'] = 'Inicio de la ruta de navegación';
 $string['breadcrumbhomedesc'] = 'Muestra el inicio de la ruta de navegación como icono o texto.';
@@ -1128,7 +1152,7 @@ $string['newstickercount'] = 'Número de barras de anuncios';
 $string['newstickercountdesc'] = 'Define barras de anuncios con diferentes reglas de acceso para mostrarlas a diferentes tipos de usuarios.';
 
 $string['tickertext'] = 'Texto de la barra de anuncios';
-$string['tickertextdesc'] = 'Añade el texto a mostrar en la barra de anuncios en formato de lista. Ver el archivo <a href="adaptable/README.txt">README.txt</a> para más información.';
+$string['tickertextdesc'] = 'Añade el texto a mostrar en la barra de anuncios en formato de lista. Ver el archivo <a href="adaptable/README.md">README.md</a> para más información.';
 
 $string['newmenu1trigger'] = 'Palabra clave para el Menú desplegable superior';
 $string['newmenu1triggerdesc'] = 'Establece una palabra clave para el Menú desplegable superior. Puedes utilizar los iconos de Font Awesome.';
@@ -1241,9 +1265,9 @@ url|titulo|icono
 Ejemplo:
 
 http://localhost/moodle/course/search.php|Buscar en Moodle|fa-search
-http://facebook.com/|Facebook|fa-facebook-square
-http://twitter.com/|Twitter|fa-twitter-square
-http://instagram.com|Instagram|fa-instagram
+https://facebook.com/|Facebook|fa-facebook-square
+https://twitter.com/|Twitter|fa-twitter-square
+https://instagram.com|Instagram|fa-instagram
 http://example.com|Mi Web|fa-globe
 
 El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
