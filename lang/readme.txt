@@ -9,12 +9,12 @@ This repository includes the Adaptable official language files available in Engl
 Installation
 -------------------------------------
 You can upload the files to your moodle site using FTP/SFTP. 
-Notice that you must create the folders if needed.
+You must create the folders if needed.
 
 
-Versions
+Version
 -------------------------------------
-1.2.4.2     2016102300
+1.3.1.1     2017011600
  
 
 Licensing
