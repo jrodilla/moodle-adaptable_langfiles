@@ -99,153 +99,153 @@ $string['region-frnt-market-t'] = 'Marketing-t';
 
 
 // Settings page headings ******************************************.
-$string['settingsmaincolors'] = 'Colores principales';
-$string['settingsheadercolors'] = 'Colores cabecera';
-$string['settingsmenucolors'] = 'Colores menú';
-$string['settingsmobilemenucolors'] = 'Colores menú móvil';
-$string['settingsinfoboxcolors'] = 'Colores cuadro informativo principal';
-$string['settingssecondinfoboxcolors'] = 'Colores cuadro informativo secundario';
-$string['settingsmarketingcolors'] = 'Colores bloques moodle';
-$string['settingsoverlaycolors'] = 'Colores bloques cursos';
-$string['settingsnavbarcolors'] = 'Colores de la barra de navegación';
-$string['settingsalertbox'] = 'Alertas';
-$string['settingsbreadcrumbcolors'] = 'Colores de la ruta de navegación';
-$string['settingsmessagescolors'] = 'Colores de los mensajes emergentes';
-$string['settingsfootercolors'] = 'Colores del pie de página';
-$string['settingsfonts'] = 'Fuentes';
+$string['settingsmaincolors'] = 'Colors principals';
+$string['settingsheadercolors'] = 'Colors capçalera';
+$string['settingsmenucolors'] = 'Colors menú';
+$string['settingsmobilemenucolors'] = 'Colors menú mòbil';
+$string['settingsinfoboxcolors'] = 'Colors quadre informatiu principal';
+$string['settingssecondinfoboxcolors'] = 'Colors quadre informatiu secundari';
+$string['settingsmarketingcolors'] = 'Colors blocs moodle';
+$string['settingsoverlaycolors'] = 'Colors blocs cursos';
+$string['settingsnavbarcolors'] = 'Colors de la barra de navegació';
+$string['settingsalertbox'] = 'Alertes';
+$string['settingsbreadcrumbcolors'] = 'Colors de la ruta de navegació';
+$string['settingsmessagescolors'] = 'Colors dels missatges emergents';
+$string['settingsfootercolors'] = 'Colors del peu de pàgina';
+$string['settingsfonts'] = 'Fonts';
 $string['analyticssettings'] = 'Analítica Web';
 
 
 // Admin Menu Strings.
-$string['blocksettings'] = 'Bloques';
-$string['frontpagealertsettings'] = 'Alertas';
-$string['frontpageblockregionsettings'] = 'Creador de regiones para bloques';
-$string['frontpageblocksettings'] = 'Bloques promocionales';
-$string['frontpagetickersettings'] = 'Anuncios';
-$string['frontpageslidersettings'] = 'Presentación diapositivas';
+$string['blocksettings'] = 'Blocs';
+$string['frontpagealertsettings'] = 'Alertes';
+$string['frontpageblockregionsettings'] = 'Creador de regions per a blocs';
+$string['frontpageblocksettings'] = 'Blocs promocionals';
+$string['frontpagetickersettings'] = 'Anuncis';
+$string['frontpageslidersettings'] = 'Presentació diapositives';
 $string['frontpagecoursesettings'] = 'Cursos';
-$string['frontpagesettingsheading'] = 'Página Inicial';
-$string['frontpagedesc'] = 'Configurar la forma en que los cursos son mostrados en la página inicial.';
-$string['frontpagerenderer'] = 'Bloques de cursos';
-$string['frontpagerendererdesc'] = 'Configurar la forma en que los cursos son mostrados en la página inicial.';
-$string['frontpagerendereroption1'] = 'Bloques';
-$string['frontpagerendereroption2'] = 'Bloques sin incrustar';
-$string['frontpagerendereroption3'] = 'Por defecto';
-$string['frontpagerendereroption4'] = 'Tipo Coventry';
+$string['frontpagesettingsheading'] = 'Pàgina d´Inici';
+$string['frontpagedesc'] = 'Configurar la forma en que es mostren els cursos a la pàgina inicial.';
+$string['frontpagerenderer'] = 'Blocs de cursos';
+$string['frontpagerendererdesc'] = 'Configurar la forma en que que es mostren els cursos a la pàgina inicial.';
+$string['frontpagerendereroption1'] = 'Blocs';
+$string['frontpagerendereroption2'] = 'Blocs sense incrustar';
+$string['frontpagerendereroption3'] = 'Per defecte';
+$string['frontpagerendereroption4'] = 'Tipus Coventry';
 
 
 // Ticker **********************************************************.
-$string['tickersettings'] = 'Anuncios';
-$string['tickersettingsheading'] = 'Configura los anuncios de la página de inicio. Ver posición <a href="./adaptable/pix/layout.png" target="_blank"> aquí</a>';
-$string['tickerdesc'] = 'Aquí puedes configurar los anuncios de la página de inicio de tu moodle.
-    Solo debes introducir una lista tipo HTML e incluir enlaces.
-    Nota: No debes añadir etiquetas ul en la lista, solo li. Los editores de Moodle tienden a añadir etiquetas ul en las listas.
-    Si no funciona correctamente, cambia a modo HTML y comprueba que solo hay etiquetas li:
+$string['tickersettings'] = 'Anuncis';
+$string['tickersettingsheading'] = 'Configura els anuncis de la pàgina d´inici. Veure posició <a href="./adaptable/pix/layout.png" target="_blank"> aqui</a>';
+$string['tickerdesc'] = 'Aqui pots configurar els anuncis de la pàgina d´inici del teu moodle.
+    Només has d´introduir una llista tipus HTML i incloure enllaços.
+    Nota:No has d´afegir etiquetes ul a la llista, només li. Els editors de Moodel tenen tendència a afegir etiquetes ul a les llistes.
+    Si no funciona correctament, canvia a mode HTML i comprova que només hi ha etiquetes li:
     <pre>
-    &lt;li&gt;Anuncio 1.....&lt;/li&gt;
-    &lt;li&gt;Anuncio 2.....&lt;/li&gt;
+    &lt;li&gt;Anunci 1.....&lt;/li&gt;
+    &lt;li&gt;Anunci 2.....&lt;/li&gt;
     </pre>
     <br>
-    Puedes controlar diferentes secciones de anuncios dependiendo de un campo de perfil de usuario personalizado y así mostrar diferentes anuncios a diferentes perfiles.';
-$string['tickerdefault'] = 'No hay anuncios para mostrar';
+    Pots controlar diferents seccions d´anuncis depenent d´un camp de perfil d´usuari personalitzat i així mostrar diferents anuncis a diferents perfils.';
+$string['tickerdefault'] = 'No hi ha anuncis per mostrar';
 
-$string['enableticker'] = 'Activar los anuncios en la página de inicio';
-$string['enabletickerdesc'] = 'Marcar para activar los anuncios en la página de inicio.';
+$string['enableticker'] = 'Activar els anuncis a la pàgina d´inici';
+$string['enabletickerdesc'] = 'Marcar per activar els anuncis a la pàgina d´inici.';
 
-$string['enabletickermy'] = 'Activar los anuncios en Mi Inicio / Área Personal';
-$string['enabletickermydesc'] = 'Marcar para activar los anuncios en la página de Mi Inicio / Área Personal.';
+$string['enabletickermy'] = 'Activar els anuncis a El meu Inici / Àrea Personal';
+$string['enabletickermydesc'] = 'Marcar per activar els anuncis a la pàgina  El meu Inici / Àrea Personal.';
 
-$string['enabletickerc'] = 'Activar los anuncios en las páginas internas';
-$string['enabletickercdesc'] = 'Marcar para activar los anuncios en las páginas internas.';
+$string['enabletickerc'] = 'Activar els anuncis a les pàgines internes';
+$string['enabletickercdesc'] = 'Marcar per activar els anuncis a les pàgines internes.';
 
-$string['tickertext1'] = 'Texto Anuncios 1';
-$string['tickertext1desc'] = 'Añadir los anuncios en formato de lista HTML. Ver <a href="adaptable/README.md">README.md</a> para más información.';
+$string['tickertext1'] = 'Text Anuncis 1';
+$string['tickertext1desc'] = 'Afegir els anuncis en format de llista HTML. Veure <a href="adaptable/README.md">README.md</a> per a més informació.';
 
-$string['tickertext2'] = 'Texto Anuncios 2';
-$string['tickertext2desc'] = 'Añadir los anuncios en formato de lista HTML para un segundo tipo de usuario. Ver <a href="adaptable/README.md">README.md</a> para más información.';
+$string['tickertext2'] = 'Text Anuncis 2';
+$string['tickertext2desc'] = 'Afegir els anuncis en format de llista HTML per a un segon tipus d´usuari. Veure <a href="adaptable/README.md">README.md</a> per a més informació.';
 
-$string['tickertextprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
+$string['tickertextprofilefield'] = 'Nom del camp personalitzat del perfil Field Name=Value (opcional)';
+$string['tickertextprofilefielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertype=alumne';
 
-$string['newstickercount'] = 'Número de secciones en el tablón de anuncios';
-$string['newstickercountdesc'] = 'Define el número de múltiple secciones de anuncios basadas en campos de perfil de usuario personalizados.';
+$string['newstickercount'] = 'Nombre de seccions al tauler d´anuncis';
+$string['newstickercountdesc'] = 'Defineix el nombre de múltiples seccions d´anuncis basades en camps de perfil d´usuari personalitzat.';
 
-$string['ticker'] = 'Anuncios';
+$string['ticker'] = 'Anuncis';
 
 // Slideshow *******************************************************.
-$string['slideshowsettings'] = 'Presentación de diapositivas';
-$string['slideshowsettingsheading'] = 'Personaliza la presentación de diapositivas de la página de inicio';
-$string['slideshowdesc'] = 'Sube imágenes, añade enlaces y descripciones en las dispositivas de la presentación de la página de inicio.';
+$string['slideshowsettings'] = 'Presentació de diapositives';
+$string['slideshowsettingsheading'] = 'Personalitza la presentació de diapositives de la pàgina d´inici';
+$string['slideshowdesc'] = 'Puja imatges, afegeix enllaços i descripcions a les dispositives de la presentació de la pàgina d´inici.';
 
-$string['sliderimage'] = 'Imagen de la diapositiva';
-$string['sliderimagedesc'] = 'Añade una imagen a la diapositiva.';
+$string['sliderimage'] = 'Imatge de la diapositiva';
+$string['sliderimagedesc'] = 'Afegeix una imatge a la diapositiva.';
 
-$string['slidercaption'] = 'Texto de la diapositiva';
-$string['slidercaptiondesc'] = 'Añade un texto a la diapositiva.';
+$string['slidercaption'] = 'Text de la diapositiva';
+$string['slidercaptiondesc'] = 'Afegeix un text a la diapositiva.';
 
 $string['sliderurl'] = 'URL de la diapositiva';
-$string['sliderurldesc'] = 'Añade una URL a enlazar desde la diapositiva.';
+$string['sliderurldesc'] = 'Afegeix una URL a enllaçar des de la diapositiva.';
 
-$string['slidermargintop'] = 'Margen superior de la presentación de diapositivas';
-$string['slidermargintopdesc'] = 'Establece el margen superior de la presentación de diapositivas.';
+$string['slidermargintop'] = 'Marge superior de la presentació de diapositives';
+$string['slidermargintopdesc'] = 'Estableix el marge superior de la presentació de diapositives.';
 
-$string['slidermarginbottom'] = 'Margen inferior de la presentación de diapositivas';
-$string['slidermarginbottomdesc'] = 'Establece el margen inferior de la presentación de diapositivas.';
+$string['slidermarginbottom'] = 'Marge inferior de la presentació de diapositives';
+$string['slidermarginbottomdesc'] = 'Estableix el marge inferior de la presentació de diapositives.';
 
-$string['sliderenabled'] = 'Activar la presentación de diapositivas';
-$string['sliderenableddesc'] = 'Activa la presentación de diapositivas en la página principal.';
+$string['sliderenabled'] = 'Activar la presentació de diapositives';
+$string['sliderenableddesc'] = 'Activa la presentació de diapositives a la pàgina principal.';
 
-$string['sliderfullscreen'] = 'Presentación de diapositivas en ancho completo';
-$string['sliderfullscreendesc'] = 'Muestra la presentación de diapositivas en todo el ancho de la pantalla.';
+$string['sliderfullscreen'] = 'Presentació de diapositives a ample complert';
+$string['sliderfullscreendesc'] = 'Mostra la presentació de diapositives en tot l´ample de la pantalla.';
 
-$string['slideroption2'] = 'Seleccionar tipo de presentación de diapositivas';
-$string['slideroption2desc'] = 'Selecciona el tipo de presentación de diapositivas <strong>y pulsar Guardar</strong>para mostrar los colores del estilo seleccionado.';
+$string['slideroption2'] = 'Seleccionar tipus de presentació de diapositives';
+$string['slideroption2desc'] = 'Selecciona el tipus de presentació de diapositives <strong>i picar Desar</strong>per mostrar els colors de l´estil seleccionat.';
 
-$string['slideroption2snippet'] = '<p>Ejemplo HTML para el texto de las diapositivas:</p>
+$string['slideroption2snippet'] = '<p>Exemple HTML per al text de les diapositives:</p>
 <pre>
 &#x3C;div class=&#x22;span6 col-sm-6&#x22;&#x3E;
-&#x3C;h3&#x3E;Hecho a mano&#x3C;/h3&#x3E; &#x3C;h4&#x3E;pixels y código para la comunidad Moodle&#x3C;/h4&#x3E;
-&#x3C;a href=&#x22;#&#x22; class=&#x22;submit&#x22;&#x3E;Por favor, haz Adaptable uno de tus temas favoritos&#x3C;/a&#x3E;
+&#x3C;h3&#x3E;Fer a mà&#x3C;/h3&#x3E; &#x3C;h4&#x3E;pixels i codi per a la comuitat Moodle&#x3C;/h4&#x3E;
+&#x3C;a href=&#x22;#&#x22; class=&#x22;submit&#x22;&#x3E;Si us plau, fes d´Adaptable un dels teus temes favorits&#x3C;/a&#x3E;
 </pre>';
 
-$string['slidercount'] = 'Número de dispositivas';
-$string['slidercountdesc'] = 'Establece el número de diapositivas a mostrar en la página principal y <strong>haz clic en Guardar</strong> para introducir la información del resto de campos.';
+$string['slidercount'] = 'Nombre de diapositives';
+$string['slidercountdesc'] = 'Estableix el nombre de diapositives a mostrar a la pàgina principal i <strong>fes clic a Desar</strong> per inroduir la informació de la resta de camps.';
 
-$string['sliderh3color'] = 'Color del texto H3 del estilo de presentación 1';
-$string['sliderh3colordesc'] = 'Establece el color del texto de la etiqueta H3 cuando se utiliza el estilo de presentación 1.';
+$string['sliderh3color'] = 'Color del text H3 de l´estil de presentació 1';
+$string['sliderh3colordesc'] = 'Estableix el color del text de l´etiqueta H3 quan s´utilitza l´estil de presentació 1.';
 
-$string['sliderh4color'] = 'Color del texto H4 del estilo de presentación 1';
-$string['sliderh4colordesc'] = 'Establece el color del texto de la etiqueta H4 cuando se utiliza el estilo de presentación 1.';
+$string['sliderh4color'] = 'Color del text H4 de l´estil de presentació 1';
+$string['sliderh4colordesc'] = 'Estableix el color del text de l´etiqueta H4 quan s´utilitza l´estil de presentació 1.';
 
-$string['slidersubmitcolor'] = 'Color del texto del botón del estilo de presentación 1';
-$string['slidersubmitcolordesc'] = 'Establece el color del texto del botón cuando se utiliza el estilo de presentación 1.';
+$string['slidersubmitcolor'] = 'Color del text del botó de l´estil de presentació 1';
+$string['slidersubmitcolordesc'] = 'Estableix el color del text del botó quan s´utilitza l´estil de presentació 1.';
 
-$string['slidersubmitbgcolor'] = 'Color del botón del estilo de presentación 1';
-$string['slidersubmitbgcolordesc'] = 'Establece el color del botón cuando se utiliza el estilo de presentación 1.';
+$string['slidersubmitbgcolor'] = 'Color del botó de l´estil de presentació 1';
+$string['slidersubmitbgcolordesc'] = 'Estableix el color del botó quan s´utilitza l´estil de presentació 1.';
 
-$string['slider2h3color'] = 'Color del texto H3 del estilo de presentación 2';
-$string['slider2h3colordesc'] = 'Establece el color del texto de la etiqueta H3 cuando se utiliza el estilo de presentación 2.';
+$string['slider2h3color'] = 'Color del text H3 de l´estil de presentació 2';
+$string['slider2h3colordesc'] = 'Estableix el color del text de l´etiqueta H3 quan s´utilitza l´estil de presentació 2.';
 
-$string['slider2h4color'] = 'Color del texto H4 del estilo de presentación 2';
-$string['slider2h4colordesc'] = 'Establece el color del texto de la etiqueta H4 cuando se utiliza el estilo de presentación 2.';
+$string['slider2h4color'] = 'Color del text H4 de l´estil de presentació 2';
+$string['slider2h4colordesc'] = 'Estableix el color del text de l´etiqueta H4 quan s´utilitza l´estil de presentació 2.';
 
-$string['slider2h3bgcolor'] = 'Color de fondo H3 del estilo de presentación 2';
-$string['slider2h3bgcolordesc'] = 'Establece el color de fondo de la etiqueta H3 cuando se utiliza el estilo de presentación 2.';
+$string['slider2h3bgcolor'] = 'Color de fons H3 de l´estil de presentació 2';
+$string['slider2h3bgcolordesc'] = 'Estableix el color de fons de l´etiqueta  H3 quan s´utilitza l´estil de presentació 2.';
 
-$string['slider2h4bgcolor'] = 'Color de fondo H4 del estilo de presentación 2';
-$string['slider2h4bgcolordesc'] = 'Establece el color de fondo de la etiqueta H4 cuando se utiliza el estilo de presentación 2.';
+$string['slider2h4bgcolor'] = 'Color de fons H4 de l´estil de presentació 2';
+$string['slider2h4bgcolordesc'] = 'Estableix el color de fons de l´etiqueta H4 quan s´utilitza l´estil de presentació 2.';
 
-$string['slideroption2submitcolor'] = 'Color de fondo del enlace del estilo de presentación 2';
-$string['slideroption2submitcolordesc'] = 'Establece el color de fondo del texto del enlace cuando se utiliza el estilo de presentación 2.';
+$string['slideroption2submitcolor'] = 'Color de fons de l´enllaç de l´estil de presentació 2';
+$string['slideroption2submitcolordesc'] = 'Estableix el color de fons del text de l´enllaç quan s´utilitza l´estil de presentació 2.';
 
-$string['slideroption2color'] = 'Color de fondo de la presentación de diapositivas tipo 2';
-$string['slideroption2colordesc'] = 'Establece el color de fondo de la diapositiva cuando se utiliza el estilo de presentación 2.';
+$string['slideroption2color'] = 'Color de fons de la presentació de diapositives tipus 2';
+$string['slideroption2colordesc'] = 'Estableix el color de fons de la diapositiva quan s´utilitza l´estil de presentació 2.';
 
-$string['slideroption2a'] = 'Color de fondo de las flechas de la presentación de diapositivas tipo 2';
-$string['slideroption2adesc'] = 'Establece el color de fondo de las flechas de la presentación de diapositivas cuando se utiliza el estilo de presentación 2.';
+$string['slideroption2a'] = 'Color de fons de les fletxes de la presentació de diapositives tipus 2';
+$string['slideroption2adesc'] = 'Estableix el color de les fletxes de la presentació de diapositives quan s´utilitza l´estil de presentació 2.';
 
-$string['sliderstyle1'] = 'Diapositivas estilo 1';
-$string['sliderstyle2'] = 'Diapositivas estilo 2';
+$string['sliderstyle1'] = 'Diapositives estil 1';
+$string['sliderstyle2'] = 'Diapositives estil 2';
 
 
 // Regiones para Bloques ***************************************************.
