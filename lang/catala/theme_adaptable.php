@@ -273,163 +273,163 @@ $string['layoutcount2'] = ' regions per a blocs. Ara estàs utilitzant: ';
 
 
 // Bloques promocionales & Cuadros Informativos *************************************.
-$string['marketingsettings'] = 'Bloques promocionales';
-$string['marketingsettingsheading'] = 'Personaliza los bloques promocionales que aparecen en la página de inicio. Ver la distribución <a href="./../theme/adaptable/pix/layout.png" target="_blank">aqui</a>';
-$string['marketingdesc'] = 'Dispones de dos cuadros informativos a los que puedes aplicar diferentes estilos. Además puedes activar el creador de regiones
-para bloques y decidir cuantos bloques quieres mostrar y su distribución en la página de inicio. Puedes ver la distribución de las diferentes regiones en el archivo  <a href="/adaptable/README.md" target="_blank">README.md</a>';
+$string['marketingsettings'] = 'Blocs promocionals';
+$string['marketingsettingsheading'] = 'Personalitza els blocs promocionals que apareixen a la pàgina d´inici. Veure la distribució <a href="./../theme/adaptable/pix/layout.png" target="_blank">aqui</a>';
+$string['marketingdesc'] = 'Disposes de dos quadre informatius als que pots aplicar diferents estils. A més pots activar el creador de regions
+per a blocs i decidir quants blocs vols mostrar i la seva distribució a la pàgina d´inici. Pots veure la distribució de les diferents regions a l´arxiu  <a href="/adaptable/README.md" target="_blank">README.md</a>';
 
-$string['marketingbuilderheading'] = 'Creador de regiones para bloques promocionales';
-$string['marketingbuilderdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques promocionales que has utilizado.';
+$string['marketingbuilderheading'] = 'Creador de regions per a blocs promocionals';
+$string['marketingbuilderdesc'] = 'Utilitza aquesta opció per veure la distribució creada i comprovar el nombre de bloqcs promocionals que has utilitzat.';
 
-$string['marketlayoutrow'] = 'Filas de regiones para bloques promocionales';
-$string['marketlayoutrowdesc'] = 'Añade / establece la distribución de filas de las regiones para bloques promocionales de la página principal.';
+$string['marketlayoutrow'] = 'Files de regions per a blocs promocionals';
+$string['marketlayoutrowdesc'] = 'Afegeix / estableix la distribució de files de les regions per a blocs promocionals de la pàgina principal.';
 
-$string['market'] = 'Bloque promocional ';
-$string['marketdesc'] = 'Añade el código HTML del bloque promocional (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos).';
+$string['market'] = 'Bloc promocional ';
+$string['marketdesc'] = 'Afegeix el codi HTML del bloc promocional (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples).';
 
-$string['layoutaddcontent'] = 'Añade contenido a los bloques promocionales:';
-$string['layoutaddcontentdesc1'] = 'Has configurado ';
-$string['layoutaddcontentdesc2'] = ' bloques promocionales. Si estás conforme con la distribución añade el contenido de los bloques promocionales.
-Si no estás conforme, usa el creador de regiones para bloques promocionales para realizar cambios<br />';
+$string['layoutaddcontent'] = 'Afegeix contingut als blocs promocionals:';
+$string['layoutaddcontentdesc1'] = 'Has configurat ';
+$string['layoutaddcontentdesc2'] = ' blocs promocionals. Si estàs d´acord amb la distribució afegeix el contingut dels blocs promocionals.
+Si no estàs d´acord, utilitza el creador de regions per a blocs promocionals per realitzar canvis<br />';
 
-$string['infobox'] = 'Cuadro informativo 1';
-$string['infoboxdesc'] = 'Añade el código HTML del cuadro informativo 1 (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['infobox'] = 'Quadre informatiu 1';
+$string['infoboxdesc'] = 'Afegeix el codi HTML del quadre informatiu 1 (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples)';
 
-$string['infoboxfullscreen'] = 'Cuadros informativos a ancho completo';
-$string['infoboxfullscreendesc'] = 'Marca está opción para mostrar los cuadros informativos a ancho completo de pantalla.';
+$string['infoboxfullscreen'] = 'Quadre informatius a amplada complerta';
+$string['infoboxfullscreendesc'] = 'Marca aquesta opció per mostrar els quadres informatius a l´amplada complerta de la pantalla.';
 
-$string['infobox2'] = 'Cuadro informativo 2';
-$string['infobox2desc'] = 'Añade el código HTML del cuadro informativo 2 (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['infobox2'] = 'Quadre informatiu 2';
+$string['infobox2desc'] = 'Afegeix el codi HTML del quadre informatiu 2 (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples)';
 
-$string['frontpagemarketenabled'] = 'Activar los bloques promocionales';
-$string['frontpagemarketenableddesc'] = 'Activar los bloques promocionales en la pagina de inicio.';
+$string['frontpagemarketenabled'] = 'Activar els blocs promocionals';
+$string['frontpagemarketenableddesc'] = 'Activar els blocs promocionals a la pàgina d´inici.';
 
-$string['frontpagemarketoption'] = 'Estilo de los bloques promocionales';
-$string['frontpagemarketoptiondesc'] = 'Establece el estilo de los bloques promocionales. Configura el color de esta opción en la página de colores.
-Nota: El estilo BCU está creado para mostrar la imagen en la pparte superior del bloque.';
+$string['frontpagemarketoption'] = 'Estil dels blocs promocionals';
+$string['frontpagemarketoptiondesc'] = 'Estableix l´estil dels blocs promocionals. Configura el color d´aquesta opció a la pàgina de colors.
+Nota: L´estil BCU està creat per mostrar la imatge a la part superior del bloc.';
 
-$string['bcustyle'] = 'Estilo BCU';
-$string['coventrystyle'] = 'Estilo Coventry';
-$string['nostyle'] = 'Sin estilo';
+$string['bcustyle'] = 'Estil BCU';
+$string['coventrystyle'] = 'Estil Coventry';
+$string['nostyle'] = 'Sense estil';
 
 
 // Footer **********************************************************.
-$string['footersettings'] = 'Pie de Página';
-$string['footersettingsheading'] = 'A continuación puedes crear tu propia distribución de regiones para el pie de página. Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>. Entonces podrás arrastras y soltar los bloques en las regiones creadas.';
+$string['footersettings'] = 'Peu de Pàgina';
+$string['footersettingsheading'] = 'A continuació pots crear la teva pròpia distribució de regions per al peu de pàgina. Per afegir contingut a aquestes regions necessitaràs <strong>Activar edició a la pàgina principal de Moodle</strong>. Llavors podràs arrossegar i deixar anar els blocs a les regions creades.';
 
-$string['footerdesc'] = 'Controla el contenido que se muestra en las secciones del pie de página.';
+$string['footerdesc'] = 'Controla el contingut que es mostra a les seccions del peu de pàgina.';
 
-$string['showfooterblocks'] = 'Mostrar bloques en el pie de página';
-$string['showfooterblocksdesc'] = 'Mostrar los bloques personalizados en el pie de página.';
+$string['showfooterblocks'] = 'Mostrar blocs al peu de pàgina';
+$string['showfooterblocksdesc'] = 'Mostrar els blocs personalitzats al peu de pàgina.';
 
-$string['footerblocksplacement'] = 'Páginas donde mostrar los bloques del pie de página';
-$string['footerblocksplacementdesc'] = 'Definir los lugares donde se deben mostrar los bloques del pie de página. Todo el sitio es la opción por defecto.';
-$string['footerblocksplacement1'] = 'Todo el sitio';
-$string['footerblocksplacement2'] = 'Página Inicial';
-$string['footerblocksplacement3'] = 'Nunca';
+$string['footerblocksplacement'] = 'Pàgines on mostrar els blocs del peu de pàgina';
+$string['footerblocksplacementdesc'] = 'Definir els llocs on s´han de mostrar els blocs del peu de pàgina. Tot el llos és la opció per defecte.';
+$string['footerblocksplacement1'] = 'Tot el lloc';
+$string['footerblocksplacement2'] = 'Pàgina Inicial';
+$string['footerblocksplacement3'] = 'Mai';
 
-$string['footerlayoutrow'] = 'Creador de regiones para los bloques del pie de página';
-$string['footerlayoutrowdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques del pie de página que has utilizado.';
+$string['footerlayoutrow'] = 'Creador de regions per als blocs del peu de pàágina';
+$string['footerlayoutrowdesc'] = 'Utilitza aquesta opció per veure la distribució creada i comprovar el nombre de blocs del peu de pàgina que has utilitzat.';
 
-$string['footnote'] = 'Texto del bloque del pie de página ';
-$string['footnotedesc'] = 'Añade el código HTML del bloque de pie de página (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['footnote'] = 'Text del bloc del peu de pàgina ';
+$string['footnotedesc'] = 'Afegeix el codi HTML del bloc de peu de pàgina (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples)';
 
-$string['footerheader'] = 'Titulo del bloque del pie de página ';
-$string['footerdesc'] = 'Añade el titulo del bloque del pie de página ';
+$string['footerheader'] = 'Títol del bloc del peu de pàgina ';
+$string['footerdesc'] = 'Afegeix el títol del bloc del peu de pàgina';
 
-$string['footercontent'] = 'Contenido del bloque del pie de página ';
-$string['footercontentdesc'] = 'Añade el código HTML del bloque del pie de página (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['footercontent'] = 'Contingut del bloc del peu de pàgina';
+$string['footercontentdesc'] = 'Afegeix el codi HTML del bloc de peu de pàgina (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples)';
 
 
 // Moodle Docs link.
-$string['moodledocs'] = 'Mostrar enlace a Moodle Docs';
-$string['moodledocsdesc'] = 'Mostrar un enlace a Moodle Docs en el pie de página.';
+$string['moodledocs'] = 'Mostrar l´enllaç a Moodle Docs';
+$string['moodledocsdesc'] = 'Mostrar un enllaç a Moodle Docs al peu de pàgina.';
 
 
 // NavBar **********************************************************.
-$string['stickynavbar'] = 'Fijar la barra de navegación';
-$string['stickynavbardesc'] = 'Fijar la barra de navegación a la parte superior de la página.';
+$string['stickynavbar'] = 'Fixar la barra de navegació';
+$string['stickynavbardesc'] = 'Fixar la barra de navegació a la part superior de la pàgina.';
 
-$string['navbarcachetime'] = 'Caché de la barra de navegación';
-$string['navbarcachetimedesc'] = 'El tiempo, en minutos, que se guarda la barra de navegación.';
+$string['navbarcachetime'] = 'Caché de la barra de navegació';
+$string['navbarcachetimedesc'] = 'El temps, en minuts, que es conserva la barra de navegació.';
 
-$string['navbarmenusettings'] = 'Menú Navegación';
-$string['navbarmenusettingsheading'] = 'Personalizar el menú de la barra de navegación';
-$string['navbarmenusettingsdesc'] = 'Añadir menús en la barra de navegación.';
+$string['navbarmenusettings'] = 'Menú Navegació';
+$string['navbarmenusettingsheading'] = 'Personalitzar el menú de la barra de navegació';
+$string['navbarmenusettingsdesc'] = 'Afegir menús a la barra de navegació.';
 
-$string['navbarsettings'] = 'Barra de navegación';
-$string['navbarsettingsheading'] = 'Personalizar la barra de navegación';
-$string['navbardesc'] = 'Controlar los diferentes elementos a mostrar en la barra de navegación.';
+$string['navbarsettings'] = 'Barra de navegació';
+$string['navbarsettingsheading'] = 'Personalitzar la barra de navegació';
+$string['navbardesc'] = 'Controlar els diferents elements a mostrar a la barra de navegació.';
 
 if ($CFG->version > 2015051100) {
-    $string['enablemy'] = 'Área Personal';
-    $string['enablemydesc'] = 'Mostrar el enlace al Área Personal.';
+    $string['enablemy'] = 'Àrea Personal';
+    $string['enablemydesc'] = 'Mostrar l´enllaç a l´Àrea Personal.';
 } else {
-    $string['enablemy'] = 'Inicio';
-    $string['enablemydesc'] = 'Mostrar el enlace a Inicio';
+    $string['enablemy'] = 'Inici';
+    $string['enablemydesc'] = 'Mostrar l´enllaç a l´Inici';
 };
 
-$string['enableprofile'] = 'Perfil usuario';
-$string['enableprofiledesc'] = 'Mostrar el enlace del perfil de usuario.';
+$string['enableprofile'] = 'Perfil usuari';
+$string['enableprofiledesc'] = 'Mostrar l´enllaç del perfil d´usuari.';
 
 $string['enableeditprofile'] = 'Editar perfil';
-$string['enableeditprofiledesc'] = 'Mostrar el enlace para editar el perfil del usuario.';
+$string['enableeditprofiledesc'] = 'Mostrar l´enllaç per editar el perfil de l´usuari.';
 
-$string['enablebadges'] = 'Insignias';
-$string['enablebadgesdesc'] = 'Mostrar el enlace de las insignias del usuario.';
+$string['enablebadges'] = 'Insignies';
+$string['enablebadgesdesc'] = 'Mostrar l´enllaç de les insignias de l´usuari.';
 
-$string['enablegrades'] = 'Calificaciones';
-$string['enablegradesdesc'] = 'Mostrar el enlace de las calificaciones del usuario.';
+$string['enablegrades'] = 'Qualificacions';
+$string['enablegradesdesc'] = 'Mostrar l´enllaç de les qualificacions de l´usuari.';
 
-$string['enablecalendar'] = 'Calendario';
-$string['enablecalendardesc'] = 'Mostrar el enlace al calendario del usuario.';
+$string['enablecalendar'] = 'Calendari';
+$string['enablecalendardesc'] = 'Mostrar l´enllaç al calendari de l´usuari.';
 
-$string['enableprivatefiles'] = 'Archivos privados';
-$string['enableprivatefilesdesc'] = 'Mostrar el enlace a los archivos privados del usuario.';
+$string['enableprivatefiles'] = 'Arxius privats';
+$string['enableprivatefilesdesc'] = 'Mostrar l´enllaç als arxius privats de l´usuari.';
 
-$string['enablesearchbox'] = 'Activar cuadro de búsqueda';
-$string['enablesearchboxdesc'] = 'Mostrar el cuadro de búsqueda en la parte superior de la pantalla.';
+$string['enablesearchbox'] = 'Activar quadre de cerca';
+$string['enablesearchboxdesc'] = 'Mostrar el quadre de cerca a la part superior de la pantalla.';
 
-$string['enablepref'] = 'Preferencias';
-$string['enableprefdesc'] = 'Mostrar el enlace a las preferencias del usuario.';
+$string['enablepref'] = 'Preferències';
+$string['enableprefdesc'] = 'Mostrar l´enllaç a les preferències de l´usuari.';
 
-$string['enablenote'] = 'Notificaciones';
-$string['enablenotedesc'] = 'Mostrar el enlace página de notificaciones.';
+$string['enablenote'] = 'Notificacions';
+$string['enablenotedesc'] = 'Mostrar l´enllaç pàgina de notificacions.';
 
-$string['enableblog'] = 'Blogs del usuario';
-$string['enableblogdesc'] = 'Mostrar el enlace a los blogs del usuario.';
+$string['enableblog'] = 'Blocs de l´usuari';
+$string['enableblogdesc'] = 'Mostrar l´enllaç als blocs de l´usuari.';
 
-$string['enableposts'] = 'Mis entradas';
-$string['enablepostsdesc'] = 'Mostrar el enlace a las entradas en los foros realizadas por el usuario.';
+$string['enableposts'] = 'Les meves entrades';
+$string['enablepostsdesc'] = 'Mostrar l´enllaç a les entrades als fòrums realitzats per l´usuari.';
 
-$string['enablefeed'] = 'Mis opiniones';
-$string['enablefeeddesc'] = 'Mostrar el enlace a la página "Opiniones" - <i>Nota: esta opción requiere el <a href="https://moodle.org/plugins/report_myfeedback" target="blank">plugin My Feedback</a> instalado';
+$string['enablefeed'] = 'Les meves opinions';
+$string['enablefeeddesc'] = 'Mostrar l´enllaç a la pàgina "Opinions" - <i>Nota: aquesta opció requereix el <a href="https://moodle.org/plugins/report_myfeedback" target="blank">plugin My Feedback</a> instal·lat';
 
-$string['myblogs'] = 'Mis Blogs';
+$string['myblogs'] = 'Els meus Blocs';
 
-$string['noenrolments'] = 'No hay matriculaciones.';
+$string['noenrolments'] = 'No hi ha matriculacions.';
 
-$string['enablemyhomedesc'] = 'Mostrar un enlace a {$a}';
-$string['enableeventsdesc'] = 'Mostrar un enlace al calendario';
-$string['enablemysitesdesc'] = 'Mostrar los cursos del usuario';
-$string['enablethiscoursedesc'] = 'Mostrar las actividades del curso actual';
+$string['enablemyhomedesc'] = 'Mostrar un enllaç a {$a}';
+$string['enableeventsdesc'] = 'Mostrar un enllaç al calendari';
+$string['enablemysitesdesc'] = 'Mostrar els cursos de l´usuari';
+$string['enablethiscoursedesc'] = 'Mostrar les activitats del curs actual';
 
-$string['mysitessortoverride'] = 'Activar el orden personalizado de "Mis Cursos"';
-$string['mysitessortoverridedesc'] = 'Usa campos personalizados o textos (año, edad, ...) para colapsar los cursos en un desplegable.';
-$string['mysitessortoverridefield'] = 'Campo personalizado o texto para filtrar "Mis Cursos"';
-$string['mysitessortoverridefielddesc'] = 'Lista con delimitación por comas de los campos o textos a comprobar en el nombre corto de curso.';
+$string['mysitessortoverride'] = 'Activar l´ordre personalitzat de "Els Meus Cursos"';
+$string['mysitessortoverridedesc'] = 'Utilitza camps personalitzats o textos (any, edat, ...) per colapsar els cursos en un desplegable.';
+$string['mysitessortoverridefield'] = 'Camp personalitzat o text per filtrar "Els Meus Cursos"';
+$string['mysitessortoverridefielddesc'] = 'Llista amb delimitació per comes dels camps o textos a comprovar al nom curt del curs.';
 
-$string['mysitessortoverrideoff'] = 'Mostrar lista de cursos.';
-$string['mysitessortoverridestrings'] = 'Muestra todos los cursos en los que está matriculado el alumno en una lista. El resto son mostrados en un submenú.';
-$string['mysitessortoverrideprofilefields'] = 'Muestra los cursos coincidentes con un campo personalizado en una lista. El resto son mostrados en un submenú.';
-$string['mysitessortoverrideprofilefieldscohort'] = 'Muestra los cursos coincidentes con un campo de perfil y los cohortes en primer lugar. El resto son mostrados en un submenú.';
+$string['mysitessortoverrideoff'] = 'Mostrar llista de cursos.';
+$string['mysitessortoverridestrings'] = 'Mostra una llista amb tots els cursos als que està matriculat l´alumne. La resta són mostrats  a un submenú.';
+$string['mysitessortoverrideprofilefields'] = 'Mostra una llista amb els cursos coincidents com a camp personalitzat. La resta són mostrats  a un submenú.';
+$string['mysitessortoverrideprofilefieldscohort'] = 'Mostra els cursos coincidents amb un camp de perfil i els cohorts en primer lloc. La resta són mostrats  a un submenú.';
 
-$string['mysitesmaxlength'] = 'Longitud máxima del título del curso en "Mis Cursos"';
-$string['mysitesmaxlengthdesc'] = 'Ajusta la longitud máxima del título del curso a mostrar en "Mis Cursos". La longitud dependerá del tamaño y de la fuente usada.';
+$string['mysitesmaxlength'] = 'Longitud màxima del títol del curs a "Els Meus Cursos"';
+$string['mysitesmaxlengthdesc'] = 'Ajusta la longitud màxima del títol del curs a mostrar a "Els Meus Cursos". La longitud dependrà de la mida i de la font utilitzada.';
 
-$string['usernavheading'] = 'Personalizar el menú de usuario';
-$string['usernavdesc'] = 'Permite personalizar los elementos que aparecen en el menú de usuario.';
-$string['enablehomedesc'] = 'Mostrar enlace a Inicio';
+$string['usernavheading'] = 'Personalitzar el menú d´usuari';
+$string['usernavdesc'] = 'Permet personatlizar els elements que apareixen al menú d´usuari.';
+$string['enablehomedesc'] = 'Mostrar enllaç a Inici';
 
 $string['enablehomeredirect'] = 'Activar redirect=0';
 $string['enablehomeredirectdesc'] = 'Activa la opción redirect=0 para redirigir a la página inicial del sitio. Está opción puede utilizarse en sitios que tienen el Área Personal como página inicial por defecto. Desactivada previene redirigir a los usuarios a la página inicial y ser redirigidos al Área Personal';
