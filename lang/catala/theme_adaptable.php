@@ -32,37 +32,37 @@ $string['choosereadme'] = '
 <p><img class="img-polaroid" src="adaptable/pix/screenshot.png" /></p>
 </div>
 <div class="well">
-<h2>Créditos</h2>
-<h3>Acerca de...</h3>
-<p>Adaptable es una plantilla para Moodle, de dos columnas y tipo responsive, altamente personalizable y basada en la popular plantilla BCU.</p>
-<p>Esta plantilla está bajo licencia GPL (GNU General Public License). Puedes encontrar la licencia completa en: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a></p>
-<p>Modifícala / Mejórala / Compártela</p>
+<h2>Crèdits</h2>
+<h3>Sobre...</h3>
+<p>Adaptable és una plantilla per a Moodle, de dues columnes i tipus responsive, altament personalitzable i agafant de referència la popular plantilla BCU.</p>
+<p>Aquesta plantilla està sota llicència GPL (GNU General Public License). Pots trobar la llicència complerta a: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a></p>
+<p>Modifica-la / Millora-la / Comprateix-la</p>
 <br>
-<p>Este tema ha sido creada por:<br>
+<p>Aquest tema ha estat creat per:<br>
 Jeremy Hopkins (Coventry University)<br>
 Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <br>
-<p>y otros desarrolladores, probadores, traductores y voluntarios (Ver <a href="adaptable/README.md" target="_blank">README.md</a>)</p>
+<p>i d´altres desenvolupadors, provadors, traductors i voluntaris (Veure <a href="adaptable/README.md" target="_blank">README.md</a>)</p>
 <br>
-<h3>Informar de errores</h3>
-<p>Puedes informar de errores encontrados en este tema (y por favor, sólo errores) a través de nuestro <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositorio en Bitbucket</a></p>
+<h3>Informar de les errades</h3>
+<p>Pots informar de les errades trobades en aquest tema (i, si us plau, només de les errades) mitjançant el nostre <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositori a Bitbucket</a></p>
 <br>
-<h3>Soporte Técnico</h3>
-<p>Puedes preguntar tus dudas y cuestiones a través de los foros oficiales en moodle.org:</p>
+<h3>Suport Tècnic</h3>
+<p>Pots preguntar els teus dubtes i qüestions mitjançant els fòrums oficials a moodle.org:</p>
 <ul>
-<li>Inglés: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
-<li>Español: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
+<li>Anglès: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
+<li>Espanyol: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
 <li>Català: <a href="https://moodle.org/mod/forum/discuss.php?d=340406" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340406</a>
 </ul>
 <br>
-<h3>Documentación</h3>
-<p>Próximamente</p>
+<h3>Documentació</h3>
+<p>Pròximament</p>
 <br>
 <h3>Demo</h3>
-<p>Puedes ver una demostración del sitio y descargar un archivo de instalación en <a href="https://3-bits.com/demo/adaptable">https://3-bits.com/demo/adaptable</a></p>
+<p>Pots veure una demostració del lloc i descarregar l´arxiu d´instal·lació a <a href="https://3-bits.com/demo/adaptable">https://3-bits.com/demo/adaptable</a></p>
 <br>
-<p>Traducción es-ES: Fernando Acedo (3-bits.com)</p>
-<p>Traducción es-MX: Germán Valero (UNAM)</p>
+<p>Traducció es-ES: Fernando Acedo (3-bits.com)</p>
+<p>Traducció es-MX: Germán Valero (UNAM)</p>
 <p>Traducció ca-ES: Fernando Acedo (3-bits.com)</p>
 </div>
 </div>';
@@ -70,11 +70,11 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 $string['pluginname'] = 'Adaptable';
 $string['configtitle'] = 'Adaptable';
 
-$string['region-middle'] = 'Centro';
-$string['region-frnt-footer'] = 'Pie';
-$string['region-side-post'] = 'Derecha';
-$string['region-side-pre'] = 'Izquierda';
-$string['frnt-footer'] = 'Los bloques situados en esta zona solo son visibles para los administradores.';
+$string['region-middle'] = 'Centre';
+$string['region-frnt-footer'] = 'Peu';
+$string['region-side-post'] = 'Dreta';
+$string['region-side-pre'] = 'Esquerra';
+$string['frnt-footer'] = 'Els blocs situas a aquesta zona, només són visibles pels administradors.';
 
 $string['region-frnt-market-a'] = 'Marketing-a';
 $string['region-frnt-market-b'] = 'Marketing-b';
