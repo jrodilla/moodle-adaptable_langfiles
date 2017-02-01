@@ -249,27 +249,27 @@ $string['sliderstyle2'] = 'Diapositives estil 2';
 
 
 // Regiones para Bloques ***************************************************.
-$string['blocklayoutbuilder'] = 'Creador de regiones para bloques';
-$string['blocklayoutbuilderdesc'] = 'A continuación puedes crear tu propia distribución de regiones para los bloques de moodle en la página principal.
-Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>.
-Entonces podrás arrastras y soltar los bloques en las regiones creadas.';
+$string['blocklayoutbuilder'] = 'Creador de regions per a blocs';
+$string['blocklayoutbuilderdesc'] = 'A continuació pots crear la teva pròpia distribució de regions per als blocs de moodle a la pàgina principal.
+Per afegir contingut a aquestes regions necessitaràs <strong>Activar edició a la pàgina principal de Moodle</strong>.
+Llavors podràs arrossegar i deixar anar els blocs a les regions creades.';
 
-$string['blocklayoutlayoutcheck'] = 'Comprueba la distribución';
-$string['blocklayoutlayoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
-$string['blocklayoutlayoutcount1'] = 'Puedes crear un máximo de ';
-$string['blocklayoutlayoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
+$string['blocklayoutlayoutcheck'] = 'Comprova la distribució';
+$string['blocklayoutlayoutcheckdesc'] = 'Utilitza aquesta opció per veure la distribució creada i comprovar el nombre de blocs que has utilitzat.';
+$string['blocklayoutlayoutcount1'] = 'Pots crear un màxim de ';
+$string['blocklayoutlayoutcount2'] = ' regions per a blocs. Ara estàs utilitzant: ';
 
-$string['blocklayoutlayoutrow'] = 'Filas de regiones para bloques';
-$string['blocklayoutlayoutrowdesc'] = 'Añade / establece la distribución de filas de las regiones para bloques de la página principal.';
+$string['blocklayoutlayoutrow'] = 'Files de regiones per a blocs';
+$string['blocklayoutlayoutrowdesc'] = 'Afegeix / estableix la distribució de files de les regions per a blocs de la pàgina principal.';
 
-$string['frontpageblocksenabled'] = 'Activa las regiones para bloques en la página principal';
-$string['frontpageblocksenableddesc'] = 'Activa o desactiva las regiones para bloques de la página principal.
-Puedes arrastrar y soltar los bloques en las regiones creadas.';
+$string['frontpageblocksenabled'] = 'Activa les regions per a blocs a la pàgina principal';
+$string['frontpageblocksenableddesc'] = 'Activa o desactiva les regions per a blocs de la pàgina principal.
+Pots arrossegar i deixar anar els blocs a les regions creades.';
 
-$string['layoutcheck'] = 'Comprueba la distribución';
-$string['layoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
-$string['layoutcount1'] = 'Puedes crear un máximo de ';
-$string['layoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
+$string['layoutcheck'] = 'Comprova la distribució';
+$string['layoutcheckdesc'] = 'Utilitza aquesta opció per a veure la distribució creada i comprovar el nombre de blocs que has utilitzat.';
+$string['layoutcount1'] = 'Pots crear un màxim de ';
+$string['layoutcount2'] = ' regions per a blocs. Ara estàs utilitzant: ';
 
 
 // Bloques promocionales & Cuadros Informativos *************************************.
