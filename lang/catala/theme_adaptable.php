@@ -18,7 +18,7 @@
  * Version details
  *
  * @package    theme adaptable
- * @copyright  2017 Jordi Rodilla (Catlan translation)
+ * @copyright  2017 Jordi Rodilla (Catalan translation)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  *
