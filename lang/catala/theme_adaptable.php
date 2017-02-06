@@ -18,7 +18,7 @@
  * Version details
  *
  * @package    theme adaptable
- * @copyright  2015-2016 Fernando Acedo (3-bits.com)
+ * @copyright  2017 Jordi Rodilla (Catlan translation)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  *
