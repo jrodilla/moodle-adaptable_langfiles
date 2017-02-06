@@ -32,37 +32,37 @@ $string['choosereadme'] = '
 <p><img class="img-polaroid" src="adaptable/pix/screenshot.png" /></p>
 </div>
 <div class="well">
-<h2>Créditos</h2>
-<h3>Acerca de...</h3>
-<p>Adaptable es una plantilla para Moodle, de dos columnas y tipo responsive, altamente personalizable y basada en la popular plantilla BCU.</p>
-<p>Esta plantilla está bajo licencia GPL (GNU General Public License). Puedes encontrar la licencia completa en: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a></p>
-<p>Modifícala / Mejórala / Compártela</p>
+<h2>Crèdits</h2>
+<h3>Sobre...</h3>
+<p>Adaptable és una plantilla per a Moodle, de dues columnes i tipus responsive, altament personalitzable i agafant de referència la popular plantilla BCU.</p>
+<p>Aquesta plantilla està sota llicència GPL (GNU General Public License). Pots trobar la llicència complerta a: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a></p>
+<p>Modifica-la / Millora-la / Comprateix-la</p>
 <br>
-<p>Este tema ha sido creada por:<br>
+<p>Aquest tema ha estat creat per:<br>
 Jeremy Hopkins (Coventry University)<br>
 Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <br>
-<p>y otros desarrolladores, probadores, traductores y voluntarios (Ver <a href="adaptable/README.md" target="_blank">README.md</a>)</p>
+<p>i d´altres desenvolupadors, provadors, traductors i voluntaris (Veure <a href="adaptable/README.md" target="_blank">README.md</a>)</p>
 <br>
-<h3>Informar de errores</h3>
-<p>Puedes informar de errores encontrados en este tema (y por favor, sólo errores) a través de nuestro <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositorio en Bitbucket</a></p>
+<h3>Informar de les errades</h3>
+<p>Pots informar de les errades trobades en aquest tema (i, si us plau, només de les errades) mitjançant el nostre <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositori a Bitbucket</a></p>
 <br>
-<h3>Soporte Técnico</h3>
-<p>Puedes preguntar tus dudas y cuestiones a través de los foros oficiales en moodle.org:</p>
+<h3>Suport Tècnic</h3>
+<p>Pots preguntar els teus dubtes i qüestions mitjançant els fòrums oficials a moodle.org:</p>
 <ul>
-<li>Inglés: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
-<li>Español: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
+<li>Anglès: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
+<li>Espanyol: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
 <li>Català: <a href="https://moodle.org/mod/forum/discuss.php?d=340406" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340406</a>
 </ul>
 <br>
-<h3>Documentación</h3>
-<p>Próximamente</p>
+<h3>Documentació</h3>
+<p>Pròximament</p>
 <br>
 <h3>Demo</h3>
-<p>Puedes ver una demostración del sitio y descargar un archivo de instalación en <a href="https://3-bits.com/demo/adaptable">https://3-bits.com/demo/adaptable</a></p>
+<p>Pots veure una demostració del lloc i descarregar l´arxiu d´instal·lació a <a href="https://3-bits.com/demo/adaptable">https://3-bits.com/demo/adaptable</a></p>
 <br>
-<p>Traducción es-ES: Fernando Acedo (3-bits.com)</p>
-<p>Traducción es-MX: Germán Valero (UNAM)</p>
+<p>Traducció es-ES: Fernando Acedo (3-bits.com)</p>
+<p>Traducció es-MX: Germán Valero (UNAM)</p>
 <p>Traducció ca-ES: Fernando Acedo (3-bits.com)</p>
 </div>
 </div>';
@@ -70,11 +70,11 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 $string['pluginname'] = 'Adaptable';
 $string['configtitle'] = 'Adaptable';
 
-$string['region-middle'] = 'Centro';
-$string['region-frnt-footer'] = 'Pie';
-$string['region-side-post'] = 'Derecha';
-$string['region-side-pre'] = 'Izquierda';
-$string['frnt-footer'] = 'Los bloques situados en esta zona solo son visibles para los administradores.';
+$string['region-middle'] = 'Centre';
+$string['region-frnt-footer'] = 'Peu';
+$string['region-side-post'] = 'Dreta';
+$string['region-side-pre'] = 'Esquerra';
+$string['frnt-footer'] = 'Els blocs situas a aquesta zona, només són visibles pels administradors.';
 
 $string['region-frnt-market-a'] = 'Marketing-a';
 $string['region-frnt-market-b'] = 'Marketing-b';
@@ -99,985 +99,985 @@ $string['region-frnt-market-t'] = 'Marketing-t';
 
 
 // Settings page headings ******************************************.
-$string['settingsmaincolors'] = 'Colores principales';
-$string['settingsheadercolors'] = 'Colores cabecera';
-$string['settingsmenucolors'] = 'Colores menú';
-$string['settingsmobilemenucolors'] = 'Colores menú móvil';
-$string['settingsinfoboxcolors'] = 'Colores cuadro informativo principal';
-$string['settingssecondinfoboxcolors'] = 'Colores cuadro informativo secundario';
-$string['settingsmarketingcolors'] = 'Colores bloques moodle';
-$string['settingsoverlaycolors'] = 'Colores bloques cursos';
-$string['settingsnavbarcolors'] = 'Colores de la barra de navegación';
-$string['settingsalertbox'] = 'Alertas';
-$string['settingsbreadcrumbcolors'] = 'Colores de la ruta de navegación';
-$string['settingsmessagescolors'] = 'Colores de los mensajes emergentes';
-$string['settingsfootercolors'] = 'Colores del pie de página';
-$string['settingsfonts'] = 'Fuentes';
+$string['settingsmaincolors'] = 'Colors principals';
+$string['settingsheadercolors'] = 'Colors capçalera';
+$string['settingsmenucolors'] = 'Colors menú';
+$string['settingsmobilemenucolors'] = 'Colors menú mòbil';
+$string['settingsinfoboxcolors'] = 'Colors quadre informatiu principal';
+$string['settingssecondinfoboxcolors'] = 'Colors quadre informatiu secundari';
+$string['settingsmarketingcolors'] = 'Colors blocs moodle';
+$string['settingsoverlaycolors'] = 'Colors blocs cursos';
+$string['settingsnavbarcolors'] = 'Colors de la barra de navegació';
+$string['settingsalertbox'] = 'Alertes';
+$string['settingsbreadcrumbcolors'] = 'Colors de la ruta de navegació';
+$string['settingsmessagescolors'] = 'Colors dels missatges emergents';
+$string['settingsfootercolors'] = 'Colors del peu de pàgina';
+$string['settingsfonts'] = 'Fonts';
 $string['analyticssettings'] = 'Analítica Web';
 
 
 // Admin Menu Strings.
-$string['blocksettings'] = 'Bloques';
-$string['frontpagealertsettings'] = 'Alertas';
-$string['frontpageblockregionsettings'] = 'Creador de regiones para bloques';
-$string['frontpageblocksettings'] = 'Bloques promocionales';
-$string['frontpagetickersettings'] = 'Anuncios';
-$string['frontpageslidersettings'] = 'Presentación diapositivas';
+$string['blocksettings'] = 'Blocs';
+$string['frontpagealertsettings'] = 'Alertes';
+$string['frontpageblockregionsettings'] = 'Creador de regions per a blocs';
+$string['frontpageblocksettings'] = 'Blocs promocionals';
+$string['frontpagetickersettings'] = 'Anuncis';
+$string['frontpageslidersettings'] = 'Presentació diapositives';
 $string['frontpagecoursesettings'] = 'Cursos';
-$string['frontpagesettingsheading'] = 'Página Inicial';
-$string['frontpagedesc'] = 'Configurar la forma en que los cursos son mostrados en la página inicial.';
-$string['frontpagerenderer'] = 'Bloques de cursos';
-$string['frontpagerendererdesc'] = 'Configurar la forma en que los cursos son mostrados en la página inicial.';
-$string['frontpagerendereroption1'] = 'Bloques';
-$string['frontpagerendereroption2'] = 'Bloques sin incrustar';
-$string['frontpagerendereroption3'] = 'Por defecto';
-$string['frontpagerendereroption4'] = 'Tipo Coventry';
+$string['frontpagesettingsheading'] = 'Pàgina d´Inici';
+$string['frontpagedesc'] = 'Configurar la forma en que es mostren els cursos a la pàgina inicial.';
+$string['frontpagerenderer'] = 'Blocs de cursos';
+$string['frontpagerendererdesc'] = 'Configurar la forma en que que es mostren els cursos a la pàgina inicial.';
+$string['frontpagerendereroption1'] = 'Blocs';
+$string['frontpagerendereroption2'] = 'Blocs sense incrustar';
+$string['frontpagerendereroption3'] = 'Per defecte';
+$string['frontpagerendereroption4'] = 'Tipus Coventry';
 
 
 // Ticker **********************************************************.
-$string['tickersettings'] = 'Anuncios';
-$string['tickersettingsheading'] = 'Configura los anuncios de la página de inicio. Ver posición <a href="./adaptable/pix/layout.png" target="_blank"> aquí</a>';
-$string['tickerdesc'] = 'Aquí puedes configurar los anuncios de la página de inicio de tu moodle.
-    Solo debes introducir una lista tipo HTML e incluir enlaces.
-    Nota: No debes añadir etiquetas ul en la lista, solo li. Los editores de Moodle tienden a añadir etiquetas ul en las listas.
-    Si no funciona correctamente, cambia a modo HTML y comprueba que solo hay etiquetas li:
+$string['tickersettings'] = 'Anuncis';
+$string['tickersettingsheading'] = 'Configura els anuncis de la pàgina d´inici. Veure posició <a href="./adaptable/pix/layout.png" target="_blank"> aqui</a>';
+$string['tickerdesc'] = 'Aqui pots configurar els anuncis de la pàgina d´inici del teu moodle.
+    Només has d´introduir una llista tipus HTML i incloure enllaços.
+    Nota:No has d´afegir etiquetes ul a la llista, només li. Els editors de Moodel tenen tendència a afegir etiquetes ul a les llistes.
+    Si no funciona correctament, canvia a mode HTML i comprova que només hi ha etiquetes li:
     <pre>
-    &lt;li&gt;Anuncio 1.....&lt;/li&gt;
-    &lt;li&gt;Anuncio 2.....&lt;/li&gt;
+    &lt;li&gt;Anunci 1.....&lt;/li&gt;
+    &lt;li&gt;Anunci 2.....&lt;/li&gt;
     </pre>
     <br>
-    Puedes controlar diferentes secciones de anuncios dependiendo de un campo de perfil de usuario personalizado y así mostrar diferentes anuncios a diferentes perfiles.';
-$string['tickerdefault'] = 'No hay anuncios para mostrar';
+    Pots controlar diferents seccions d´anuncis depenent d´un camp de perfil d´usuari personalitzat i així mostrar diferents anuncis a diferents perfils.';
+$string['tickerdefault'] = 'No hi ha anuncis per mostrar';
 
-$string['enableticker'] = 'Activar los anuncios en la página de inicio';
-$string['enabletickerdesc'] = 'Marcar para activar los anuncios en la página de inicio.';
+$string['enableticker'] = 'Activar els anuncis a la pàgina d´inici';
+$string['enabletickerdesc'] = 'Marcar per activar els anuncis a la pàgina d´inici.';
 
-$string['enabletickermy'] = 'Activar los anuncios en Mi Inicio / Área Personal';
-$string['enabletickermydesc'] = 'Marcar para activar los anuncios en la página de Mi Inicio / Área Personal.';
+$string['enabletickermy'] = 'Activar els anuncis a El meu Inici / Àrea Personal';
+$string['enabletickermydesc'] = 'Marcar per activar els anuncis a la pàgina  El meu Inici / Àrea Personal.';
 
-$string['enabletickerc'] = 'Activar los anuncios en las páginas internas';
-$string['enabletickercdesc'] = 'Marcar para activar los anuncios en las páginas internas.';
+$string['enabletickerc'] = 'Activar els anuncis a les pàgines internes';
+$string['enabletickercdesc'] = 'Marcar per activar els anuncis a les pàgines internes.';
 
-$string['tickertext1'] = 'Texto Anuncios 1';
-$string['tickertext1desc'] = 'Añadir los anuncios en formato de lista HTML. Ver <a href="adaptable/README.md">README.md</a> para más información.';
+$string['tickertext1'] = 'Text Anuncis 1';
+$string['tickertext1desc'] = 'Afegir els anuncis en format de llista HTML. Veure <a href="adaptable/README.md">README.md</a> per a més informació.';
 
-$string['tickertext2'] = 'Texto Anuncios 2';
-$string['tickertext2desc'] = 'Añadir los anuncios en formato de lista HTML para un segundo tipo de usuario. Ver <a href="adaptable/README.md">README.md</a> para más información.';
+$string['tickertext2'] = 'Text Anuncis 2';
+$string['tickertext2desc'] = 'Afegir els anuncis en format de llista HTML per a un segon tipus d´usuari. Veure <a href="adaptable/README.md">README.md</a> per a més informació.';
 
-$string['tickertextprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
+$string['tickertextprofilefield'] = 'Nom del camp personalitzat del perfil Field Name=Value (opcional)';
+$string['tickertextprofilefielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertype=alumne';
 
-$string['newstickercount'] = 'Número de secciones en el tablón de anuncios';
-$string['newstickercountdesc'] = 'Define el número de múltiple secciones de anuncios basadas en campos de perfil de usuario personalizados.';
+$string['newstickercount'] = 'Nombre de seccions al tauler d´anuncis';
+$string['newstickercountdesc'] = 'Defineix el nombre de múltiples seccions d´anuncis basades en camps de perfil d´usuari personalitzat.';
 
-$string['ticker'] = 'Anuncios';
+$string['ticker'] = 'Anuncis';
 
 // Slideshow *******************************************************.
-$string['slideshowsettings'] = 'Presentación de diapositivas';
-$string['slideshowsettingsheading'] = 'Personaliza la presentación de diapositivas de la página de inicio';
-$string['slideshowdesc'] = 'Sube imágenes, añade enlaces y descripciones en las dispositivas de la presentación de la página de inicio.';
+$string['slideshowsettings'] = 'Presentació de diapositives';
+$string['slideshowsettingsheading'] = 'Personalitza la presentació de diapositives de la pàgina d´inici';
+$string['slideshowdesc'] = 'Puja imatges, afegeix enllaços i descripcions a les dispositives de la presentació de la pàgina d´inici.';
 
-$string['sliderimage'] = 'Imagen de la diapositiva';
-$string['sliderimagedesc'] = 'Añade una imagen a la diapositiva.';
+$string['sliderimage'] = 'Imatge de la diapositiva';
+$string['sliderimagedesc'] = 'Afegeix una imatge a la diapositiva.';
 
-$string['slidercaption'] = 'Texto de la diapositiva';
-$string['slidercaptiondesc'] = 'Añade un texto a la diapositiva.';
+$string['slidercaption'] = 'Text de la diapositiva';
+$string['slidercaptiondesc'] = 'Afegeix un text a la diapositiva.';
 
 $string['sliderurl'] = 'URL de la diapositiva';
-$string['sliderurldesc'] = 'Añade una URL a enlazar desde la diapositiva.';
+$string['sliderurldesc'] = 'Afegeix una URL a enllaçar des de la diapositiva.';
 
-$string['slidermargintop'] = 'Margen superior de la presentación de diapositivas';
-$string['slidermargintopdesc'] = 'Establece el margen superior de la presentación de diapositivas.';
+$string['slidermargintop'] = 'Marge superior de la presentació de diapositives';
+$string['slidermargintopdesc'] = 'Estableix el marge superior de la presentació de diapositives.';
 
-$string['slidermarginbottom'] = 'Margen inferior de la presentación de diapositivas';
-$string['slidermarginbottomdesc'] = 'Establece el margen inferior de la presentación de diapositivas.';
+$string['slidermarginbottom'] = 'Marge inferior de la presentació de diapositives';
+$string['slidermarginbottomdesc'] = 'Estableix el marge inferior de la presentació de diapositives.';
 
-$string['sliderenabled'] = 'Activar la presentación de diapositivas';
-$string['sliderenableddesc'] = 'Activa la presentación de diapositivas en la página principal.';
+$string['sliderenabled'] = 'Activar la presentació de diapositives';
+$string['sliderenableddesc'] = 'Activa la presentació de diapositives a la pàgina principal.';
 
-$string['sliderfullscreen'] = 'Presentación de diapositivas en ancho completo';
-$string['sliderfullscreendesc'] = 'Muestra la presentación de diapositivas en todo el ancho de la pantalla.';
+$string['sliderfullscreen'] = 'Presentació de diapositives a ample complert';
+$string['sliderfullscreendesc'] = 'Mostra la presentació de diapositives en tot l´ample de la pantalla.';
 
-$string['slideroption2'] = 'Seleccionar tipo de presentación de diapositivas';
-$string['slideroption2desc'] = 'Selecciona el tipo de presentación de diapositivas <strong>y pulsar Guardar</strong>para mostrar los colores del estilo seleccionado.';
+$string['slideroption2'] = 'Seleccionar tipus de presentació de diapositives';
+$string['slideroption2desc'] = 'Selecciona el tipus de presentació de diapositives <strong>i picar Desar</strong>per mostrar els colors de l´estil seleccionat.';
 
-$string['slideroption2snippet'] = '<p>Ejemplo HTML para el texto de las diapositivas:</p>
+$string['slideroption2snippet'] = '<p>Exemple HTML per al text de les diapositives:</p>
 <pre>
 &#x3C;div class=&#x22;span6 col-sm-6&#x22;&#x3E;
-&#x3C;h3&#x3E;Hecho a mano&#x3C;/h3&#x3E; &#x3C;h4&#x3E;pixels y código para la comunidad Moodle&#x3C;/h4&#x3E;
-&#x3C;a href=&#x22;#&#x22; class=&#x22;submit&#x22;&#x3E;Por favor, haz Adaptable uno de tus temas favoritos&#x3C;/a&#x3E;
+&#x3C;h3&#x3E;Fer a mà&#x3C;/h3&#x3E; &#x3C;h4&#x3E;pixels i codi per a la comuitat Moodle&#x3C;/h4&#x3E;
+&#x3C;a href=&#x22;#&#x22; class=&#x22;submit&#x22;&#x3E;Si us plau, fes d´Adaptable un dels teus temes favorits&#x3C;/a&#x3E;
 </pre>';
 
-$string['slidercount'] = 'Número de dispositivas';
-$string['slidercountdesc'] = 'Establece el número de diapositivas a mostrar en la página principal y <strong>haz clic en Guardar</strong> para introducir la información del resto de campos.';
+$string['slidercount'] = 'Nombre de diapositives';
+$string['slidercountdesc'] = 'Estableix el nombre de diapositives a mostrar a la pàgina principal i <strong>fes clic a Desar</strong> per inroduir la informació de la resta de camps.';
 
-$string['sliderh3color'] = 'Color del texto H3 del estilo de presentación 1';
-$string['sliderh3colordesc'] = 'Establece el color del texto de la etiqueta H3 cuando se utiliza el estilo de presentación 1.';
+$string['sliderh3color'] = 'Color del text H3 de l´estil de presentació 1';
+$string['sliderh3colordesc'] = 'Estableix el color del text de l´etiqueta H3 quan s´utilitza l´estil de presentació 1.';
 
-$string['sliderh4color'] = 'Color del texto H4 del estilo de presentación 1';
-$string['sliderh4colordesc'] = 'Establece el color del texto de la etiqueta H4 cuando se utiliza el estilo de presentación 1.';
+$string['sliderh4color'] = 'Color del text H4 de l´estil de presentació 1';
+$string['sliderh4colordesc'] = 'Estableix el color del text de l´etiqueta H4 quan s´utilitza l´estil de presentació 1.';
 
-$string['slidersubmitcolor'] = 'Color del texto del botón del estilo de presentación 1';
-$string['slidersubmitcolordesc'] = 'Establece el color del texto del botón cuando se utiliza el estilo de presentación 1.';
+$string['slidersubmitcolor'] = 'Color del text del botó de l´estil de presentació 1';
+$string['slidersubmitcolordesc'] = 'Estableix el color del text del botó quan s´utilitza l´estil de presentació 1.';
 
-$string['slidersubmitbgcolor'] = 'Color del botón del estilo de presentación 1';
-$string['slidersubmitbgcolordesc'] = 'Establece el color del botón cuando se utiliza el estilo de presentación 1.';
+$string['slidersubmitbgcolor'] = 'Color del botó de l´estil de presentació 1';
+$string['slidersubmitbgcolordesc'] = 'Estableix el color del botó quan s´utilitza l´estil de presentació 1.';
 
-$string['slider2h3color'] = 'Color del texto H3 del estilo de presentación 2';
-$string['slider2h3colordesc'] = 'Establece el color del texto de la etiqueta H3 cuando se utiliza el estilo de presentación 2.';
+$string['slider2h3color'] = 'Color del text H3 de l´estil de presentació 2';
+$string['slider2h3colordesc'] = 'Estableix el color del text de l´etiqueta H3 quan s´utilitza l´estil de presentació 2.';
 
-$string['slider2h4color'] = 'Color del texto H4 del estilo de presentación 2';
-$string['slider2h4colordesc'] = 'Establece el color del texto de la etiqueta H4 cuando se utiliza el estilo de presentación 2.';
+$string['slider2h4color'] = 'Color del text H4 de l´estil de presentació 2';
+$string['slider2h4colordesc'] = 'Estableix el color del text de l´etiqueta H4 quan s´utilitza l´estil de presentació 2.';
 
-$string['slider2h3bgcolor'] = 'Color de fondo H3 del estilo de presentación 2';
-$string['slider2h3bgcolordesc'] = 'Establece el color de fondo de la etiqueta H3 cuando se utiliza el estilo de presentación 2.';
+$string['slider2h3bgcolor'] = 'Color de fons H3 de l´estil de presentació 2';
+$string['slider2h3bgcolordesc'] = 'Estableix el color de fons de l´etiqueta  H3 quan s´utilitza l´estil de presentació 2.';
 
-$string['slider2h4bgcolor'] = 'Color de fondo H4 del estilo de presentación 2';
-$string['slider2h4bgcolordesc'] = 'Establece el color de fondo de la etiqueta H4 cuando se utiliza el estilo de presentación 2.';
+$string['slider2h4bgcolor'] = 'Color de fons H4 de l´estil de presentació 2';
+$string['slider2h4bgcolordesc'] = 'Estableix el color de fons de l´etiqueta H4 quan s´utilitza l´estil de presentació 2.';
 
-$string['slideroption2submitcolor'] = 'Color de fondo del enlace del estilo de presentación 2';
-$string['slideroption2submitcolordesc'] = 'Establece el color de fondo del texto del enlace cuando se utiliza el estilo de presentación 2.';
+$string['slideroption2submitcolor'] = 'Color de fons de l´enllaç de l´estil de presentació 2';
+$string['slideroption2submitcolordesc'] = 'Estableix el color de fons del text de l´enllaç quan s´utilitza l´estil de presentació 2.';
 
-$string['slideroption2color'] = 'Color de fondo de la presentación de diapositivas tipo 2';
-$string['slideroption2colordesc'] = 'Establece el color de fondo de la diapositiva cuando se utiliza el estilo de presentación 2.';
+$string['slideroption2color'] = 'Color de fons de la presentació de diapositives tipus 2';
+$string['slideroption2colordesc'] = 'Estableix el color de fons de la diapositiva quan s´utilitza l´estil de presentació 2.';
 
-$string['slideroption2a'] = 'Color de fondo de las flechas de la presentación de diapositivas tipo 2';
-$string['slideroption2adesc'] = 'Establece el color de fondo de las flechas de la presentación de diapositivas cuando se utiliza el estilo de presentación 2.';
+$string['slideroption2a'] = 'Color de fons de les fletxes de la presentació de diapositives tipus 2';
+$string['slideroption2adesc'] = 'Estableix el color de les fletxes de la presentació de diapositives quan s´utilitza l´estil de presentació 2.';
 
-$string['sliderstyle1'] = 'Diapositivas estilo 1';
-$string['sliderstyle2'] = 'Diapositivas estilo 2';
+$string['sliderstyle1'] = 'Diapositives estil 1';
+$string['sliderstyle2'] = 'Diapositives estil 2';
 
 
 // Regiones para Bloques ***************************************************.
-$string['blocklayoutbuilder'] = 'Creador de regiones para bloques';
-$string['blocklayoutbuilderdesc'] = 'A continuación puedes crear tu propia distribución de regiones para los bloques de moodle en la página principal.
-Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>.
-Entonces podrás arrastras y soltar los bloques en las regiones creadas.';
+$string['blocklayoutbuilder'] = 'Creador de regions per a blocs';
+$string['blocklayoutbuilderdesc'] = 'A continuació pots crear la teva pròpia distribució de regions per als blocs de moodle a la pàgina principal.
+Per afegir contingut a aquestes regions necessitaràs <strong>Activar edició a la pàgina principal de Moodle</strong>.
+Llavors podràs arrossegar i deixar anar els blocs a les regions creades.';
 
-$string['blocklayoutlayoutcheck'] = 'Comprueba la distribución';
-$string['blocklayoutlayoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
-$string['blocklayoutlayoutcount1'] = 'Puedes crear un máximo de ';
-$string['blocklayoutlayoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
+$string['blocklayoutlayoutcheck'] = 'Comprova la distribució';
+$string['blocklayoutlayoutcheckdesc'] = 'Utilitza aquesta opció per veure la distribució creada i comprovar el nombre de blocs que has utilitzat.';
+$string['blocklayoutlayoutcount1'] = 'Pots crear un màxim de ';
+$string['blocklayoutlayoutcount2'] = ' regions per a blocs. Ara estàs utilitzant: ';
 
-$string['blocklayoutlayoutrow'] = 'Filas de regiones para bloques';
-$string['blocklayoutlayoutrowdesc'] = 'Añade / establece la distribución de filas de las regiones para bloques de la página principal.';
+$string['blocklayoutlayoutrow'] = 'Files de regiones per a blocs';
+$string['blocklayoutlayoutrowdesc'] = 'Afegeix / estableix la distribució de files de les regions per a blocs de la pàgina principal.';
 
-$string['frontpageblocksenabled'] = 'Activa las regiones para bloques en la página principal';
-$string['frontpageblocksenableddesc'] = 'Activa o desactiva las regiones para bloques de la página principal.
-Puedes arrastrar y soltar los bloques en las regiones creadas.';
+$string['frontpageblocksenabled'] = 'Activa les regions per a blocs a la pàgina principal';
+$string['frontpageblocksenableddesc'] = 'Activa o desactiva les regions per a blocs de la pàgina principal.
+Pots arrossegar i deixar anar els blocs a les regions creades.';
 
-$string['layoutcheck'] = 'Comprueba la distribución';
-$string['layoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
-$string['layoutcount1'] = 'Puedes crear un máximo de ';
-$string['layoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
+$string['layoutcheck'] = 'Comprova la distribució';
+$string['layoutcheckdesc'] = 'Utilitza aquesta opció per a veure la distribució creada i comprovar el nombre de blocs que has utilitzat.';
+$string['layoutcount1'] = 'Pots crear un màxim de ';
+$string['layoutcount2'] = ' regions per a blocs. Ara estàs utilitzant: ';
 
 
 // Bloques promocionales & Cuadros Informativos *************************************.
-$string['marketingsettings'] = 'Bloques promocionales';
-$string['marketingsettingsheading'] = 'Personaliza los bloques promocionales que aparecen en la página de inicio. Ver la distribución <a href="./../theme/adaptable/pix/layout.png" target="_blank">aqui</a>';
-$string['marketingdesc'] = 'Dispones de dos cuadros informativos a los que puedes aplicar diferentes estilos. Además puedes activar el creador de regiones
-para bloques y decidir cuantos bloques quieres mostrar y su distribución en la página de inicio. Puedes ver la distribución de las diferentes regiones en el archivo  <a href="/adaptable/README.md" target="_blank">README.md</a>';
+$string['marketingsettings'] = 'Blocs promocionals';
+$string['marketingsettingsheading'] = 'Personalitza els blocs promocionals que apareixen a la pàgina d´inici. Veure la distribució <a href="./../theme/adaptable/pix/layout.png" target="_blank">aqui</a>';
+$string['marketingdesc'] = 'Disposes de dos quadre informatius als que pots aplicar diferents estils. A més pots activar el creador de regions
+per a blocs i decidir quants blocs vols mostrar i la seva distribució a la pàgina d´inici. Pots veure la distribució de les diferents regions a l´arxiu  <a href="/adaptable/README.md" target="_blank">README.md</a>';
 
-$string['marketingbuilderheading'] = 'Creador de regiones para bloques promocionales';
-$string['marketingbuilderdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques promocionales que has utilizado.';
+$string['marketingbuilderheading'] = 'Creador de regions per a blocs promocionals';
+$string['marketingbuilderdesc'] = 'Utilitza aquesta opció per veure la distribució creada i comprovar el nombre de bloqcs promocionals que has utilitzat.';
 
-$string['marketlayoutrow'] = 'Filas de regiones para bloques promocionales';
-$string['marketlayoutrowdesc'] = 'Añade / establece la distribución de filas de las regiones para bloques promocionales de la página principal.';
+$string['marketlayoutrow'] = 'Files de regions per a blocs promocionals';
+$string['marketlayoutrowdesc'] = 'Afegeix / estableix la distribució de files de les regions per a blocs promocionals de la pàgina principal.';
 
-$string['market'] = 'Bloque promocional ';
-$string['marketdesc'] = 'Añade el código HTML del bloque promocional (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos).';
+$string['market'] = 'Bloc promocional ';
+$string['marketdesc'] = 'Afegeix el codi HTML del bloc promocional (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples).';
 
-$string['layoutaddcontent'] = 'Añade contenido a los bloques promocionales:';
-$string['layoutaddcontentdesc1'] = 'Has configurado ';
-$string['layoutaddcontentdesc2'] = ' bloques promocionales. Si estás conforme con la distribución añade el contenido de los bloques promocionales.
-Si no estás conforme, usa el creador de regiones para bloques promocionales para realizar cambios<br />';
+$string['layoutaddcontent'] = 'Afegeix contingut als blocs promocionals:';
+$string['layoutaddcontentdesc1'] = 'Has configurat ';
+$string['layoutaddcontentdesc2'] = ' blocs promocionals. Si estàs d´acord amb la distribució afegeix el contingut dels blocs promocionals.
+Si no estàs d´acord, utilitza el creador de regions per a blocs promocionals per realitzar canvis<br />';
 
-$string['infobox'] = 'Cuadro informativo 1';
-$string['infoboxdesc'] = 'Añade el código HTML del cuadro informativo 1 (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['infobox'] = 'Quadre informatiu 1';
+$string['infoboxdesc'] = 'Afegeix el codi HTML del quadre informatiu 1 (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples)';
 
-$string['infoboxfullscreen'] = 'Cuadros informativos a ancho completo';
-$string['infoboxfullscreendesc'] = 'Marca está opción para mostrar los cuadros informativos a ancho completo de pantalla.';
+$string['infoboxfullscreen'] = 'Quadre informatius a amplada complerta';
+$string['infoboxfullscreendesc'] = 'Marca aquesta opció per mostrar els quadres informatius a l´amplada complerta de la pantalla.';
 
-$string['infobox2'] = 'Cuadro informativo 2';
-$string['infobox2desc'] = 'Añade el código HTML del cuadro informativo 2 (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['infobox2'] = 'Quadre informatiu 2';
+$string['infobox2desc'] = 'Afegeix el codi HTML del quadre informatiu 2 (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples)';
 
-$string['frontpagemarketenabled'] = 'Activar los bloques promocionales';
-$string['frontpagemarketenableddesc'] = 'Activar los bloques promocionales en la pagina de inicio.';
+$string['frontpagemarketenabled'] = 'Activar els blocs promocionals';
+$string['frontpagemarketenableddesc'] = 'Activar els blocs promocionals a la pàgina d´inici.';
 
-$string['frontpagemarketoption'] = 'Estilo de los bloques promocionales';
-$string['frontpagemarketoptiondesc'] = 'Establece el estilo de los bloques promocionales. Configura el color de esta opción en la página de colores.
-Nota: El estilo BCU está creado para mostrar la imagen en la pparte superior del bloque.';
+$string['frontpagemarketoption'] = 'Estil dels blocs promocionals';
+$string['frontpagemarketoptiondesc'] = 'Estableix l´estil dels blocs promocionals. Configura el color d´aquesta opció a la pàgina de colors.
+Nota: L´estil BCU està creat per mostrar la imatge a la part superior del bloc.';
 
-$string['bcustyle'] = 'Estilo BCU';
-$string['coventrystyle'] = 'Estilo Coventry';
-$string['nostyle'] = 'Sin estilo';
+$string['bcustyle'] = 'Estil BCU';
+$string['coventrystyle'] = 'Estil Coventry';
+$string['nostyle'] = 'Sense estil';
 
 
 // Footer **********************************************************.
-$string['footersettings'] = 'Pie de Página';
-$string['footersettingsheading'] = 'A continuación puedes crear tu propia distribución de regiones para el pie de página. Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>. Entonces podrás arrastras y soltar los bloques en las regiones creadas.';
+$string['footersettings'] = 'Peu de Pàgina';
+$string['footersettingsheading'] = 'A continuació pots crear la teva pròpia distribució de regions per al peu de pàgina. Per afegir contingut a aquestes regions necessitaràs <strong>Activar edició a la pàgina principal de Moodle</strong>. Llavors podràs arrossegar i deixar anar els blocs a les regions creades.';
 
-$string['footerdesc'] = 'Controla el contenido que se muestra en las secciones del pie de página.';
+$string['footerdesc'] = 'Controla el contingut que es mostra a les seccions del peu de pàgina.';
 
-$string['showfooterblocks'] = 'Mostrar bloques en el pie de página';
-$string['showfooterblocksdesc'] = 'Mostrar los bloques personalizados en el pie de página.';
+$string['showfooterblocks'] = 'Mostrar blocs al peu de pàgina';
+$string['showfooterblocksdesc'] = 'Mostrar els blocs personalitzats al peu de pàgina.';
 
-$string['footerblocksplacement'] = 'Páginas donde mostrar los bloques del pie de página';
-$string['footerblocksplacementdesc'] = 'Definir los lugares donde se deben mostrar los bloques del pie de página. Todo el sitio es la opción por defecto.';
-$string['footerblocksplacement1'] = 'Todo el sitio';
-$string['footerblocksplacement2'] = 'Página Inicial';
-$string['footerblocksplacement3'] = 'Nunca';
+$string['footerblocksplacement'] = 'Pàgines on mostrar els blocs del peu de pàgina';
+$string['footerblocksplacementdesc'] = 'Definir els llocs on s´han de mostrar els blocs del peu de pàgina. Tot el llos és la opció per defecte.';
+$string['footerblocksplacement1'] = 'Tot el lloc';
+$string['footerblocksplacement2'] = 'Pàgina Inicial';
+$string['footerblocksplacement3'] = 'Mai';
 
-$string['footerlayoutrow'] = 'Creador de regiones para los bloques del pie de página';
-$string['footerlayoutrowdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques del pie de página que has utilizado.';
+$string['footerlayoutrow'] = 'Creador de regions per als blocs del peu de pàágina';
+$string['footerlayoutrowdesc'] = 'Utilitza aquesta opció per veure la distribució creada i comprovar el nombre de blocs del peu de pàgina que has utilitzat.';
 
-$string['footnote'] = 'Texto del bloque del pie de página ';
-$string['footnotedesc'] = 'Añade el código HTML del bloque de pie de página (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['footnote'] = 'Text del bloc del peu de pàgina ';
+$string['footnotedesc'] = 'Afegeix el codi HTML del bloc de peu de pàgina (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples)';
 
-$string['footerheader'] = 'Titulo del bloque del pie de página ';
-$string['footerdesc'] = 'Añade el titulo del bloque del pie de página ';
+$string['footerheader'] = 'Títol del bloc del peu de pàgina ';
+$string['footerdesc'] = 'Afegeix el títol del bloc del peu de pàgina';
 
-$string['footercontent'] = 'Contenido del bloque del pie de página ';
-$string['footercontentdesc'] = 'Añade el código HTML del bloque del pie de página (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['footercontent'] = 'Contingut del bloc del peu de pàgina';
+$string['footercontentdesc'] = 'Afegeix el codi HTML del bloc de peu de pàgina (veure l´arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples)';
 
 
 // Moodle Docs link.
-$string['moodledocs'] = 'Mostrar enlace a Moodle Docs';
-$string['moodledocsdesc'] = 'Mostrar un enlace a Moodle Docs en el pie de página.';
+$string['moodledocs'] = 'Mostrar l´enllaç a Moodle Docs';
+$string['moodledocsdesc'] = 'Mostrar un enllaç a Moodle Docs al peu de pàgina.';
 
 
 // NavBar **********************************************************.
-$string['stickynavbar'] = 'Fijar la barra de navegación';
-$string['stickynavbardesc'] = 'Fijar la barra de navegación a la parte superior de la página.';
+$string['stickynavbar'] = 'Fixar la barra de navegació';
+$string['stickynavbardesc'] = 'Fixar la barra de navegació a la part superior de la pàgina.';
 
-$string['navbarcachetime'] = 'Caché de la barra de navegación';
-$string['navbarcachetimedesc'] = 'El tiempo, en minutos, que se guarda la barra de navegación.';
+$string['navbarcachetime'] = 'Caché de la barra de navegació';
+$string['navbarcachetimedesc'] = 'El temps, en minuts, que es conserva la barra de navegació.';
 
-$string['navbarmenusettings'] = 'Menú Navegación';
-$string['navbarmenusettingsheading'] = 'Personalizar el menú de la barra de navegación';
-$string['navbarmenusettingsdesc'] = 'Añadir menús en la barra de navegación.';
+$string['navbarmenusettings'] = 'Menú Navegació';
+$string['navbarmenusettingsheading'] = 'Personalitzar el menú de la barra de navegació';
+$string['navbarmenusettingsdesc'] = 'Afegir menús a la barra de navegació.';
 
-$string['navbarsettings'] = 'Barra de navegación';
-$string['navbarsettingsheading'] = 'Personalizar la barra de navegación';
-$string['navbardesc'] = 'Controlar los diferentes elementos a mostrar en la barra de navegación.';
+$string['navbarsettings'] = 'Barra de navegació';
+$string['navbarsettingsheading'] = 'Personalitzar la barra de navegació';
+$string['navbardesc'] = 'Controlar els diferents elements a mostrar a la barra de navegació.';
 
 if ($CFG->version > 2015051100) {
-    $string['enablemy'] = 'Área Personal';
-    $string['enablemydesc'] = 'Mostrar el enlace al Área Personal.';
+    $string['enablemy'] = 'Àrea Personal';
+    $string['enablemydesc'] = 'Mostrar l´enllaç a l´Àrea Personal.';
 } else {
-    $string['enablemy'] = 'Inicio';
-    $string['enablemydesc'] = 'Mostrar el enlace a Inicio';
+    $string['enablemy'] = 'Inici';
+    $string['enablemydesc'] = 'Mostrar l´enllaç a l´Inici';
 };
 
-$string['enableprofile'] = 'Perfil usuario';
-$string['enableprofiledesc'] = 'Mostrar el enlace del perfil de usuario.';
+$string['enableprofile'] = 'Perfil usuari';
+$string['enableprofiledesc'] = 'Mostrar l´enllaç del perfil d´usuari.';
 
 $string['enableeditprofile'] = 'Editar perfil';
-$string['enableeditprofiledesc'] = 'Mostrar el enlace para editar el perfil del usuario.';
+$string['enableeditprofiledesc'] = 'Mostrar l´enllaç per editar el perfil de l´usuari.';
 
-$string['enablebadges'] = 'Insignias';
-$string['enablebadgesdesc'] = 'Mostrar el enlace de las insignias del usuario.';
+$string['enablebadges'] = 'Insignies';
+$string['enablebadgesdesc'] = 'Mostrar l´enllaç de les insignias de l´usuari.';
 
-$string['enablegrades'] = 'Calificaciones';
-$string['enablegradesdesc'] = 'Mostrar el enlace de las calificaciones del usuario.';
+$string['enablegrades'] = 'Qualificacions';
+$string['enablegradesdesc'] = 'Mostrar l´enllaç de les qualificacions de l´usuari.';
 
-$string['enablecalendar'] = 'Calendario';
-$string['enablecalendardesc'] = 'Mostrar el enlace al calendario del usuario.';
+$string['enablecalendar'] = 'Calendari';
+$string['enablecalendardesc'] = 'Mostrar l´enllaç al calendari de l´usuari.';
 
-$string['enableprivatefiles'] = 'Archivos privados';
-$string['enableprivatefilesdesc'] = 'Mostrar el enlace a los archivos privados del usuario.';
+$string['enableprivatefiles'] = 'Arxius privats';
+$string['enableprivatefilesdesc'] = 'Mostrar l´enllaç als arxius privats de l´usuari.';
 
-$string['enablesearchbox'] = 'Activar cuadro de búsqueda';
-$string['enablesearchboxdesc'] = 'Mostrar el cuadro de búsqueda en la parte superior de la pantalla.';
+$string['enablesearchbox'] = 'Activar quadre de cerca';
+$string['enablesearchboxdesc'] = 'Mostrar el quadre de cerca a la part superior de la pantalla.';
 
-$string['enablepref'] = 'Preferencias';
-$string['enableprefdesc'] = 'Mostrar el enlace a las preferencias del usuario.';
+$string['enablepref'] = 'Preferències';
+$string['enableprefdesc'] = 'Mostrar l´enllaç a les preferències de l´usuari.';
 
-$string['enablenote'] = 'Notificaciones';
-$string['enablenotedesc'] = 'Mostrar el enlace página de notificaciones.';
+$string['enablenote'] = 'Notificacions';
+$string['enablenotedesc'] = 'Mostrar l´enllaç pàgina de notificacions.';
 
-$string['enableblog'] = 'Blogs del usuario';
-$string['enableblogdesc'] = 'Mostrar el enlace a los blogs del usuario.';
+$string['enableblog'] = 'Blocs de l´usuari';
+$string['enableblogdesc'] = 'Mostrar l´enllaç als blocs de l´usuari.';
 
-$string['enableposts'] = 'Mis entradas';
-$string['enablepostsdesc'] = 'Mostrar el enlace a las entradas en los foros realizadas por el usuario.';
+$string['enableposts'] = 'Les meves entrades';
+$string['enablepostsdesc'] = 'Mostrar l´enllaç a les entrades als fòrums realitzats per l´usuari.';
 
-$string['enablefeed'] = 'Mis opiniones';
-$string['enablefeeddesc'] = 'Mostrar el enlace a la página "Opiniones" - <i>Nota: esta opción requiere el <a href="https://moodle.org/plugins/report_myfeedback" target="blank">plugin My Feedback</a> instalado';
+$string['enablefeed'] = 'Les meves opinions';
+$string['enablefeeddesc'] = 'Mostrar l´enllaç a la pàgina "Opinions" - <i>Nota: aquesta opció requereix el <a href="https://moodle.org/plugins/report_myfeedback" target="blank">plugin My Feedback</a> instal·lat';
 
-$string['myblogs'] = 'Mis Blogs';
+$string['myblogs'] = 'Els meus Blocs';
 
-$string['noenrolments'] = 'No hay matriculaciones.';
+$string['noenrolments'] = 'No hi ha matriculacions.';
 
-$string['enablemyhomedesc'] = 'Mostrar un enlace a {$a}';
-$string['enableeventsdesc'] = 'Mostrar un enlace al calendario';
-$string['enablemysitesdesc'] = 'Mostrar los cursos del usuario';
-$string['enablethiscoursedesc'] = 'Mostrar las actividades del curso actual';
+$string['enablemyhomedesc'] = 'Mostrar un enllaç a {$a}';
+$string['enableeventsdesc'] = 'Mostrar un enllaç al calendari';
+$string['enablemysitesdesc'] = 'Mostrar els cursos de l´usuari';
+$string['enablethiscoursedesc'] = 'Mostrar les activitats del curs actual';
 
-$string['mysitessortoverride'] = 'Activar el orden personalizado de "Mis Cursos"';
-$string['mysitessortoverridedesc'] = 'Usa campos personalizados o textos (año, edad, ...) para colapsar los cursos en un desplegable.';
-$string['mysitessortoverridefield'] = 'Campo personalizado o texto para filtrar "Mis Cursos"';
-$string['mysitessortoverridefielddesc'] = 'Lista con delimitación por comas de los campos o textos a comprobar en el nombre corto de curso.';
+$string['mysitessortoverride'] = 'Activar l´ordre personalitzat de "Els Meus Cursos"';
+$string['mysitessortoverridedesc'] = 'Utilitza camps personalitzats o textos (any, edat, ...) per colapsar els cursos en un desplegable.';
+$string['mysitessortoverridefield'] = 'Camp personalitzat o text per filtrar "Els Meus Cursos"';
+$string['mysitessortoverridefielddesc'] = 'Llista amb delimitació per comes dels camps o textos a comprovar al nom curt del curs.';
 
-$string['mysitessortoverrideoff'] = 'Mostrar lista de cursos.';
-$string['mysitessortoverridestrings'] = 'Muestra todos los cursos en los que está matriculado el alumno en una lista. El resto son mostrados en un submenú.';
-$string['mysitessortoverrideprofilefields'] = 'Muestra los cursos coincidentes con un campo personalizado en una lista. El resto son mostrados en un submenú.';
-$string['mysitessortoverrideprofilefieldscohort'] = 'Muestra los cursos coincidentes con un campo de perfil y los cohortes en primer lugar. El resto son mostrados en un submenú.';
+$string['mysitessortoverrideoff'] = 'Mostrar llista de cursos.';
+$string['mysitessortoverridestrings'] = 'Mostra una llista amb tots els cursos als que està matriculat l´alumne. La resta són mostrats  a un submenú.';
+$string['mysitessortoverrideprofilefields'] = 'Mostra una llista amb els cursos coincidents com a camp personalitzat. La resta són mostrats  a un submenú.';
+$string['mysitessortoverrideprofilefieldscohort'] = 'Mostra els cursos coincidents amb un camp de perfil i els cohorts en primer lloc. La resta són mostrats  a un submenú.';
 
-$string['mysitesmaxlength'] = 'Longitud máxima del título del curso en "Mis Cursos"';
-$string['mysitesmaxlengthdesc'] = 'Ajusta la longitud máxima del título del curso a mostrar en "Mis Cursos". La longitud dependerá del tamaño y de la fuente usada.';
+$string['mysitesmaxlength'] = 'Longitud màxima del títol del curs a "Els Meus Cursos"';
+$string['mysitesmaxlengthdesc'] = 'Ajusta la longitud màxima del títol del curs a mostrar a "Els Meus Cursos". La longitud dependrà de la mida i de la font utilitzada.';
 
-$string['usernavheading'] = 'Personalizar el menú de usuario';
-$string['usernavdesc'] = 'Permite personalizar los elementos que aparecen en el menú de usuario.';
-$string['enablehomedesc'] = 'Mostrar enlace a Inicio';
+$string['usernavheading'] = 'Personalitzar el menú d´usuari';
+$string['usernavdesc'] = 'Permet personatlizar els elements que apareixen al menú d´usuari.';
+$string['enablehomedesc'] = 'Mostrar enllaç a Inici';
 
 $string['enablehomeredirect'] = 'Activar redirect=0';
-$string['enablehomeredirectdesc'] = 'Activa la opción redirect=0 para redirigir a la página inicial del sitio. Está opción puede utilizarse en sitios que tienen el Área Personal como página inicial por defecto. Desactivada previene redirigir a los usuarios a la página inicial y ser redirigidos al Área Personal';
+$string['enablehomeredirectdesc'] = 'Activa la opció redirect=0 per a redirigir a la pàgina inicial del lloc. Aquesta opció pot utilitzar-se a llocs que tenen l´Àrea Personal com a pàgina per defecte. Desactivada preveu redigirir als usuarios a la pàgina inicial y són redirigits a l´Àrea Personal';
 
 
 // Colours *********************************************************.
-$string['colorsettings'] = 'Colores';
-$string['colorsettingsheading'] = 'Modifica los principales colores utilizados en la plantilla.';
-$string['colordesc'] = 'Puedes seleccionar los colores que desees para ser usados por la plantilla. Usa la notación HEX estándar. También puedes usar como valores <i>transparent</i> e <i>inherited.</i>';
-$string['linkcolor'] = 'Color enlace';
-$string['linkcolordesc'] = 'Establece el color de los enlaces.';
+$string['colorsettings'] = 'Colors';
+$string['colorsettingsheading'] = 'Modifica els colors principals utilitzats a la plantilla.';
+$string['colordesc'] = 'Pots seleccionar els colors que desitgis per ser utilitzats per la plantilla. Utilitza la notació HEX estàndard. Tabmé pots utilitzar com a valors <i>transparent</i> i <i>inherited.</i>';
+$string['linkcolor'] = 'Color enllaç';
+$string['linkcolordesc'] = 'Estableix el color dels enllaços.';
 
-$string['linkhover'] = 'Color sobre enlace';
-$string['linkhoverdesc'] = 'Establece el color cuando pasa el cursor sobre los enlaces.';
+$string['linkhover'] = 'Color sobre enllaç';
+$string['linkhoverdesc'] = 'Estableix el color quan passa el cursor sobre els enllaços.';
 
-$string['backcolor'] = 'Color de fondo';
-$string['backcolordesc'] = 'Establece el color de fondo de la plantilla.';
+$string['backcolor'] = 'Color de fons';
+$string['backcolordesc'] = 'Estableix el color de fons de la plantilla.';
 
-$string['regionmaincolor'] = 'Color de la región principal';
-$string['regionmaincolordesc'] = 'Establece el color de fondo de la región principal.';
+$string['regionmaincolor'] = 'Color de la regió principal';
+$string['regionmaincolordesc'] = 'Estableix el color de fons de la regió principal.';
 
 $string['maincolor'] = 'Color principal';
-$string['maincolordesc'] = 'Establece el color principal del sitio.';
+$string['maincolordesc'] = 'Estableix el color principal del lloc.';
 
-$string['footertextcolor'] = 'Color de texto del pie de página superior';
-$string['footertextcolordesc'] = 'Establece el color de texto en el pie de página superior.';
+$string['footertextcolor'] = 'Color de text del peu de pàgina superior';
+$string['footertextcolordesc'] = 'Estableix el color de text al peu de pàgina superior.';
 
-$string['footerbkcolor'] = 'Color de fondo del pie de página superior';
-$string['footerbkcolordesc'] = 'Establece el color de fondo del pie de página superior.';
+$string['footerbkcolor'] = 'Color de fons del peu de pàgina superior';
+$string['footerbkcolordesc'] = 'Estableix el color de fons del peu de pàgina superior.';
 
-$string['footertextcolor2'] = 'Color del texto del pie de página inferior';
-$string['footertextcolor2desc'] = 'Establece el color del texto del pie de página inferior.';
+$string['footertextcolor2'] = 'Color del text del peu de pàgina inferior';
+$string['footertextcolor2desc'] = 'Estableix el color del text del peu de pàgina inferior.';
 
-$string['footerlinkcolor'] = 'Color de los enlaces del pie de página';
-$string['footerlinkcolordesc'] = 'Establece el color de los enlaces del pie de página.';
+$string['footerlinkcolor'] = 'Color dels enllaços del peu de pàgina';
+$string['footerlinkcolordesc'] = 'Estableix el color dels enllaços del peu de pàgina.';
 
-$string['headerbkcolor'] = 'Color de fondo de la parte superior de la cabecera';
-$string['headerbkcolordesc'] = 'Establece el color de fondo de la parte superior de la cabecera.';
+$string['headerbkcolor'] = 'Color de fons de la part superior de la capçalera';
+$string['headerbkcolordesc'] = 'Estableix el color de fons de la part superior de la capçalera.';
 
-$string['msgbadgecolor'] = 'Color de fondo del marcador de mensajes.';
-$string['msgbadgecolordesc'] = 'Establece el color de fondo del marcador de mensajes en la cabecera (donde se muestra el número de mensajes no leidos)';
+$string['msgbadgecolor'] = 'Color de fons del marcador de missatges.';
+$string['msgbadgecolordesc'] = 'Estableix el color de fons del marcador de missatges de la capçalera (on es mostra el número de missatges no llegits)';
 
-$string['headerbkcolor2'] = 'Color de fondo de la parte inferior de la cabecera';
-$string['headerbkcolor2desc'] = 'Establece el color de fondo de la parte inferior de la cabecera.';
+$string['headerbkcolor2'] = 'Color de fons de la parts inferior de la capçalera';
+$string['headerbkcolor2desc'] = 'Estableix el color de fons de la part inferior de la capçalera.';
 
-$string['headertextcolor'] = 'Color de texto y enlaces de la parte superior de la cabecera';
-$string['headertextcolordesc'] = 'Establece el color de texto y enlaces de la parte superior de la cabecera.';
+$string['headertextcolor'] = 'Color de text i enllaços de la part superior de la capçalera';
+$string['headertextcolordesc'] = 'Estableix el color de text i enllaços de la part superior de la capçalera.';
 
-$string['headertextcolor2'] = 'Color del texto y enlaces de la parte inferior de la cabecera';
-$string['headertextcolor2desc'] = 'Establece el color de texto y enlaces de la parte inferior de la cabecera.';
+$string['headertextcolor2'] = 'Color del text i enllaços de la part inferior de la capçalera';
+$string['headertextcolor2desc'] = 'Estableix el color de text i enllaços de la part inferior de la capçalera.';
 
-$string['blockheadercolor'] = 'Color del texto de la cabecera de los bloques';
-$string['blockheadercolordesc'] = 'Establece el color del texto de la cabecera de los bloques.';
+$string['blockheadercolor'] = 'Color del text de la capçalera dels blocs';
+$string['blockheadercolordesc'] = 'Estableix el color del text de la capçalera dels blocs.';
 
-$string['blockbackgroundcolor'] = 'Color de fondo de los bloques';
-$string['blockbackgroundcolordesc'] = 'Establece el color de fondo de los bloques.';
+$string['blockbackgroundcolor'] = 'Color de fons dels blocs';
+$string['blockbackgroundcolordesc'] = 'Estableix el color de fons dels blocs.';
 
-$string['blockheaderbackgroundcolor'] = 'Color de fondo de los encabezados de los bloques';
-$string['blockheaderbackgroundcolordesc'] = 'Establece el color de fondo de los encabezados de los bloques.';
+$string['blockheaderbackgroundcolor'] = 'Color de fons dels encapçalaments dels blocs';
+$string['blockheaderbackgroundcolordesc'] = 'Estableix el color de fons dels encapçalaments dels blocs.';
 
-$string['blockbordercolor'] = 'Color del borde de los bloques';
-$string['blockbordercolordesc'] = 'Establece el color del borde de los bloques.';
+$string['blockbordercolor'] = 'Color de la bora dels blocs';
+$string['blockbordercolordesc'] = 'Estableix el color de la bora dels blocs.';
 
-$string['blocklinkcolor'] = 'Color de enlace de los bloques';
-$string['blocklinkcolordesc'] = 'Establece el color de los enlaces de los bloques.';
+$string['blocklinkcolor'] = 'Color d´enllaç dels blocs';
+$string['blocklinkcolordesc'] = 'Estableix el color dels enllaços dels blocs.';
 
-$string['blocklinkhovercolor'] = 'Color de los enlaces de los bloques';
-$string['blocklinkhovercolordesc'] = 'Establece el color hover de los enlaces de los bloques.';
+$string['blocklinkhovercolor'] = 'Color dels enllaços dels blocs';
+$string['blocklinkhovercolordesc'] = 'Estableix el color hover dels enllaços dels blocs.';
 
-$string['blockregionbackground'] = 'Color de fondo de las regiones para bloques';
-$string['blockregionbackgrounddesc'] = 'Establece el color de fondo del contenedor del constructor de bloques de la página principal.';
+$string['blockregionbackground'] = 'Color de fons de les regions per a blocs';
+$string['blockregionbackgrounddesc'] = 'Estableix el color de fons del contenidor del constructor de blocs de la pàgina principal.';
 
-$string['blockheaderbordertop'] = 'Grueso del borde superior de los bloques';
-$string['blockheaderbordertopdesc'] = 'Establece el grosor del borde superior de los bloques.';
+$string['blockheaderbordertop'] = 'Gruix de la bora superior dels blocs';
+$string['blockheaderbordertopdesc'] = 'Estableix el gruix de la bora superior dels blocs.';
 
-$string['blockheaderborderleft'] = 'Grueso del borde izquierdo de los bloques';
-$string['blockheaderborderleftdesc'] = 'Establece el grosor del borde izquierdo de los bloques.';
+$string['blockheaderborderleft'] = 'Gruix de la bora esquerra dels blocs';
+$string['blockheaderborderleftdesc'] = 'Estableix el gruix de la bora esquerra dels blocs.';
 
-$string['blockheaderborderright'] = 'Grueso del borde derecho de los bloques';
-$string['blockheaderborderrightdesc'] = 'Establece el grosor del borde derecho de los bloques.';
+$string['blockheaderborderright'] = 'Gruix de la bora dreta dels blocs';
+$string['blockheaderborderrightdesc'] = 'Estableix el gruix de la bora dreta dels blocs.';
 
-$string['blockheaderborderbottom'] = 'Grueso del borde inferior de los bloques';
-$string['blockheaderborderbottomdesc'] = 'Establece el grosor del borde inferior de los bloques.';
+$string['blockheaderborderbottom'] = 'Gruix de la bora inferior dels blocs';
+$string['blockheaderborderbottomdesc'] = 'Estableix el gruix de la bora inferior dels blocs.';
 
-$string['blockmainbordertop'] = 'Grueso del borde superior del bloque central';
-$string['blockmainbordertopdesc'] = 'Establece el grosor del borde superior del bloque central.';
+$string['blockmainbordertop'] = 'Gruix de la bora superior del bloc central';
+$string['blockmainbordertopdesc'] = 'Estableix el gruix de la bora superior del bloc central.';
 
-$string['blockmainborderleft'] = 'Grueso del borde izquierdo del bloque central';
-$string['blockmainborderleftdesc'] = 'Establece el grosor del borde izquierdo del bloque central.';
+$string['blockmainborderleft'] = 'Gruix de la bora esquerra del bloc central';
+$string['blockmainborderleftdesc'] = 'Estableix el gruix de la bora esquerra del bloc central.';
 
-$string['blockmainborderright'] = 'Grueso del borde derecho del bloque central';
-$string['blockmainborderrightdesc'] = 'Establece el grosor del borde derecho del bloque central.';
+$string['blockmainborderright'] = 'Gruix de la bora dreta del bloc central';
+$string['blockmainborderrightdesc'] = 'Estableix el gruix de la bora dreta del bloc central.';
 
-$string['blockmainborderbottom'] = 'Grueso del borde inferior del bloque central';
-$string['blockmainborderbottomdesc'] = 'Establece el grosor del borde inferior del bloque central.';
+$string['blockmainborderbottom'] = 'Gruix de la bora inferior del bloc central';
+$string['blockmainborderbottomdesc'] = 'Estableix el gruix de la bora inferior del bloc central.';
 
-$string['blockheaderbordertopstyle'] = 'Estilo del borde de los bloques';
-$string['blockheaderbordertopstyledesc'] = 'Establece el estilo del borde de los bloques laterales.';
+$string['blockheaderbordertopstile'] = 'Estil de la bora dels blocs';
+$string['blockheaderbordertopstiledesc'] = 'Estableix l´estil de la bora dels blocs laterals.';
 
-$string['blockmainbordertopstyle'] = 'Estilo del borde del bloque central';
-$string['blockmainbordertopstyledesc'] = 'Establece el estilo del borde de los bloques centrales.';
+$string['blockmainbordertopstile'] = 'Estilo de la bora del bloc central';
+$string['blockmainbordertopstiledesc'] = 'Estableix l´estil de la bora dels blocs centrals.';
 
-$string['blockheadertopradius'] = 'Radio de las esquinas superiores de los bloques laterales';
-$string['blockheadertopradiusdesc'] = 'Radio de las esquinas superiores de los bloques laterales. Valor más alto es igual a efecto redondeado.';
+$string['blockheadertopradius'] = 'Radi de les cantonades superiors dels blocs laterals';
+$string['blockheadertopradiusdesc'] = 'Radi de les cantonades superiors dels blocs laterals. Valor més alt és igual a efecte arrodonit.';
 
-$string['blockheaderbottomradius'] = 'Radio de las esquinas inferiores de los bloques laterales';
-$string['blockheaderbottomradiusdesc'] = 'Radio de las esquinas inferiores de los bloques laterales. Valor más alto es igual a efecto redondeado.';
+$string['blockheaderbottomradius'] = 'Radi de les cantonades inferiors dels blocs laterals';
+$string['blockheaderbottomradiusdesc'] = 'Radi de les cantonades inferiors dels blocs laterals. Valor més alt és igual a efecte arrodonit.';
 
-$string['blockmaintopradius'] = 'Radio de las esquinas superiores de los bloques centrales';
-$string['blockmaintopradiusdesc'] = 'Radio de las esquinas superiores de los bloques centrales. Valor más alto es igual a efecto redondeado.';
+$string['blockmaintopradius'] = 'Radi de les cantonades superiors dels blocs centrals';
+$string['blockmaintopradiusdesc'] = 'Radi de les cantonades superiors dels blocs centrals. Valor més alto és igual a efecte arrodonit.';
 
-$string['blockmainbottomradius'] = 'Radio de las esquinas inferiores de los bloques centrales';
-$string['blockmainbottomradiusdesc'] = 'Radio de las esquinas inferiores de los bloques centrales. Valor más alto es igual a efecto redondeado.';
+$string['blockmainbottomradius'] = 'Radi de les cantonades inferiors dels blocs centrals';
+$string['blockmainbottomradiusdesc'] = 'Radi de les cantonades inferiors dels blocs centrals. Valor més alto és igual a efecte arrodonit.';
 
-$string['marketblockbordercolor'] = 'Color del borde de los bloques promocionales';
-$string['marketblockbordercolordesc'] = 'Establece el color del borde de los bloques promocionales.';
+$string['marketblockbordercolor'] = 'Color de la bora dels blocs promocionals';
+$string['marketblockbordercolordesc'] = 'Estableix el color de la bora dels blocs promocionals.';
 
-$string['marketblocksbackgroundcolor'] = 'Color de fondo de la región de los bloques promocionales.';
-$string['marketblocksbackgroundcolordesc'] = 'Establece el color de fondo de la región de los bloques promocionales.';
+$string['marketblocksbackgroundcolor'] = 'Color de fons de la regió dels blocs promocionals.';
+$string['marketblocksbackgroundcolordesc'] = 'Estableix el color de fons de la regió dels blocs promocionals.';
 
-$string['sectionheadingcolor'] = 'Color del texto de la cabecera de sección';
-$string['sectionheadingcolordesc'] = 'Establece el color del texto de la cabecera del tema actual.';
+$string['sectionheadingcolor'] = 'Color del text de la capçalera de secció';
+$string['sectionheadingcolordesc'] = 'Estableix el color del text de la capçalera del tema actual.';
 
-$string['homebk'] = 'Imagen de fondo';
-$string['homebkdesc'] = 'Carga la imagen de fondo para la plantilla.';
+$string['homebk'] = 'Imatge de fons';
+$string['homebkdesc'] = 'Carrega la imatge de fons per a la plantilla.';
 
-$string['editonbk'] = 'Color de fondo de los botones de edición y personalización activados';
-$string['editonbkdesc'] = 'Establece el color de fondo de los botones de edición y personalización cuando están activados.';
+$string['editonbk'] = 'Color de fons dels botons d´edició i personalització activats';
+$string['editonbkdesc'] = 'Estableix el color de fons dels botons d´edició i personalització quan estan activats.';
 
-$string['editoffbk'] = 'Color de fondo de los botones de edición y personalización desactivados';
-$string['editoffbkdesc'] = 'Establece el color de fondo de los botones de edición y personalización cuando están desactivados.';
+$string['editoffbk'] = 'Color de fons dels botons d´edició i personalització desactivats';
+$string['editoffbkdesc'] = 'Estableix el color de fons dels botons d´edició i personalització quan estan desactivats.';
 
-$string['dividingline'] = 'Color de la línea divisoria de la cabecera';
-$string['dividinglinedesc'] = 'Establece el color de la línea divisoria de la cabecera. Usar el mismo color que la cabecera para eliminarla.';
+$string['dividingline'] = 'Color de la línia divisòria de la capçalera';
+$string['dividinglinedesc'] = 'Estableix el color de la línia divisòria de la capçalera. Utilitza el mateix color que la capçalera per eliminar-la.';
 
-$string['dividingline2'] = 'Color de la línea divisoria del pie de página';
-$string['dividingline2desc'] = 'Establece el color de la línea divisoria del pie de página. Usar el mismo color que el pie para eliminarla.';
+$string['dividingline2'] = 'Color de la línia divisòria del peu de pàgina';
+$string['dividingline2desc'] = 'Estableix el color de la línia divisòria del peu de pàgina. Utilitza el mateix color que el peu per eliminar-la.';
 
-$string['navbarborder'] = 'Color del borde inferior de la barra de navegación';
-$string['navbarborderdesc'] = 'Establece el color del borde inferior de la barra de navegación.';
+$string['navbarborder'] = 'Color de la bora inferior de la barra de navegació';
+$string['navbarborderdesc'] = 'Estableix el color de la bora inferior de la barra de navegació.';
 
-$string['navbarhover'] = 'Color Hover de la barra de navegación';
-$string['navbarhoverdesc'] = 'Establece el color de fondo al pasar el cursos sobre los items del menú de la barra de navegación.';
+$string['navbarhover'] = 'Color Hover de la barra de navegació';
+$string['navbarhoverdesc'] = 'Estableix el color de fons al passar el cursor sobre els ítems del menú de la barra de navegació.';
 
-$string['breadcrumb'] = 'Color de fondo de la guía de exploración';
-$string['breadcrumbdesc'] = 'Establece el color de fondo de la guía de exploración.';
+$string['breadcrumb'] = 'Color de fons de la guia d´exploració';
+$string['breadcrumbdesc'] = 'Estableix el color de fons de la guia d´exploració.';
 
-$string['breadcrumbtextcolor'] = 'Color de texto de la guía de exploración';
-$string['breadcrumbtextcolordesc'] = 'Establece el color de texto de la guía de exploración.';
+$string['breadcrumbtextcolor'] = 'Color de text de la guia d´exploració';
+$string['breadcrumbtextcolordesc'] = 'Estableix el color de text de la guia d´exploració.';
 
-$string['activebreadcrumb'] = 'Color de fondo de la guía de exploración activa';
-$string['activebreadcrumbdesc'] = 'Establece el color de fondo de la guía de exploración activa.';
+$string['activebreadcrumb'] = 'Color de fons de la guia d´exploració activa';
+$string['activebreadcrumbdesc'] = 'Estableix el color de fons de la guia d´exploració activa.';
 
-$string['messagepopupbackground'] = 'Color de fondo de los mensajes emergentes';
-$string['messagepopupbackgrounddesc'] = 'Establece el color de fondo de la cabecera de los mensajes emergentes.';
+$string['messagepopupbackground'] = 'Color de fons dels missatges emergents';
+$string['messagepopupbackgrounddesc'] = 'Estableix el color de fons de la capçalera dels missatges emergents.';
 
-$string['messagepopupcolor'] = 'Color de texto de los mensajes emergentes';
-$string['messagepopupcolordesc'] = ' Establece el color de texto de la cabecera de los mensajes emergentes.';
+$string['messagepopupcolor'] = 'Color de text dels missatges emergents';
+$string['messagepopupcolordesc'] = ' Estableix el color de text de la capçalera dels missatges emergents.';
 
-$string['menubkcolor'] = 'Color de fondo del menú principal';
-$string['menubkcolordesc'] = 'Establece el color de fondo del menú principal.';
+$string['menubkcolor'] = 'Color de fons del menú principal';
+$string['menubkcolordesc'] = 'Estableix el color de fons del menú principal.';
 
-$string['menubordercolor'] = 'Color de la línea divisoria de la barra de navegación';
-$string['menubordercolordesc'] = 'Establece el color de la linea divisoria de la barra de navegación.';
+$string['menubordercolor'] = 'Color de la línia divisòria de la barra de navegació';
+$string['menubordercolordesc'] = 'Estableix el color de la línia divisòria de la barra de navegació.';
 
-$string['menufontcolor'] = 'Color de texto del menú principal';
-$string['menufontcolordesc'] = 'Establece el color del texto del menú principal.';
+$string['menufontcolor'] = 'Color de text del menú principal';
+$string['menufontcolordesc'] = 'Estableix el color del text del menú principal.';
 
-$string['menuhovercolor'] = 'Color de fondo sobre el menú principal';
-$string['menuhovercolordesc'] = 'Establece el color de fondo del menú principal cuando pasa el cursor sobre los enlaces.';
+$string['menuhovercolor'] = 'Color de fons sobre el menú principal';
+$string['menuhovercolordesc'] = 'Estableix el color de fons del menú principal quan passar el cursor sobre els enllaços.';
 
-$string['mobilemenubkcolor'] = 'Color de fondo del menú para móvil';
-$string['mobilemenubkcolordesc'] = 'Establece el color de fondo del menú principal en móviles (colapsado)';
+$string['mobilemenubkcolor'] = 'Color de fons del menú para mòbil';
+$string['mobilemenubkcolordesc'] = 'Estableix el color de fons del menú principal en mòbils (col·lapsat)';
 
-$string['mobilemenufontcolor'] = 'Color del texto del menú para móvil';
-$string['mobilemenufontcolordesc'] = 'Establece el color de texto del menú principal en móviles (colapsado)';
+$string['mobilemenufontcolor'] = 'Color del text del menú para mòbil';
+$string['mobilemenufontcolordesc'] = 'Estableix el color de text del menú principal en mòbils (col·lapsat)';
 
-$string['selectiontext'] = 'Color del texto seleccionado';
-$string['selectiontextdesc'] = 'Establece el color del texto seleccionado en pantalla.';
+$string['selectiontext'] = 'Color del text seleccionat';
+$string['selectiontextdesc'] = 'Estableix el color del text seleccionat a la pantalla.';
 
-$string['selectionbackground'] = 'Color de fondo del texto seleccionado';
-$string['selectionbackgrounddesc'] = 'Establece el color de fondo del texto seleccionado en pantalla.';
+$string['selectionbackground'] = 'Color de fons del text seleccionat';
+$string['selectionbackgrounddesc'] = 'Estableix el color de fons del text seleccionat a la pantalla.';
 
 
 // Course *********************************************************.
-$string['coursesettings'] = 'Secciones del curso';
-$string['coursesettingsheading'] = 'Configuración de las secciones del curso.';
-$string['coursedesc'] = 'Configura las opciones de las secciones de los cursos como el título, color de fondo y bordes.';
+$string['coursesettings'] = 'Seccions del curs';
+$string['coursesettingsheading'] = 'Configuració de les seccions del curs.';
+$string['coursedesc'] = 'Configura las opcions de les seccions dels cursos com el títol, color de fons i bores.';
 
-$string['coursesectionheaderbg'] = 'Color de fondo de la cabecera';
-$string['coursesectionheaderbgdesc'] = 'Establece el color de fondo de la cabecera de la sección del curso.';
+$string['coursesectionheaderbg'] = 'Color de fons de la capçalera';
+$string['coursesectionheaderbgdesc'] = 'Estableix el color de fons de la capçalera de la secció del curs.';
 
-$string['currentcolor'] = 'Color de realce de la sección actual';
-$string['currentcolordesc'] = 'Establece el color de realce de la sección actual.';
+$string['currentcolor'] = 'Color de realç de la secció actual';
+$string['currentcolordesc'] = 'Estableix el color de realç de la secció actual.';
 
-$string['coursesectionheaderborderstyle'] = 'Estilo del borde inferior de la cabecera';
-$string['coursesectionheaderborderstyledesc'] = 'Establece el estilo del borde inferior de la cabecera de la sección del curso.';
+$string['coursesectionheaderborderstile'] = 'Estil de la bora inferior de la capçalera';
+$string['coursesectionheaderborderstiledesc'] = 'Estableix l´estil de la bora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderbordercolor'] = 'Color del borde inferior de la cabecera';
-$string['coursesectionheaderbordercolordesc'] = 'Establece el color del borde inferior de la cabecera de la sección del curso.';
+$string['coursesectionheaderbordercolor'] = 'Color de la bora inferior de la capçalera';
+$string['coursesectionheaderbordercolordesc'] = 'Estableix el color de la bora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderborderwidth'] = 'Grueso del borde inferior de la cabecera';
-$string['coursesectionheaderborderwidthdesc'] = 'Establece el grueso del borde inferior de la cabecera de la sección del curso.';
+$string['coursesectionheaderborderwidth'] = 'Gruix de la bora inferior de la capçalera';
+$string['coursesectionheaderborderwidthdesc'] = 'Estableix el Gruix de la bora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderborderradiustop'] = 'Radio de las esquinas del borde superior de la cabecera';
-$string['coursesectionheaderborderradiustopdesc'] = 'Establece el radio de las esquinas del borde superior de la cabecera de la sección del curso.';
+$string['coursesectionheaderborderradiustop'] = 'Radi de les cantonades de la bora superior de la capçalera';
+$string['coursesectionheaderborderradiustopdesc'] = 'Estableix el radi de les cantonades de la bora superior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderborderradiusbottom'] = 'Radio de las esquinas del borde inferior de la cabecera';
-$string['coursesectionheaderborderradiusbottomdesc'] = 'Establece el radio de las esquinas del borde inferior de la cabecera de la sección del curso.';
+$string['coursesectionheaderborderradiusbottom'] = 'Radi de las cantonades de la bora inferior de la capçalera';
+$string['coursesectionheaderborderradiusbottomdesc'] = 'Estableix el radi de les cantonades de la bora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionborderstyle'] = 'Estilo del borde de la sección del curso';
-$string['coursesectionborderstyledesc'] = 'Establece el estilo del borde de la sección del curso.';
+$string['coursesectionborderstile'] = 'Estil de la bora de la secció del curs';
+$string['coursesectionborderstiledesc'] = 'Estableix l´estil de la bora de la secció del curs.';
 
-$string['coursesectionborderwidth'] = 'Grueso del borde de la sección';
-$string['coursesectionborderwidthdesc'] = 'Establece el grueso del borde de la sección del curso.';
+$string['coursesectionborderwidth'] = 'Gruix de la bora de la secció';
+$string['coursesectionborderwidthdesc'] = 'Estableix el gruix de la bora de la secció del curs.';
 
-$string['coursesectionbordercolor'] = 'Color del borde de la sección';
-$string['coursesectionbordercolordesc'] = 'Establece el color del borde de la sección del curso.';
+$string['coursesectionbordercolor'] = 'Color de la bora de la secció';
+$string['coursesectionbordercolordesc'] = 'Estableix el color de la bora de la secció del curs.';
 
-$string['coursesectionborderradius'] = 'Radio del borde de la sección';
-$string['coursesectionborderradiusdesc'] = 'Establece el radio del borde de las esquinas de la sección del curso.';
+$string['coursesectionborderradius'] = 'Radi de la bora de la secció';
+$string['coursesectionborderradiusdesc'] = 'Estableix el Radi de la bora de les cantonades de la secció del curs.';
 
 // Fonts ***********************************************************.
-$string['fontsettings'] = 'Fuentes';
-$string['fontsettingsheading'] = 'Establece las fuentes utilizadas por la plantilla.';
-$string['fontdesc'] = 'Selecciona la fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> para el texto, los encabezamientos y el título. Selecciona también el juego de caracteres a usar (latín está incluido por defecto) e introduce el valor correcto para el grueso de fuente utilizado o no se mostrará.';
+$string['fontsettings'] = 'Fonts';
+$string['fontsettingsheading'] = 'Estableix les fonts utilitzades per la plantilla.';
+$string['fontdesc'] = 'Selecciona la font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> per al text, els encapçalaments i el títol. Selecciona també el joc de caracters a utilitzar (llatí està inclòs per defecte) e introdueix el valor correcte per al gruix de les fonts utilitzat o no es mostrarà.';
 
-$string['fontname'] = 'Fuente principal';
-$string['fontnamedesc'] = 'Establece la fuente principal. Selecciona defecto o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+$string['fontname'] = 'Font principal';
+$string['fontnamedesc'] = 'Estableix la font principal. Selecciona defecte o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
-$string['fontsize'] = 'Tamaño de la fuente principal';
-$string['fontsizedesc'] = 'Selecciona el tamaño por defecto de la fuente principal (en porcentaje) usada en el sitio.';
+$string['fontsize'] = 'Mida de la font principal';
+$string['fontsizedesc'] = 'Selecciona la mida per defecte de la font principal (en percentatge) utilitzada al lloc.';
 
-$string['fontheadername'] = 'Fuente encabezamientos';
-$string['fontheadernamedesc'] = 'Establece la fuente de los encabezamientos utilizados en la plantilla. Selecciona default o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+$string['fontheadername'] = 'Font encapçalaments';
+$string['fontheadernamedesc'] = 'Estableix la font dels encapçalaments utilitzats a la plantilla. Selecciona default o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
-$string['fontcolor'] = 'Color de la fuente principal';
-$string['fontcolordesc'] = 'Establece el color de la fuente principal.';
+$string['fontcolor'] = 'Color de la font principal';
+$string['fontcolordesc'] = 'Estableix el color de la font principal.';
 
-$string['fontheadercolor'] = 'Color de la fuente de encabezamientos';
-$string['fontheadercolordesc'] = 'Establece el color de la fuente de los encabezamientos utilizados en la plantilla.';
+$string['fontheadercolor'] = 'Color de la font dels encapçalaments';
+$string['fontheadercolordesc'] = 'Estableix el color de la font dels encapçalaments utilitzats a la plantilla.';
 
-$string['fontweight'] = 'Grueso de la fuente principal';
-$string['fontweightdesc'] = 'Establece el grueso de la fuente principal. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
+$string['fontweight'] = 'Gruix de la font principal';
+$string['fontweightdesc'] = 'Estableix el Gruix de la font principal. Introduir un valor entre 100 i 900 depenent de la font utilitzada.';
 
-$string['fontheaderweight'] = 'Grueso de la fuente de encabezamientos';
-$string['fontheaderweightdesc'] = 'Establece el grueso de la fuente de los encabezamientos. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
+$string['fontheaderweight'] = 'Gruix de la font de encapçalaments';
+$string['fontheaderweightdesc'] = 'Estableix el Gruix de la font dels encapçalaments. Introduir un valor entre 100 i 900 depenent de la font utilitzada.';
 
-$string['fonttitlename'] = 'Fuente del título del sitio';
-$string['fonttitlenamedesc'] = 'Establece la fuente del título del sitio situado en la cabecera. Selecciona default o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+$string['fonttitlename'] = 'font del títol del lloc';
+$string['fonttitlenamedesc'] = 'Estableix la font del títol del lloc situat en la capçalera. Selecciona default o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
-$string['fonttitlecolor'] = 'Color de la fuente del título del sitio';
-$string['fonttitlecolordesc'] = 'Establece el color de la fuente del título del sitio situado en la cabecera.';
+$string['fonttitlecolor'] = 'Color de la font del títol del lloc';
+$string['fonttitlecolordesc'] = 'Estableix el color de la font del títol del lloc situat en la capçalera.';
 
-$string['fonttitleweight'] = 'Grueso de la fuente del título del sitio';
-$string['fonttitleweightdesc'] = 'Establece el grueso de la fuente del título del sitio. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
+$string['fonttitleweight'] = 'Gruix de la font del títol del lloc';
+$string['fonttitleweightdesc'] = 'Estableix el Gruix de la font del títol del lloc. Introduir un valor entre 100 i 900 depenent de la font utilitzada.';
 
-$string['fonttitlesize'] = 'Tamaño de la fuente del título del sitio';
-$string['fonttitlesizedesc'] = 'Tamaño de la fuente del título del sitio situado en la cabecera. Introducir un valor decimal, por ejemplo: 24px';
+$string['fonttitlesize'] = 'Mida de la font del títol del lloc';
+$string['fonttitlesizedesc'] = 'Mida de la font del títol del lloc situat a la capçalera. Introduir un valor decimal, per exemple: 24px';
 
-$string['fonttitlenamecourse'] = 'Fuente del título del curso';
-$string['fonttitlenamecoursedesc'] = 'Selecciona la fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> para el título del curso.';
+$string['fonttitlenamecourse'] = 'Font del títol del curs';
+$string['fonttitlenamecoursedesc'] = 'Selecciona la font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> per al títol del curs.';
 
-$string['fonttitlecolorcourse'] = 'Color de la fuente del título del curso';
-$string['fonttitlecolorcoursedesc'] = 'Establece el color de la fuente usada en el título del curso.';
+$string['fonttitlecolorcourse'] = 'Color de la font del títol del curs';
+$string['fonttitlecolorcoursedesc'] = 'Estableix el color de la font utilitzada al títol del curs.';
 
-$string['fonttitleweightcourse'] = 'Grueso de la fuente del título del curso';
-$string['fonttitleweightcoursedesc'] = 'Establece el grueso de la fuente usada en el título del curso. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
+$string['fonttitleweightcourse'] = 'Gruix de la font del títol del curs';
+$string['fonttitleweightcoursedesc'] = 'Estableix el gruix de la font utilitzada al títol del curs. Introduir un valor entre 100 i 900 depenent de la font utilitzada.';
 
-$string['fonttitlesizecourse'] = 'Tamaño de la fuente del título del curso';
-$string['fonttitlesizecoursedesc'] = 'Establece el tamaño de la fuente del título del curso. Introducir un valor decimal, por ejemplo: 24px';
+$string['fonttitlesizecourse'] = 'Mida de la font del títol del curs';
+$string['fonttitlesizecoursedesc'] = 'Estableix la mida de la font del títol del curs. Introduir un valor decimal, per ecemple: 24px';
 
-$string['fontsubset'] = 'Juego de caracteres de Google Fonts';
-$string['fontsubsetdesc'] = 'Seleccionar el juego de caracteres de Google Fonts a usar además del latín ya incluido por defecto. Se aplicará a toda las fuentes seleccionadas.';
+$string['fontsubset'] = 'Joc de caracters de Google Fonts';
+$string['fontsubsetdesc'] = 'Seleccionar el joc de caracters de Google Fonts a utilitzat a més a més del llatí ja inclòs per defecte. S´aplicarà a totes les fonts seleccionades.';
 
-$string['menufontsize'] = 'Tamaño de la fuente de la barra de navegación';
-$string['menufontsizedesc'] = 'Establece el tamaño de la fuente utilizada en la barra de navegación.';
+$string['menufontsize'] = 'Mida de la font de la barra de navegació';
+$string['menufontsizedesc'] = 'Estableix la mida de la font utilitzada a la barra de navegació.';
 
-$string['menufontpadding'] = 'Separación entre los ítems de la barra de navegación';
-$string['menufontpaddingdesc'] = 'Establece la separación entre los ítems de la barra de navegación.';
+$string['menufontpadding'] = 'Separació entre els ítems de la barra de navegació';
+$string['menufontpaddingdesc'] = 'Estableix la separació entre els ítems de la barra de navegació.';
 
-$string['fontblockheadercolor'] = 'Color de la fuente de la cabecera de los bloques';
-$string['fontblockheadercolordesc'] = 'Establece el color de la fuente de la cabecera de los bloques de moodle.';
+$string['fontblockheadercolor'] = 'Color de la font de la capçalera dels blocs';
+$string['fontblockheadercolordesc'] = 'Estableix el color de la font de la capçalera dels blocs de moodle.';
 
-$string['fontblockheaderweight'] = 'Grueso de la fuente de la cabecera de los bloques de moodle';
-$string['fontblockheaderweightdesc'] = 'Establece grueso de la fuente de la cabecera de los bloques de moodle. Seleccionar un valor entre 100 y 900 dependiendo de la fuente seleccionada.';
+$string['fontblockheaderweight'] = 'Gruix de la font de la capçalera dels blocs de moodle';
+$string['fontblockheaderweightdesc'] = 'Estableix el gruix de la font de la capçalera dels blocs de moodle. Seleccionar un valor entre 100 i 900 depenent de la font seleccionada.';
 
-$string['fontblockheadersize'] = 'Tamaño de la fuente de la cabecera de la cabecera de los bloques de moodle';
-$string['fontblockheadersizedesc'] = 'Establece el tamaño de la fuente utilizada en la cabecera de los bloques de moodle. Seleccionar un valor de la lista.';
+$string['fontblockheadersize'] = 'Mida de la font de la capçalera dels blocs de moodle';
+$string['fontblockheadersizedesc'] = 'Estableix la mida de la font utilitzada a la capçalera dels blocs de moodle. Seleccionar un valor de la llista.';
 
 // Buttons *********************************************************.
-$string['buttonsettings'] = 'Botones';
-$string['buttonsettingsheading'] = 'Personalizar los botones.';
-$string['buttondesc'] = 'personaliza a forma y colores de los botones utilizados en la plantilla.';
+$string['buttonsettings'] = 'Botons';
+$string['buttonsettingsheading'] = 'Personalitzar els botons.';
+$string['buttondesc'] = 'personalitza la forma i colors dels botons utilitzats a la plantilla.';
 
-$string['buttonradius'] = 'Radio de las esquinas';
-$string['buttonradiusdesc'] = '0 = esquinas cuadradas. Un valor más alto es igual a esquinas más redondeadas.';
+$string['buttonradius'] = 'Radi de les cantonades';
+$string['buttonradiusdesc'] = '0 = cantonades quadrades. Un valor més alto és igual a cantonades més arrodonides .';
 
-$string['buttoncolor'] = 'Colores de los botones';
-$string['buttoncolordesc'] = 'El color de los botones principales.';
+$string['buttoncolor'] = 'Colors dels botons';
+$string['buttoncolordesc'] = 'El color dels botons principals.';
 
-$string['buttonhovercolor'] = 'Color Hover de los botones';
-$string['buttonhovercolordesc'] = 'Color del botón al pasar el cursor por encima.';
+$string['buttonhovercolor'] = 'Color Hover dels botons';
+$string['buttonhovercolordesc'] = 'Color del botó al passar el cursor por sobre.';
 
-$string['buttontextcolor'] = 'Color del texto de los botones';
-$string['buttontextcolordesc'] = 'Color del texto de los botones.';
+$string['buttontextcolor'] = 'Color del text dels botons';
+$string['buttontextcolordesc'] = 'Color del text dels botons.';
 
-$string['editfont'] = 'Color del texto de los botones de <i>Edición</i> y <i>Personalizar esta página</i>';
-$string['editfontdesc'] = 'establece el color del texto de los botones de <i>Edición</i> y <i>Personalizar esta página</i>';
+$string['editfont'] = 'Color del text dels botons d´ <i>Edició</i> i <i>Personalitzar aquesta pàgina</i>';
+$string['editfontdesc'] = 'Estableix el color del text dels botons d´ <i>Edició</i> i <i>Personalitzar aquesta pàgina</i>';
 
-$string['editverticalpadding'] = 'Espaciado vertical de los botones de edición';
-$string['edithorizontalpadding'] = 'Espaciado horizontal de los botones de edición';
-$string['edittopmargin'] = 'Margen superior de los botones de edición';
+$string['editverticalpadding'] = 'Espaiat vertical dels botons d´edició';
+$string['edithorizontalpadding'] = 'Espaiat horitzontal dels botons d´edició';
+$string['edittopmargin'] = 'Marge superior dels botons d´edició';
 
 
 // Boton Login.
 $string['logintextbutton'] = 'Entrar';
 
-$string['buttonlogincolor'] = 'Color del botón Entrar';
-$string['buttonlogincolordesc'] = 'Color del botón Entrar.';
+$string['buttonlogincolor'] = 'Color del botó Entrar';
+$string['buttonlogincolordesc'] = 'Color del botó Entrar.';
 
-$string['buttonloginhovercolor'] = 'Color Hover del botón Entrar';
-$string['buttonloginhovercolordesc'] = 'Color del botón Entrar al pasar el cursos por encima.';
+$string['buttonloginhovercolor'] = 'Color Hover del botó Entrar';
+$string['buttonloginhovercolordesc'] = 'Color del botó Entrar al passar el cursor per sobre.';
 
-$string['buttonlogintextcolor'] = 'Color del texto del botón Entrar';
-$string['buttonlogintextcolordesc'] = 'Color del texto del botón Entrar.';
+$string['buttonlogintextcolor'] = 'Color del text del botó Entrar';
+$string['buttonlogintextcolordesc'] = 'Color del text del botó Entrar.';
 
-$string['buttonloginpadding'] = 'Separación del texto del botón Entrar';
-$string['buttonloginpaddingdesc'] = 'Separación alrededor del texto del botón Entrar. Número más alto = Botón más grande.';
+$string['buttonloginpadding'] = 'Separació del text del botó Entrar';
+$string['buttonloginpaddingdesc'] = 'Separació al voltant del text del botó Entrar. Número més alt = Botó més gran.';
 
-$string['buttonloginheight'] = 'Altura del botón Entrar';
-$string['buttonloginheightdesc'] = 'Altura del botón Entrar. Solo si se utiliza el formulario de entrada en la cabecera.';
+$string['buttonloginheight'] = 'Alçada del botó Entrar';
+$string['buttonloginheightdesc'] = 'Alçada del botó Entrar. Només si s´utilitza el formulari d´entrada a la capçalera.';
 
-$string['buttonloginmargintop'] = 'Margen superior del botón Entrar';
-$string['buttonloginmargintopdesc'] = 'Permite posicionar el botón Entrar si se han cambiado los valores indicados anteriormente.';
+$string['buttonloginmargintop'] = 'Marge superior del botó Entrar';
+$string['buttonloginmargintopdesc'] = 'Permet posicionar el botó Entrar si s´han canviat els valors indicats anteriorment.';
 
-$string['loginplaceholder'] = 'Usuario';
-$string['passwordplaceholder'] = 'Contraseña';
+$string['loginplaceholder'] = 'Usuari';
+$string['passwordplaceholder'] = 'Contrasenya';
 
 
 // Header ***********************************************************.
-$string['headersettings'] = 'Cabecera';
-$string['headersettingsheading'] = 'Personalización de la cabecera.';
-$string['headerdesc'] = 'Mostrar Alertas para avisar a los usuarios, controlar la barra de navegación, mostrar el título del sitio o el logo son algunas de las opciones de la cabecera.';
+$string['headersettings'] = 'Capçalera';
+$string['headersettingsheading'] = 'Personalització de la capçalera.';
+$string['headerdesc'] = 'Mostrar alertes per avisar als usuaris, controlar la barra de navegació, mostrar el títol del lloc o el logotip, són algunes de les opcions de la capçalera.';
 
 
-$string['enableheading'] = 'Mostrar nombre del curso';
-$string['enableheadingdesc'] = 'Establece el modo de visualización del título del curso en la cabecera.';
+$string['enableheading'] = 'Mostrar nom del curs';
+$string['enableheadingdesc'] = 'Estableix el mode de visualització del títol del curs a la capçalera.';
 
-$string['sitetitlecoursesdisabled'] = 'Desactivado - muestra solo el título del curso en las páginas del curso';
-$string['sitetitlecoursesenabled'] = 'Activado - muestra el nombre del sitio y el título del cursos en las páginas del curso';
+$string['sitetitlecoursesdisabled'] = 'Desactivat - mostra només el títol del curs a les pàgines del curs';
+$string['sitetitlecoursesenabled'] = 'Activat - mostra el nom del lloc i el títol dels cursos a les pàgines del curs';
 
-$string['sitetitlepaddingtop'] = 'Separación superior del nombre del sitio';
-$string['sitetitlepaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, de la parte superior del nombre del sitio.';
+$string['sitetitlepaddingtop'] = 'Separació superior del nom del lloc';
+$string['sitetitlepaddingtopdesc'] = 'Permet ajustar la separació, en píxels, de la part superior del nom del lloc.';
 
-$string['sitetitlepaddingleft'] = 'Separación izquierda del nombre del sitio';
-$string['sitetitlepaddingleftdesc'] = 'Permite ajustar la separación, en píxeles, de la parte izquierda del nombre del sitio.';
+$string['sitetitlepaddingleft'] = 'Separació esquerra del nom del lloc';
+$string['sitetitlepaddingleftdesc'] = 'Permet ajustar la separació, en píxels, de la part esquerra del nom del lloc.';
 
-$string['sitetitlemaxwidth'] = 'Longitud máxima del nombre del sitio';
-$string['sitetitlemaxwidthdesc'] = 'Establece la longitud máxima de caracteres del nombre del sitio. La longitud final dependerá de la fuente, tamaño y resolución de pantalla.';
+$string['sitetitlemaxwidth'] = 'Longitud màxima del nom del lloc';
+$string['sitetitlemaxwidthdesc'] = 'Estableix la longitud màxima de caracters del nom del lloc. La longitud final dependrà de la font, mida i resolució de pantalla.';
 
-$string['coursetitlepaddingtop'] = 'Separación superior del título del curso';
-$string['coursetitlepaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, de la parte superior del título del curso.';
+$string['coursetitlepaddingtop'] = 'Separació superior del títol del curs';
+$string['coursetitlepaddingtopdesc'] = 'Permet ajustar la separació, en píxels, de la part superior del títol del curs.';
 
-$string['coursetitlepaddingleft'] = 'Separación izquierda del título del curso';
-$string['coursetitlepaddingleftdesc'] = 'Permite ajustar la separación, en píxeles, de la parte izquierda del título del curso.';
+$string['coursetitlepaddingleft'] = 'Separació esquerra del títol del curs';
+$string['coursetitlepaddingleftdesc'] = 'Permet ajustar la separació, en píxels, de la part esquerra del títol del curs.';
 
-$string['coursetitlemaxwidth'] = 'Ancho máximo del título del curso';
-$string['coursetitlemaxwidthdesc'] = 'Establece el ancho máximo del área donde se muestra el título del curso.';
+$string['coursetitlemaxwidth'] = 'Amplada màxima del títol del curs';
+$string['coursetitlemaxwidthdesc'] = 'Estableix l´amplada màxima de l´àrea on es mostra el títol del curs.';
 
-$string['pageheaderheight'] = 'Altura de la cabecera';
-$string['pageheaderheightdesc'] = 'Establece la altura de la cabecera (incluyendo logo y títulos)';
+$string['pageheaderheight'] = 'Alçada de la capçalera';
+$string['pageheaderheightdesc'] = 'Estableix l´alçada de la capçalera (incloent logotip i títols)';
 
-$string['breadcrumbtitle'] = 'Nombre del curso en la guía de exploración';
-$string['breadcrumbtitledesc'] = 'Establece el modo de visualización del título del curso en la guía de exploración.';
+$string['breadcrumbtitle'] = 'Nom del curs a la guia d´exploració';
+$string['breadcrumbtitledesc'] = 'Estableix el mode de visualització del títol del curso a la guia d´exploració.';
 
-$string['breadcrumbtitlefullname'] = 'Nombre completo del curso';
-$string['breadcrumbtitleshortname'] = 'Nombre corto del curso / Código';
+$string['breadcrumbtitlefullname'] = 'Nom complert del curs';
+$string['breadcrumbtitleshortname'] = 'Nom curt del curso / Codi';
 
-$string['socialorsearch'] = 'Mostrar cuadro de búsqueda o iconos sociales';
-$string['socialorsearchdesc'] = 'Puedes mostrar los iconos sociales o el cuadro de búsqueda en la cabecera. <br />
-    <strong>Puedes configurar los iconos sociales en la sección "Redes sociales"</strong>.';
+$string['socialorsearch'] = 'Mostrar quadre de cerca o icones socials';
+$string['socialorsearchdesc'] = 'Pots mostrar les icones socials o el quadre de cerca a la capçalera. <br />
+    <strong>Pots configurar les icones socials a la secció "Xarxes socials"</strong>.';
 
-$string['socialorsearchsocial'] = 'Mostrar iconos de redes sociales';
-$string['socialorsearchsearch'] = 'Mostrar cuadro de búsqueda';
+$string['socialorsearchsocial'] = 'Mostrar icones de xarxes socials';
+$string['socialorsearchsearch'] = 'Mostrar quadre de cerca';
 
-$string['searchboxpaddingtop'] = 'Separación superior del cuadro de búsqueda';
-$string['searchboxpaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, del cuadro de búsqueda (si se muestra).<br />
-    <strong>Nota: La separación de los iconos de redes sociales puede configurarse en la sección "Redes sociales"</strong>.';
+$string['searchboxpaddingtop'] = 'Separació superior del quadre de cerca';
+$string['searchboxpaddingtopdesc'] = 'Permet ajustar la separació, en píxels, del quadre de cerca (si es mostra).<br />
+    <strong>Nota: La separació de les icones de xarxes socials pot configurar-se a la secció "Xarxes socials"</strong>.';
 
-$string['usernav'] = 'Barra de usuario';
+$string['usernav'] = 'Barra d´usuari';
 
-$string['menusettings'] = 'Menús de cabecera';
-$string['menusettingsheading'] = 'Personaliza los menús de la cabecera superior.';
+$string['menusettings'] = 'Menús de capçalera';
+$string['menusettingsheading'] = 'Personalitza els menús de la capçalera superior.';
 
-$string['logo'] = 'Logo';
-$string['logodesc'] = 'Sube el archivo con la imagen del logo (170px x 80px max.). Formatos admitidos: .png, .jpg y .gif';
+$string['logo'] = 'Logotip';
+$string['logodesc'] = 'Puja l´arxiu amb la imatge del logotip (170px x 80px max.). Formats admesos: .png, .jpg i .gif';
 
 $string['favicon'] = 'Favicon';
-$string['favicondesc'] = 'Carga el archivo favicon.ico que se muestra en la pestaña del navegador.';
+$string['favicondesc'] = 'Carrega l´arxiu favicon.ico que es mostra a la pestanya del navegador';
 
-$string['enableavailablecourses'] = 'Mostrar el texto "Cursos Disponibles"';
-$string['enableavailablecoursesdesc'] = 'Mostrar el texto <i>Cursos Disponibles</i> sobre el listado de cursos en la página inicial.';
+$string['enableavailablecourses'] = 'Mostrar el text "Cursos Disponibles"';
+$string['enableavailablecoursesdesc'] = 'Mostrar el text <i>Cursos Disponibles</i> sobre el llistat de cursos a la pàgina inicial.';
 
-$string['thiscourse'] = 'Este curso';
+$string['thiscourse'] = 'Aquest curs';
 
-$string['loadtime'] = 'Página cargada en ';
+$string['loadtime'] = 'Pàgina carregada a ';
 
-$string['loadingcolor'] = 'Color del cargador';
-$string['loadingcolordesc'] = 'Color del cargador situado en la parte superior de la página.';
+$string['loadingcolor'] = 'Color del carregador';
+$string['loadingcolordesc'] = 'Color del carregador situat a la part superior de la pàgina.';
 
-$string['sitetitle'] = 'Mostrar título del sitio';
-$string['sitetitledesc'] = 'Mostrar / Ocultar el título del sitio.';
+$string['sitetitle'] = 'Mostrar títol del lloc';
+$string['sitetitledesc'] = 'Mostrar / Ocultar el títol del lloc.';
 
-$string['sitetitletext'] = 'Nombre del sitio';
-$string['sitetitletextdesc'] = 'El nombre del sitio que se mostrará en la cabecera.';
-$string['sitetitlecustom'] = 'Usar nombre del sitio personalizado (introducir el texto en el siguiente campo)';
+$string['sitetitletext'] = 'Nom del lloc';
+$string['sitetitletextdesc'] = 'El nom del lloc que es mostrarà a la capçalera.';
+$string['sitetitlecustom'] = 'Utilitzar nom del lloc personalitzat (Introduir el text al següent camp)';
 
-$string['sitetitletext'] = 'Nombre del sitio';
-$string['sitetitletextdesc'] = 'Introducir el nombre del sitio que se mostrará en la cabecera (el nombre del sitio configurado en el apartado "Página Principal" no es mostrado por Adaptable)';
+$string['sitetitletext'] = 'Nom del lloc';
+$string['sitetitletextdesc'] = 'Introduir el nom del lloc que es mostrarà a la capçalera (el nom del lloc configurat a l´apartat "Pàgina Principal" no serà mostrat per Adaptable)';
 
-$string['frontpagelogin'] = 'Formulario de entrada en la cabecera';
-$string['frontpagelogindesc'] = 'Mostrar el formulario de entrada en la parte superior de la cabecera. En caso contrario, se mostrará solo el botón.';
+$string['frontpagelogin'] = 'Formulari d´entrada a la capçalera';
+$string['frontpagelogindesc'] = 'Mostrar el formulari de´ntrada a la part superior de la capçalera. En cas contrari, es mostrarà només el botó.';
 
-$string['displaylogin'] = 'Mostrar la entrada de usuario';
-$string['displaylogindesc'] = 'Selecciona el método de entrada del usuario (cuando esté activado)';
+$string['displailogin'] = 'Mostrar l´entrada d´usuari';
+$string['displailogindesc'] = 'Selecciona el mètode d´entrada de l´usuari (quan estigui activat)';
 
-$string['displayloginbutton'] = 'Botón';
-$string['displayloginbox'] = 'Formulario';
-$string['displayloginno'] = 'Sin entrada';
+$string['displailoginbutton'] = 'Botó';
+$string['displailoginbox'] = 'Formulari';
+$string['displailoginno'] = 'Sense entrada';
 
-$string['enablemessagemenu'] = 'Mostrar Menú Mensajes';
-$string['enablemessagemenudesc'] = 'Muestra el menú mensajes en la cabecera.';
+$string['enablemessagemenu'] = 'Mostrar Menú Missatges';
+$string['enablemessagemenudesc'] = 'Mostra el menú missatges a la capçalera.';
 
-$string['filteradminmessages'] = 'Filtrar mensajes del administradorer Admin Messages';
-$string['filteradminmessagesdesc'] = 'Activar para eliminar los mensajes del administrador. Esto puede reducir los mensajes del sistema recibidos por los alumnos y profesores.';
+$string['filteradminmessages'] = 'Filtrar missatges de l´administrador Admin Messages';
+$string['filteradminmessagesdesc'] = 'Activar per eliminar els missatges de l´administrador. Això pot reduir els missatges del sistema rebuts pels alumnes i professors.';
 
-$string['hideblocks'] = 'Ocultar bloques';
-$string['showblocks'] = 'Mostrar bloques';
-$string['fullscreen'] = 'Pantalla completa';
-$string['standardview'] = 'Vista estándar';
+$string['hideblocks'] = 'Ocultar blocs';
+$string['showblocks'] = 'Mostrar blocs';
+$string['fullscreen'] = 'Pantalla complerta';
+$string['standardview'] = 'Vista estàndard';
 
-$string['viewselect'] = 'Pantalla completa como vista por defecto';
-$string['viewselectdesc'] = 'Establecer la vista por defecto a pantalla completa (cuando la opción zoom está activada)';
+$string['viewselect'] = 'Pantalla complerta com vista per defecte';
+$string['viewselectdesc'] = 'Establir la vista per defecte a pantalla complerta (quan l´opció zoom està activada)';
 
 $string['enablezoom'] = 'Activar Zoom';
-$string['enablezoomdesc'] = 'Permite a los usuarios cambiar entre pantalla completa o ancho fijo de pantalla.';
+$string['enablezoomdesc'] = 'Permet als usuaris canviar entre pantalla complerta o ample fix de pantalla.';
 
-$string['enableshowhideblocks'] = 'Activar Mostrar/Ocultar bloques';
-$string['enableshowhideblocksdesc'] = 'Permite a los usuarios mostrar / ocultar los bloques laterales.';
+$string['enableshowhideblocks'] = 'Activar Mostrar/Ocultar blocs';
+$string['enableshowhideblocksdesc'] = 'Permet als usuaris mostrar / ocultar els blocs laterals.';
 
-$string['fullscreenwidth'] = 'Ancho de pantalla completa';
-$string['fullscreenwidthdesc'] = 'Establece el ancho máximo de la pantalla en modo pantalla completa / zoom.';
+$string['fullscreenwidth'] = 'Amplada de pantalla completa';
+$string['fullscreenwidthdesc'] = 'Estableix l´amplada màxima de la pantalla a mode pantalla complerta / zoom.';
 
 
 // Help Links ******************************************************.
-$string['enablehelp'] = 'Enlace de ayuda';
-$string['enablehelpdesc'] = 'Añade un enlace de ayuda en la barra de navegación.';
+$string['enablehelp'] = 'Enllaç d´ajuda';
+$string['enablehelpdesc'] = 'Afegeix un enllaç d´ajuda a la barra de navegació.';
 
-$string['helptitle'] = 'Ayuda por perfil';
-$string['helptitle2'] = 'Enlace de ayuda dependiente del campo personalizado en el perfil.';
+$string['helptitle'] = 'Ajuda per perfil';
+$string['helptitle2'] = 'Enllaç d´ajuda dependent del camp personalitzat al perfil.';
 
-$string['helpprofilefield'] = 'Campo personalizado para la ayuda (opcional)';
-$string['helpprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
+$string['helpprofilefield'] = 'Camp personalitzat per a l´ajuda (opcional)';
+$string['helpprofilefielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
 
 
-// Courses Overlay *************************************************.
-$string['rendereroverlaycolor'] = 'Color superpuesto';
-$string['rendereroverlaycolordesc'] = 'El color superpuesto sobre el bloque de curso cuando "Bloques Superpuestos" está seleccionado.';
+// Courses Overlai *************************************************.
+$string['rendereroverlaicolor'] = 'Color superposat';
+$string['rendereroverlaicolordesc'] = 'El color superposat sobre el bloc de curs quan "blocs Superposats" està seleccionat.';
 
-$string['rendereroverlayfontcolor'] = 'Color de texto en la superposición';
-$string['rendereroverlayfontcolordesc'] = 'El color de la fuente cuando pasa el cursor por encima del bloque del curso y "Bloques Superpuestos" está activado.';
+$string['rendereroverlaifontcolor'] = 'Color de text a la superposició';
+$string['rendereroverlaifontcolordesc'] = 'El color de la font quan passa el cursor per sobre del bloc del curs i "blocs Superposats" està activat.';
 
-$string['covbkcolor'] = 'Color de fondo en los bloques estilo Coventry';
-$string['covbkcolordesc'] = 'Establece el color de superposición de los bloques cuando se ha seleccionado el estilo Coventry.';
+$string['covbkcolor'] = 'Color de fons als blocs estil Coventri';
+$string['covbkcolordesc'] = 'Estableix el color de superposició dels blocs quan s´ha seleccionat l´estil Coventri.';
 
-$string['covfontcolor'] = 'Color del texto en los bloques estilo Coventry';
-$string['covfontcolordesc'] = 'Establece el color del texto en los bloques estilo Coventry.';
+$string['covfontcolor'] = 'Color del text als blocs estil Coventri';
+$string['covfontcolordesc'] = 'Estableix el color del text als blocs estil Coventri.';
 
-$string['covhidebutton'] = 'Mostrar el botón del curso en los bloques estilo Coventry';
-$string['covhidebuttondesc'] = 'Mostrar / ocultar el botón del curso cuando se utiliza el estilo Coventry.';
+$string['covhidebutton'] = 'Mostrar el botó del curs als blocs estilo Coventr';
+$string['covhidebuttondesc'] = 'Mostrar / ocultar el botó del curso quan s´utilitza l´estil Coventri.';
 
-$string['frontpagerendererdefaultimage'] = 'Imagen por defecto para los cursos';
-$string['frontpagerendererdefaultimagedesc'] = 'Sube la imagen que se utilizará por defecto en los cursos que no dispongan de ella.  (solo se aplica en el estilo "Bloques Superpuestos")';
+$string['frontpagerendererdefaultimage'] = 'Imatge per defecte pels cursos';
+$string['frontpagerendererdefaultimagedesc'] = 'Puja la imatge que s´utilizarà per defecte als cursos que no disposin d´ella.  (només s´aplica a l´estil "blocs Superposats")';
 
-$string['tilesshowcontacts'] = 'Mostrar los contactos del curso';
-$string['tilesshowcontactsdesc'] = 'Muestra / Oculta los contactos del curso.';
+$string['tilesshowcontacts'] = 'Mostrar els contactes del curs';
+$string['tilesshowcontactsdesc'] = 'Mostra / Oculta els contactes del curs.';
 
-$string['tilesbordercolor'] = 'Color del borde de los bloques de cursos';
-$string['tilesbordercolordesc'] = 'establece el color del borde de los bloques de cursos.';
+$string['tilesbordercolor'] = 'Color de la bora dels blocs dels cursos';
+$string['tilesbordercolordesc'] = 'Estableix el color de la bora dels blocs dels cursos.';
 
-$string['tilescontactstitle'] = 'Mostrar el rol de los contactos del curso';
-$string['tilescontactstitledesc'] = 'Muestra / Oculta el rol del contacto en el curso. Si no se muestra, se mostrará una imagen para cada contacto.';
+$string['tilescontactstitle'] = 'Mostrar el rol dels contactes del curs';
+$string['tilescontactstitledesc'] = 'Mostra / Oculta el rol del contacte al curs. Si no es mostra, es mostrarà una imatge per a cada contacte.';
 
-$string['tilesshowallcontacts'] = 'Mostrar todos los contactos del curso';
-$string['tilesshowallcontactsdesc'] = 'Muestra todos los contactos del curso o solo el principal.';
+$string['tilesshowallcontacts'] = 'Mostrar tots els contactes del curs';
+$string['tilesshowallcontactsdesc'] = 'Mostra tots els contactes del curs o només el principal.';
 
-$string['course'] = 'Course';
+$string['course'] = 'Curs';
 
 
 // Alerts **********************************************************.
 // Alert Box Enable.
 $string['enablealert'] = 'Activar Alerta {$a}';
-$string['enablealertdesc'] = 'Activar la alerta {$a}.';
+$string['enablealertdesc'] = 'Activar l´alerta {$a}.';
 
 // Alert Box Generic Strings.
-$string['alerttype'] = 'Tipo de Alerta';
-$string['alerttypedesc'] = 'Selecciona el tipo de alerta: información (azul), aviso (amarillo) o anuncio (verde)';
+$string['alerttipe'] = 'Tipus d´Alerta';
+$string['alerttipedesc'] = 'Selecciona el tipus d´alerta: informació (blau), avís (groc) o anunci (verd)';
 
-$string['alerttext'] = 'Texto de la Alerta';
-$string['alerttextdesc'] = 'Introduce el texto a mostrar en la alerta.';
+$string['alerttext'] = 'text de l´Alerta';
+$string['alerttextdesc'] = 'Introdueix el text a mostrar a l´alerta.';
 
-$string['enablealerts'] = 'Activar / Desactivar Alertas';
-$string['enablealertsdesc'] = 'Activar / desactivar alertas en el sitio.';
+$string['enablealerts'] = 'Activar / Desactivar Alertes';
+$string['enablealertsdesc'] = 'Activar / desactivar alertes al lloc.';
 
-$string['enablealertcoursepages'] = 'Activar Alertas en las páginas de los cursos';
-$string['enablealertcoursepagesdesc'] = 'Activar las alertas también en las páginas de los cursos.';
+$string['enablealertcoursepages'] = 'Activar Alertes a les pàginas dels cursos';
+$string['enablealertcoursepagesdesc'] = 'Activar les alertes també a les pàgines dels cursos.';
 
-$string['enablealertstriptags'] = 'Eliminar etiquetas HTML del texto de la Alerta';
-$string['enablealertstriptagsdesc'] = 'Si se activa, se eliminarán las etiquetas HTML del texto. Si está desactivado, se permitirá introducir etiquetas HTML por ejemplo para añadir enlaces.';
+$string['enablealertstriptags'] = 'Eliminar etiquetes HTML del text de l´Alerta';
+$string['enablealertstriptagsdesc'] = 'Si s´activa, s´eliminaran les etiquetes HTML del text. Si està desactivat, es permetrà Introduir etiquetes HTML per exemple per afegir enllaços.';
 
-$string['alertkeyvalue'] = 'Clave de identificación de la Alerta';
-$string['alertkeyvalue_details'] = 'Esta clave identifica la alerta y permite el control de la eliminación de la alerta en la pantalla por parte del usuario. Si se cambia la clave, los usuarios volverán a ver la alerta de nuevo.';
+$string['alertkeivalue'] = 'Clau d´identificació de l´Alerta';
+$string['alertkeivalue_details'] = 'Aquesta clau identifica l´alerta i permet el control de l´eliminació de l´alerta a la pantalla per part de l´usuari. Si es canvia la clau, els usuaris tornaran a veure l´alerta de nou.';
 
-$string['alertsettingsgeneral'] = 'Configuración Alertas';
+$string['alertsettingsgeneral'] = 'Configuració Alertes';
 $string['alertsettings'] = 'Alerta {$a}';
 
-$string['alertcount'] = 'Contador de Alertas';
-$string['alertcountdesc'] = 'Número de alertas a crear a continuación.';
+$string['alertcount'] = 'Comptador d´Alertes';
+$string['alertcountdesc'] = 'Nombre d´alertes a crear a continuació.';
 
-$string['alertsettingsheading'] = 'Personalizar las Alertas';
-$string['alertdesc'] = 'Introduce y personaliza el texto de las Alertas mostradas en la parte superior de la pantalla. Es posible crear más de una para mostrarse a diferentes tipos de usuarios. También existe la opción de mostrar las alertas en la página inicial y en las páginas de los cursos.';
+$string['alertsettingsheading'] = 'Personalitzar les Alertes';
+$string['alertdesc'] = 'Introdueix i personalitza el text de les Alertes mostrades a la part superior de la pantalla. És possible crear més d´una per mostrar-se a diferents tipus d´usuaris. També existeix l´opció de mostrar les alertes a la pàgina inicial i a les pàgines dels cursos.';
 
-// Alerts Types.
+// Alerts Tipes.
 $string['alertinfo'] = 'Info';
-$string['alertinfodesc'] = 'Muestra un mensaje de información.';
+$string['alertinfodesc'] = 'Mostra un missatge d´informació.';
 
-$string['alertwarning'] = 'Aviso';
-$string['alertwarningdesc'] = 'Muestra un mensaje de aviso.';
+$string['alertwarning'] = 'Avís';
+$string['alertwarningdesc'] = 'Mostra un missatge d´avís.';
 
-$string['alertannounce'] = 'Anuncio';
-$string['alertannouncedesc'] = 'Muestra un mensaje de anuncio.';
+$string['alertannounce'] = 'Anunci';
+$string['alertannouncedesc'] = 'Mostra un missatge d´anunci.';
 
-$string['alertprofilefield'] = 'Campo de usuario personalizado Nombre=Valor (opcional)';
-$string['alertprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
+$string['alertprofilefield'] = 'Camp d´usuari personalitzat Nom=Valor (opcional)';
+$string['alertprofilefielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
 
-// Alert Access - Visibility.
-$string['alertaccessglobal'] = 'Visible para todo el mundo';
-$string['alertaccessusers'] = 'Visible para usuarios';
-$string['alertaccessadmins'] = 'Visible para administradores';
-$string['alertaccessprofile'] = 'Añadir restricción por campo personalizado';
+// Alert Access - Visibiliti.
+$string['alertaccessglobal'] = 'Visible per a tothom';
+$string['alertaccessusers'] = 'Visible per a usuaris';
+$string['alertaccessadmins'] = 'Visible per a administradors';
+$string['alertaccessprofile'] = 'Afegir restricció per camp personalitzat';
 
-$string['alertaccess'] = 'Visibilidad de la Alerta';
-$string['alertaccessdesc'] = 'Establece la visibilidad de la Alerta según su tipo. Nota: Si se usa "Añadir restricción por campo personalizado" necesitrás añadir el campo personalizado de usuario.';
+$string['alertaccess'] = 'Visibilitat de l´Alerta';
+$string['alertaccessdesc'] = 'Estableix la visibilitat de l´Alerta segons el seu tipus. Nota: Si s´utilitza "Afegir restricció per camp personalitzat" necessitaràs afegir el camp personalitzat d´usuari.';
 
 // Moodle/Adaptable version alert messages.
-$string['beta'] = 'VERSION EN DESARROLLO. NO USAR EN SITIOS EN PRODUCCIÓN';
-$string['deprecated'] = 'VERSIÓN DE MOODLE OBSOLETA. NO USAR ADAPTABLE EN ESTE SITIO';
+$string['beta'] = 'VERSIÓ EN DESENVOLUPAMEN. NO UTILITZAR EN LLOCS EN PRODUCCIÓ';
+$string['deprecated'] = 'VERSIÓ DE MOODLE OBSOLETA. NO UTILITZAR ADAPTABLE EN AQUEST LLOC';
 
 // Social Wall Settings ********************************************.
-$string['socialwall'] = 'Formato Social Wall';
-$string['socialwallheading'] = 'Formato Social Wall';
-$string['socialwalldesc'] = 'Personaliza el estilo del <a href="https://moodle.org/plugins/format_socialwall">Formato de curso SocialWall</a> (si se utiliza en el sitio)';
+$string['socialwall'] = 'Format Social Wall';
+$string['socialwallheading'] = 'Format Social Wall';
+$string['socialwalldesc'] = 'Personalitza l´estil del <a href="https://moodle.org/plugins/format_socialwall">Format de curs SocialWall</a> (si s´utilitza al lloc)';
 
-$string['socialwallbackgroundcolor'] = 'Color de fondo';
-$string['socialwallbackgroundcolordesc'] = 'Establece el color de fondo.';
+$string['socialwallbackgroundcolor'] = 'Color de fons';
+$string['socialwallbackgroundcolordesc'] = 'Estableix el color de fons.';
 
-$string['socialwallsectionradius'] = 'Radio del borde';
-$string['socialwallsectionradiusdesc'] = 'Establece el borde del radio de las secciones.';
+$string['socialwallsectionradius'] = 'Radi de la bora';
+$string['socialwallsectionradiusdesc'] = 'Estableix la bora del Radi de les seccions.';
 
-$string['socialwallbordertopstyle'] = 'Estilo del borde';
-$string['socialwallbordertopstyledesc'] = 'Establece el estilo del borde de las secciones.';
+$string['socialwallbordertopstile'] = 'Estil de la bora';
+$string['socialwallbordertopstiledesc'] = 'Estableix l´estil de la bora de les seccions.';
 
-$string['socialwallborderwidth'] = 'Grueso del borde';
-$string['socialwallborderwidthdesc'] = 'Establece el grueso del borde de las secciones.';
+$string['socialwallborderwidth'] = 'Gruix de la bora';
+$string['socialwallborderwidthdesc'] = 'Estableix el gruix de la bora de les seccions.';
 
-$string['socialwallbordercolor'] = 'Color del borde';
-$string['socialwallbordercolordesc'] = 'Establece el color del borde de las secciones.';
+$string['socialwallbordercolor'] = 'Color de la bora';
+$string['socialwallbordercolordesc'] = 'Estableix el color de la bora de les seccions.';
 
-$string['socialwallactionlinkcolor'] = 'Color de los enlaces de acción';
-$string['socialwallactionlinkcolordesc'] = 'Establece el color de los enlaces de acción.';
+$string['socialwallactionlinkcolor'] = 'Color dels enllaços d´acció';
+$string['socialwallactionlinkcolordesc'] = 'Estableix el color dels enllaços d´acció.';
 
-$string['socialwallactionlinkhovercolor'] = 'Color hover de los enlaces de acción';
-$string['socialwallactionlinkhovercolordesc'] = 'Establece el color hover de los enlaces de acción.';
+$string['socialwallactionlinkhovercolor'] = 'Color hover dels enllaços d´acció';
+$string['socialwallactionlinkhovercolordesc'] = 'Estableix el color hover dels enllaços d´acció.';
 
 
 // Mobile **********************************************************.
-$string['mobilesettings'] = 'Configuración para dispositivos móviles';
-$string['mobilesettingsheading'] = 'Configura la plantilla para ser visualizada en dispositivos móviles.';
+$string['mobilesettings'] = 'Configuració per a dispositius mòbils';
+$string['mobilesettingsheading'] = 'Configura la plantilla per ser visualitzada en dispositius mòbils.';
 
-$string['layoutmobilesettings'] = 'Configuración móvil';
-$string['layoutmobilesettingsdesc'] = 'Configuración especifica para dispositivos móviles.';
+$string['laioutmobilesettings'] = 'Configuració mòbil';
+$string['laioutmobilesettingsdesc'] = 'Configuració específica per a dispositius mòbils.';
 
-$string['hidealertsmobile'] = 'Ocultar Alertas';
-$string['hidealertsmobiledesc'] = 'Oculta las alertas de la parte superior de la pantalla (si están activadas)';
+$string['hidealertsmobile'] = 'Ocultar Alertes';
+$string['hidealertsmobiledesc'] = 'Oculta les alertes de la part superior de la pantalla (si estan activades)';
 
-$string['hidesocialmobile'] = 'Ocultar los iconos sociales';
-$string['hidesocialmobiledesc'] = 'Oculta los iconos sociales (si están activados)';
+$string['hidesocialmobile'] = 'Ocultar les icones socials';
+$string['hidesocialmobiledesc'] = 'Oculta les icones socials (si estan activades)';
 
-$string['hidecoursetitlemobile'] = 'Oculta el título del curso';
-$string['hidecoursetitlemobiledesc'] = 'Oculta el título del curso y del sitio';
+$string['hidecoursetitlemobile'] = 'Oculta el títol del curs';
+$string['hidecoursetitlemobiledesc'] = 'Oculta el títol del curs i del lloc';
 
-$string['socialboxpaddingtopmobile'] = 'Separación superior del bloque de iconos sociales';
-$string['socialboxpaddingbottommobile'] = 'Establece la separación superior del bloque de iconos sociales';
+$string['socialboxpaddingtopmobile'] = 'Separació superior del bloc d´icones socials';
+$string['socialboxpaddingbottommobile'] = 'Estableix la separació superior del bloque d´icones socials';
 
-$string['hidelogomobile'] = 'Ocultar logo';
-$string['hidelogomobiledesc'] = 'Ocultar el logo.';
+$string['hidelogomobile'] = 'Ocultar logotip';
+$string['hidelogomobiledesc'] = 'Ocultar el logotip.';
 
-$string['hideheadermobile'] = 'Ocultar la cabecera';
-$string['hideheadermobiledesc'] = 'Oculta la cabecera, logo, iconos sociales y búsqueda.';
+$string['hideheadermobile'] = 'Ocultar la capçalera';
+$string['hideheadermobiledesc'] = 'Oculta la capçalera, logotip, icones socials i cerca.';
 
-$string['hidebreadcrumbmobile'] = 'Ocultar ruta de navegación';
-$string['hidebreadcrumbmobiledesc'] = 'Oculta la ruta de navegación.';
+$string['hidebreadcrumbmobile'] = 'Ocultar ruta de navegació';
+$string['hidebreadcrumbmobiledesc'] = 'Oculta la ruta de navegació.';
 
-$string['hidepagefootermobile'] = 'Ocultar pie de página';
-$string['hidepagefootermobiledesc'] = 'Oculta el pie de página.';
+$string['hidepagefootermobile'] = 'Ocultar peu de pàgina';
+$string['hidepagefootermobiledesc'] = 'Oculta el peu de pàgina.';
 
 
-// Layout **********************************************************.
-$string['layoutsettings'] = 'Disposición';
-$string['layoutdesc'] = 'Configuración de la disposición por defecto.';
-$string['layoutsettingsheading'] = 'Controlar las diferentes disposiciones de la plantilla.';
+// Laiout **********************************************************.
+$string['laioutsettings'] = 'Disposició';
+$string['laioutdesc'] = 'Configuració de la disposició per defecte.';
+$string['laioutsettingsheading'] = 'Controlar les diferents disposicions de la plantilla.';
 
-$string['blockside'] = 'Posición de los bloques';
-$string['blocksidedesc'] = 'Mostrar los bloques en la columna derecha o izquierda.';
+$string['blockside'] = 'Posició dels blocs';
+$string['blocksidedesc'] = 'Mostrar els blocs a la columna dreta o esquerra.';
 
-$string['rightblocks'] = 'Columna derecha';
-$string['leftblocks'] = 'Columna izquierda';
+$string['rightblocks'] = 'Columna dreta';
+$string['leftblocks'] = 'Columna esquerra';
 
-$string['blockicons'] = 'Mostrar iconos en los bloques';
-$string['blockiconsdesc'] = 'Mostrar / Ocultar un icono relacionado con el tipo de bloque al lado del encabezamiento.';
+$string['blockicons'] = 'Mostrar icones als blocs';
+$string['blockiconsdesc'] = 'Mostrar / Ocultar una icona relacionada amb el tipus de bloc al costat de la capçalera.';
 
-$string['emoticonsize'] = 'Tamaño emoticonos';
-$string['emoticonsizedesc'] = 'Establece el tamaño (ancho y alto) de los emoticonos.';
+$string['emoticonsize'] = 'Mida emoticones';
+$string['emoticonsizedesc'] = 'Estableix la mida (amplada i alçada) de les emoticones.';
 
-$string['helptarget'] = 'Nueva ventana de ayuda';
-$string['helptargetdesc'] = 'Abrir la ayuda en la misma ventana o en una nueva.';
+$string['helptarget'] = 'Nova finestra d´ajuda';
+$string['helptargetdesc'] = 'Obrir l´ajuda a la mateixa finestra o a una nova.';
 
-$string['hideinforum'] = 'Ocultar Menús de Ayuda y Herramientas en los foros';
-$string['hideinforumdesc'] = 'Si se utiliza un ancho fijo de pantalla es posible que los menús salten a la línea inferior. Activando esta opción se ocultan los menús en las páginas de foros.';
+$string['hideinforum'] = 'Ocultar menús d´ajuda i eines als fòrums';
+$string['hideinforumdesc'] = 'Si s´utilitza una amplada fixa de pantalla, és possible que els menús saltin a la línia inferior. Activatt aquesta opció, s´oculten els menús a les pàgines dels fòrums.';
 
-$string['targetnewwindow'] = 'Nueva ventana';
-$string['targetsamewindow'] = 'Misma ventana';
+$string['targetnewwindow'] = 'Nova finestra';
+$string['targetsamewindow'] = 'Mateixa finestra';
 
-$string['toolsmenu2'] = '2º Menu Herramientas';
-$string['toolsmenu2desc'] = 'Puedes configurar los items de los menús de herramientas. Cada línea consiste en: titulo del item, enlace  (opcional), indicador de función (opcional) y el código de idioma o una lista de códigos separada por comas (opcional, para mostrar el item dependiendo del idioma del usuario) separado por una linea vertical (|). También pueden añadirse sub-items usando guiones. Por ejemplo:
+$string['toolsmenu2'] = '2º Menú Eines';
+$string['toolsmenu2desc'] = 'Pots configurar els ítems dels menús d´eines. Cada línia consisteix en: títol de l´ítem, enllaç  (opcional), indicador de funció (opcional) i el codi d´idioma o una llista de codis separada per comes (opcional, per mostrar l´ítem depenent de l´idioma de l´usuari) separat per una línia vertical (|). També poden afegir-se sub-ítems utilitzant guions. Per exemple:
 <pre>
-Moodle community|https://moodle.org
+Moodle communiti|https://moodle.org
 -Moodle free support|https://moodle.org/support
 -Moodle development|https://moodle.org/development
 --Moodle Docs|http://docs.moodle.org|Moodle Docs
@@ -1085,82 +1085,82 @@ Moodle community|https://moodle.org
 Moodle.com|http://moodle.com/
 </pre>';
 
-$string['toolsmenulabel'] = 'Herramientas';
-$string['toolsmenulabel2'] = 'Herramientas 2';
-$string['events'] = 'Eventos';
-$string['mysites'] = 'Mis Cursos';
-$string['hiddencourses'] = 'Cursos ocultos';
-$string['pastcourses'] = 'Cursos anteriores';
-$string['people'] = 'Gente';
-$string['help'] = 'Ayuda';
+$string['toolsmenulabel'] = 'Eines';
+$string['toolsmenulabel2'] = 'Eines 2';
+$string['events'] = 'Esdeveniments';
+$string['misites'] = 'Els meus Cursos';
+$string['hiddencourses'] = 'Cursos ocults';
+$string['pastcourses'] = 'Cursos anteriors';
+$string['people'] = 'Gent';
+$string['help'] = 'Ajuda';
 
-$string['dividingline'] = 'Línea divisora de la cabecera';
-$string['dividinglinedesc'] = 'Establece el color de la línea divisora de la cabecera.';
+$string['dividingline'] = 'Línia divisòria de la capçalera';
+$string['dividinglinedesc'] = 'Estableix el color de la línia divisòria de la capçalera.';
 
-$string['dividingline2'] = 'Línea divisora del pie de página';
-$string['dividingline2desc'] = 'Establece el color de la línea divisora del pie de página.';
+$string['dividingline2'] = 'Línia divisòria del peu de pàgina';
+$string['dividingline2desc'] = 'Estableix el color de la línia divisòria del peu de pàgina.';
 
-$string['navbarborder'] = 'Color del borde de la parte inferior de la barra de navegación';
-$string['navbarborderdesc'] = 'Color del borde de la parte inferior de la barra de navegación.';
+$string['navbarborder'] = 'Color de la bora de la part inferior de la barra de navegació';
+$string['navbarborderdesc'] = 'Color de la bora de la part inferior de la barra de navegació.';
 
-$string['navbarhover'] = 'Color hover del botón de la barra de navegación';
-$string['navbarhoverdesc'] = 'Color de los botones de la barra de navegación al desplazar el cursor por encima.';
+$string['navbarhover'] = 'Color hover del botó de la barra de navegació';
+$string['navbarhoverdesc'] = 'Color dels botons de la barra de navegació al desplaçar el cursor per sobre.';
 
-$string['showfooterblocks'] = 'Mostrar bloques en el pie de página';
-$string['showfooterblocksdesc'] = 'Mostrar / Ocultar los bloques personalizables del pie de página.';
+$string['showfooterblocks'] = 'Mostrar blocs al peu de pàgina';
+$string['showfooterblocksdesc'] = 'Mostrar / Ocultar els blocs personalitzables del peu de pàgina.';
 
-$string['breadcrumb'] = 'Color de fondo de la ruta de navegación';
-$string['breadcrumbdesc'] = 'Establece el color de fondo de la ruta de navegación.';
+$string['breadcrumb'] = 'Color de fons de la ruta de navegació';
+$string['breadcrumbdesc'] = 'Estableix el color de fons de la ruta de navegació.';
 
-$string['breadcrumbtextcolor'] = 'Color del texto de la ruta de navegación';
-$string['breadcrumbtextcolordesc'] = 'Establece el color del texto de la ruta de navegación.';
+$string['breadcrumbtextcolor'] = 'Color del text de la ruta de navegació';
+$string['breadcrumbtextcolordesc'] = 'Estableix el color del text de la ruta de navegació.';
 
-$string['activebreadcrumb'] = 'Color de fondo de la ruta de navegación activa';
-$string['activebreadcrumbdesc'] = 'Establece el color de fondo de la ruta de navegación activa.';
+$string['activebreadcrumb'] = 'Color de fons de la ruta de navegació activa';
+$string['activebreadcrumbdesc'] = 'Estableix el color de fons de la ruta de navegació activa.';
 
-$string['breadcrumbseparator'] = 'Separador de la ruta de navegación';
-$string['breadcrumbseparatordesc'] = 'Establece el icono de <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>  usado como separador entre los ítems de la ruta de navegación. Introducir el nombre del icono SIN el prefijo fa-';
+$string['breadcrumbseparator'] = 'Separador de la ruta de navegació';
+$string['breadcrumbseparatordesc'] = 'Estableix la icona de <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>  utilitzant com a separador entre els ítems de la ruta de navegació. Introduir el nom de la icona SENSE el prefix fa-';
 
-$string['breadcrumbhome'] = 'Inicio de la ruta de navegación';
-$string['breadcrumbhomedesc'] = 'Muestra el inicio de la ruta de navegación como icono o texto.';
+$string['breadcrumbhome'] = 'Inici de la ruta de navegació';
+$string['breadcrumbhomedesc'] = 'Mostra l´inici de la ruta de navegació com a icona o text.';
 
-$string['breadcrumbhometext'] = 'Texto';
-$string['breadcrumbhomeicon'] = 'Icono';
+$string['breadcrumbhometext'] = 'text';
+$string['breadcrumbhomeicon'] = 'Icona';
 
-$string['menufontsize'] = 'Tamaño de fuente de la barra de navegación';
-$string['menufontsizedesc'] = 'Establece el tamaño de fuente de la barra de navegación.';
+$string['menufontsize'] = 'Mida de font de la barra de navegació';
+$string['menufontsizedesc'] = 'Estableix la mida de font de la barra de navegació.';
 
-$string['enablemysitesdesc'] = 'Mostrar las actividades del curso';
-$string['enablethiscoursedesc'] = 'Mostrar un desplegable con las actividades del curso.';
+$string['enablemisitesdesc'] = 'Mostrar les activitats del curs';
+$string['enablethiscoursedesc'] = 'Mostrar un desplegable amb les activitats del curs.';
 
-$string['mysitesexclude'] = 'Mostrar excluyendo los cursos ocultos';
-$string['mysitesinclude'] = 'Mostrar incluyendo los cursos ocultos';
-$string['mysitesdisabled'] = 'Desactivado';
+$string['misitesexclude'] = 'Mostrar excloent els cursos ocults';
+$string['misitesinclude'] = 'Mostrar incloent els cursos ocults';
+$string['misitesdisabled'] = 'Desactivat';
 
-$string['frnt-footer'] = 'Los bloques de este área solo serán visibles para los administradores.';
+$string['frnt-footer'] = 'Els blocs d´aquesta àrea només seran visibles per als administradors.';
 
-$string['enableticker'] = 'Mostrar los anuncios en la página principal';
-$string['enabletickerdesc'] = 'Muestra la barra de anuncios en la página principal.';
+$string['enableticker'] = 'Mostrar els anuncis a la pàgina principal';
+$string['enabletickerdesc'] = 'Mostra la barra d´anuncis a la pàgina principal.';
 
-$string['enabletickermy'] = 'Mostrar la barra de anuncios en Mi Área personal / Panel de control';
-$string['enabletickermydesc'] = 'Muestra la barra de anuncios en Mi Área personal / Panel de control.';
+$string['enabletickermi'] = 'Mostrar la barra d´anuncis a La Meva Àrea Personal / Panell de control';
+$string['enabletickermidesc'] = 'Mostra la barra d´anuncis a La Meva Àrea Personal / Panell de control.';
 
-$string['enabletickerc'] = 'Mostrar la barra de anuncios en las páginas internas';
-$string['enabletickercdesc'] = 'Muestra la barra de anuncios en las páginas internas de moodle.';
+$string['enabletickerc'] = 'Mostrar la barra d´anuncis a les pàgines internes';
+$string['enabletickercdesc'] = 'Mostra la barra d´anuncis a les pàgines internes de moodle.';
 
-$string['newstickercount'] = 'Número de barras de anuncios';
-$string['newstickercountdesc'] = 'Define barras de anuncios con diferentes reglas de acceso para mostrarlas a diferentes tipos de usuarios.';
+$string['newstickercount'] = 'Número de barres d´anuncis';
+$string['newstickercountdesc'] = 'Defineix barres d´anuncis amb diferents regles d´accé per a mostrar-les a diferents tipus d´usuaris.';
 
-$string['tickertext'] = 'Texto de la barra de anuncios';
-$string['tickertextdesc'] = 'Añade el texto a mostrar en la barra de anuncios en formato de lista. Ver el archivo <a href="adaptable/README.md">README.md</a> para más información.';
+$string['tickertext'] = 'text de la barra d´anuncis';
+$string['tickertextdesc'] = 'Afegeix el text a mostrar a la barra d´anuncis en format de llista. Veure l´arxiu <a href="adaptable/README.md">README.md</a> per a més informació.';
 
-$string['newmenu1trigger'] = 'Palabra clave para el Menú desplegable superior';
-$string['newmenu1triggerdesc'] = 'Establece una palabra clave para el Menú desplegable superior. Puedes utilizar los iconos de Font Awesome.';
+$string['newmenu1trigger'] = 'Paraula clau per al Menú desplegable superior';
+$string['newmenu1triggerdesc'] = 'Estableix una paraula clau per al Menú desplegable superior. Pots utilitzar les icones de Font Awesome.';
 
-$string['menusheading'] = 'Configurar Navegación para los menús de la parte superior de la cabecera';
-$string['menustitledesc'] = 'Los menús de herramientas (en la barra de navegación) y los menús superiores (cabecera superior) pueden ser restringidos dependiendo de un campo personalizado del perfil de usuario (opcional). Los menús siguen el formato de los menús estándar de moodle:
+$string['menusheading'] = 'Configurar Navegació per als menús de la part superior de la capçalera';
+$string['menustitledesc'] = 'Els menús d´eines (a la barra de navegació) i els menús superiors (capçalera superior) poden ser restringits depenent d´un camp personalitzat del perfil d´usuari (opcional). Els menús segueixen el format dels menús estàndards de moodle:
 <pre>
-Moodle community|https://moodle.org
+Moodle communiti|https://moodle.org
 -Moodle free support|https://moodle.org/support
 -Moodle development|https://moodle.org/development
 --Moodle Docs|http://docs.moodle.org|Moodle Docs
@@ -1169,100 +1169,100 @@ Moodle.com|http://moodle.com/
 </pre>
 ';
 
-$string['menusession'] = 'Almacenar los detalles de acceso en la sesión';
-$string['menusessiondesc'] = 'Se aconseja activar esta opción para optimizar el rendimiento en caso de utilizar varios menús. Mantener desactivado para pruebas.';
+$string['menusession'] = 'Emmagatzemar els detalls d´accés a la sessió';
+$string['menusessiondesc'] = 'Se aconsella activar aquesta opció per optimitzar el rendiment en caso d´utilizar diversos menús. Mantenir desactivada per proves.';
 
-$string['disablecustommenu'] = 'Desactivar el menú personalizado de Moodle';
-$string['disablecustommenudesc'] = 'Desactiva el menú personalizado de Moodle en la barra de navegación (seguirá funcionando en otras plantillas instaladas)';
+$string['disablecustommenu'] = 'Desactivar el menú personalitzat de Moodle';
+$string['disablecustommenudesc'] = 'Desactiva el menú personalitzat de Moodle a la barra de navegació (seguirà funcionant a d´altres plantills instal·lades)';
 
-$string['menusessionttl'] = 'Tiempo (minutos) de almacenamiento del acceso a los menús por sesión';
-$string['menusessionttldesc'] = 'Número de minutos antes de reiniciar la sesión.';
+$string['menusessionttl'] = 'Temps (minuts) d´emmagatzematge de l´accés als menús per sessió';
+$string['menusessionttldesc'] = 'Nombre de minuts abans de reiniciar la sessió.';
 
 
 // Tool menus ******************************************************.
-$string['newmenudesc'] = 'Configurar los enlaces mostrados bajo el menú de la cabecera superior.';
-$string['newmenufield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['newmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
-$string['newmenurequirelogin'] = 'Requiere Entrar';
-$string['newmenurequirelogindesc'] = 'Si está activado este menú será visible a los usuarios que autenticados';
+$string['newmenudesc'] = 'Configurar els enllaços mostrats sota el menú de la capçalera superior.';
+$string['newmenufield'] = 'Nom del camp personalitzat del perfil Field Name=Value (opcional)';
+$string['newmenufielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
+$string['newmenurequirelogin'] = 'Requereix Accedir';
+$string['newmenurequirelogindesc'] = 'Si està activat aquest menú serà visible als usuaris que estiguin autentificats';
 
 $string['menusdesc'] = '';
 
-$string['newmenu2trigger'] = 'Palabra clave para el Menú desplegable superior';
-$string['newmenu2triggerdesc'] = 'Establece la palabra clave para el Menú desplegable superior.';
+$string['newmenu2trigger'] = 'Paraula clau per al Menú desplegable superior';
+$string['newmenu2triggerdesc'] = 'Estableix la paraula clau per al Menú desplegable superior.';
 
 $string['enablemenus'] = 'Activar Menús';
-$string['enablemenusdesc'] = 'Por motivos de rendimiento, se recomienda no activarlo si no se utilizan los menús.';
+$string['enablemenusdesc'] = 'Per motius de rendiment, es recomana no activar-ho si no s´utilitzen els menús.';
 
-$string['disablemenuscoursepages'] = 'Desactivar menús en las páginas de los cursos';
-$string['disablemenuscoursepagesdesc'] = 'Activando esta opción los menús solo se mostrarán en las páginas del sitio, la página inicial, el Área Personal, etc. y no se mostrará en las páginas de los cursos.';
+$string['disablemenuscoursepages'] = 'Desactivar menús a les pàgines dels cursos';
+$string['disablemenuscoursepagesdesc'] = 'Activant aquesta opció els menús només es mostraran a les pàgines del lloc, la pàgina inicial, l´Àrea Personal, etc. i no es mostrarà a les pàgines dels cursos.';
 
-$string['topmenufontsize'] = 'Tamaño fuente menú superior';
-$string['topmenufontsizedesc'] = 'Establece el tamaño de la fuente usada en el menú superior.';
+$string['topmenufontsize'] = 'Mida font menú superior';
+$string['topmenufontsizedesc'] = 'Estableix la mida de la font utilitzada al menú superior.';
 
-$string['menuuseroverride'] = 'Permitir la anulación por usuario';
-$string['menuuseroverridedesc'] = 'Esta configuración controla el uso de los menús a través del perfil de usuario. Para usar esta función, se ha de crear un campo personalizado de usuario tipo lista con los siguientes valores:
-<pre>1. Sitewide (mostrará el menú en todo el sitio)
-2. Homepages Only (mostrará el menú solo en la página principal)
-3. Hidden (no se mostrarán los menús)</pre>
-NO debes utilizar la opción "Desactivar menús en las páginas de los cursos" junto a los campos de perfil. En su lugar, selecciona "Homepage Only".
+$string['menuuseroverride'] = 'Permetre l´anul·lació per l´usuari';
+$string['menuuseroverridedesc'] = 'Aquesta configuració controla l´ús dels menús mitjançant el perfil d´usuari. Per utilitzar aquesta funció, s´ha de crear un camp personalitzat d´usuari tipus llista amb els següents valors:
+<pre>1. Sitewide (mostrarà el menú a tot el lloc)
+2. Homepages Onli (mostrarà el menú només a la pàgina principal)
+3. Hidden (no es mostraran els menús)</pre>
+NO has d´utilitzar la opció "Desactivar menús a les pàgines dels cursos" juntament als camps de perfil. Al seu lloc, selecciona "Homepage Onli".
 
-Nota: Los usuarios deberán salir de moodle y volver a entrar para que los cambios hagan efecto. Puede indicarse una nota al crear el campo personalizado.';
+Nota: Els usuaris hauran de sortir de moodle i tornar a entrar per aque els canvis facin efecte. Pot indicar-se una nota al crear el camp personalitzat.';
 
-$string['menuoverrideprofilefield'] = 'Nombre del campo personalizado';
-$string['menuoverrideprofilefielddesc'] = 'El nombre del campo de perfil "list" usado por la anulación por usuario.';
-$string['menuoverrideprofilefielddefault'] = 'topmenusettings';
+$string['menuoverrideprofilefield'] = 'Nom del camp personalitzat';
+$string['menuoverrideprofilefielddesc'] = 'El nom del camp de perfil "list" utilitzat per lánul·lació per usuari.';
+$string['menuoverrideprofilefielddefault'] = 'Ajust del menú superio';
 
-$string['topmenuscount'] = 'Número de menús superiores';
-$string['topmenuscountdesc'] = 'Establece el número de menús superiores que quieres añadir en la cabecera.';
+$string['topmenuscount'] = 'Nombre de menús superiors';
+$string['topmenuscountdesc'] = 'Estableix el nombre de menús superiors que vols afegir a la capçalera.';
 
-$string['menusheadingvisibility'] = 'Configuración para la visibilidad del menú superior';
-$string['menusheadingvisibilitydesc'] = 'La siguiente configuración permite controlar donde mostrar los menús y opcionalmente permitir a los usuarios su personalización.';
+$string['menusheadingvisibiliti'] = 'Configuració per a la visibilitat del menú superior';
+$string['menusheadingvisibilitidesc'] = 'La següent configuració permet controlar on mostrar els menús i opcionalment permetre als usuaris la seva personalització.';
 
 $string['newmenuheading'] = 'Menú superior';
 $string['newmenu'] = 'Menú superior desplegable';
-$string['newmenutitle'] = 'Título menú superior';
-$string['newmenutitledesc'] = 'El título del menú aparecerá en la cabecera del sitio';
+$string['newmenutitle'] = 'Títol menú superior';
+$string['newmenutitledesc'] = 'El títol del menú apareixerà a la capçalera del lloc';
 $string['newmenutitledefault'] = 'Menú';
 
-$string['enabletoolsmenus'] = 'Activar menús de herramientas';
-$string['enabletoolsmenusdesc'] = 'Por razones de rendimiento se recomienda dejarlo desactivado si no se utilizan.';
+$string['enabletoolsmenus'] = 'Activar menús d´eines';
+$string['enabletoolsmenusdesc'] = 'Per raons de rendiment, es recomana deixar-ho desactivat si no s´utilitzen.';
 
-$string['toolsmenuheading'] = 'Menús herramientas (en la barra de navegación)';
-$string['toolsmenuheadingdesc'] = 'Puedes configurar los enlaces a mostrar en el menú de herramientas (en la barra de navegación).
- este formato es similar al usado por los menús personalizados de moodle pero permite añadir los iconos Font Awesome:
+$string['toolsmenuheading'] = 'Menús eines (a la barra de navegació)';
+$string['toolsmenuheadingdesc'] = 'Pots configurar els enllaços a mostrar al menú d´eines (a la barra de navegació).
+ aquest format és similar a l´utilitzat pels menús personalitzats de moodle però permet afegir les icones Font Awesome:
 <pre>
 &lt;span class=&quot;fa fa-video-camera&quot;&gt;&lt;/span&gt; Record Screen|http://google.co.uk|Record Screen
 &lt;span class=&quot;fa fa-picture-o&quot;&gt;&lt;/span&gt; ThinkStock|http://google.co.uk|ThinkStock
 &lt;span class=&quot;fa fa-clock-o&quot;&gt;&lt;/span&gt; Exam Clock|http://google.co.uk|Exam Clock
 </pre><br />';
 
-$string['toolsmenuscount'] = 'Número de menús de herramientas';
-$string['toolsmenuscountdesc'] = 'Establece el número de menús de herramientas que quieres a la barra de navegación.';
+$string['toolsmenuscount'] = 'Nombre de menús d´eines';
+$string['toolsmenuscountdesc'] = 'Estableix el nombre de menús d´eines que vols a la barra de navegació.';
 
-$string['toolsmenu'] = 'Menú de herramientas desplegable';
-$string['toolsmenudesc'] = 'Añade un menú desplegable en la barra de navegación.';
+$string['toolsmenu'] = 'Menú d´eines desplegable';
+$string['toolsmenudesc'] = 'Afegeix un menú desplegable a la barra de navegació.';
 
-$string['toolsmenutitle'] = 'Título menú de herramientas';
-$string['toolsmenutitledefault'] = 'Herramientas';
-$string['toolsmenutitledesc'] = 'Añade el título a mostrar en la barra de navegación.';
+$string['toolsmenutitle'] = 'títol menú d´eines';
+$string['toolsmenutitledefault'] = 'Eines';
+$string['toolsmenutitledesc'] = 'Afegeix el títol a mostrar a la barra de navegació.';
 
-$string['toolsmenulabel'] = 'Menú Herramientas';
+$string['toolsmenulabel'] = 'Menú Eines';
 
-$string['toolsmenufield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['toolsmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=student';
+$string['toolsmenufield'] = 'Nom del camp personalitzat del perfil Field Name=Value (opcional)';
+$string['toolsmenufielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
 
 
 // Social settings *************************************************.
-$string['socialsettings'] = 'Redes sociales';
-$string['socialheading'] = 'Configuración de los iconos de redes sociales';
-$string['socialtitledesc'] = '<pre>Puedes desactivar la búsqueda y activar los iconos de redes sociales en su lugar.
-Para configurar los iconos, introduce una lista delimitada en el campo "Lista de iconos sociales".
-El formato debe ser:
+$string['socialsettings'] = 'Xarxes socials';
+$string['socialheading'] = 'Configuració de les icones de xarxes socials';
+$string['socialtitledesc'] = '<pre>Pots desactivar la cerca i activar les icones de xarxes socials al seu lloc.
+Per configurar les icones, introdueix una llista delimitada al campo "Llista d´icones socials".
+El format ha de ser:
 
-url|titulo|icono
+url|títol|icona
 
-Ejemplo:
+Exemple:
 
 http://localhost/moodle/course/search.php|Buscar en Moodle|fa-search
 https://facebook.com/|Facebook|fa-facebook-square
@@ -1270,76 +1270,76 @@ https://twitter.com/|Twitter|fa-twitter-square
 https://instagram.com|Instagram|fa-instagram
 http://example.com|Mi Web|fa-globe
 
-El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
+El llistat d´icones es troba a : <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
 
-$string['socialsize'] = 'Configurar tamaño de los iconos sociales';
-$string['socialsizemobile'] = 'Configurar tamaño de los iconos sociales en móviles';
-$string['socialpaddingtop'] = 'Ajustar la separación debajo los iconos sociales (altera la posición vertical)';
+$string['socialsize'] = 'Configurar la mida de les icones socials';
+$string['socialsizemobile'] = 'Configurar la mida de les icones socials a mòbils';
+$string['socialpaddingtop'] = 'Ajustar la separació sota les icones socials (altera la posició vertical)';
 
-$string['socialtarget'] = 'Formato de apertura de la ventana de enlaces sociales';
-$string['socialtargetdesc'] = 'Abrir la red social en la misma venta o en una nueva';
+$string['socialtarget'] = 'Format d´apertura de la finestra d´enllaços socials';
+$string['socialtargetdesc'] = 'Obrir la xarxa social a la mateixa finestra o a una nova';
 
-$string['socialsearchicon'] = 'Buscar en Moodle';
-$string['socialsearchicondesc'] = 'Muestra el cuadro de búsqueda al lado de los iconos sociales.';
+$string['socialsearchicon'] = 'Cercar a Moodle';
+$string['socialsearchicondesc'] = 'Mostra el quadre de cerca al costat de les icones socials.';
 
-$string['socialicondesc'] = 'Selecciona el icono de Font Awesome. Por ejemplo: fa-facebook';
+$string['socialicondesc'] = 'Selecciona l´icona de Font Awesome. Per exemple: fa-facebook';
 
-$string['socialiconlist'] = 'Lista de iconos sociales';
-$string['socialiconlistdesc'] = 'Introducir una lista delimitada por comas para configurar los iconos de redes sociales que necesites usando el formato: url|titulo|icono';
+$string['socialiconlist'] = 'Llista d´icones socials';
+$string['socialiconlistdesc'] = 'Introduir una llista delimitada per comes per configurar les icones de xarxes socials que necessites utilitzant el format: url|títol|icona';
 
-// Analytics **********************************.
-$string['analyticssettings'] = 'Analytics';
-$string['analyticssettingsheading'] = 'Configura Google Analytics y/o Piwik';
-$string['analyticssettingsdesc'] = 'Puedes configurar Google Analytics y/o Piwik para tu sitio moodle.';
+// Analitics **********************************.
+$string['analiticssettings'] = 'Analítics';
+$string['analiticssettingsheading'] = 'Configura Google Analítics i/o Piwik';
+$string['analiticssettingsdesc'] = 'Pots configurar Google Analítics i/o Piwik per al teu lloc moodle.';
 
 // GA.
-$string ['googleanalyticssettings'] = 'Google Analytics';
-$string ['googleanalyticssettingsheading'] = 'Configura Google Analytics para tu sitio';
-$string ['googleanalyticssettingsdesc'] = 'Puedes configurar multiple códigos para Google Analytics y configurarlos para diferentes campus personalizados de usuario.';
+$string ['googleanaliticssettings'] = 'Google Analítics';
+$string ['googleanaliticssettingsheading'] = 'Configura Google Analítics per al teu lloc';
+$string ['googleanaliticssettingsdesc'] = 'Pots configurar múltples codis per a Google Analítics i configurar-los per a diferents camps personalitzats d´usuari.';
 
-$string ['enableanalytics'] = 'Activar Google Analytics';
-$string ['enableanalyticsdesc'] = 'Activar Google Analytics en el sitio.';
+$string ['enableanalitics'] = 'Activar Google Analítics';
+$string ['enableanaliticsdesc'] = 'Activar Google Analítics al lloc.';
 
-$string ['analyticstext'] = 'Analytics ID';
-$string ['analyticstextdesc'] = 'Introducir la ID de Google Analytics.';
+$string ['analiticstext'] = 'Analítics ID';
+$string ['analiticstextdesc'] = 'Introduir la ID de Google Analítics.';
 
-$string['analyticscount'] = 'Número de campos de perfil';
-$string['analyticscountdesc'] = 'Número de campos personalizados a introducir en el área inferior.';
+$string['analiticscount'] = 'Nombre de camps de perfil';
+$string['analiticscountdesc'] = 'Nombre de camps personalitzats a introduir a l´àrea inferior.';
 
-$string ['analyticsprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string ['analyticsprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
+$string ['analiticsprofilefield'] = 'Nom del camp personalitzat del perfíl Field Name=Value (opcional)';
+$string ['analiticsprofilefielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
 
 // Piwik.
 $string['piwiksettings'] = 'Piwik';
 $string['piwiksettingsheading'] = 'Configurar Piwik';
-$string['piwiksettingsdesc'] = 'Generar una URL limpia para el rastreo avanzado.';
+$string['piwiksettingsdesc'] = 'Generar una URL neta per al rastreig avançat.';
 
 $string['piwikenabled'] = 'Activar Piwik';
-$string['piwikenableddesc'] = 'Activar el rastreo de Piwik para Moodle.';
+$string['piwikenableddesc'] = 'Activar el rastreig de Piwik per a Moodle.';
 
-$string['piwiksiteid'] = 'ID del sitio';
-$string['piwiksiteiddesc'] = 'Introducir la ID del sitio.';
+$string['piwiksiteid'] = 'ID del lloc';
+$string['piwiksiteiddesc'] = 'Introduir la ID del lloc.';
 
-$string['piwikimagetrack'] = 'Rastreo de imagen';
-$string['piwikimagetrackdesc'] = 'Activar el rastreo por imagen para navegadores con JavaScript desactivado.';
+$string['piwikimagetrack'] = 'Rastreig d´imatge';
+$string['piwikimagetrackdesc'] = 'Activar el rastreig per imatge per a navegadors amb JavaScript desactivat.';
 
 $string['piwiksiteurl'] = 'URL de Piwik';
-$string['piwiksiteurldesc'] = 'Introducir la dirección del sitio Piwik sin http (o https) ni la barra invertida.';
+$string['piwiksiteurldesc'] = 'Introduir l´adreça del lloc Piwik sense http (o https) ni la barra invertida.';
 
-$string['piwiktrackadmin'] = 'Rastreo de administradores';
-$string['piwiktrackadmindesc'] = 'Activar el rastreo de administradores (no recommendado)';
+$string['piwiktrackadmin'] = 'Rastreig d´administradors';
+$string['piwiktrackadmindesc'] = 'Activar el rastreig d´administradors (no recomanat)';
 
 
 // Custom CSS ******************************.
-$string['customcss'] = 'CSS y JS personalizado';
-$string['customcssdesc'] = 'Introduce las reglas CSS y código JS personalizadas.';
+$string['customcss'] = 'CSS i JS personalitzat';
+$string['customcssdesc'] = 'Introdueix les regles CSS i codi JS personalitzats.';
 
-$string['customcssjssettings'] = 'CSS y JS personalizado';
-$string['genericsettingsheading'] = 'Introduce tu propio código CSS y Javascript';
-$string['genericsettingsdescription'] = 'Introduce tu propio código CSS y Javascript.';
+$string['customcssjssettings'] = 'CSS i JS personalitzat';
+$string['genericsettingsheading'] = 'Introdueix el teu propi codi CSS i Javascript';
+$string['genericsettingsdescription'] = 'Introdueix el teu propi codi CSS i Javascript.';
 
-$string['jssection'] = 'Javascript personalizado';
-$string['jssectiondesc'] = 'Introduce el código Javascript personalizado.';
+$string['jssection'] = 'Javascript personalitzat';
+$string['jssectiondesc'] = 'Introdueix el codi Javascript personalitzat.';
 
 // Cache definitions.
-$string['cachedef_userdata'] = 'El tiempo para guardar una sesión de un usuario específico.';
+$string['cachedef_userdata'] = 'El temps per desar una sessió d´un usuari específic.';
