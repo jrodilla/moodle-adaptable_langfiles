@@ -1017,67 +1017,67 @@ $string['socialwallactionlinkhovercolordesc'] = 'Estableix el color hover dels e
 
 
 // Mobile **********************************************************.
-$string['mobilesettings'] = 'Configuración para dispositivos móviles';
-$string['mobilesettingsheading'] = 'Configura la plantilla para ser visualizada en dispositivos móviles.';
+$string['mobilesettings'] = 'Configuració per a dispositius mòbils';
+$string['mobilesettingsheading'] = 'Configura la plantilla per ser visualitzada en dispositius mòbils.';
 
-$string['layoutmobilesettings'] = 'Configuración móvil';
-$string['layoutmobilesettingsdesc'] = 'Configuración especifica para dispositivos móviles.';
+$string['laioutmobilesettings'] = 'Configuració mòbil';
+$string['laioutmobilesettingsdesc'] = 'Configuració específica per a dispositius mòbils.';
 
-$string['hidealertsmobile'] = 'Ocultar Alertas';
-$string['hidealertsmobiledesc'] = 'Oculta las alertas de la parte superior de la pantalla (si están activadas)';
+$string['hidealertsmobile'] = 'Ocultar Alertes';
+$string['hidealertsmobiledesc'] = 'Oculta les alertes de la part superior de la pantalla (si estan activades)';
 
-$string['hidesocialmobile'] = 'Ocultar los iconos sociales';
-$string['hidesocialmobiledesc'] = 'Oculta los iconos sociales (si están activados)';
+$string['hidesocialmobile'] = 'Ocultar les icones socials';
+$string['hidesocialmobiledesc'] = 'Oculta les icones socials (si estan activades)';
 
-$string['hidecoursetitlemobile'] = 'Oculta el título del curso';
-$string['hidecoursetitlemobiledesc'] = 'Oculta el título del curso y del sitio';
+$string['hidecoursetitlemobile'] = 'Oculta el títol del curs';
+$string['hidecoursetitlemobiledesc'] = 'Oculta el títol del curs i del lloc';
 
-$string['socialboxpaddingtopmobile'] = 'Separación superior del bloque de iconos sociales';
-$string['socialboxpaddingbottommobile'] = 'Establece la separación superior del bloque de iconos sociales';
+$string['socialboxpaddingtopmobile'] = 'Separació superior del bloc d´icones socials';
+$string['socialboxpaddingbottommobile'] = 'Estableix la separació superior del bloque d´icones socials';
 
-$string['hidelogomobile'] = 'Ocultar logo';
-$string['hidelogomobiledesc'] = 'Ocultar el logo.';
+$string['hidelogomobile'] = 'Ocultar logotip';
+$string['hidelogomobiledesc'] = 'Ocultar el logotip.';
 
-$string['hideheadermobile'] = 'Ocultar la cabecera';
-$string['hideheadermobiledesc'] = 'Oculta la cabecera, logo, iconos sociales y búsqueda.';
+$string['hideheadermobile'] = 'Ocultar la capçalera';
+$string['hideheadermobiledesc'] = 'Oculta la capçalera, logotip, icones socials i cerca.';
 
-$string['hidebreadcrumbmobile'] = 'Ocultar ruta de navegación';
-$string['hidebreadcrumbmobiledesc'] = 'Oculta la ruta de navegación.';
+$string['hidebreadcrumbmobile'] = 'Ocultar ruta de navegació';
+$string['hidebreadcrumbmobiledesc'] = 'Oculta la ruta de navegació.';
 
-$string['hidepagefootermobile'] = 'Ocultar pie de página';
-$string['hidepagefootermobiledesc'] = 'Oculta el pie de página.';
+$string['hidepagefootermobile'] = 'Ocultar peu de pàgina';
+$string['hidepagefootermobiledesc'] = 'Oculta el peu de pàgina.';
 
 
-// Layout **********************************************************.
-$string['layoutsettings'] = 'Disposición';
-$string['layoutdesc'] = 'Configuración de la disposición por defecto.';
-$string['layoutsettingsheading'] = 'Controlar las diferentes disposiciones de la plantilla.';
+// Laiout **********************************************************.
+$string['laioutsettings'] = 'Disposició';
+$string['laioutdesc'] = 'Configuració de la disposició per defecte.';
+$string['laioutsettingsheading'] = 'Controlar les diferents disposicions de la plantilla.';
 
-$string['blockside'] = 'Posición de los bloques';
-$string['blocksidedesc'] = 'Mostrar los bloques en la columna derecha o izquierda.';
+$string['blockside'] = 'Posició dels blocs';
+$string['blocksidedesc'] = 'Mostrar els blocs a la columna dreta o esquerra.';
 
-$string['rightblocks'] = 'Columna derecha';
-$string['leftblocks'] = 'Columna izquierda';
+$string['rightblocks'] = 'Columna dreta';
+$string['leftblocks'] = 'Columna esquerra';
 
-$string['blockicons'] = 'Mostrar iconos en los bloques';
-$string['blockiconsdesc'] = 'Mostrar / Ocultar un icono relacionado con el tipo de bloque al lado del encabezamiento.';
+$string['blockicons'] = 'Mostrar icones als blocs';
+$string['blockiconsdesc'] = 'Mostrar / Ocultar una icona relacionada amb el tipus de bloc al costat de la capçalera.';
 
-$string['emoticonsize'] = 'Tamaño emoticonos';
-$string['emoticonsizedesc'] = 'Establece el tamaño (ancho y alto) de los emoticonos.';
+$string['emoticonsize'] = 'Mida emoticones';
+$string['emoticonsizedesc'] = 'Estableix la mida (amplada i alçada) de les emoticones.';
 
-$string['helptarget'] = 'Nueva ventana de ayuda';
-$string['helptargetdesc'] = 'Abrir la ayuda en la misma ventana o en una nueva.';
+$string['helptarget'] = 'Nova finestra d´ajuda';
+$string['helptargetdesc'] = 'Obrir l´ajuda a la mateixa finestra o a una nova.';
 
-$string['hideinforum'] = 'Ocultar Menús de Ayuda y Herramientas en los foros';
-$string['hideinforumdesc'] = 'Si se utiliza un ancho fijo de pantalla es posible que los menús salten a la línea inferior. Activando esta opción se ocultan los menús en las páginas de foros.';
+$string['hideinforum'] = 'Ocultar menús d´ajuda i eines als fòrums';
+$string['hideinforumdesc'] = 'Si s´utilitza una amplada fixa de pantalla, és possible que els menús saltin a la línia inferior. Activatt aquesta opció, s´oculten els menús a les pàgines dels fòrums.';
 
-$string['targetnewwindow'] = 'Nueva ventana';
-$string['targetsamewindow'] = 'Misma ventana';
+$string['targetnewwindow'] = 'Nova finestra';
+$string['targetsamewindow'] = 'Mateixa finestra';
 
-$string['toolsmenu2'] = '2º Menu Herramientas';
-$string['toolsmenu2desc'] = 'Puedes configurar los items de los menús de herramientas. Cada línea consiste en: titulo del item, enlace  (opcional), indicador de función (opcional) y el código de idioma o una lista de códigos separada por comas (opcional, para mostrar el item dependiendo del idioma del usuario) separado por una linea vertical (|). También pueden añadirse sub-items usando guiones. Por ejemplo:
+$string['toolsmenu2'] = '2º Menú Eines';
+$string['toolsmenu2desc'] = 'Pots configurar els ítems dels menús d´eines. Cada línia consisteix en: títol de l´ítem, enllaç  (opcional), indicador de funció (opcional) i el codi d´idioma o una llista de codis separada per comes (opcional, per mostrar l´ítem depenent de l´idioma de l´usuari) separat per una línia vertical (|). També poden afegir-se sub-ítems utilitzant guions. Per exemple:
 <pre>
-Moodle community|https://moodle.org
+Moodle communiti|https://moodle.org
 -Moodle free support|https://moodle.org/support
 -Moodle development|https://moodle.org/development
 --Moodle Docs|http://docs.moodle.org|Moodle Docs
@@ -1085,82 +1085,82 @@ Moodle community|https://moodle.org
 Moodle.com|http://moodle.com/
 </pre>';
 
-$string['toolsmenulabel'] = 'Herramientas';
-$string['toolsmenulabel2'] = 'Herramientas 2';
-$string['events'] = 'Eventos';
-$string['mysites'] = 'Mis Cursos';
-$string['hiddencourses'] = 'Cursos ocultos';
-$string['pastcourses'] = 'Cursos anteriores';
-$string['people'] = 'Gente';
-$string['help'] = 'Ayuda';
+$string['toolsmenulabel'] = 'Eines';
+$string['toolsmenulabel2'] = 'Eines 2';
+$string['events'] = 'Esdeveniments';
+$string['misites'] = 'Els meus Cursos';
+$string['hiddencourses'] = 'Cursos ocults';
+$string['pastcourses'] = 'Cursos anteriors';
+$string['people'] = 'Gent';
+$string['help'] = 'Ajuda';
 
-$string['dividingline'] = 'Línea divisora de la cabecera';
-$string['dividinglinedesc'] = 'Establece el color de la línea divisora de la cabecera.';
+$string['dividingline'] = 'Línia divisòria de la capçalera';
+$string['dividinglinedesc'] = 'Estableix el color de la línia divisòria de la capçalera.';
 
-$string['dividingline2'] = 'Línea divisora del pie de página';
-$string['dividingline2desc'] = 'Establece el color de la línea divisora del pie de página.';
+$string['dividingline2'] = 'Línia divisòria del peu de pàgina';
+$string['dividingline2desc'] = 'Estableix el color de la línia divisòria del peu de pàgina.';
 
-$string['navbarborder'] = 'Color del borde de la parte inferior de la barra de navegación';
-$string['navbarborderdesc'] = 'Color del borde de la parte inferior de la barra de navegación.';
+$string['navbarborder'] = 'Color de la bora de la part inferior de la barra de navegació';
+$string['navbarborderdesc'] = 'Color de la bora de la part inferior de la barra de navegació.';
 
-$string['navbarhover'] = 'Color hover del botón de la barra de navegación';
-$string['navbarhoverdesc'] = 'Color de los botones de la barra de navegación al desplazar el cursor por encima.';
+$string['navbarhover'] = 'Color hover del botó de la barra de navegació';
+$string['navbarhoverdesc'] = 'Color dels botons de la barra de navegació al desplaçar el cursor per sobre.';
 
-$string['showfooterblocks'] = 'Mostrar bloques en el pie de página';
-$string['showfooterblocksdesc'] = 'Mostrar / Ocultar los bloques personalizables del pie de página.';
+$string['showfooterblocks'] = 'Mostrar blocs al peu de pàgina';
+$string['showfooterblocksdesc'] = 'Mostrar / Ocultar els blocs personalitzables del peu de pàgina.';
 
-$string['breadcrumb'] = 'Color de fondo de la ruta de navegación';
-$string['breadcrumbdesc'] = 'Establece el color de fondo de la ruta de navegación.';
+$string['breadcrumb'] = 'Color de fons de la ruta de navegació';
+$string['breadcrumbdesc'] = 'Estableix el color de fons de la ruta de navegació.';
 
-$string['breadcrumbtextcolor'] = 'Color del texto de la ruta de navegación';
-$string['breadcrumbtextcolordesc'] = 'Establece el color del texto de la ruta de navegación.';
+$string['breadcrumbtextcolor'] = 'Color del text de la ruta de navegació';
+$string['breadcrumbtextcolordesc'] = 'Estableix el color del text de la ruta de navegació.';
 
-$string['activebreadcrumb'] = 'Color de fondo de la ruta de navegación activa';
-$string['activebreadcrumbdesc'] = 'Establece el color de fondo de la ruta de navegación activa.';
+$string['activebreadcrumb'] = 'Color de fons de la ruta de navegació activa';
+$string['activebreadcrumbdesc'] = 'Estableix el color de fons de la ruta de navegació activa.';
 
-$string['breadcrumbseparator'] = 'Separador de la ruta de navegación';
-$string['breadcrumbseparatordesc'] = 'Establece el icono de <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>  usado como separador entre los ítems de la ruta de navegación. Introducir el nombre del icono SIN el prefijo fa-';
+$string['breadcrumbseparator'] = 'Separador de la ruta de navegació';
+$string['breadcrumbseparatordesc'] = 'Estableix la icona de <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome</a>  utilitzant com a separador entre els ítems de la ruta de navegació. Introduir el nom de la icona SENSE el prefix fa-';
 
-$string['breadcrumbhome'] = 'Inicio de la ruta de navegación';
-$string['breadcrumbhomedesc'] = 'Muestra el inicio de la ruta de navegación como icono o texto.';
+$string['breadcrumbhome'] = 'Inici de la ruta de navegació';
+$string['breadcrumbhomedesc'] = 'Mostra l´inici de la ruta de navegació com a icona o text.';
 
-$string['breadcrumbhometext'] = 'Texto';
-$string['breadcrumbhomeicon'] = 'Icono';
+$string['breadcrumbhometext'] = 'text';
+$string['breadcrumbhomeicon'] = 'Icona';
 
-$string['menufontsize'] = 'Tamaño de fuente de la barra de navegación';
-$string['menufontsizedesc'] = 'Establece el tamaño de fuente de la barra de navegación.';
+$string['menufontsize'] = 'Mida de font de la barra de navegació';
+$string['menufontsizedesc'] = 'Estableix la mida de font de la barra de navegació.';
 
-$string['enablemysitesdesc'] = 'Mostrar las actividades del curso';
-$string['enablethiscoursedesc'] = 'Mostrar un desplegable con las actividades del curso.';
+$string['enablemisitesdesc'] = 'Mostrar les activitats del curs';
+$string['enablethiscoursedesc'] = 'Mostrar un desplegable amb les activitats del curs.';
 
-$string['mysitesexclude'] = 'Mostrar excluyendo los cursos ocultos';
-$string['mysitesinclude'] = 'Mostrar incluyendo los cursos ocultos';
-$string['mysitesdisabled'] = 'Desactivado';
+$string['misitesexclude'] = 'Mostrar excloent els cursos ocults';
+$string['misitesinclude'] = 'Mostrar incloent els cursos ocults';
+$string['misitesdisabled'] = 'Desactivat';
 
-$string['frnt-footer'] = 'Los bloques de este área solo serán visibles para los administradores.';
+$string['frnt-footer'] = 'Els blocs d´aquesta àrea només seran visibles per als administradors.';
 
-$string['enableticker'] = 'Mostrar los anuncios en la página principal';
-$string['enabletickerdesc'] = 'Muestra la barra de anuncios en la página principal.';
+$string['enableticker'] = 'Mostrar els anuncis a la pàgina principal';
+$string['enabletickerdesc'] = 'Mostra la barra d´anuncis a la pàgina principal.';
 
-$string['enabletickermy'] = 'Mostrar la barra de anuncios en Mi Área personal / Panel de control';
-$string['enabletickermydesc'] = 'Muestra la barra de anuncios en Mi Área personal / Panel de control.';
+$string['enabletickermi'] = 'Mostrar la barra d´anuncis a La Meva Àrea Personal / Panell de control';
+$string['enabletickermidesc'] = 'Mostra la barra d´anuncis a La Meva Àrea Personal / Panell de control.';
 
-$string['enabletickerc'] = 'Mostrar la barra de anuncios en las páginas internas';
-$string['enabletickercdesc'] = 'Muestra la barra de anuncios en las páginas internas de moodle.';
+$string['enabletickerc'] = 'Mostrar la barra d´anuncis a les pàgines internes';
+$string['enabletickercdesc'] = 'Mostra la barra d´anuncis a les pàgines internes de moodle.';
 
-$string['newstickercount'] = 'Número de barras de anuncios';
-$string['newstickercountdesc'] = 'Define barras de anuncios con diferentes reglas de acceso para mostrarlas a diferentes tipos de usuarios.';
+$string['newstickercount'] = 'Número de barres d´anuncis';
+$string['newstickercountdesc'] = 'Defineix barres d´anuncis amb diferents regles d´accé per a mostrar-les a diferents tipus d´usuaris.';
 
-$string['tickertext'] = 'Texto de la barra de anuncios';
-$string['tickertextdesc'] = 'Añade el texto a mostrar en la barra de anuncios en formato de lista. Ver el archivo <a href="adaptable/README.md">README.md</a> para más información.';
+$string['tickertext'] = 'text de la barra d´anuncis';
+$string['tickertextdesc'] = 'Afegeix el text a mostrar a la barra d´anuncis en format de llista. Veure l´arxiu <a href="adaptable/README.md">README.md</a> per a més informació.';
 
-$string['newmenu1trigger'] = 'Palabra clave para el Menú desplegable superior';
-$string['newmenu1triggerdesc'] = 'Establece una palabra clave para el Menú desplegable superior. Puedes utilizar los iconos de Font Awesome.';
+$string['newmenu1trigger'] = 'Paraula clau per al Menú desplegable superior';
+$string['newmenu1triggerdesc'] = 'Estableix una paraula clau per al Menú desplegable superior. Pots utilitzar les icones de Font Awesome.';
 
-$string['menusheading'] = 'Configurar Navegación para los menús de la parte superior de la cabecera';
-$string['menustitledesc'] = 'Los menús de herramientas (en la barra de navegación) y los menús superiores (cabecera superior) pueden ser restringidos dependiendo de un campo personalizado del perfil de usuario (opcional). Los menús siguen el formato de los menús estándar de moodle:
+$string['menusheading'] = 'Configurar Navegació per als menús de la part superior de la capçalera';
+$string['menustitledesc'] = 'Els menús d´eines (a la barra de navegació) i els menús superiors (capçalera superior) poden ser restringits depenent d´un camp personalitzat del perfil d´usuari (opcional). Els menús segueixen el format dels menús estàndards de moodle:
 <pre>
-Moodle community|https://moodle.org
+Moodle communiti|https://moodle.org
 -Moodle free support|https://moodle.org/support
 -Moodle development|https://moodle.org/development
 --Moodle Docs|http://docs.moodle.org|Moodle Docs
@@ -1169,100 +1169,100 @@ Moodle.com|http://moodle.com/
 </pre>
 ';
 
-$string['menusession'] = 'Almacenar los detalles de acceso en la sesión';
-$string['menusessiondesc'] = 'Se aconseja activar esta opción para optimizar el rendimiento en caso de utilizar varios menús. Mantener desactivado para pruebas.';
+$string['menusession'] = 'Emmagatzemar els detalls d´accés a la sessió';
+$string['menusessiondesc'] = 'Se aconsella activar aquesta opció per optimitzar el rendiment en caso d´utilizar diversos menús. Mantenir desactivada per proves.';
 
-$string['disablecustommenu'] = 'Desactivar el menú personalizado de Moodle';
-$string['disablecustommenudesc'] = 'Desactiva el menú personalizado de Moodle en la barra de navegación (seguirá funcionando en otras plantillas instaladas)';
+$string['disablecustommenu'] = 'Desactivar el menú personalitzat de Moodle';
+$string['disablecustommenudesc'] = 'Desactiva el menú personalitzat de Moodle a la barra de navegació (seguirà funcionant a d´altres plantills instal·lades)';
 
-$string['menusessionttl'] = 'Tiempo (minutos) de almacenamiento del acceso a los menús por sesión';
-$string['menusessionttldesc'] = 'Número de minutos antes de reiniciar la sesión.';
+$string['menusessionttl'] = 'Temps (minuts) d´emmagatzematge de l´accés als menús per sessió';
+$string['menusessionttldesc'] = 'Nombre de minuts abans de reiniciar la sessió.';
 
 
 // Tool menus ******************************************************.
-$string['newmenudesc'] = 'Configurar los enlaces mostrados bajo el menú de la cabecera superior.';
-$string['newmenufield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['newmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
-$string['newmenurequirelogin'] = 'Requiere Entrar';
-$string['newmenurequirelogindesc'] = 'Si está activado este menú será visible a los usuarios que autenticados';
+$string['newmenudesc'] = 'Configurar els enllaços mostrats sota el menú de la capçalera superior.';
+$string['newmenufield'] = 'Nom del camp personalitzat del perfil Field Name=Value (opcional)';
+$string['newmenufielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
+$string['newmenurequirelogin'] = 'Requereix Accedir';
+$string['newmenurequirelogindesc'] = 'Si està activat aquest menú serà visible als usuaris que estiguin autentificats';
 
 $string['menusdesc'] = '';
 
-$string['newmenu2trigger'] = 'Palabra clave para el Menú desplegable superior';
-$string['newmenu2triggerdesc'] = 'Establece la palabra clave para el Menú desplegable superior.';
+$string['newmenu2trigger'] = 'Paraula clau per al Menú desplegable superior';
+$string['newmenu2triggerdesc'] = 'Estableix la paraula clau per al Menú desplegable superior.';
 
 $string['enablemenus'] = 'Activar Menús';
-$string['enablemenusdesc'] = 'Por motivos de rendimiento, se recomienda no activarlo si no se utilizan los menús.';
+$string['enablemenusdesc'] = 'Per motius de rendiment, es recomana no activar-ho si no s´utilitzen els menús.';
 
-$string['disablemenuscoursepages'] = 'Desactivar menús en las páginas de los cursos';
-$string['disablemenuscoursepagesdesc'] = 'Activando esta opción los menús solo se mostrarán en las páginas del sitio, la página inicial, el Área Personal, etc. y no se mostrará en las páginas de los cursos.';
+$string['disablemenuscoursepages'] = 'Desactivar menús a les pàgines dels cursos';
+$string['disablemenuscoursepagesdesc'] = 'Activant aquesta opció els menús només es mostraran a les pàgines del lloc, la pàgina inicial, l´Àrea Personal, etc. i no es mostrarà a les pàgines dels cursos.';
 
-$string['topmenufontsize'] = 'Tamaño fuente menú superior';
-$string['topmenufontsizedesc'] = 'Establece el tamaño de la fuente usada en el menú superior.';
+$string['topmenufontsize'] = 'Mida font menú superior';
+$string['topmenufontsizedesc'] = 'Estableix la mida de la font utilitzada al menú superior.';
 
-$string['menuuseroverride'] = 'Permitir la anulación por usuario';
-$string['menuuseroverridedesc'] = 'Esta configuración controla el uso de los menús a través del perfil de usuario. Para usar esta función, se ha de crear un campo personalizado de usuario tipo lista con los siguientes valores:
-<pre>1. Sitewide (mostrará el menú en todo el sitio)
-2. Homepages Only (mostrará el menú solo en la página principal)
-3. Hidden (no se mostrarán los menús)</pre>
-NO debes utilizar la opción "Desactivar menús en las páginas de los cursos" junto a los campos de perfil. En su lugar, selecciona "Homepage Only".
+$string['menuuseroverride'] = 'Permetre l´anul·lació per l´usuari';
+$string['menuuseroverridedesc'] = 'Aquesta configuració controla l´ús dels menús mitjançant el perfil d´usuari. Per utilitzar aquesta funció, s´ha de crear un camp personalitzat d´usuari tipus llista amb els següents valors:
+<pre>1. Sitewide (mostrarà el menú a tot el lloc)
+2. Homepages Onli (mostrarà el menú només a la pàgina principal)
+3. Hidden (no es mostraran els menús)</pre>
+NO has d´utilitzar la opció "Desactivar menús a les pàgines dels cursos" juntament als camps de perfil. Al seu lloc, selecciona "Homepage Onli".
 
-Nota: Los usuarios deberán salir de moodle y volver a entrar para que los cambios hagan efecto. Puede indicarse una nota al crear el campo personalizado.';
+Nota: Els usuaris hauran de sortir de moodle i tornar a entrar per aque els canvis facin efecte. Pot indicar-se una nota al crear el camp personalitzat.';
 
-$string['menuoverrideprofilefield'] = 'Nombre del campo personalizado';
-$string['menuoverrideprofilefielddesc'] = 'El nombre del campo de perfil "list" usado por la anulación por usuario.';
-$string['menuoverrideprofilefielddefault'] = 'topmenusettings';
+$string['menuoverrideprofilefield'] = 'Nom del camp personalitzat';
+$string['menuoverrideprofilefielddesc'] = 'El nom del camp de perfil "list" utilitzat per lánul·lació per usuari.';
+$string['menuoverrideprofilefielddefault'] = 'Ajust del menú superio';
 
-$string['topmenuscount'] = 'Número de menús superiores';
-$string['topmenuscountdesc'] = 'Establece el número de menús superiores que quieres añadir en la cabecera.';
+$string['topmenuscount'] = 'Nombre de menús superiors';
+$string['topmenuscountdesc'] = 'Estableix el nombre de menús superiors que vols afegir a la capçalera.';
 
-$string['menusheadingvisibility'] = 'Configuración para la visibilidad del menú superior';
-$string['menusheadingvisibilitydesc'] = 'La siguiente configuración permite controlar donde mostrar los menús y opcionalmente permitir a los usuarios su personalización.';
+$string['menusheadingvisibiliti'] = 'Configuració per a la visibilitat del menú superior';
+$string['menusheadingvisibilitidesc'] = 'La següent configuració permet controlar on mostrar els menús i opcionalment permetre als usuaris la seva personalització.';
 
 $string['newmenuheading'] = 'Menú superior';
 $string['newmenu'] = 'Menú superior desplegable';
-$string['newmenutitle'] = 'Título menú superior';
-$string['newmenutitledesc'] = 'El título del menú aparecerá en la cabecera del sitio';
+$string['newmenutitle'] = 'Títol menú superior';
+$string['newmenutitledesc'] = 'El títol del menú apareixerà a la capçalera del lloc';
 $string['newmenutitledefault'] = 'Menú';
 
-$string['enabletoolsmenus'] = 'Activar menús de herramientas';
-$string['enabletoolsmenusdesc'] = 'Por razones de rendimiento se recomienda dejarlo desactivado si no se utilizan.';
+$string['enabletoolsmenus'] = 'Activar menús d´eines';
+$string['enabletoolsmenusdesc'] = 'Per raons de rendiment, es recomana deixar-ho desactivat si no s´utilitzen.';
 
-$string['toolsmenuheading'] = 'Menús herramientas (en la barra de navegación)';
-$string['toolsmenuheadingdesc'] = 'Puedes configurar los enlaces a mostrar en el menú de herramientas (en la barra de navegación).
- este formato es similar al usado por los menús personalizados de moodle pero permite añadir los iconos Font Awesome:
+$string['toolsmenuheading'] = 'Menús eines (a la barra de navegació)';
+$string['toolsmenuheadingdesc'] = 'Pots configurar els enllaços a mostrar al menú d´eines (a la barra de navegació).
+ aquest format és similar a l´utilitzat pels menús personalitzats de moodle però permet afegir les icones Font Awesome:
 <pre>
 &lt;span class=&quot;fa fa-video-camera&quot;&gt;&lt;/span&gt; Record Screen|http://google.co.uk|Record Screen
 &lt;span class=&quot;fa fa-picture-o&quot;&gt;&lt;/span&gt; ThinkStock|http://google.co.uk|ThinkStock
 &lt;span class=&quot;fa fa-clock-o&quot;&gt;&lt;/span&gt; Exam Clock|http://google.co.uk|Exam Clock
 </pre><br />';
 
-$string['toolsmenuscount'] = 'Número de menús de herramientas';
-$string['toolsmenuscountdesc'] = 'Establece el número de menús de herramientas que quieres a la barra de navegación.';
+$string['toolsmenuscount'] = 'Nombre de menús d´eines';
+$string['toolsmenuscountdesc'] = 'Estableix el nombre de menús d´eines que vols a la barra de navegació.';
 
-$string['toolsmenu'] = 'Menú de herramientas desplegable';
-$string['toolsmenudesc'] = 'Añade un menú desplegable en la barra de navegación.';
+$string['toolsmenu'] = 'Menú d´eines desplegable';
+$string['toolsmenudesc'] = 'Afegeix un menú desplegable a la barra de navegació.';
 
-$string['toolsmenutitle'] = 'Título menú de herramientas';
-$string['toolsmenutitledefault'] = 'Herramientas';
-$string['toolsmenutitledesc'] = 'Añade el título a mostrar en la barra de navegación.';
+$string['toolsmenutitle'] = 'títol menú d´eines';
+$string['toolsmenutitledefault'] = 'Eines';
+$string['toolsmenutitledesc'] = 'Afegeix el títol a mostrar a la barra de navegació.';
 
-$string['toolsmenulabel'] = 'Menú Herramientas';
+$string['toolsmenulabel'] = 'Menú Eines';
 
-$string['toolsmenufield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string['toolsmenufielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=student';
+$string['toolsmenufield'] = 'Nom del camp personalitzat del perfil Field Name=Value (opcional)';
+$string['toolsmenufielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
 
 
 // Social settings *************************************************.
-$string['socialsettings'] = 'Redes sociales';
-$string['socialheading'] = 'Configuración de los iconos de redes sociales';
-$string['socialtitledesc'] = '<pre>Puedes desactivar la búsqueda y activar los iconos de redes sociales en su lugar.
-Para configurar los iconos, introduce una lista delimitada en el campo "Lista de iconos sociales".
-El formato debe ser:
+$string['socialsettings'] = 'Xarxes socials';
+$string['socialheading'] = 'Configuració de les icones de xarxes socials';
+$string['socialtitledesc'] = '<pre>Pots desactivar la cerca i activar les icones de xarxes socials al seu lloc.
+Per configurar les icones, introdueix una llista delimitada al campo "Llista d´icones socials".
+El format ha de ser:
 
-url|titulo|icono
+url|títol|icona
 
-Ejemplo:
+Exemple:
 
 http://localhost/moodle/course/search.php|Buscar en Moodle|fa-search
 https://facebook.com/|Facebook|fa-facebook-square
@@ -1270,76 +1270,76 @@ https://twitter.com/|Twitter|fa-twitter-square
 https://instagram.com|Instagram|fa-instagram
 http://example.com|Mi Web|fa-globe
 
-El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
+El llistat d´icones es troba a : <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
 
-$string['socialsize'] = 'Configurar tamaño de los iconos sociales';
-$string['socialsizemobile'] = 'Configurar tamaño de los iconos sociales en móviles';
-$string['socialpaddingtop'] = 'Ajustar la separación debajo los iconos sociales (altera la posición vertical)';
+$string['socialsize'] = 'Configurar la mida de les icones socials';
+$string['socialsizemobile'] = 'Configurar la mida de les icones socials a mòbils';
+$string['socialpaddingtop'] = 'Ajustar la separació sota les icones socials (altera la posició vertical)';
 
-$string['socialtarget'] = 'Formato de apertura de la ventana de enlaces sociales';
-$string['socialtargetdesc'] = 'Abrir la red social en la misma venta o en una nueva';
+$string['socialtarget'] = 'Format d´apertura de la finestra d´enllaços socials';
+$string['socialtargetdesc'] = 'Obrir la xarxa social a la mateixa finestra o a una nova';
 
-$string['socialsearchicon'] = 'Buscar en Moodle';
-$string['socialsearchicondesc'] = 'Muestra el cuadro de búsqueda al lado de los iconos sociales.';
+$string['socialsearchicon'] = 'Cercar a Moodle';
+$string['socialsearchicondesc'] = 'Mostra el quadre de cerca al costat de les icones socials.';
 
-$string['socialicondesc'] = 'Selecciona el icono de Font Awesome. Por ejemplo: fa-facebook';
+$string['socialicondesc'] = 'Selecciona l´icona de Font Awesome. Per exemple: fa-facebook';
 
-$string['socialiconlist'] = 'Lista de iconos sociales';
-$string['socialiconlistdesc'] = 'Introducir una lista delimitada por comas para configurar los iconos de redes sociales que necesites usando el formato: url|titulo|icono';
+$string['socialiconlist'] = 'Llista d´icones socials';
+$string['socialiconlistdesc'] = 'Introduir una llista delimitada per comes per configurar les icones de xarxes socials que necessites utilitzant el format: url|títol|icona';
 
-// Analytics **********************************.
-$string['analyticssettings'] = 'Analytics';
-$string['analyticssettingsheading'] = 'Configura Google Analytics y/o Piwik';
-$string['analyticssettingsdesc'] = 'Puedes configurar Google Analytics y/o Piwik para tu sitio moodle.';
+// Analitics **********************************.
+$string['analiticssettings'] = 'Analítics';
+$string['analiticssettingsheading'] = 'Configura Google Analítics i/o Piwik';
+$string['analiticssettingsdesc'] = 'Pots configurar Google Analítics i/o Piwik per al teu lloc moodle.';
 
 // GA.
-$string ['googleanalyticssettings'] = 'Google Analytics';
-$string ['googleanalyticssettingsheading'] = 'Configura Google Analytics para tu sitio';
-$string ['googleanalyticssettingsdesc'] = 'Puedes configurar multiple códigos para Google Analytics y configurarlos para diferentes campus personalizados de usuario.';
+$string ['googleanaliticssettings'] = 'Google Analítics';
+$string ['googleanaliticssettingsheading'] = 'Configura Google Analítics per al teu lloc';
+$string ['googleanaliticssettingsdesc'] = 'Pots configurar múltples codis per a Google Analítics i configurar-los per a diferents camps personalitzats d´usuari.';
 
-$string ['enableanalytics'] = 'Activar Google Analytics';
-$string ['enableanalyticsdesc'] = 'Activar Google Analytics en el sitio.';
+$string ['enableanalitics'] = 'Activar Google Analítics';
+$string ['enableanaliticsdesc'] = 'Activar Google Analítics al lloc.';
 
-$string ['analyticstext'] = 'Analytics ID';
-$string ['analyticstextdesc'] = 'Introducir la ID de Google Analytics.';
+$string ['analiticstext'] = 'Analítics ID';
+$string ['analiticstextdesc'] = 'Introduir la ID de Google Analítics.';
 
-$string['analyticscount'] = 'Número de campos de perfil';
-$string['analyticscountdesc'] = 'Número de campos personalizados a introducir en el área inferior.';
+$string['analiticscount'] = 'Nombre de camps de perfil';
+$string['analiticscountdesc'] = 'Nombre de camps personalitzats a introduir a l´àrea inferior.';
 
-$string ['analyticsprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
-$string ['analyticsprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
+$string ['analiticsprofilefield'] = 'Nom del camp personalitzat del perfíl Field Name=Value (opcional)';
+$string ['analiticsprofilefielddesc'] = 'Afegeix una regla d´accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
 
 // Piwik.
 $string['piwiksettings'] = 'Piwik';
 $string['piwiksettingsheading'] = 'Configurar Piwik';
-$string['piwiksettingsdesc'] = 'Generar una URL limpia para el rastreo avanzado.';
+$string['piwiksettingsdesc'] = 'Generar una URL neta per al rastreig avançat.';
 
 $string['piwikenabled'] = 'Activar Piwik';
-$string['piwikenableddesc'] = 'Activar el rastreo de Piwik para Moodle.';
+$string['piwikenableddesc'] = 'Activar el rastreig de Piwik per a Moodle.';
 
-$string['piwiksiteid'] = 'ID del sitio';
-$string['piwiksiteiddesc'] = 'Introducir la ID del sitio.';
+$string['piwiksiteid'] = 'ID del lloc';
+$string['piwiksiteiddesc'] = 'Introduir la ID del lloc.';
 
-$string['piwikimagetrack'] = 'Rastreo de imagen';
-$string['piwikimagetrackdesc'] = 'Activar el rastreo por imagen para navegadores con JavaScript desactivado.';
+$string['piwikimagetrack'] = 'Rastreig d´imatge';
+$string['piwikimagetrackdesc'] = 'Activar el rastreig per imatge per a navegadors amb JavaScript desactivat.';
 
 $string['piwiksiteurl'] = 'URL de Piwik';
-$string['piwiksiteurldesc'] = 'Introducir la dirección del sitio Piwik sin http (o https) ni la barra invertida.';
+$string['piwiksiteurldesc'] = 'Introduir l´adreça del lloc Piwik sense http (o https) ni la barra invertida.';
 
-$string['piwiktrackadmin'] = 'Rastreo de administradores';
-$string['piwiktrackadmindesc'] = 'Activar el rastreo de administradores (no recommendado)';
+$string['piwiktrackadmin'] = 'Rastreig d´administradors';
+$string['piwiktrackadmindesc'] = 'Activar el rastreig d´administradors (no recomanat)';
 
 
 // Custom CSS ******************************.
-$string['customcss'] = 'CSS y JS personalizado';
-$string['customcssdesc'] = 'Introduce las reglas CSS y código JS personalizadas.';
+$string['customcss'] = 'CSS i JS personalitzat';
+$string['customcssdesc'] = 'Introdueix les regles CSS i codi JS personalitzats.';
 
-$string['customcssjssettings'] = 'CSS y JS personalizado';
-$string['genericsettingsheading'] = 'Introduce tu propio código CSS y Javascript';
-$string['genericsettingsdescription'] = 'Introduce tu propio código CSS y Javascript.';
+$string['customcssjssettings'] = 'CSS i JS personalitzat';
+$string['genericsettingsheading'] = 'Introdueix el teu propi codi CSS i Javascript';
+$string['genericsettingsdescription'] = 'Introdueix el teu propi codi CSS i Javascript.';
 
-$string['jssection'] = 'Javascript personalizado';
-$string['jssectiondesc'] = 'Introduce el código Javascript personalizado.';
+$string['jssection'] = 'Javascript personalitzat';
+$string['jssectiondesc'] = 'Introdueix el codi Javascript personalitzat.';
 
 // Cache definitions.
-$string['cachedef_userdata'] = 'El tiempo para guardar una sesión de un usuario específico.';
+$string['cachedef_userdata'] = 'El temps per desar una sessió d´un usuari específic.';
