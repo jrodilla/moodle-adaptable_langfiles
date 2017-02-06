@@ -574,222 +574,222 @@ $string['navbarborderdesc'] = 'Estableix el color de la bora inferior de la barr
 $string['navbarhover'] = 'Color Hover de la barra de navegació';
 $string['navbarhoverdesc'] = 'Estableix el color de fons al passar el cursor sobre els ítems del menú de la barra de navegació.';
 
-$string['breadcrumb'] = 'Color de fondo de la guía de exploración';
-$string['breadcrumbdesc'] = 'Establece el color de fondo de la guía de exploración.';
+$string['breadcrumb'] = 'Color de fons de la guia d´exploració';
+$string['breadcrumbdesc'] = 'Estableix el color de fons de la guia d´exploració.';
 
-$string['breadcrumbtextcolor'] = 'Color de texto de la guía de exploración';
-$string['breadcrumbtextcolordesc'] = 'Establece el color de texto de la guía de exploración.';
+$string['breadcrumbtextcolor'] = 'Color de text de la guia d´exploració';
+$string['breadcrumbtextcolordesc'] = 'Estableix el color de text de la guia d´exploració.';
 
-$string['activebreadcrumb'] = 'Color de fondo de la guía de exploración activa';
-$string['activebreadcrumbdesc'] = 'Establece el color de fondo de la guía de exploración activa.';
+$string['activebreadcrumb'] = 'Color de fons de la guia d´exploració activa';
+$string['activebreadcrumbdesc'] = 'Estableix el color de fons de la guia d´exploració activa.';
 
-$string['messagepopupbackground'] = 'Color de fondo de los mensajes emergentes';
-$string['messagepopupbackgrounddesc'] = 'Establece el color de fondo de la cabecera de los mensajes emergentes.';
+$string['messagepopupbackground'] = 'Color de fons dels missatges emergents';
+$string['messagepopupbackgrounddesc'] = 'Estableix el color de fons de la capçalera dels missatges emergents.';
 
-$string['messagepopupcolor'] = 'Color de texto de los mensajes emergentes';
-$string['messagepopupcolordesc'] = ' Establece el color de texto de la cabecera de los mensajes emergentes.';
+$string['messagepopupcolor'] = 'Color de text dels missatges emergents';
+$string['messagepopupcolordesc'] = ' Estableix el color de text de la capçalera dels missatges emergents.';
 
-$string['menubkcolor'] = 'Color de fondo del menú principal';
-$string['menubkcolordesc'] = 'Establece el color de fondo del menú principal.';
+$string['menubkcolor'] = 'Color de fons del menú principal';
+$string['menubkcolordesc'] = 'Estableix el color de fons del menú principal.';
 
-$string['menubordercolor'] = 'Color de la línea divisoria de la barra de navegación';
-$string['menubordercolordesc'] = 'Establece el color de la linea divisoria de la barra de navegación.';
+$string['menubordercolor'] = 'Color de la línia divisòria de la barra de navegació';
+$string['menubordercolordesc'] = 'Estableix el color de la línia divisòria de la barra de navegació.';
 
-$string['menufontcolor'] = 'Color de texto del menú principal';
-$string['menufontcolordesc'] = 'Establece el color del texto del menú principal.';
+$string['menufontcolor'] = 'Color de text del menú principal';
+$string['menufontcolordesc'] = 'Estableix el color del text del menú principal.';
 
-$string['menuhovercolor'] = 'Color de fondo sobre el menú principal';
-$string['menuhovercolordesc'] = 'Establece el color de fondo del menú principal cuando pasa el cursor sobre los enlaces.';
+$string['menuhovercolor'] = 'Color de fons sobre el menú principal';
+$string['menuhovercolordesc'] = 'Estableix el color de fons del menú principal quan passar el cursor sobre els enllaços.';
 
-$string['mobilemenubkcolor'] = 'Color de fondo del menú para móvil';
-$string['mobilemenubkcolordesc'] = 'Establece el color de fondo del menú principal en móviles (colapsado)';
+$string['mobilemenubkcolor'] = 'Color de fons del menú para mòbil';
+$string['mobilemenubkcolordesc'] = 'Estableix el color de fons del menú principal en mòbils (col·lapsat)';
 
-$string['mobilemenufontcolor'] = 'Color del texto del menú para móvil';
-$string['mobilemenufontcolordesc'] = 'Establece el color de texto del menú principal en móviles (colapsado)';
+$string['mobilemenufontcolor'] = 'Color del text del menú para mòbil';
+$string['mobilemenufontcolordesc'] = 'Estableix el color de text del menú principal en mòbils (col·lapsat)';
 
-$string['selectiontext'] = 'Color del texto seleccionado';
-$string['selectiontextdesc'] = 'Establece el color del texto seleccionado en pantalla.';
+$string['selectiontext'] = 'Color del text seleccionat';
+$string['selectiontextdesc'] = 'Estableix el color del text seleccionat a la pantalla.';
 
-$string['selectionbackground'] = 'Color de fondo del texto seleccionado';
-$string['selectionbackgrounddesc'] = 'Establece el color de fondo del texto seleccionado en pantalla.';
+$string['selectionbackground'] = 'Color de fons del text seleccionat';
+$string['selectionbackgrounddesc'] = 'Estableix el color de fons del text seleccionat a la pantalla.';
 
 
 // Course *********************************************************.
-$string['coursesettings'] = 'Secciones del curso';
-$string['coursesettingsheading'] = 'Configuración de las secciones del curso.';
-$string['coursedesc'] = 'Configura las opciones de las secciones de los cursos como el título, color de fondo y bordes.';
+$string['coursesettings'] = 'Seccions del curs';
+$string['coursesettingsheading'] = 'Configuració de les seccions del curs.';
+$string['coursedesc'] = 'Configura las opcions de les seccions dels cursos com el títol, color de fons i bores.';
 
-$string['coursesectionheaderbg'] = 'Color de fondo de la cabecera';
-$string['coursesectionheaderbgdesc'] = 'Establece el color de fondo de la cabecera de la sección del curso.';
+$string['coursesectionheaderbg'] = 'Color de fons de la capçalera';
+$string['coursesectionheaderbgdesc'] = 'Estableix el color de fons de la capçalera de la secció del curs.';
 
-$string['currentcolor'] = 'Color de realce de la sección actual';
-$string['currentcolordesc'] = 'Establece el color de realce de la sección actual.';
+$string['currentcolor'] = 'Color de realç de la secció actual';
+$string['currentcolordesc'] = 'Estableix el color de realç de la secció actual.';
 
-$string['coursesectionheaderborderstyle'] = 'Estilo del borde inferior de la cabecera';
-$string['coursesectionheaderborderstyledesc'] = 'Establece el estilo del borde inferior de la cabecera de la sección del curso.';
+$string['coursesectionheaderborderstile'] = 'Estil de la bora inferior de la capçalera';
+$string['coursesectionheaderborderstiledesc'] = 'Estableix l´estil de la bora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderbordercolor'] = 'Color del borde inferior de la cabecera';
-$string['coursesectionheaderbordercolordesc'] = 'Establece el color del borde inferior de la cabecera de la sección del curso.';
+$string['coursesectionheaderbordercolor'] = 'Color de la bora inferior de la capçalera';
+$string['coursesectionheaderbordercolordesc'] = 'Estableix el color de la bora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderborderwidth'] = 'Grueso del borde inferior de la cabecera';
-$string['coursesectionheaderborderwidthdesc'] = 'Establece el grueso del borde inferior de la cabecera de la sección del curso.';
+$string['coursesectionheaderborderwidth'] = 'Gruix de la bora inferior de la capçalera';
+$string['coursesectionheaderborderwidthdesc'] = 'Estableix el Gruix de la bora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderborderradiustop'] = 'Radio de las esquinas del borde superior de la cabecera';
-$string['coursesectionheaderborderradiustopdesc'] = 'Establece el radio de las esquinas del borde superior de la cabecera de la sección del curso.';
+$string['coursesectionheaderborderradiustop'] = 'Radi de les cantonades de la bora superior de la capçalera';
+$string['coursesectionheaderborderradiustopdesc'] = 'Estableix el radi de les cantonades de la bora superior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderborderradiusbottom'] = 'Radio de las esquinas del borde inferior de la cabecera';
-$string['coursesectionheaderborderradiusbottomdesc'] = 'Establece el radio de las esquinas del borde inferior de la cabecera de la sección del curso.';
+$string['coursesectionheaderborderradiusbottom'] = 'Radi de las cantonades de la bora inferior de la capçalera';
+$string['coursesectionheaderborderradiusbottomdesc'] = 'Estableix el radi de les cantonades de la bora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionborderstyle'] = 'Estilo del borde de la sección del curso';
-$string['coursesectionborderstyledesc'] = 'Establece el estilo del borde de la sección del curso.';
+$string['coursesectionborderstile'] = 'Estil de la bora de la secció del curs';
+$string['coursesectionborderstiledesc'] = 'Estableix l´estil de la bora de la secció del curs.';
 
-$string['coursesectionborderwidth'] = 'Grueso del borde de la sección';
-$string['coursesectionborderwidthdesc'] = 'Establece el grueso del borde de la sección del curso.';
+$string['coursesectionborderwidth'] = 'Gruix de la bora de la secció';
+$string['coursesectionborderwidthdesc'] = 'Estableix el gruix de la bora de la secció del curs.';
 
-$string['coursesectionbordercolor'] = 'Color del borde de la sección';
-$string['coursesectionbordercolordesc'] = 'Establece el color del borde de la sección del curso.';
+$string['coursesectionbordercolor'] = 'Color de la bora de la secció';
+$string['coursesectionbordercolordesc'] = 'Estableix el color de la bora de la secció del curs.';
 
-$string['coursesectionborderradius'] = 'Radio del borde de la sección';
-$string['coursesectionborderradiusdesc'] = 'Establece el radio del borde de las esquinas de la sección del curso.';
+$string['coursesectionborderradius'] = 'Radi de la bora de la secció';
+$string['coursesectionborderradiusdesc'] = 'Estableix el Radi de la bora de les cantonades de la secció del curs.';
 
 // Fonts ***********************************************************.
-$string['fontsettings'] = 'Fuentes';
-$string['fontsettingsheading'] = 'Establece las fuentes utilizadas por la plantilla.';
-$string['fontdesc'] = 'Selecciona la fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> para el texto, los encabezamientos y el título. Selecciona también el juego de caracteres a usar (latín está incluido por defecto) e introduce el valor correcto para el grueso de fuente utilizado o no se mostrará.';
+$string['fontsettings'] = 'Fonts';
+$string['fontsettingsheading'] = 'Estableix les fonts utilitzades per la plantilla.';
+$string['fontdesc'] = 'Selecciona la font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> per al text, els encapçalaments i el títol. Selecciona també el joc de caracters a utilitzar (llatí està inclòs per defecte) e introdueix el valor correcte per al gruix de les fonts utilitzat o no es mostrarà.';
 
-$string['fontname'] = 'Fuente principal';
-$string['fontnamedesc'] = 'Establece la fuente principal. Selecciona defecto o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+$string['fontname'] = 'Font principal';
+$string['fontnamedesc'] = 'Estableix la font principal. Selecciona defecte o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
-$string['fontsize'] = 'Tamaño de la fuente principal';
-$string['fontsizedesc'] = 'Selecciona el tamaño por defecto de la fuente principal (en porcentaje) usada en el sitio.';
+$string['fontsize'] = 'Mida de la font principal';
+$string['fontsizedesc'] = 'Selecciona la mida per defecte de la font principal (en percentatge) utilitzada al lloc.';
 
-$string['fontheadername'] = 'Fuente encabezamientos';
-$string['fontheadernamedesc'] = 'Establece la fuente de los encabezamientos utilizados en la plantilla. Selecciona default o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+$string['fontheadername'] = 'Font encapçalaments';
+$string['fontheadernamedesc'] = 'Estableix la font dels encapçalaments utilitzats a la plantilla. Selecciona default o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
-$string['fontcolor'] = 'Color de la fuente principal';
-$string['fontcolordesc'] = 'Establece el color de la fuente principal.';
+$string['fontcolor'] = 'Color de la font principal';
+$string['fontcolordesc'] = 'Estableix el color de la font principal.';
 
-$string['fontheadercolor'] = 'Color de la fuente de encabezamientos';
-$string['fontheadercolordesc'] = 'Establece el color de la fuente de los encabezamientos utilizados en la plantilla.';
+$string['fontheadercolor'] = 'Color de la font dels encapçalaments';
+$string['fontheadercolordesc'] = 'Estableix el color de la font dels encapçalaments utilitzats a la plantilla.';
 
-$string['fontweight'] = 'Grueso de la fuente principal';
-$string['fontweightdesc'] = 'Establece el grueso de la fuente principal. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
+$string['fontweight'] = 'Gruix de la font principal';
+$string['fontweightdesc'] = 'Estableix el Gruix de la font principal. Introduir un valor entre 100 i 900 depenent de la font utilitzada.';
 
-$string['fontheaderweight'] = 'Grueso de la fuente de encabezamientos';
-$string['fontheaderweightdesc'] = 'Establece el grueso de la fuente de los encabezamientos. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
+$string['fontheaderweight'] = 'Gruix de la font de encapçalaments';
+$string['fontheaderweightdesc'] = 'Estableix el Gruix de la font dels encapçalaments. Introduir un valor entre 100 i 900 depenent de la font utilitzada.';
 
-$string['fonttitlename'] = 'Fuente del título del sitio';
-$string['fonttitlenamedesc'] = 'Establece la fuente del título del sitio situado en la cabecera. Selecciona default o una fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+$string['fonttitlename'] = 'font del títol del lloc';
+$string['fonttitlenamedesc'] = 'Estableix la font del títol del lloc situat en la capçalera. Selecciona default o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
-$string['fonttitlecolor'] = 'Color de la fuente del título del sitio';
-$string['fonttitlecolordesc'] = 'Establece el color de la fuente del título del sitio situado en la cabecera.';
+$string['fonttitlecolor'] = 'Color de la font del títol del lloc';
+$string['fonttitlecolordesc'] = 'Estableix el color de la font del títol del lloc situat en la capçalera.';
 
-$string['fonttitleweight'] = 'Grueso de la fuente del título del sitio';
-$string['fonttitleweightdesc'] = 'Establece el grueso de la fuente del título del sitio. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
+$string['fonttitleweight'] = 'Gruix de la font del títol del lloc';
+$string['fonttitleweightdesc'] = 'Estableix el Gruix de la font del títol del lloc. Introduir un valor entre 100 i 900 depenent de la font utilitzada.';
 
-$string['fonttitlesize'] = 'Tamaño de la fuente del título del sitio';
-$string['fonttitlesizedesc'] = 'Tamaño de la fuente del título del sitio situado en la cabecera. Introducir un valor decimal, por ejemplo: 24px';
+$string['fonttitlesize'] = 'Mida de la font del títol del lloc';
+$string['fonttitlesizedesc'] = 'Mida de la font del títol del lloc situat a la capçalera. Introduir un valor decimal, per exemple: 24px';
 
-$string['fonttitlenamecourse'] = 'Fuente del título del curso';
-$string['fonttitlenamecoursedesc'] = 'Selecciona la fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> para el título del curso.';
+$string['fonttitlenamecourse'] = 'Font del títol del curs';
+$string['fonttitlenamecoursedesc'] = 'Selecciona la font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> per al títol del curs.';
 
-$string['fonttitlecolorcourse'] = 'Color de la fuente del título del curso';
-$string['fonttitlecolorcoursedesc'] = 'Establece el color de la fuente usada en el título del curso.';
+$string['fonttitlecolorcourse'] = 'Color de la font del títol del curs';
+$string['fonttitlecolorcoursedesc'] = 'Estableix el color de la font utilitzada al títol del curs.';
 
-$string['fonttitleweightcourse'] = 'Grueso de la fuente del título del curso';
-$string['fonttitleweightcoursedesc'] = 'Establece el grueso de la fuente usada en el título del curso. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
+$string['fonttitleweightcourse'] = 'Gruix de la font del títol del curs';
+$string['fonttitleweightcoursedesc'] = 'Estableix el gruix de la font utilitzada al títol del curs. Introduir un valor entre 100 i 900 depenent de la font utilitzada.';
 
-$string['fonttitlesizecourse'] = 'Tamaño de la fuente del título del curso';
-$string['fonttitlesizecoursedesc'] = 'Establece el tamaño de la fuente del título del curso. Introducir un valor decimal, por ejemplo: 24px';
+$string['fonttitlesizecourse'] = 'Mida de la font del títol del curs';
+$string['fonttitlesizecoursedesc'] = 'Estableix la mida de la font del títol del curs. Introduir un valor decimal, per ecemple: 24px';
 
-$string['fontsubset'] = 'Juego de caracteres de Google Fonts';
-$string['fontsubsetdesc'] = 'Seleccionar el juego de caracteres de Google Fonts a usar además del latín ya incluido por defecto. Se aplicará a toda las fuentes seleccionadas.';
+$string['fontsubset'] = 'Joc de caracters de Google Fonts';
+$string['fontsubsetdesc'] = 'Seleccionar el joc de caracters de Google Fonts a utilitzat a més a més del llatí ja inclòs per defecte. S´aplicarà a totes les fonts seleccionades.';
 
-$string['menufontsize'] = 'Tamaño de la fuente de la barra de navegación';
-$string['menufontsizedesc'] = 'Establece el tamaño de la fuente utilizada en la barra de navegación.';
+$string['menufontsize'] = 'Mida de la font de la barra de navegació';
+$string['menufontsizedesc'] = 'Estableix la mida de la font utilitzada a la barra de navegació.';
 
-$string['menufontpadding'] = 'Separación entre los ítems de la barra de navegación';
-$string['menufontpaddingdesc'] = 'Establece la separación entre los ítems de la barra de navegación.';
+$string['menufontpadding'] = 'Separació entre els ítems de la barra de navegació';
+$string['menufontpaddingdesc'] = 'Estableix la separació entre els ítems de la barra de navegació.';
 
-$string['fontblockheadercolor'] = 'Color de la fuente de la cabecera de los bloques';
-$string['fontblockheadercolordesc'] = 'Establece el color de la fuente de la cabecera de los bloques de moodle.';
+$string['fontblockheadercolor'] = 'Color de la font de la capçalera dels blocs';
+$string['fontblockheadercolordesc'] = 'Estableix el color de la font de la capçalera dels blocs de moodle.';
 
-$string['fontblockheaderweight'] = 'Grueso de la fuente de la cabecera de los bloques de moodle';
-$string['fontblockheaderweightdesc'] = 'Establece grueso de la fuente de la cabecera de los bloques de moodle. Seleccionar un valor entre 100 y 900 dependiendo de la fuente seleccionada.';
+$string['fontblockheaderweight'] = 'Gruix de la font de la capçalera dels blocs de moodle';
+$string['fontblockheaderweightdesc'] = 'Estableix el gruix de la font de la capçalera dels blocs de moodle. Seleccionar un valor entre 100 i 900 depenent de la font seleccionada.';
 
-$string['fontblockheadersize'] = 'Tamaño de la fuente de la cabecera de la cabecera de los bloques de moodle';
-$string['fontblockheadersizedesc'] = 'Establece el tamaño de la fuente utilizada en la cabecera de los bloques de moodle. Seleccionar un valor de la lista.';
+$string['fontblockheadersize'] = 'Mida de la font de la capçalera dels blocs de moodle';
+$string['fontblockheadersizedesc'] = 'Estableix la mida de la font utilitzada a la capçalera dels blocs de moodle. Seleccionar un valor de la llista.';
 
 // Buttons *********************************************************.
-$string['buttonsettings'] = 'Botones';
-$string['buttonsettingsheading'] = 'Personalizar los botones.';
-$string['buttondesc'] = 'personaliza a forma y colores de los botones utilizados en la plantilla.';
+$string['buttonsettings'] = 'Botons';
+$string['buttonsettingsheading'] = 'Personalitzar els botons.';
+$string['buttondesc'] = 'personalitza la forma i colors dels botons utilitzats a la plantilla.';
 
-$string['buttonradius'] = 'Radio de las esquinas';
-$string['buttonradiusdesc'] = '0 = esquinas cuadradas. Un valor más alto es igual a esquinas más redondeadas.';
+$string['buttonradius'] = 'Radi de les cantonades';
+$string['buttonradiusdesc'] = '0 = cantonades quadrades. Un valor més alto és igual a cantonades més arrodonides .';
 
-$string['buttoncolor'] = 'Colores de los botones';
-$string['buttoncolordesc'] = 'El color de los botones principales.';
+$string['buttoncolor'] = 'Colors dels botons';
+$string['buttoncolordesc'] = 'El color dels botons principals.';
 
-$string['buttonhovercolor'] = 'Color Hover de los botones';
-$string['buttonhovercolordesc'] = 'Color del botón al pasar el cursor por encima.';
+$string['buttonhovercolor'] = 'Color Hover dels botons';
+$string['buttonhovercolordesc'] = 'Color del botó al passar el cursor por sobre.';
 
-$string['buttontextcolor'] = 'Color del texto de los botones';
-$string['buttontextcolordesc'] = 'Color del texto de los botones.';
+$string['buttontextcolor'] = 'Color del text dels botons';
+$string['buttontextcolordesc'] = 'Color del text dels botons.';
 
-$string['editfont'] = 'Color del texto de los botones de <i>Edición</i> y <i>Personalizar esta página</i>';
-$string['editfontdesc'] = 'establece el color del texto de los botones de <i>Edición</i> y <i>Personalizar esta página</i>';
+$string['editfont'] = 'Color del text dels botons d´ <i>Edició</i> i <i>Personalitzar aquesta pàgina</i>';
+$string['editfontdesc'] = 'Estableix el color del text dels botons d´ <i>Edició</i> i <i>Personalitzar aquesta pàgina</i>';
 
-$string['editverticalpadding'] = 'Espaciado vertical de los botones de edición';
-$string['edithorizontalpadding'] = 'Espaciado horizontal de los botones de edición';
-$string['edittopmargin'] = 'Margen superior de los botones de edición';
+$string['editverticalpadding'] = 'Espaiat vertical dels botons d´edició';
+$string['edithorizontalpadding'] = 'Espaiat horitzontal dels botons d´edició';
+$string['edittopmargin'] = 'Marge superior dels botons d´edició';
 
 
 // Boton Login.
 $string['logintextbutton'] = 'Entrar';
 
-$string['buttonlogincolor'] = 'Color del botón Entrar';
-$string['buttonlogincolordesc'] = 'Color del botón Entrar.';
+$string['buttonlogincolor'] = 'Color del botó Entrar';
+$string['buttonlogincolordesc'] = 'Color del botó Entrar.';
 
-$string['buttonloginhovercolor'] = 'Color Hover del botón Entrar';
-$string['buttonloginhovercolordesc'] = 'Color del botón Entrar al pasar el cursos por encima.';
+$string['buttonloginhovercolor'] = 'Color Hover del botó Entrar';
+$string['buttonloginhovercolordesc'] = 'Color del botó Entrar al passar el cursor per sobre.';
 
-$string['buttonlogintextcolor'] = 'Color del texto del botón Entrar';
-$string['buttonlogintextcolordesc'] = 'Color del texto del botón Entrar.';
+$string['buttonlogintextcolor'] = 'Color del text del botó Entrar';
+$string['buttonlogintextcolordesc'] = 'Color del text del botó Entrar.';
 
-$string['buttonloginpadding'] = 'Separación del texto del botón Entrar';
-$string['buttonloginpaddingdesc'] = 'Separación alrededor del texto del botón Entrar. Número más alto = Botón más grande.';
+$string['buttonloginpadding'] = 'Separació del text del botó Entrar';
+$string['buttonloginpaddingdesc'] = 'Separació al voltant del text del botó Entrar. Número més alt = Botó més gran.';
 
-$string['buttonloginheight'] = 'Altura del botón Entrar';
-$string['buttonloginheightdesc'] = 'Altura del botón Entrar. Solo si se utiliza el formulario de entrada en la cabecera.';
+$string['buttonloginheight'] = 'Alçada del botó Entrar';
+$string['buttonloginheightdesc'] = 'Alçada del botó Entrar. Només si s´utilitza el formulari d´entrada a la capçalera.';
 
-$string['buttonloginmargintop'] = 'Margen superior del botón Entrar';
-$string['buttonloginmargintopdesc'] = 'Permite posicionar el botón Entrar si se han cambiado los valores indicados anteriormente.';
+$string['buttonloginmargintop'] = 'Marge superior del botó Entrar';
+$string['buttonloginmargintopdesc'] = 'Permet posicionar el botó Entrar si s´han canviat els valors indicats anteriorment.';
 
-$string['loginplaceholder'] = 'Usuario';
-$string['passwordplaceholder'] = 'Contraseña';
+$string['loginplaceholder'] = 'Usuari';
+$string['passwordplaceholder'] = 'Contrasenya';
 
 
 // Header ***********************************************************.
-$string['headersettings'] = 'Cabecera';
-$string['headersettingsheading'] = 'Personalización de la cabecera.';
-$string['headerdesc'] = 'Mostrar Alertas para avisar a los usuarios, controlar la barra de navegación, mostrar el título del sitio o el logo son algunas de las opciones de la cabecera.';
+$string['headersettings'] = 'Capçalera';
+$string['headersettingsheading'] = 'Personalització de la capçalera.';
+$string['headerdesc'] = 'Mostrar alertes per avisar als usuaris, controlar la barra de navegació, mostrar el títol del lloc o el logotip, són algunes de les opcions de la capçalera.';
 
 
-$string['enableheading'] = 'Mostrar nombre del curso';
-$string['enableheadingdesc'] = 'Establece el modo de visualización del título del curso en la cabecera.';
+$string['enableheading'] = 'Mostrar nom del curs';
+$string['enableheadingdesc'] = 'Estableix el mode de visualització del títol del curs a la capçalera.';
 
-$string['sitetitlecoursesdisabled'] = 'Desactivado - muestra solo el título del curso en las páginas del curso';
-$string['sitetitlecoursesenabled'] = 'Activado - muestra el nombre del sitio y el título del cursos en las páginas del curso';
+$string['sitetitlecoursesdisabled'] = 'Desactivat - mostra només el títol del curs a les pàgines del curs';
+$string['sitetitlecoursesenabled'] = 'Activat - mostra el nom del lloc i el títol dels cursos a les pàgines del curs';
 
-$string['sitetitlepaddingtop'] = 'Separación superior del nombre del sitio';
-$string['sitetitlepaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, de la parte superior del nombre del sitio.';
+$string['sitetitlepaddingtop'] = 'Separació superior del nom del lloc';
+$string['sitetitlepaddingtopdesc'] = 'Permet ajustar la separació, en píxels, de la part superior del nom del lloc.';
 
-$string['sitetitlepaddingleft'] = 'Separación izquierda del nombre del sitio';
-$string['sitetitlepaddingleftdesc'] = 'Permite ajustar la separación, en píxeles, de la parte izquierda del nombre del sitio.';
+$string['sitetitlepaddingleft'] = 'Separació esquerra del nom del lloc';
+$string['sitetitlepaddingleftdesc'] = 'Permet ajustar la separació, en píxels, de la part esquerra del nom del lloc.';
 
-$string['sitetitlemaxwidth'] = 'Longitud máxima del nombre del sitio';
-$string['sitetitlemaxwidthdesc'] = 'Establece la longitud máxima de caracteres del nombre del sitio. La longitud final dependerá de la fuente, tamaño y resolución de pantalla.';
+$string['sitetitlemaxwidth'] = 'Longitud màxima del nom del lloc';
+$string['sitetitlemaxwidthdesc'] = 'Estableix la longitud màxima de caracters del nom del lloc. La longitud final dependrà de la font, mida i resolució de pantalla.';
 
 $string['coursetitlepaddingtop'] = 'Separación superior del título del curso';
 $string['coursetitlepaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, de la parte superior del título del curso.';
