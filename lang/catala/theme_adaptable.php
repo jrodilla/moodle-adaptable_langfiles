@@ -432,147 +432,147 @@ $string['usernavdesc'] = 'Permet personatlizar els elements que apareixen al men
 $string['enablehomedesc'] = 'Mostrar enllaç a Inici';
 
 $string['enablehomeredirect'] = 'Activar redirect=0';
-$string['enablehomeredirectdesc'] = 'Activa la opción redirect=0 para redirigir a la página inicial del sitio. Está opción puede utilizarse en sitios que tienen el Área Personal como página inicial por defecto. Desactivada previene redirigir a los usuarios a la página inicial y ser redirigidos al Área Personal';
+$string['enablehomeredirectdesc'] = 'Activa la opció redirect=0 per a redirigir a la pàgina inicial del lloc. Aquesta opció pot utilitzar-se a llocs que tenen l´Àrea Personal com a pàgina per defecte. Desactivada preveu redigirir als usuarios a la pàgina inicial y són redirigits a l´Àrea Personal';
 
 
 // Colours *********************************************************.
-$string['colorsettings'] = 'Colores';
-$string['colorsettingsheading'] = 'Modifica los principales colores utilizados en la plantilla.';
-$string['colordesc'] = 'Puedes seleccionar los colores que desees para ser usados por la plantilla. Usa la notación HEX estándar. También puedes usar como valores <i>transparent</i> e <i>inherited.</i>';
-$string['linkcolor'] = 'Color enlace';
-$string['linkcolordesc'] = 'Establece el color de los enlaces.';
+$string['colorsettings'] = 'Colors';
+$string['colorsettingsheading'] = 'Modifica els colors principals utilitzats a la plantilla.';
+$string['colordesc'] = 'Pots seleccionar els colors que desitgis per ser utilitzats per la plantilla. Utilitza la notació HEX estàndard. Tabmé pots utilitzar com a valors <i>transparent</i> i <i>inherited.</i>';
+$string['linkcolor'] = 'Color enllaç';
+$string['linkcolordesc'] = 'Estableix el color dels enllaços.';
 
-$string['linkhover'] = 'Color sobre enlace';
-$string['linkhoverdesc'] = 'Establece el color cuando pasa el cursor sobre los enlaces.';
+$string['linkhover'] = 'Color sobre enllaç';
+$string['linkhoverdesc'] = 'Estableix el color quan passa el cursor sobre els enllaços.';
 
-$string['backcolor'] = 'Color de fondo';
-$string['backcolordesc'] = 'Establece el color de fondo de la plantilla.';
+$string['backcolor'] = 'Color de fons';
+$string['backcolordesc'] = 'Estableix el color de fons de la plantilla.';
 
-$string['regionmaincolor'] = 'Color de la región principal';
-$string['regionmaincolordesc'] = 'Establece el color de fondo de la región principal.';
+$string['regionmaincolor'] = 'Color de la regió principal';
+$string['regionmaincolordesc'] = 'Estableix el color de fons de la regió principal.';
 
 $string['maincolor'] = 'Color principal';
-$string['maincolordesc'] = 'Establece el color principal del sitio.';
+$string['maincolordesc'] = 'Estableix el color principal del lloc.';
 
-$string['footertextcolor'] = 'Color de texto del pie de página superior';
-$string['footertextcolordesc'] = 'Establece el color de texto en el pie de página superior.';
+$string['footertextcolor'] = 'Color de text del peu de pàgina superior';
+$string['footertextcolordesc'] = 'Estableix el color de text al peu de pàgina superior.';
 
-$string['footerbkcolor'] = 'Color de fondo del pie de página superior';
-$string['footerbkcolordesc'] = 'Establece el color de fondo del pie de página superior.';
+$string['footerbkcolor'] = 'Color de fons del peu de pàgina superior';
+$string['footerbkcolordesc'] = 'Estableix el color de fons del peu de pàgina superior.';
 
-$string['footertextcolor2'] = 'Color del texto del pie de página inferior';
-$string['footertextcolor2desc'] = 'Establece el color del texto del pie de página inferior.';
+$string['footertextcolor2'] = 'Color del text del peu de pàgina inferior';
+$string['footertextcolor2desc'] = 'Estableix el color del text del peu de pàgina inferior.';
 
-$string['footerlinkcolor'] = 'Color de los enlaces del pie de página';
-$string['footerlinkcolordesc'] = 'Establece el color de los enlaces del pie de página.';
+$string['footerlinkcolor'] = 'Color dels enllaços del peu de pàgina';
+$string['footerlinkcolordesc'] = 'Estableix el color dels enllaços del peu de pàgina.';
 
-$string['headerbkcolor'] = 'Color de fondo de la parte superior de la cabecera';
-$string['headerbkcolordesc'] = 'Establece el color de fondo de la parte superior de la cabecera.';
+$string['headerbkcolor'] = 'Color de fons de la part superior de la capçalera';
+$string['headerbkcolordesc'] = 'Estableix el color de fons de la part superior de la capçalera.';
 
-$string['msgbadgecolor'] = 'Color de fondo del marcador de mensajes.';
-$string['msgbadgecolordesc'] = 'Establece el color de fondo del marcador de mensajes en la cabecera (donde se muestra el número de mensajes no leidos)';
+$string['msgbadgecolor'] = 'Color de fons del marcador de missatges.';
+$string['msgbadgecolordesc'] = 'Estableix el color de fons del marcador de missatges de la capçalera (on es mostra el número de missatges no llegits)';
 
-$string['headerbkcolor2'] = 'Color de fondo de la parte inferior de la cabecera';
-$string['headerbkcolor2desc'] = 'Establece el color de fondo de la parte inferior de la cabecera.';
+$string['headerbkcolor2'] = 'Color de fons de la parts inferior de la capçalera';
+$string['headerbkcolor2desc'] = 'Estableix el color de fons de la part inferior de la capçalera.';
 
-$string['headertextcolor'] = 'Color de texto y enlaces de la parte superior de la cabecera';
-$string['headertextcolordesc'] = 'Establece el color de texto y enlaces de la parte superior de la cabecera.';
+$string['headertextcolor'] = 'Color de text i enllaços de la part superior de la capçalera';
+$string['headertextcolordesc'] = 'Estableix el color de text i enllaços de la part superior de la capçalera.';
 
-$string['headertextcolor2'] = 'Color del texto y enlaces de la parte inferior de la cabecera';
-$string['headertextcolor2desc'] = 'Establece el color de texto y enlaces de la parte inferior de la cabecera.';
+$string['headertextcolor2'] = 'Color del text i enllaços de la part inferior de la capçalera';
+$string['headertextcolor2desc'] = 'Estableix el color de text i enllaços de la part inferior de la capçalera.';
 
-$string['blockheadercolor'] = 'Color del texto de la cabecera de los bloques';
-$string['blockheadercolordesc'] = 'Establece el color del texto de la cabecera de los bloques.';
+$string['blockheadercolor'] = 'Color del text de la capçalera dels blocs';
+$string['blockheadercolordesc'] = 'Estableix el color del text de la capçalera dels blocs.';
 
-$string['blockbackgroundcolor'] = 'Color de fondo de los bloques';
-$string['blockbackgroundcolordesc'] = 'Establece el color de fondo de los bloques.';
+$string['blockbackgroundcolor'] = 'Color de fons dels blocs';
+$string['blockbackgroundcolordesc'] = 'Estableix el color de fons dels blocs.';
 
-$string['blockheaderbackgroundcolor'] = 'Color de fondo de los encabezados de los bloques';
-$string['blockheaderbackgroundcolordesc'] = 'Establece el color de fondo de los encabezados de los bloques.';
+$string['blockheaderbackgroundcolor'] = 'Color de fons dels encapçalaments dels blocs';
+$string['blockheaderbackgroundcolordesc'] = 'Estableix el color de fons dels encapçalaments dels blocs.';
 
-$string['blockbordercolor'] = 'Color del borde de los bloques';
-$string['blockbordercolordesc'] = 'Establece el color del borde de los bloques.';
+$string['blockbordercolor'] = 'Color de la bora dels blocs';
+$string['blockbordercolordesc'] = 'Estableix el color de la bora dels blocs.';
 
-$string['blocklinkcolor'] = 'Color de enlace de los bloques';
-$string['blocklinkcolordesc'] = 'Establece el color de los enlaces de los bloques.';
+$string['blocklinkcolor'] = 'Color d´enllaç dels blocs';
+$string['blocklinkcolordesc'] = 'Estableix el color dels enllaços dels blocs.';
 
-$string['blocklinkhovercolor'] = 'Color de los enlaces de los bloques';
-$string['blocklinkhovercolordesc'] = 'Establece el color hover de los enlaces de los bloques.';
+$string['blocklinkhovercolor'] = 'Color dels enllaços dels blocs';
+$string['blocklinkhovercolordesc'] = 'Estableix el color hover dels enllaços dels blocs.';
 
-$string['blockregionbackground'] = 'Color de fondo de las regiones para bloques';
-$string['blockregionbackgrounddesc'] = 'Establece el color de fondo del contenedor del constructor de bloques de la página principal.';
+$string['blockregionbackground'] = 'Color de fons de les regions per a blocs';
+$string['blockregionbackgrounddesc'] = 'Estableix el color de fons del contenidor del constructor de blocs de la pàgina principal.';
 
-$string['blockheaderbordertop'] = 'Grueso del borde superior de los bloques';
-$string['blockheaderbordertopdesc'] = 'Establece el grosor del borde superior de los bloques.';
+$string['blockheaderbordertop'] = 'Gruix de la bora superior dels blocs';
+$string['blockheaderbordertopdesc'] = 'Estableix el gruix de la bora superior dels blocs.';
 
-$string['blockheaderborderleft'] = 'Grueso del borde izquierdo de los bloques';
-$string['blockheaderborderleftdesc'] = 'Establece el grosor del borde izquierdo de los bloques.';
+$string['blockheaderborderleft'] = 'Gruix de la bora esquerra dels blocs';
+$string['blockheaderborderleftdesc'] = 'Estableix el gruix de la bora esquerra dels blocs.';
 
-$string['blockheaderborderright'] = 'Grueso del borde derecho de los bloques';
-$string['blockheaderborderrightdesc'] = 'Establece el grosor del borde derecho de los bloques.';
+$string['blockheaderborderright'] = 'Gruix de la bora dreta dels blocs';
+$string['blockheaderborderrightdesc'] = 'Estableix el gruix de la bora dreta dels blocs.';
 
-$string['blockheaderborderbottom'] = 'Grueso del borde inferior de los bloques';
-$string['blockheaderborderbottomdesc'] = 'Establece el grosor del borde inferior de los bloques.';
+$string['blockheaderborderbottom'] = 'Gruix de la bora inferior dels blocs';
+$string['blockheaderborderbottomdesc'] = 'Estableix el gruix de la bora inferior dels blocs.';
 
-$string['blockmainbordertop'] = 'Grueso del borde superior del bloque central';
-$string['blockmainbordertopdesc'] = 'Establece el grosor del borde superior del bloque central.';
+$string['blockmainbordertop'] = 'Gruix de la bora superior del bloc central';
+$string['blockmainbordertopdesc'] = 'Estableix el gruix de la bora superior del bloc central.';
 
-$string['blockmainborderleft'] = 'Grueso del borde izquierdo del bloque central';
-$string['blockmainborderleftdesc'] = 'Establece el grosor del borde izquierdo del bloque central.';
+$string['blockmainborderleft'] = 'Gruix de la bora esquerra del bloc central';
+$string['blockmainborderleftdesc'] = 'Estableix el gruix de la bora esquerra del bloc central.';
 
-$string['blockmainborderright'] = 'Grueso del borde derecho del bloque central';
-$string['blockmainborderrightdesc'] = 'Establece el grosor del borde derecho del bloque central.';
+$string['blockmainborderright'] = 'Gruix de la bora dreta del bloc central';
+$string['blockmainborderrightdesc'] = 'Estableix el gruix de la bora dreta del bloc central.';
 
-$string['blockmainborderbottom'] = 'Grueso del borde inferior del bloque central';
-$string['blockmainborderbottomdesc'] = 'Establece el grosor del borde inferior del bloque central.';
+$string['blockmainborderbottom'] = 'Gruix de la bora inferior del bloc central';
+$string['blockmainborderbottomdesc'] = 'Estableix el gruix de la bora inferior del bloc central.';
 
-$string['blockheaderbordertopstyle'] = 'Estilo del borde de los bloques';
-$string['blockheaderbordertopstyledesc'] = 'Establece el estilo del borde de los bloques laterales.';
+$string['blockheaderbordertopstile'] = 'Estil de la bora dels blocs';
+$string['blockheaderbordertopstiledesc'] = 'Estableix l´estil de la bora dels blocs laterals.';
 
-$string['blockmainbordertopstyle'] = 'Estilo del borde del bloque central';
-$string['blockmainbordertopstyledesc'] = 'Establece el estilo del borde de los bloques centrales.';
+$string['blockmainbordertopstile'] = 'Estilo de la bora del bloc central';
+$string['blockmainbordertopstiledesc'] = 'Estableix l´estil de la bora dels blocs centrals.';
 
-$string['blockheadertopradius'] = 'Radio de las esquinas superiores de los bloques laterales';
-$string['blockheadertopradiusdesc'] = 'Radio de las esquinas superiores de los bloques laterales. Valor más alto es igual a efecto redondeado.';
+$string['blockheadertopradius'] = 'Radi de les cantonades superiors dels blocs laterals';
+$string['blockheadertopradiusdesc'] = 'Radi de les cantonades superiors dels blocs laterals. Valor més alt és igual a efecte arrodonit.';
 
-$string['blockheaderbottomradius'] = 'Radio de las esquinas inferiores de los bloques laterales';
-$string['blockheaderbottomradiusdesc'] = 'Radio de las esquinas inferiores de los bloques laterales. Valor más alto es igual a efecto redondeado.';
+$string['blockheaderbottomradius'] = 'Radi de les cantonades inferiors dels blocs laterals';
+$string['blockheaderbottomradiusdesc'] = 'Radi de les cantonades inferiors dels blocs laterals. Valor més alt és igual a efecte arrodonit.';
 
-$string['blockmaintopradius'] = 'Radio de las esquinas superiores de los bloques centrales';
-$string['blockmaintopradiusdesc'] = 'Radio de las esquinas superiores de los bloques centrales. Valor más alto es igual a efecto redondeado.';
+$string['blockmaintopradius'] = 'Radi de les cantonades superiors dels blocs centrals';
+$string['blockmaintopradiusdesc'] = 'Radi de les cantonades superiors dels blocs centrals. Valor més alto és igual a efecte arrodonit.';
 
-$string['blockmainbottomradius'] = 'Radio de las esquinas inferiores de los bloques centrales';
-$string['blockmainbottomradiusdesc'] = 'Radio de las esquinas inferiores de los bloques centrales. Valor más alto es igual a efecto redondeado.';
+$string['blockmainbottomradius'] = 'Radi de les cantonades inferiors dels blocs centrals';
+$string['blockmainbottomradiusdesc'] = 'Radi de les cantonades inferiors dels blocs centrals. Valor més alto és igual a efecte arrodonit.';
 
-$string['marketblockbordercolor'] = 'Color del borde de los bloques promocionales';
-$string['marketblockbordercolordesc'] = 'Establece el color del borde de los bloques promocionales.';
+$string['marketblockbordercolor'] = 'Color de la bora dels blocs promocionals';
+$string['marketblockbordercolordesc'] = 'Estableix el color de la bora dels blocs promocionals.';
 
-$string['marketblocksbackgroundcolor'] = 'Color de fondo de la región de los bloques promocionales.';
-$string['marketblocksbackgroundcolordesc'] = 'Establece el color de fondo de la región de los bloques promocionales.';
+$string['marketblocksbackgroundcolor'] = 'Color de fons de la regió dels blocs promocionals.';
+$string['marketblocksbackgroundcolordesc'] = 'Estableix el color de fons de la regió dels blocs promocionals.';
 
-$string['sectionheadingcolor'] = 'Color del texto de la cabecera de sección';
-$string['sectionheadingcolordesc'] = 'Establece el color del texto de la cabecera del tema actual.';
+$string['sectionheadingcolor'] = 'Color del text de la capçalera de secció';
+$string['sectionheadingcolordesc'] = 'Estableix el color del text de la capçalera del tema actual.';
 
-$string['homebk'] = 'Imagen de fondo';
-$string['homebkdesc'] = 'Carga la imagen de fondo para la plantilla.';
+$string['homebk'] = 'Imatge de fons';
+$string['homebkdesc'] = 'Carrega la imatge de fons per a la plantilla.';
 
-$string['editonbk'] = 'Color de fondo de los botones de edición y personalización activados';
-$string['editonbkdesc'] = 'Establece el color de fondo de los botones de edición y personalización cuando están activados.';
+$string['editonbk'] = 'Color de fons dels botons d´edició i personalització activats';
+$string['editonbkdesc'] = 'Estableix el color de fons dels botons d´edició i personalització quan estan activats.';
 
-$string['editoffbk'] = 'Color de fondo de los botones de edición y personalización desactivados';
-$string['editoffbkdesc'] = 'Establece el color de fondo de los botones de edición y personalización cuando están desactivados.';
+$string['editoffbk'] = 'Color de fons dels botons d´edició i personalització desactivats';
+$string['editoffbkdesc'] = 'Estableix el color de fons dels botons d´edició i personalització quan estan desactivats.';
 
-$string['dividingline'] = 'Color de la línea divisoria de la cabecera';
-$string['dividinglinedesc'] = 'Establece el color de la línea divisoria de la cabecera. Usar el mismo color que la cabecera para eliminarla.';
+$string['dividingline'] = 'Color de la línia divisòria de la capçalera';
+$string['dividinglinedesc'] = 'Estableix el color de la línia divisòria de la capçalera. Utilitza el mateix color que la capçalera per eliminar-la.';
 
-$string['dividingline2'] = 'Color de la línea divisoria del pie de página';
-$string['dividingline2desc'] = 'Establece el color de la línea divisoria del pie de página. Usar el mismo color que el pie para eliminarla.';
+$string['dividingline2'] = 'Color de la línia divisòria del peu de pàgina';
+$string['dividingline2desc'] = 'Estableix el color de la línia divisòria del peu de pàgina. Utilitza el mateix color que el peu per eliminar-la.';
 
-$string['navbarborder'] = 'Color del borde inferior de la barra de navegación';
-$string['navbarborderdesc'] = 'Establece el color del borde inferior de la barra de navegación.';
+$string['navbarborder'] = 'Color de la bora inferior de la barra de navegació';
+$string['navbarborderdesc'] = 'Estableix el color de la bora inferior de la barra de navegació.';
 
-$string['navbarhover'] = 'Color Hover de la barra de navegación';
-$string['navbarhoverdesc'] = 'Establece el color de fondo al pasar el cursos sobre los items del menú de la barra de navegación.';
+$string['navbarhover'] = 'Color Hover de la barra de navegació';
+$string['navbarhoverdesc'] = 'Estableix el color de fons al passar el cursor sobre els ítems del menú de la barra de navegació.';
 
 $string['breadcrumb'] = 'Color de fondo de la guía de exploración';
 $string['breadcrumbdesc'] = 'Establece el color de fondo de la guía de exploración.';
