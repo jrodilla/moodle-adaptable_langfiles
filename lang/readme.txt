@@ -3,8 +3,10 @@ Adaptable language files
 
 Summary
 -------------------------------------
-This repository includes the Adaptable official language files available in English (UK) and Spanish (Spain).
-
+This repository includes the Adaptable official language files available in:
+- English (UK)
+- Spanish (Spain)
+- Català (Spain)
 
 Installation
 -------------------------------------
