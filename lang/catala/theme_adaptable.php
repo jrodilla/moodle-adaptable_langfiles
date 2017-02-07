@@ -51,7 +51,7 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <p>Pots preguntar els teus dubtes i qüestions mitjançant els fòrums oficials a moodle.org:</p>
 <ul>
 <li>Anglès: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
-<li>Espanyol: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
+<li>Castellà: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
 <li>Català: <a href="https://moodle.org/mod/forum/discuss.php?d=340406" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340406</a>
 </ul>
 <br>
@@ -63,7 +63,7 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <br>
 <p>Traducció es-ES: Fernando Acedo (3-bits.com)</p>
 <p>Traducció es-MX: Germán Valero (UNAM)</p>
-<p>Traducció ca-ES: Fernando Acedo (3-bits.com)</p>
+<p>Traducció ca-ES: Fernando Acedo (3-bits.com) i Jordi Rodilla</p>
 </div>
 </div>';
 
@@ -986,7 +986,7 @@ $string['alertaccess'] = 'Visibilitat de l´Alerta';
 $string['alertaccessdesc'] = 'Estableix la visibilitat de l´Alerta segons el seu tipus. Nota: Si s´utilitza "Afegir restricció per camp personalitzat" necessitaràs afegir el camp personalitzat d´usuari.';
 
 // Moodle/Adaptable version alert messages.
-$string['beta'] = 'VERSIÓ EN DESENVOLUPAMEN. NO UTILITZAR EN LLOCS EN PRODUCCIÓ';
+$string['beta'] = 'VERSIÓ EN DESENVOLUPAMENT. NO UTILITZAR EN LLOCS EN PRODUCCIÓ';
 $string['deprecated'] = 'VERSIÓ DE MOODLE OBSOLETA. NO UTILITZAR ADAPTABLE EN AQUEST LLOC';
 
 // Social Wall Settings ********************************************.
