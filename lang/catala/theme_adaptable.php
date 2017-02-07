@@ -36,7 +36,7 @@ $string['choosereadme'] = '
 <h3>Sobre...</h3>
 <p>Adaptable és una plantilla per a Moodle, de dues columnes i tipus responsive, altament personalitzable i agafant de referència la popular plantilla BCU.</p>
 <p>Aquesta plantilla està sota llicència GPL (GNU General Public License). Pots trobar la llicència complerta a: <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses</a></p>
-<p>Modifica-la / Millora-la / Comprateix-la</p>
+<p>Modifica-la / Millora-la / Comparteix-la</p>
 <br>
 <p>Aquest tema ha estat creat per:<br>
 Jeremy Hopkins (Coventry University)<br>
