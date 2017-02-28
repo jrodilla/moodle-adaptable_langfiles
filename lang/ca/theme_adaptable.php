@@ -18,7 +18,7 @@
  * Version details
  *
  * @package    theme adaptable
- * @copyright  2015-2016 Fernando Acedo (3-bits.com)
+ * @copyright  2017 Jordi Rodilla
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  *
@@ -42,7 +42,7 @@ $string['choosereadme'] = '
 Jeremy Hopkins (Coventry University)<br>
 Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <br>
-<p>i d'altres desenvolupadors, provadors, traductors i voluntaris (Veure <a href="adaptable/README.md" target="_blank">README.md</a>)</p>
+<p>i d'altres desenvolupadors, provadors, traductors i voluntaris (Veure <a href="adaptable/README.txt" target="_blank">README.md</a>)</p>
 <br>
 <h3>Informar de les errades</h3>
 <p>Pots informar de les errades trobades en aquest tema (i, si us plau, només de les errades) mitjançant el nostre <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositori a Bitbucket</a></p>
@@ -59,11 +59,11 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <p>Pròximament</p>
 <br>
 <h3>Demo</h3>
-<p>Pots veure una demostració del lloc i descarregar l'arxiu d'instal·lació a <a href="https://3-bits.com/demo/adaptable">https://3-bits.com/demo/adaptable</a></p>
+<p>Pots veure una demostració del lloc i descarregar l'arxiu d'instal·lació a <a href="https://adaptable.ws/demo">https://adaptable.ws/demo</a></p>
 <br>
-<p>Traducció es-ES: Fernando Acedo (3-bits.com)</p>
-<p>Traducció es-MX: Germán Valero (UNAM)</p>
-<p>Traducció ca-ES: Fernando Acedo (3-bits.com)</p>
+<p>Traducció Català (ca-ES): Jordi Rodilla</p>
+<p>Traducció Espanyol (es-ES): Fernando Acedo (3-bits.com)</p>
+<p>Traducció Espanyol (es-MX): Germán Valero (UNAM)</p>
 </div>
 </div>';
 
@@ -162,7 +162,7 @@ $string['tickerwidth'] = 'Amplada Anuncis';
 $string['tickerwidthdesc'] = 'Pots utilitzar aquesta opció per fixar l'amplada al 100% dels anuncis.';
 
 $string['tickertext1'] = 'Text Anuncis 1';
-$string['tickertext1desc'] = 'Afegir els anuncis en format de llista HTML. Veure <a href="adaptable/README.md">README.md</a> per a més informació.';
+$string['tickertext1desc'] = 'Afegir els anuncis en format de llista HTML. Veure <a href="adaptable/README.txt">README.md</a> per a més informació.';
 
 $string['tickertext2'] = 'Text Anuncis 2';
 $string['tickertext2desc'] = 'Afegir els anuncis en format de llista HTML per a un segon tipus d'usuari. Veure <a href="adaptable/README.md">README.md</a> per a més informació.';
@@ -207,7 +207,7 @@ $string['slideroption2desc'] = 'Selecciona el tipus de presentació de diapositi
 $string['slideroption2snippet'] = '<p>Exemple HTML per al text de les diapositives:</p>
 <pre>
 &#x3C;div class=&#x22;span6 col-sm-6&#x22;&#x3E;
-&#x3C;h3&#x3E;Fer a mà&#x3C;/h3&#x3E; &#x3C;h4&#x3E;pixels i codi per a la comuitat Moodle&#x3C;/h4&#x3E;
+&#x3C;h3&#x3E;Fer a mà&#x3C;/h3&#x3E; &#x3C;h4&#x3E;pixels i codi per a la comunitat Moodle&#x3C;/h4&#x3E;
 &#x3C;a href=&#x22;#&#x22; class=&#x22;submit&#x22;&#x3E;Si us plau, fes d'Adaptable un dels teus temes favorits&#x3C;/a&#x3E;
 </pre>';
 
