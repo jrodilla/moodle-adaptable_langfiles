@@ -158,6 +158,9 @@ $string['enabletickermydesc'] = 'Marcar per activar els anuncis a la pàgina  El
 $string['enabletickerc'] = 'Activar els anuncis a les pàgines internes';
 $string['enabletickercdesc'] = 'Marcar per activar els anuncis a les pàgines internes.';
 
+$string['tickerwidth'] = 'Amplada Anuncis';
+$string['tickerwidthdesc'] = 'Pots utilitzar aquesta opció per fixar l'amplada al 100% dels anuncis.';
+
 $string['tickertext1'] = 'Text Anuncis 1';
 $string['tickertext1desc'] = 'Afegir els anuncis en format de llista HTML. Veure <a href="adaptable/README.md">README.md</a> per a més informació.';
 
@@ -295,7 +298,7 @@ Si no estàs d'acord, utilitza el creador de regions per a blocs promocionals pe
 $string['infobox'] = 'Quadre informatiu 1';
 $string['infoboxdesc'] = 'Afegeix el codi HTML del quadre informatiu 1 (veure l'arxiu <a href="./../theme/adaptable/README.md" target="_blank">README</a> per a més exemples)';
 
-$string['infoboxfullscreen'] = 'Quadre informatius a amplada complerta';
+$string['infoboxfullscreen'] = 'Quadres informatius a amplada complerta';
 $string['infoboxfullscreendesc'] = 'Marca aquesta opció per mostrar els quadres informatius a l'amplada complerta de la pantalla.';
 
 $string['infobox2'] = 'Quadre informatiu 2';
@@ -438,7 +441,7 @@ $string['enablehomeredirectdesc'] = 'Activa la opció redirect=0 per a redirigir
 // Colours *********************************************************.
 $string['colorsettings'] = 'Colors';
 $string['colorsettingsheading'] = 'Modifica els colors principals utilitzats a la plantilla.';
-$string['colordesc'] = 'Pots seleccionar els colors que desitgis per ser utilitzats per la plantilla. Utilitza la notació HEX estàndard. Tabmé pots utilitzar com a valors <i>transparent</i> i <i>inherited.</i>';
+$string['colordesc'] = 'Pots seleccionar els colors que desitgis per ser utilitzats per la plantilla. Utilitza la notació HEX estàndard. També pots utilitzar com a valors <i>transparent</i> i <i>inherited.</i>';
 $string['linkcolor'] = 'Color enllaç';
 $string['linkcolordesc'] = 'Estableix el color dels enllaços.';
 
@@ -678,7 +681,7 @@ $string['fontweightdesc'] = 'Estableix el Gruix de la font principal. Introduir 
 $string['fontheaderweight'] = 'Gruix de la font de encapçalaments';
 $string['fontheaderweightdesc'] = 'Estableix el Gruix de la font dels encapçalaments. Introduir un valor entre 100 i 900 depenent de la font utilitzada.';
 
-$string['fonttitlename'] = 'font del títol del lloc';
+$string['fonttitlename'] = 'Font del títol del lloc';
 $string['fonttitlenamedesc'] = 'Estableix la font del títol del lloc situat en la capçalera. Selecciona default o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
 $string['fonttitlecolor'] = 'Color de la font del títol del lloc';
@@ -854,12 +857,12 @@ $string['sitetitletextdesc'] = 'Introduir el nom del lloc que es mostrarà a la 
 $string['frontpagelogin'] = 'Formulari d'entrada a la capçalera';
 $string['frontpagelogindesc'] = 'Mostrar el formulari d'entrada a la part superior de la capçalera. En cas contrari, es mostrarà només el botó.';
 
-$string['displailogin'] = 'Mostrar l'entrada d'usuari';
+$string['displaylogin'] = 'Mostrar l'entrada d'usuari';
 $string['displailogindesc'] = 'Selecciona el mètode d'entrada de l'usuari (quan estigui activat)';
 
-$string['displailoginbutton'] = 'Botó';
-$string['displailoginbox'] = 'Formulari';
-$string['displailoginno'] = 'Sense entrada';
+$string['displayloginbutton'] = 'Botó';
+$string['displayloginbox'] = 'Formulari';
+$string['displayloginno'] = 'Sense entrada';
 
 $string['enablemessagemenu'] = 'Mostrar Menú Missatges';
 $string['enablemessagemenudesc'] = 'Mostra el menú missatges a la capçalera.';
@@ -897,8 +900,8 @@ $string['helpprofilefielddesc'] = 'Afegeix una regla d'accés utilitzant un camp
 
 
 // Courses Overlai *************************************************.
-$string['rendereroverlaicolor'] = 'Color superposat';
-$string['rendereroverlaicolordesc'] = 'El color superposat sobre el bloc de curs quan "blocs Superposats" està seleccionat.';
+$string['rendereroverlaycolor'] = 'Color superposat';
+$string['rendereroverlaycolordesc'] = 'El color superposat sobre el bloc de curs quan "blocs Superposats" està seleccionat.';
 
 $string['rendereroverlaifontcolor'] = 'Color de text a la superposició';
 $string['rendereroverlaifontcolordesc'] = 'El color de la font quan passa el cursor per sobre del bloc del curs i "blocs Superposats" està activat.';
@@ -1000,8 +1003,8 @@ $string['socialwallbackgroundcolordesc'] = 'Estableix el color de fons.';
 $string['socialwallsectionradius'] = 'Radi de la bora';
 $string['socialwallsectionradiusdesc'] = 'Estableix la bora del Radi de les seccions.';
 
-$string['socialwallbordertopstile'] = 'Estil de la bora';
-$string['socialwallbordertopstiledesc'] = 'Estableix l'estil de la bora de les seccions.';
+$string['socialwallbordertopstyle'] = 'Estil de la bora';
+$string['socialwallbordertopstyledesc'] = 'Estableix l'estil de la bora de les seccions.';
 
 $string['socialwallborderwidth'] = 'Gruix de la bora';
 $string['socialwallborderwidthdesc'] = 'Estableix el gruix de la bora de les seccions.';
@@ -1048,10 +1051,10 @@ $string['hidepagefootermobile'] = 'Ocultar peu de pàgina';
 $string['hidepagefootermobiledesc'] = 'Oculta el peu de pàgina.';
 
 
-// Laiout **********************************************************.
-$string['laioutsettings'] = 'Disposició';
-$string['laioutdesc'] = 'Configuració de la disposició per defecte.';
-$string['laioutsettingsheading'] = 'Controlar les diferents disposicions de la plantilla.';
+// Layout **********************************************************.
+$string['layoutsettings'] = 'Disposició';
+$string['layoutdesc'] = 'Configuració de la disposició per defecte.';
+$string['layoutsettingsheading'] = 'Controlar les diferents disposicions de la plantilla.';
 
 $string['blockside'] = 'Posició dels blocs';
 $string['blocksidedesc'] = 'Mostrar els blocs a la columna dreta o esquerra.';
@@ -1216,8 +1219,8 @@ $string['menuoverrideprofilefielddefault'] = 'Ajust del menú superior';
 $string['topmenuscount'] = 'Nombre de menús superiors';
 $string['topmenuscountdesc'] = 'Estableix el nombre de menús superiors que vols afegir a la capçalera.';
 
-$string['menusheadingvisibiliti'] = 'Configuració per a la visibilitat del menú superior';
-$string['menusheadingvisibilitidesc'] = 'La següent configuració permet controlar on mostrar els menús i opcionalment permetre als usuaris la seva personalització.';
+$string['menusheadingvisibility'] = 'Configuració per a la visibilitat del menú superior';
+$string['menusheadingvisibilitydesc'] = 'La següent configuració permet controlar on mostrar els menús i opcionalment permetre als usuaris la seva personalització.';
 
 $string['newmenuheading'] = 'Menú superior';
 $string['newmenu'] = 'Menú superior desplegable';
@@ -1287,27 +1290,27 @@ $string['socialicondesc'] = 'Selecciona l'icona de Font Awesome. Per exemple: fa
 $string['socialiconlist'] = 'Llista d'icones socials';
 $string['socialiconlistdesc'] = 'Introduir una llista delimitada per comes per configurar les icones de xarxes socials que necessites utilitzant el format: url|títol|icona';
 
-// Analitics **********************************.
-$string['analiticssettings'] = 'Analítics';
-$string['analiticssettingsheading'] = 'Configura Google Analítics i/o Piwik';
-$string['analiticssettingsdesc'] = 'Pots configurar Google Analítics i/o Piwik per al teu lloc moodle.';
+// Analytics **********************************.
+$string['analyticssettings'] = 'Analítics';
+$string['analyticssettingsheading'] = 'Configura Google Analítics i/o Piwik';
+$string['analyticssettingsdesc'] = 'Pots configurar Google Analítics i/o Piwik per al teu lloc moodle.';
 
 // GA.
-$string ['googleanaliticssettings'] = 'Google Analítics';
-$string ['googleanaliticssettingsheading'] = 'Configura Google Analítics per al teu lloc';
-$string ['googleanaliticssettingsdesc'] = 'Pots configurar múltiples codis per a Google Analítics i configurar-los per a diferents camps personalitzats d'usuari.';
+$string ['googleanalyticssettings'] = 'Google Analítics';
+$string ['googleanalyticssettingsheading'] = 'Configura Google Analítics per al teu lloc';
+$string ['googleanalyticssettingsdesc'] = 'Pots configurar múltiples codis per a Google Analítics i configurar-los per a diferents camps personalitzats d'usuari.';
 
-$string ['enableanalitics'] = 'Activar Google Analítics';
-$string ['enableanaliticsdesc'] = 'Activar Google Analítics al lloc.';
+$string ['enableanalytics'] = 'Activar Google Analítics';
+$string ['enableanalyticsdesc'] = 'Activar Google Analítics al lloc.';
 
-$string ['analiticstext'] = 'Analítics ID';
-$string ['analiticstextdesc'] = 'Introduir la ID de Google Analítics.';
+$string ['analyticstext'] = 'Analítics ID';
+$string ['analyticstextdesc'] = 'Introduir la ID de Google Analítics.';
 
-$string['analiticscount'] = 'Nombre de camps de perfil';
-$string['analiticscountdesc'] = 'Nombre de camps personalitzats a introduir a l'àrea inferior.';
+$string['analyticscount'] = 'Nombre de camps de perfil';
+$string['analyticscountdesc'] = 'Nombre de camps personalitzats a introduir a l'àrea inferior.';
 
-$string ['analiticsprofilefield'] = 'Nom del camp personalitzat del perfíl Field Name=Value (opcional)';
-$string ['analiticsprofilefielddesc'] = 'Afegeix una regla d'accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
+$string ['analyticsprofilefield'] = 'Nom del camp personalitzat del perfíl Field Name=Value (opcional)';
+$string ['analyticsprofilefielddesc'] = 'Afegeix una regla d'accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
 
 // Piwik.
 $string['piwiksettings'] = 'Piwik';
