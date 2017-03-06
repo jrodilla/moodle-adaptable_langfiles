@@ -954,8 +954,8 @@ $string['enablealertcoursepagesdesc'] = 'Activar les alertes també a les pàgin
 $string['enablealertstriptags'] = 'Eliminar etiquetes HTML del text de l'Alerta';
 $string['enablealertstriptagsdesc'] = 'Si s'activa, s'eliminaran les etiquetes HTML del text. Si està desactivat, es permetrà introduir etiquetes HTML per exemple per afegir enllaços.';
 
-$string['alertkeivalue'] = 'Clau d'identificació de l'Alerta';
-$string['alertkeivalue_details'] = 'Aquesta clau identifica l'alerta i permet el control de l'eliminació de l'alerta a la pantalla per part de l'usuari. Si es canvia la clau, els usuaris tornaran a veure l'alerta de nou.';
+$string['alertkeyvalue'] = 'Clau d'identificació de l'Alerta';
+$string['alertkeyvalue_details'] = 'Aquesta clau identifica l'alerta i permet el control de l'eliminació de l'alerta a la pantalla per part de l'usuari. Si es canvia la clau, els usuaris tornaran a veure l'alerta de nou.';
 
 $string['alertsettingsgeneral'] = 'Configuració Alertes';
 $string['alertsettings'] = 'Alerta {$a}';
