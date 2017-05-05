@@ -18,8 +18,8 @@
  * Version details
  *
  * @package    theme_adaptable
- * @copyright  2015-2016 Jeremy Hopkins (Coventry University)
- * @copyright  2015-2016 Fernando Acedo (3-bits.com)
+ * @copyright  2015-2017 Jeremy Hopkins (Coventry University)
+ * @copyright  2015-2017 Fernando Acedo (3-bits.com)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  */
@@ -36,19 +36,24 @@ $string['choosereadme'] = '
 <h3>About</h3>
 <p>Adaptable is a Moodle 2-columns responsive theme highly customizable and based in the popular BCU theme.</p>
 <p>The theme is licensed under the GPL (GNU General Public License). You can find a complete licence copy <a href="http://www.gnu.org/licenses/" target="_HERE">blank</a></p>
+<br>
 <h4>Modify it! - Improve it! - Share it!</h4>
 <br>
 <p>This theme has been developed by:<br>
 Jeremy Hopkins (Coventry University)<br>
 Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <br>
-<p>and many other developers, testers, translators and volunteers (See <a href="adaptable/README.md" target="_blank">README.md</a>)</p>
+<p>and many other developers, testers, translators and volunteers (See <a href="adaptable/README.txt" target="_blank">README.txt</a>)</p>
+<br>
+<p>Visit the adaptable website for more information, tips & tricks and technical support: <a href="https://adaptable.ws" target="_blank">adaptable.ws</a></p>
 <br>
 <h3>Bugs Report</h3>
 <p>You can report bugs (and please, <b>ONLY</b> bugs) in our <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">Bitbucket repository</a></p>
 <br>
 <h3>Technical Support</h3>
-<p>You can ask your questions, doubts and share your tips in the moodle forum:</p>
+<p>You can request technical support in the Adaptable website (only English) <a href="https://adaptable.ws/support/support-tickets" target="_blank">Get Technical Support</a></p>
+<br>
+<p>or your can ask your questions in the moodle forum:</p>
 <ul>
 <li>English: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
 <li>Español: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
@@ -59,13 +64,12 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <p>Coming soon</p>
 <br>
 <h3>Demo</h3>
-<p>You can see a demo version <a href="https://3-bits.com/demo/adaptable" target="_blank">HERE</a></p>
+<p>You can see a demo version <a href="https://adaptable.ws/demo" target="_blank">HERE</a></p>
 <br>
 </div>
 </div>';
 
-
-
+$string['info'] = 'Adaptable version: '.$CFG->version > 2015051100;
 
 $string['pluginname'] = 'Adaptable';
 $string['configtitle'] = 'Adaptable';
@@ -119,6 +123,7 @@ $string['settingsanalytics'] = 'Analytics';
 // Admin Menu Strings.
 $string['blocksettings'] = 'Block Settings';
 $string['frontpagealertsettings'] = 'Alert Box';
+$string['frontpagealertboxssettings'] = 'Alert Box Settings';
 $string['frontpageblockregionsettings'] = 'Block Region Builder';
 $string['frontpageblocksettings'] = 'Marketing Blocks';
 $string['frontpagetickersettings'] = 'Frontpage Ticker';
@@ -145,6 +150,7 @@ $string['tickerdesc'] = 'Here you can set a news ticker to run across the front 
   &lt;p&gt;News item one.....&lt;/p&gt;
   &lt;p&gt;News item two.....&lt;/p&gt;
   </pre>';
+
 
 $string['tickerdefault'] = 'No news items to display';
 
@@ -275,7 +281,7 @@ $string['layoutcount2'] = ' block regions. You are currently using: ';
 $string['marketingsettings'] = 'Marketing Blocks';
 $string['marketingsettingsheading'] = 'Customize the marketing blocks that appear on the front page. See the layout <a href="./../theme/adaptable/pix/layout.png" target="_blank"> here</a>';
 $string['marketingdesc'] = 'There are two full width info boxes with differing styles you can use.
-In addition to this there is a layout builder allowing you to decide how many blocks you need and define your own layout, please see the <a href="./../theme/adaptable/README.md" target="_blank">README</a> file that comes with this theme.';
+In addition to this there is a layout builder allowing you to decide how many blocks you need and define your own layout, please see the <a href="./../theme/adaptable/README.txt" target="_blank">README</a> file that comes with this theme.';
 
 $string['marketingbuilderheading'] = 'Marketing Block Layout Builder';
 $string['marketingbuilderdesc'] = 'Use the tool below to setup your marketing blocks. Once defined the block settings will appear further down the page.';
@@ -284,7 +290,7 @@ $string['marketlayoutrow'] = 'Marketing Block Row';
 $string['marketlayoutrowdesc'] = 'Add / set layout for marketing block row on front page';
 
 $string['market'] = 'Marketing Block ';
-$string['marketdesc'] = 'Add html for marketing block (see the <a href="./../theme/adaptable/README.md" target="_blank">README</a> file for additional info and hints).';
+$string['marketdesc'] = 'Add html for marketing block (see the <a href="./../theme/adaptable/README.txt" target="_blank">README</a> file for additional info and hints).';
 
 $string['layoutaddcontent'] = 'Happy With Your Layout? Now Add Content to Your Blocks:';
 $string['layoutaddcontentdesc1'] = 'You have configured ';
@@ -292,13 +298,13 @@ $string['layoutaddcontentdesc2'] = ' marketing blocks. If you are happy with thi
 If you are not happy use the layout builder above to make changes<br />';
 
 $string['infobox'] = 'Frontpage Info Box';
-$string['infoboxdesc'] = 'Frontpage info block HTML (see the <a href="./../theme/adaptable/README.md" target="_blank">README</a> file for additional info and hints).';
+$string['infoboxdesc'] = 'Frontpage info block HTML (see the <a href="./../theme/adaptable/README.txt" target="_blank">README</a> file for additional info and hints).';
 
 $string['infoboxfullscreen'] = 'Make infobox full screen';
 $string['infoboxfullscreendesc'] = 'Turning this option on will make the infobox full screen.';
 
 $string['infobox2'] = 'Frontpage Secondary Info Box';
-$string['infobox2desc'] = 'Frontpage Secondary Info Box (see the <a href="./../theme/adaptable/README.md" target="_blank">README</a> file for additional info and hints).';
+$string['infobox2desc'] = 'Frontpage Secondary Info Box (see the <a href="./../theme/adaptable/README.txt" target="_blank">README</a> file for additional info and hints).';
 
 $string['frontpagemarketenabled'] = 'Enable Marketing Blocks';
 $string['frontpagemarketenableddesc'] = 'Set the marketing blocks in the frontpage.';
@@ -677,29 +683,20 @@ $string['fontweightdesc'] = 'Font weight used in site. Select a value from 100 t
 $string['fontheaderweight'] = 'Headers font weight';
 $string['fontheaderweightdesc'] = 'Headers font weight used in the site. Select a value from 100 to 900 depending the font selected.';
 
-$string['fonttitlename'] = 'Site title font';
-$string['fonttitlenamedesc'] = 'Select the default font or <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> used in title site.';
+$string['fonttitlename'] = 'Site / Course title font';
+$string['fonttitlenamedesc'] = 'Select the default font or <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> used in title site and course titles.';
 
-$string['fonttitlecolor'] = 'Site title font colour';
-$string['fonttitlecolordesc'] = 'Set the colour of the site title font in the theme, use html hex code.';
+$string['fonttitlecolor'] = 'Site / Course title font colour';
+$string['fonttitlecolordesc'] = 'Set the colour of the site title and course title font in the theme, use html hex code.';
 
-$string['fonttitleweight'] = 'Site title font weight';
-$string['fonttitleweightdesc'] = 'Set the font weight used in the title site. Select a value from 100 to 900 depending the font selected.';
+$string['fonttitleweight'] = 'Site / Course title font weight';
+$string['fonttitleweightdesc'] = 'Set the font weight used in the site title and course titles. Select a value from 100 to 900 depending the font selected.';
 
-$string['fonttitlesize'] = 'Site title font size';
-$string['fonttitlesizedesc'] = 'Site title font size used in site. Select a value fron the list.';
-
-$string['fonttitlenamecourse'] = 'Course title font';
-$string['fonttitlenamecoursedesc'] = 'Select the default font or <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> used in course titles.';
+$string['fonttitlesize'] = 'Site / Course title font size';
+$string['fonttitlesizedesc'] = 'Site title and course titole font size used in site. Select a value fron the list.';
 
 $string['fonttitlecolorcourse'] = 'Course title font colour';
 $string['fonttitlecolorcoursedesc'] = 'Set the colour of the course title font in the theme, use html hex code.';
-
-$string['fonttitleweightcourse'] = 'Course title font weight';
-$string['fonttitleweightcoursedesc'] = 'Set the font weight used in the site title. Enter a value from 100 to 900 depending the font selected.';
-
-$string['fonttitlesizecourse'] = 'Course title font size';
-$string['fonttitlesizecoursedesc'] = 'Course title font size used in site. Select a value fron the list.';
 
 $string['fontsubset'] = 'Google Fonts subset';
 $string['fontsubsetdesc'] = 'Select other character subset than latin to be applied to all the fonts. Latin subset is already included by default.';
@@ -930,6 +927,16 @@ $string['course'] = 'Course';
 
 
 // Alerts **********************************************************.
+// Alert message if acting as other role.
+$string['actingasrole'] = 'You are are currently acting as a different role';
+
+// Alert Hiden Course.
+$string['alerthiddencourse'] = 'Hidden course warning';
+$string['alerthiddencoursedesc'] = 'Display alert in course page if it is hidden';
+
+$string['alerthiddencoursetext-1'] = 'This course is hidden and cannot be accessed by students. ';
+$string['alerthiddencoursetext-2'] = 'Click here to update settings';
+
 // Alert Box Enable.
 $string['enablealert'] = 'Enable Alert Box {$a}';
 $string['enablealertdesc'] = 'Enable Alert Box {$a}';
@@ -953,6 +960,8 @@ $string['enablealertstriptagsdesc'] = 'Enable will clean up alert messages autom
 $string['alertkeyvalue'] = 'Alert Key';
 $string['alertkeyvalue_details'] = 'The key that identifies this alert, from previous alerts. If you change this, all users who have dismissed the alert previously will see it again. If you change the alert, you will likely want to change this to ensure all users see it.';
 
+$string['alertsettingscourse'] = 'Course Alert Settings';
+
 $string['alertsettingsgeneral'] = 'General Alert Settings';
 $string['alertsettings'] = 'Alert Box {$a}';
 
@@ -960,9 +969,12 @@ $string['alertcount'] = 'Alert count';
 $string['alertcountdesc'] = 'The number of alerts to show in the edit area below.';
 
 $string['alertsettingsheading'] = 'Customize top Alert Box. See the layout <a href="./../theme/adaptable/pix/layout.png" target="_blank"> here</a>';
-$string['alertdesc'] = 'Enter and customize a text to be displayed in the top of the site as an alert. It is possible to set more than one alert to target different user types. You also have the option of showing alerts sitewide or on homepages only.';
+$string['alertdesc'] = 'Enter and customize a text to be displayed in the top of the site as an alert. It is possible to set more than one alert to target different user types. You also have the option of showing alerts sitewide or on homepages only. <br /><br /><strong>Note:</strong> it is now also possible to display alerts within course pages to warn teachers that courses are hidden.';
 
 // Alerts Types.
+$string['alertdisabled'] = 'Disabled';
+$string['alertdisabledesc'] = 'Disable this alert';
+
 $string['alertinfo'] = 'Info';
 $string['alertinfodesc'] = 'Display information in the Alert Box';
 
@@ -987,6 +999,37 @@ $string['alertaccessdesc'] = 'Set access restriction type for alert box visibili
 // Moodle/Adaptable version alert messages.
 $string['beta'] = 'DEVELOPMENT VERSION. DO NOT USE IN PRODUCTION SITES';
 $string['deprecated'] = 'MOODLE DEPRECATED VERSION. DO NOT USE ADAPTABLE IN THIS SITE';
+
+// Alerts Colors****************************************************.
+$string['alertcolorsheading'] = 'Customize top Alert Boxes';
+$string['alertcolorsheadingdesc'] = 'Set colors and icon.';
+
+$string['alertcolorinfo'] = 'Info Color';
+$string['alertcolorinfodesc'] = 'Icon color of the Info type alert boxes';
+$string['alertbackgroundcolorinfo'] = 'Info Background Color';
+$string['alertbackgroundcolorinfodesc'] = 'Background color of the Info type alert boxes';
+$string['alertbordercolorinfo'] = 'Info Border Color';
+$string['alertbordercolorinfodesc'] = 'Border color of the Info type alert boxes';
+$string['alerticoninfo'] = 'Info Icon';
+$string['alerticoninfodesc'] = 'Set the <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icon</a> to be usedin in Info type alert boxes. Enter the icon name without the fa- prefix.';
+
+$string['alertcolorwarning'] = 'Warning Color';
+$string['alertcolorwarningdesc'] = 'Icon color of the Warning type alert boxes';
+$string['alertbackgroundcolorwarning'] = 'Warning Background Color';
+$string['alertbackgroundcolorwarningdesc'] = 'Background color of the Warning type alert boxes';
+$string['alertbordercolorwarning'] = 'Warning Border Color';
+$string['alertbordercolorwarningdesc'] = 'Border color of the Warning type alert boxes';
+$string['alerticonwarning'] = 'Warning Icon';
+$string['alerticonwarningdesc'] = 'Set the <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icon</a> to be usedin in Warning type alert boxes. Enter the icon name without the fa- prefix.';
+
+$string['alertcolorsuccess'] = 'Announcement Color';
+$string['alertcolorsuccessdesc'] = 'Icon color of the Announcement type alert boxes';
+$string['alertbackgroundcolorsuccess'] = 'Announcement Background Color';
+$string['alertbackgroundcolorsuccessdesc'] = 'Background color of the Announcement type alert boxes';
+$string['alertbordercolorsuccess'] = 'Announcement Border Color';
+$string['alertbordercolorsuccessdesc'] = 'Border color of the Announcement type alert boxes';
+$string['alerticonsuccess'] = 'Announcement Icon';
+$string['alerticonsuccessdesc'] = 'Set the <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icon</a> to be usedin in Announcement type alert boxes. Enter the icon name without the fa- prefix.';
 
 // Social Wall Settings ********************************************.
 $string['socialwall'] = 'Social Wall';
@@ -1046,6 +1089,8 @@ $string['hidebreadcrumbmobiledesc'] = 'Checking this option will remove the brea
 $string['hidepagefootermobile'] = 'Hide footer on mobile';
 $string['hidepagefootermobiledesc'] = 'Checking this option will remove the footer on mobile devices';
 
+$string['hideslidermobile'] = 'Hide slider on mobile';
+$string['hideslidermobiledesc'] = 'Hide will remove the front page slider on mobile devices';
 
 // Layout **********************************************************.
 $string['layoutsettings'] = 'Layout';
@@ -1255,21 +1300,21 @@ $string['toolsmenufielddesc'] = 'Add access rule using for custom profile field 
 // Social settings *************************************************.
 $string['socialsettings'] = 'Header Social';
 $string['socialheading'] = 'Social Icon Settings';
-$string['socialtitledesc'] = '<pre>You can disable the sitewide search box and enable social icons / links in its place.
+$string['socialtitledesc'] = 'You can disable the sitewide search box and enable social icons / links in its place.
 To setup icons enter a de-limited list into the "Social Icon List" field below.
 This should be in the format:
 
 url|title|icon
 
 For example:
-
-http://localhost/moodle/course/search.php|Search Moodle|fa-search
+<pre>
+https://example.com/course/search.php|Search Moodle|fa-search
 https://facebook.com/|Facebook|fa-facebook-square
 https://twitter.com/|Twitter|fa-twitter-square
 https://instagram.com|Instagram|fa-instagram
-http://example.com|Mi Web|fa-globe
-
-For reference you can find the full list of <a href="https://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icons Here</a></pre>';
+https://example.com|My Web|fa-globe
+</pre>
+For reference you can find the full list of <a href="https://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icons Here</a>';
 
 $string['socialsize'] = 'Set the font size of the social icons';
 $string['socialsizemobile'] = 'Set the font size of the social icons on Mobile';
@@ -1342,3 +1387,11 @@ $string['jssectiondesc'] = 'Add javascript code to the site.';
 
 // Cache definitions.
 $string['cachedef_userdata'] = 'A session cache used to store user specific data.';
+
+// Section navigation ********************************.
+$string['nextsection'] = 'Next Section';
+$string['previoussection'] = 'Previous section';
+
+// General ******************************************.
+$string['hide'] = 'Hide';
+$string['show'] = 'Show';

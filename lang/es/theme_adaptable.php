@@ -42,13 +42,15 @@ $string['choosereadme'] = '
 Jeremy Hopkins (Coventry University)<br>
 Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <br>
-<p>y otros desarrolladores, probadores, traductores y voluntarios (Ver <a href="adaptable/README.md" target="_blank">README.md</a>)</p>
+<p>y otros desarrolladores, probadores, traductores y voluntarios (Ver <a href="adaptable/README.txt" target="_blank">README.txt</a>)</p>
 <br>
 <h3>Informar de errores</h3>
 <p>Puedes informar de errores encontrados en este tema (y por favor, sólo errores) a través de nuestro <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositorio en Bitbucket</a></p>
 <br>
 <h3>Soporte Técnico</h3>
-<p>Puedes preguntar tus dudas y cuestiones a través de los foros oficiales en moodle.org:</p>
+<p>Puedes solicitar soporte técnico desde el sitio web de Adaptable (solo en inglés) <a href="https://adaptable.ws/support/support-tickets" target="_blank">Get Technical Support</a></p>
+<br>
+<p>o puedes preguntar tus dudas y cuestiones a través de los foros oficiales en moodle.org:</p>
 <ul>
 <li>Inglés: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
 <li>Español: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
@@ -59,13 +61,15 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <p>Próximamente</p>
 <br>
 <h3>Demo</h3>
-<p>Puedes ver una demostración del sitio y descargar un archivo de instalación en <a href="https://3-bits.com/demo/adaptable">https://3-bits.com/demo/adaptable</a></p>
+<p>Puedes ver una demostración del tema <a href="https://adaptable.ws/demo">AQUÍ</a></p>
 <br>
 <p>Traducción es-ES: Fernando Acedo (3-bits.com)</p>
 <p>Traducción es-MX: Germán Valero (UNAM)</p>
-<p>Traducció ca-ES: Fernando Acedo (3-bits.com)</p>
 </div>
+
 </div>';
+
+$string['info'] = 'Adaptable version: '.$CFG->version > 2015051100;
 
 $string['pluginname'] = 'Adaptable';
 $string['configtitle'] = 'Adaptable';
@@ -119,6 +123,7 @@ $string['analyticssettings'] = 'Analítica Web';
 // Admin Menu Strings.
 $string['blocksettings'] = 'Bloques';
 $string['frontpagealertsettings'] = 'Alertas';
+$string['frontpagealertboxssettings'] = 'Configuración de la caja de alerta';
 $string['frontpageblockregionsettings'] = 'Creador de regiones para bloques';
 $string['frontpageblocksettings'] = 'Bloques promocionales';
 $string['frontpagetickersettings'] = 'Anuncios';
@@ -690,17 +695,8 @@ $string['fonttitleweightdesc'] = 'Establece el grueso de la fuente del título d
 $string['fonttitlesize'] = 'Tamaño de la fuente del título del sitio';
 $string['fonttitlesizedesc'] = 'Tamaño de la fuente del título del sitio situado en la cabecera. Introducir un valor decimal, por ejemplo: 24px';
 
-$string['fonttitlenamecourse'] = 'Fuente del título del curso';
-$string['fonttitlenamecoursedesc'] = 'Selecciona la fuente de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> para el título del curso.';
-
 $string['fonttitlecolorcourse'] = 'Color de la fuente del título del curso';
 $string['fonttitlecolorcoursedesc'] = 'Establece el color de la fuente usada en el título del curso.';
-
-$string['fonttitleweightcourse'] = 'Grueso de la fuente del título del curso';
-$string['fonttitleweightcoursedesc'] = 'Establece el grueso de la fuente usada en el título del curso. Introducir un valor entre 100 y 900 dependiendo de la fuente utilizada.';
-
-$string['fonttitlesizecourse'] = 'Tamaño de la fuente del título del curso';
-$string['fonttitlesizecoursedesc'] = 'Establece el tamaño de la fuente del título del curso. Introducir un valor decimal, por ejemplo: 24px';
 
 $string['fontsubset'] = 'Juego de caracteres de Google Fonts';
 $string['fontsubsetdesc'] = 'Seleccionar el juego de caracteres de Google Fonts a usar además del latín ya incluido por defecto. Se aplicará a toda las fuentes seleccionadas.';
@@ -931,6 +927,16 @@ $string['course'] = 'Course';
 
 
 // Alerts **********************************************************.
+// Alert message if acting as other role.
+$string['actingasrole'] = 'Usted está actuando actualmente como un papel diferente';
+
+// Alert Hiden Course.
+$string['alerthiddencourse'] = 'Advertencia del curso oculto';
+$string['alerthiddencoursedesc'] = 'Mostrar alerta en la página del curso si está oculta';
+
+$string['alerthiddencoursetext-1'] = 'Este curso está oculto y no puede ser accedido por los estudiantes. ';
+$string['alerthiddencoursetext-2'] = 'Haga clic aquí para actualizar la configuración';
+
 // Alert Box Enable.
 $string['enablealert'] = 'Activar Alerta {$a}';
 $string['enablealertdesc'] = 'Activar la alerta {$a}.';
@@ -954,6 +960,8 @@ $string['enablealertstriptagsdesc'] = 'Si se activa, se eliminarán las etiqueta
 $string['alertkeyvalue'] = 'Clave de identificación de la Alerta';
 $string['alertkeyvalue_details'] = 'Esta clave identifica la alerta y permite el control de la eliminación de la alerta en la pantalla por parte del usuario. Si se cambia la clave, los usuarios volverán a ver la alerta de nuevo.';
 
+$string['alertsettingscourse'] = 'Configuración de la alerta de curso';
+
 $string['alertsettingsgeneral'] = 'Configuración Alertas';
 $string['alertsettings'] = 'Alerta {$a}';
 
@@ -964,6 +972,9 @@ $string['alertsettingsheading'] = 'Personalizar las Alertas';
 $string['alertdesc'] = 'Introduce y personaliza el texto de las Alertas mostradas en la parte superior de la pantalla. Es posible crear más de una para mostrarse a diferentes tipos de usuarios. También existe la opción de mostrar las alertas en la página inicial y en las páginas de los cursos.';
 
 // Alerts Types.
+$string['alertdisabled'] = 'Desactivado';
+$string['alertdisabledesc'] = 'Desactivar esta alerta';
+
 $string['alertinfo'] = 'Info';
 $string['alertinfodesc'] = 'Muestra un mensaje de información.';
 
@@ -988,6 +999,37 @@ $string['alertaccessdesc'] = 'Establece la visibilidad de la Alerta según su ti
 // Moodle/Adaptable version alert messages.
 $string['beta'] = 'VERSION EN DESARROLLO. NO USAR EN SITIOS EN PRODUCCIÓN';
 $string['deprecated'] = 'VERSIÓN DE MOODLE OBSOLETA. NO USAR ADAPTABLE EN ESTE SITIO';
+
+// Alerts Colors****************************************************.
+$string['alertcolorsheading'] = 'Personalizar las cajas de alerta superiores';
+$string['alertcolorsheadingdesc'] = 'Establecer colores e icono.';
+
+$string['alertcolorinfo'] = 'Color de la información';
+$string['alertcolorinfodesc'] = 'Color del icono de los cuadros de alerta Tipo de información';
+$string['alertbackgroundcolorinfo'] = 'Información Color de fondo';
+$string['alertbackgroundcolorinfodesc'] = 'Color de fondo de los cuadros de alerta Tipo de información';
+$string['alertbordercolorinfo'] = 'Info Color del borde';
+$string['alertbordercolorinfodesc'] = 'Color del borde de los cuadros de alerta Tipo de información';
+$string['alerticoninfo'] = 'Icono de Información';
+$string['alerticoninfodesc'] = 'Selecciona el <a href="http://fortawesome.github.io/Font-Awesome/icons/"> Font Awesome Icono</a>Para usarse en los cuadros de alerta tipo Info. Introduzca el nombre del icono sin fa- prefijo.';
+
+$string['alertcolorwarning'] = 'Color de advertencia';
+$string['alertcolorwarningdesc'] = 'Color del icono de los cuadros de alerta Tipo de advertencia';
+$string['alertbackgroundcolorwarning'] = 'Color de fondo de advertencia';
+$string['alertbackgroundcolorwarningdesc'] = 'Color de fondo de los cuadros de advertencia Tipo de advertencia';
+$string['alertbordercolorwarning'] = 'Color del borde de advertencia';
+$string['alertbordercolorwarningdesc'] = 'Color del borde de los cuadros de alerta Tipo de advertencia';
+$string['alerticonwarning'] = 'Icono de advertencia';
+$string['alerticonwarningdesc'] = 'Selecciona el <a href="http://fortawesome.github.io/Font-Awesome/icons/"> Font Awesome Icono</a>Para ser utilizados en las cajas de alerta Tipo de advertencia. Introduzca el nombre del icono sin fa- prefijo.';
+
+$string['alertcolorsuccess'] = 'Color del anuncio';
+$string['alertcolorsuccessdesc'] = 'Color del icono de los cuadros de alerta Tipo de anuncio';
+$string['alertbackgroundcolorsuccess'] = 'Color del fondo del aviso';
+$string['alertbackgroundcolorsuccessdesc'] = 'Color de fondo de los cuadros de alerta Tipo de anuncio';
+$string['alertbordercolorsuccess'] = 'Color del borde del aviso';
+$string['alertbordercolorsuccessdesc'] = 'Color del borde de los cuadros de alerta Tipo de anuncio';
+$string['alerticonsuccess'] = 'Icono del anuncio';
+$string['alerticonsuccessdesc'] = 'Selecciona el <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icono</a> Que se utilizarán en los cuadros de alerta Tipo de anuncio. Introduzca el nombre del icono sin fa- prefijo.';
 
 // Social Wall Settings ********************************************.
 $string['socialwall'] = 'Formato Social Wall';
@@ -1047,6 +1089,8 @@ $string['hidebreadcrumbmobiledesc'] = 'Oculta la ruta de navegación.';
 $string['hidepagefootermobile'] = 'Ocultar pie de página';
 $string['hidepagefootermobiledesc'] = 'Oculta el pie de página.';
 
+$string['hideslidermobile'] = 'Ocultar el pase de diapositivas';
+$string['hideslidermobiledesc'] = 'Oculta el pase de diapositivas de la portada.';
 
 // Layout **********************************************************.
 $string['layoutsettings'] = 'Disposición';
@@ -1256,21 +1300,21 @@ $string['toolsmenufielddesc'] = 'Añade una regla de acceso usando un campo de p
 // Social settings *************************************************.
 $string['socialsettings'] = 'Redes sociales';
 $string['socialheading'] = 'Configuración de los iconos de redes sociales';
-$string['socialtitledesc'] = '<pre>Puedes desactivar la búsqueda y activar los iconos de redes sociales en su lugar.
+$string['socialtitledesc'] = 'Puedes desactivar la búsqueda y activar los iconos de redes sociales en su lugar.
 Para configurar los iconos, introduce una lista delimitada en el campo "Lista de iconos sociales".
 El formato debe ser:
 
 url|titulo|icono
 
 Ejemplo:
-
+<pre>
 http://localhost/moodle/course/search.php|Buscar en Moodle|fa-search
 https://facebook.com/|Facebook|fa-facebook-square
 https://twitter.com/|Twitter|fa-twitter-square
 https://instagram.com|Instagram|fa-instagram
 http://example.com|Mi Web|fa-globe
-
-El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
+</pre>
+El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome';
 
 $string['socialsize'] = 'Configurar tamaño de los iconos sociales';
 $string['socialsizemobile'] = 'Configurar tamaño de los iconos sociales en móviles';
@@ -1343,3 +1387,7 @@ $string['jssectiondesc'] = 'Introduce el código Javascript personalizado.';
 
 // Cache definitions.
 $string['cachedef_userdata'] = 'El tiempo para guardar una sesión de un usuario específico.';
+
+// General ******************************************.
+$string['hide'] = 'Ocultar';
+$string['show'] = 'Mostrar';
