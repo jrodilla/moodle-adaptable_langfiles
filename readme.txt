@@ -12,12 +12,13 @@ Installation
 -------------------------------------
 You can upload the files to your moodle site using FTP/SFTP. 
 
-Copy the language folder to moodle_site/themes/adaptable/lang
+Copy the language folders to moodle_site/themes/adaptable/lang
 (You must create the folders if needed)
 
 
 Version
 -------------------------------------
+1.3.2       2017050200
 1.3.1.1     2017011600
  
 
