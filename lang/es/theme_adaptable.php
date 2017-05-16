@@ -19,8 +19,8 @@
  *
  * @package    theme adaptable
  * @copyright  2015-2016 Fernando Acedo (3-bits.com)
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  *
  */
 
@@ -48,9 +48,7 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <p>Puedes informar de errores encontrados en este tema (y por favor, sólo errores) a través de nuestro <a href="https://bitbucket.org/covuni/moodle-theme_adaptable/issues" target="_blank">repositorio en Bitbucket</a></p>
 <br>
 <h3>Soporte Técnico</h3>
-<p>Puedes solicitar soporte técnico desde el sitio web de Adaptable (solo en inglés) <a href="https://adaptable.ws/support/support-tickets" target="_blank">Get Technical Support</a></p>
-<br>
-<p>o puedes preguntar tus dudas y cuestiones a través de los foros oficiales en moodle.org:</p>
+<p>Puedes preguntar tus dudas y cuestiones a través de los foros oficiales en moodle.org:</p>
 <ul>
 <li>Inglés: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
 <li>Español: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
@@ -61,13 +59,15 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <p>Próximamente</p>
 <br>
 <h3>Demo</h3>
-<p>Puedes ver una demostración del tema <a href="https://adaptable.ws/demo">AQUÍ</a></p>
+<p>Puedes ver una demostración del sitio y descargar un archivo de instalación en <a href="https://3-bits.com/demo/adaptable">https://3-bits.com/demo/adaptable</a></p>
 <br>
 <p>Traducción es-ES: Fernando Acedo (3-bits.com)</p>
 <p>Traducción es-MX: Germán Valero (UNAM)</p>
+<p>Traducció ca-ES: Fernando Acedo (3-bits.com)</p>
 </div>
-
 </div>';
+
+
 
 $string['info'] = 'Adaptable version: '.$CFG->version > 2015051100;
 
@@ -123,8 +123,9 @@ $string['analyticssettings'] = 'Analítica Web';
 // Admin Menu Strings.
 $string['blocksettings'] = 'Bloques';
 $string['frontpagealertsettings'] = 'Alertas';
-$string['frontpagealertboxssettings'] = 'Configuración de la caja de alerta';
 $string['frontpageblockregionsettings'] = 'Creador de regiones para bloques';
+$string['frontpagealertboxssettings'] = 'Configuración de alertas';
+$string['dashboardblockregionsettings'] = 'Constructor de regiones del Panel de Control';
 $string['frontpageblocksettings'] = 'Bloques promocionales';
 $string['frontpagetickersettings'] = 'Anuncios';
 $string['frontpageslidersettings'] = 'Presentación diapositivas';
@@ -163,17 +164,17 @@ $string['enabletickermydesc'] = 'Marcar para activar los anuncios en la página 
 $string['enabletickerc'] = 'Activar los anuncios en las páginas internas';
 $string['enabletickercdesc'] = 'Marcar para activar los anuncios en las páginas internas.';
 
+$string['tickerwidth'] = 'News Ticker Width';
+$string['tickerwidthdesc'] = 'You can use this setting to fix the news ticker at 100% width.';
+
 $string['tickertext1'] = 'Texto Anuncios 1';
-$string['tickertext1desc'] = 'Añadir los anuncios en formato de lista HTML. Ver <a href="adaptable/README.md">README.md</a> para más información.';
+$string['tickertext1desc'] = 'Añadir los anuncios en formato de lista HTML. Ver <a href="adaptable/README.txt">README.txt</a> para más información.';
 
 $string['tickertext2'] = 'Texto Anuncios 2';
-$string['tickertext2desc'] = 'Añadir los anuncios en formato de lista HTML para un segundo tipo de usuario. Ver <a href="adaptable/README.md">README.md</a> para más información.';
+$string['tickertext2desc'] = 'Añadir los anuncios en formato de lista HTML para un segundo tipo de usuario. Ver <a href="adaptable/README.txt">README.txt</a> para más información.';
 
 $string['tickertextprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
 $string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
-
-$string['newstickercount'] = 'Número de secciones en el tablón de anuncios';
-$string['newstickercountdesc'] = 'Define el número de múltiple secciones de anuncios basadas en campos de perfil de usuario personalizados.';
 
 $string['ticker'] = 'Anuncios';
 
@@ -259,6 +260,11 @@ $string['blocklayoutbuilderdesc'] = 'A continuación puedes crear tu propia dist
 Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>.
 Entonces podrás arrastras y soltar los bloques en las regiones creadas.';
 
+$string['dash_blocklayoutbuilder'] = 'Regiones del Panel de Control';
+$string['dash_blocklayoutbuilderdesc'] = 'A continuación puedes crear tu propia estructura de regiones para bloques en el Panel de Control.
+Para añadir dichas regiones necesitarás <strong>Activar Edición en la página del Panel de Control</strong>.<br>
+Entonces podrás arrastrar y soltar bloques en las regiones que has creado';
+
 $string['blocklayoutlayoutcheck'] = 'Comprueba la distribución';
 $string['blocklayoutlayoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
 $string['blocklayoutlayoutcount1'] = 'Puedes crear un máximo de ';
@@ -267,9 +273,16 @@ $string['blocklayoutlayoutcount2'] = ' regiones para bloques. Ahora estás usand
 $string['blocklayoutlayoutrow'] = 'Filas de regiones para bloques';
 $string['blocklayoutlayoutrowdesc'] = 'Añade / establece la distribución de filas de las regiones para bloques de la página principal.';
 
+$string['dashblocklayoutlayoutrow'] = 'Fila de regiones del anel de Control ';
+$string['dashblocklayoutlayoutrowdesc'] = 'Añade / establece la estructura de las regiones para bloques en la página del Panel de Control.';
+
 $string['frontpageblocksenabled'] = 'Activa las regiones para bloques en la página principal';
 $string['frontpageblocksenableddesc'] = 'Activa o desactiva las regiones para bloques de la página principal.
 Puedes arrastrar y soltar los bloques en las regiones creadas.';
+
+$string['dashblocksenabled'] = 'Activar las regiones personalizadas en la página del Panel de Control';
+$string['dashblocksenableddesc'] = 'Puedes activar / desactivar las regiones personalizadas de la página del Panel de Control.
+Puedes arrastrar y soltar los bloques en las regiones que has creado';
 
 $string['layoutcheck'] = 'Comprueba la distribución';
 $string['layoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
@@ -281,7 +294,7 @@ $string['layoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
 $string['marketingsettings'] = 'Bloques promocionales';
 $string['marketingsettingsheading'] = 'Personaliza los bloques promocionales que aparecen en la página de inicio. Ver la distribución <a href="./../theme/adaptable/pix/layout.png" target="_blank">aqui</a>';
 $string['marketingdesc'] = 'Dispones de dos cuadros informativos a los que puedes aplicar diferentes estilos. Además puedes activar el creador de regiones
-para bloques y decidir cuantos bloques quieres mostrar y su distribución en la página de inicio. Puedes ver la distribución de las diferentes regiones en el archivo  <a href="/adaptable/README.md" target="_blank">README.md</a>';
+para bloques y decidir cuantos bloques quieres mostrar y su distribución en la página de inicio. Puedes ver la distribución de las diferentes regiones en el archivo  <a href="/adaptable/README.txt" target="_blank">README.txt</a>';
 
 $string['marketingbuilderheading'] = 'Creador de regiones para bloques promocionales';
 $string['marketingbuilderdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques promocionales que has utilizado.';
@@ -290,7 +303,7 @@ $string['marketlayoutrow'] = 'Filas de regiones para bloques promocionales';
 $string['marketlayoutrowdesc'] = 'Añade / establece la distribución de filas de las regiones para bloques promocionales de la página principal.';
 
 $string['market'] = 'Bloque promocional ';
-$string['marketdesc'] = 'Añade el código HTML del bloque promocional (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos).';
+$string['marketdesc'] = 'Añade el código HTML del bloque promocional (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos).';
 
 $string['layoutaddcontent'] = 'Añade contenido a los bloques promocionales:';
 $string['layoutaddcontentdesc1'] = 'Has configurado ';
@@ -298,13 +311,13 @@ $string['layoutaddcontentdesc2'] = ' bloques promocionales. Si estás conforme c
 Si no estás conforme, usa el creador de regiones para bloques promocionales para realizar cambios<br />';
 
 $string['infobox'] = 'Cuadro informativo 1';
-$string['infoboxdesc'] = 'Añade el código HTML del cuadro informativo 1 (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['infoboxdesc'] = 'Añade el código HTML del cuadro informativo 1 (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
 
 $string['infoboxfullscreen'] = 'Cuadros informativos a ancho completo';
 $string['infoboxfullscreendesc'] = 'Marca está opción para mostrar los cuadros informativos a ancho completo de pantalla.';
 
 $string['infobox2'] = 'Cuadro informativo 2';
-$string['infobox2desc'] = 'Añade el código HTML del cuadro informativo 2 (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['infobox2desc'] = 'Añade el código HTML del cuadro informativo 2 (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
 
 $string['frontpagemarketenabled'] = 'Activar los bloques promocionales';
 $string['frontpagemarketenableddesc'] = 'Activar los bloques promocionales en la pagina de inicio.';
@@ -337,13 +350,16 @@ $string['footerlayoutrow'] = 'Creador de regiones para los bloques del pie de p�
 $string['footerlayoutrowdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques del pie de página que has utilizado.';
 
 $string['footnote'] = 'Texto del bloque del pie de página ';
-$string['footnotedesc'] = 'Añade el código HTML del bloque de pie de página (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['footnotedesc'] = 'Añade el código HTML del bloque de pie de página (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
 
 $string['footerheader'] = 'Titulo del bloque del pie de página ';
 $string['footerdesc'] = 'Añade el titulo del bloque del pie de página ';
 
 $string['footercontent'] = 'Contenido del bloque del pie de página ';
-$string['footercontentdesc'] = 'Añade el código HTML del bloque del pie de página (ver el archivo <a href="./../theme/adaptable/README.md" target="_blank">README</a> para más ejemplos)';
+$string['footercontentdesc'] = 'Añade el código HTML del bloque del pie de página (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
+
+$string['hidefootersocial'] = 'Mostrar iconos sociales';
+$string['hidefootersocialdesc'] = 'Muestra los iconos sociales en el pie de página bajo los bloques.';
 
 
 // Moodle Docs link.
@@ -431,6 +447,9 @@ $string['mysitessortoverrideprofilefieldscohort'] = 'Muestra los cursos coincide
 
 $string['mysitesmaxlength'] = 'Longitud máxima del título del curso en "Mis Cursos"';
 $string['mysitesmaxlengthdesc'] = 'Ajusta la longitud máxima del título del curso a mostrar en "Mis Cursos". La longitud dependerá del tamaño y de la fuente usada.';
+
+$string['mycoursesmenulimit'] = 'Límite menú Mis Cursos';
+$string['mycoursesmenulimitdesc'] = 'Establece el número máximo de cursos que aparecen en el menú Mis Cursos. 0 mostrará todos los cursos.';
 
 $string['usernavheading'] = 'Personalizar el menú de usuario';
 $string['usernavdesc'] = 'Permite personalizar los elementos que aparecen en el menú de usuario.';
@@ -695,8 +714,8 @@ $string['fonttitleweightdesc'] = 'Establece el grueso de la fuente del título d
 $string['fonttitlesize'] = 'Tamaño de la fuente del título del sitio';
 $string['fonttitlesizedesc'] = 'Tamaño de la fuente del título del sitio situado en la cabecera. Introducir un valor decimal, por ejemplo: 24px';
 
-$string['fonttitlecolorcourse'] = 'Color de la fuente del título del curso';
-$string['fonttitlecolorcoursedesc'] = 'Establece el color de la fuente usada en el título del curso.';
+$string['fonttitlesizecourse'] = 'Tamaño de la fuente del título del curso';
+$string['fonttitlesizecoursedesc'] = 'Establece el tamaño de la fuente del título del curso. Introducir un valor decimal, por ejemplo: 24px';
 
 $string['fontsubset'] = 'Juego de caracteres de Google Fonts';
 $string['fontsubsetdesc'] = 'Seleccionar el juego de caracteres de Google Fonts a usar además del latín ya incluido por defecto. Se aplicará a toda las fuentes seleccionadas.';
@@ -719,7 +738,7 @@ $string['fontblockheadersizedesc'] = 'Establece el tamaño de la fuente utilizad
 // Buttons *********************************************************.
 $string['buttonsettings'] = 'Botones';
 $string['buttonsettingsheading'] = 'Personalizar los botones.';
-$string['buttondesc'] = 'personaliza a forma y colores de los botones utilizados en la plantilla.';
+$string['buttondesc'] = 'Personaliza a forma y colores de los botones utilizados en la plantilla.';
 
 $string['buttonradius'] = 'Radio de las esquinas';
 $string['buttonradiusdesc'] = '0 = esquinas cuadradas. Un valor más alto es igual a esquinas más redondeadas.';
@@ -927,10 +946,10 @@ $string['course'] = 'Course';
 
 
 // Alerts **********************************************************.
-// Alert message if acting as other role.
+// Alert message if acting as other role
 $string['actingasrole'] = 'Usted está actuando actualmente como un papel diferente';
 
-// Alert Hiden Course.
+// Alert Hiden Course
 $string['alerthiddencourse'] = 'Advertencia del curso oculto';
 $string['alerthiddencoursedesc'] = 'Mostrar alerta en la página del curso si está oculta';
 
@@ -960,7 +979,7 @@ $string['enablealertstriptagsdesc'] = 'Si se activa, se eliminarán las etiqueta
 $string['alertkeyvalue'] = 'Clave de identificación de la Alerta';
 $string['alertkeyvalue_details'] = 'Esta clave identifica la alerta y permite el control de la eliminación de la alerta en la pantalla por parte del usuario. Si se cambia la clave, los usuarios volverán a ver la alerta de nuevo.';
 
-$string['alertsettingscourse'] = 'Configuración de la alerta de curso';
+$string['alertsettingscourse'] = 'Configuraciçon Alertas de cursos';
 
 $string['alertsettingsgeneral'] = 'Configuración Alertas';
 $string['alertsettings'] = 'Alerta {$a}';
@@ -972,8 +991,8 @@ $string['alertsettingsheading'] = 'Personalizar las Alertas';
 $string['alertdesc'] = 'Introduce y personaliza el texto de las Alertas mostradas en la parte superior de la pantalla. Es posible crear más de una para mostrarse a diferentes tipos de usuarios. También existe la opción de mostrar las alertas en la página inicial y en las páginas de los cursos.';
 
 // Alerts Types.
-$string['alertdisabled'] = 'Desactivado';
-$string['alertdisabledesc'] = 'Desactivar esta alerta';
+$string['alertdisabled'] = 'Desactivada';
+$string['alertdisabledesc'] = 'Desactiva esta alerta.';
 
 $string['alertinfo'] = 'Info';
 $string['alertinfodesc'] = 'Muestra un mensaje de información.';
@@ -1001,35 +1020,35 @@ $string['beta'] = 'VERSION EN DESARROLLO. NO USAR EN SITIOS EN PRODUCCIÓN';
 $string['deprecated'] = 'VERSIÓN DE MOODLE OBSOLETA. NO USAR ADAPTABLE EN ESTE SITIO';
 
 // Alerts Colors****************************************************.
-$string['alertcolorsheading'] = 'Personalizar las cajas de alerta superiores';
-$string['alertcolorsheadingdesc'] = 'Establecer colores e icono.';
+$string['alertcolorsheading'] = 'Personaliza las alertas de la parte superior.';
+$string['alertcolorsheadingdesc'] = 'Personaliza el color y el icono de las alertas de la parte superior.';
 
-$string['alertcolorinfo'] = 'Color de la información';
-$string['alertcolorinfodesc'] = 'Color del icono de los cuadros de alerta Tipo de información';
-$string['alertbackgroundcolorinfo'] = 'Información Color de fondo';
-$string['alertbackgroundcolorinfodesc'] = 'Color de fondo de los cuadros de alerta Tipo de información';
-$string['alertbordercolorinfo'] = 'Info Color del borde';
-$string['alertbordercolorinfodesc'] = 'Color del borde de los cuadros de alerta Tipo de información';
-$string['alerticoninfo'] = 'Icono de Información';
-$string['alerticoninfodesc'] = 'Selecciona el <a href="http://fortawesome.github.io/Font-Awesome/icons/"> Font Awesome Icono</a>Para usarse en los cuadros de alerta tipo Info. Introduzca el nombre del icono sin fa- prefijo.';
+$string['alertcolorinfo'] = 'Color Info';
+$string['alertcolorinfodesc'] = 'Color del icono en la alerta tipo Info.';
+$string['alertbackgroundcolorinfo'] = 'Color de fondo Info';
+$string['alertbackgroundcolorinfodesc'] = 'Color de fondo de la alerta tipo Info.';
+$string['alertbordercolorinfo'] = 'Color de borde Info';
+$string['alertbordercolorinfodesc'] = 'Color del borde de la alerta tipo Info.';
+$string['alerticoninfo'] = 'Icono Info';
+$string['alerticoninfodesc'] = 'Establece el icono de <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome</a> a usar en las alertas tipo Info. Introducir el nombre sin el prefijo fa-';
 
-$string['alertcolorwarning'] = 'Color de advertencia';
-$string['alertcolorwarningdesc'] = 'Color del icono de los cuadros de alerta Tipo de advertencia';
-$string['alertbackgroundcolorwarning'] = 'Color de fondo de advertencia';
-$string['alertbackgroundcolorwarningdesc'] = 'Color de fondo de los cuadros de advertencia Tipo de advertencia';
-$string['alertbordercolorwarning'] = 'Color del borde de advertencia';
-$string['alertbordercolorwarningdesc'] = 'Color del borde de los cuadros de alerta Tipo de advertencia';
-$string['alerticonwarning'] = 'Icono de advertencia';
-$string['alerticonwarningdesc'] = 'Selecciona el <a href="http://fortawesome.github.io/Font-Awesome/icons/"> Font Awesome Icono</a>Para ser utilizados en las cajas de alerta Tipo de advertencia. Introduzca el nombre del icono sin fa- prefijo.';
+$string['alertcolorwarning'] = 'Color Aviso';
+$string['alertcolorwarningdesc'] = 'Color del icono en la alerta tipo Aviso.';
+$string['alertbackgroundcolorwarning'] = 'Color de fondo Aviso';
+$string['alertbackgroundcolorwarningdesc'] = 'Color de fondo de la alerta tipo Aviso.';
+$string['alertbordercolorwarning'] = 'Color del borde Aviso';
+$string['alertbordercolorwarningdesc'] = 'Color del borde de la alerta tipo Aviso.';
+$string['alerticonwarning'] = 'Icono Aviso';
+$string['alerticonwarningdesc'] = 'Establece el icono de <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome</a> a usar en las alertas tipo Aviso. Introducir el nombre sin el prefijo fa-';
 
-$string['alertcolorsuccess'] = 'Color del anuncio';
-$string['alertcolorsuccessdesc'] = 'Color del icono de los cuadros de alerta Tipo de anuncio';
-$string['alertbackgroundcolorsuccess'] = 'Color del fondo del aviso';
-$string['alertbackgroundcolorsuccessdesc'] = 'Color de fondo de los cuadros de alerta Tipo de anuncio';
-$string['alertbordercolorsuccess'] = 'Color del borde del aviso';
-$string['alertbordercolorsuccessdesc'] = 'Color del borde de los cuadros de alerta Tipo de anuncio';
-$string['alerticonsuccess'] = 'Icono del anuncio';
-$string['alerticonsuccessdesc'] = 'Selecciona el <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icono</a> Que se utilizarán en los cuadros de alerta Tipo de anuncio. Introduzca el nombre del icono sin fa- prefijo.';
+$string['alertcolorsuccess'] = 'Color Anuncio';
+$string['alertcolorsuccessdesc'] = 'Color del icono en la alerta tipo Anuncio.';
+$string['alertbackgroundcolorsuccess'] = 'Color de fondo Anuncio';
+$string['alertbackgroundcolorsuccessdesc'] = 'Color de fondo de la alerta tipo Aviso.';
+$string['alertbordercolorsuccess'] = 'Color del borde Anuncio';
+$string['alertbordercolorsuccessdesc'] = 'Color del borde de la alerta tipo Anuncio.';
+$string['alerticonsuccess'] = 'Icono Anuncio';
+$string['alerticonsuccessdesc'] = 'Establece el icono de <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icon</a> a usar en las alertas tipo Anuncio. Introducir el nombre sin el prefijo fa-';
 
 // Social Wall Settings ********************************************.
 $string['socialwall'] = 'Formato Social Wall';
@@ -1090,7 +1109,7 @@ $string['hidepagefootermobile'] = 'Ocultar pie de página';
 $string['hidepagefootermobiledesc'] = 'Oculta el pie de página.';
 
 $string['hideslidermobile'] = 'Ocultar el pase de diapositivas';
-$string['hideslidermobiledesc'] = 'Oculta el pase de diapositivas de la portada.';
+$string['hideslidermobiledesc'] = 'Oculta el pase de diapositivas de la página inicial.';
 
 // Layout **********************************************************.
 $string['layoutsettings'] = 'Disposición';
@@ -1196,7 +1215,7 @@ $string['newstickercount'] = 'Número de barras de anuncios';
 $string['newstickercountdesc'] = 'Define barras de anuncios con diferentes reglas de acceso para mostrarlas a diferentes tipos de usuarios.';
 
 $string['tickertext'] = 'Texto de la barra de anuncios';
-$string['tickertextdesc'] = 'Añade el texto a mostrar en la barra de anuncios en formato de lista. Ver el archivo <a href="adaptable/README.md">README.md</a> para más información.';
+$string['tickertextdesc'] = 'Añade el texto a mostrar en la barra de anuncios en formato de lista. Ver el archivo <a href="adaptable/README.txt">README.txt</a> para más información.';
 
 $string['newmenu1trigger'] = 'Palabra clave para el Menú desplegable superior';
 $string['newmenu1triggerdesc'] = 'Establece una palabra clave para el Menú desplegable superior. Puedes utilizar los iconos de Font Awesome.';
@@ -1300,21 +1319,21 @@ $string['toolsmenufielddesc'] = 'Añade una regla de acceso usando un campo de p
 // Social settings *************************************************.
 $string['socialsettings'] = 'Redes sociales';
 $string['socialheading'] = 'Configuración de los iconos de redes sociales';
-$string['socialtitledesc'] = 'Puedes desactivar la búsqueda y activar los iconos de redes sociales en su lugar.
+$string['socialtitledesc'] = '<pre>Puedes desactivar la búsqueda y activar los iconos de redes sociales en su lugar.
 Para configurar los iconos, introduce una lista delimitada en el campo "Lista de iconos sociales".
 El formato debe ser:
 
 url|titulo|icono
 
 Ejemplo:
-<pre>
+
 http://localhost/moodle/course/search.php|Buscar en Moodle|fa-search
 https://facebook.com/|Facebook|fa-facebook-square
 https://twitter.com/|Twitter|fa-twitter-square
 https://instagram.com|Instagram|fa-instagram
 http://example.com|Mi Web|fa-globe
-</pre>
-El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome';
+
+El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
 
 $string['socialsize'] = 'Configurar tamaño de los iconos sociales';
 $string['socialsizemobile'] = 'Configurar tamaño de los iconos sociales en móviles';
@@ -1388,6 +1407,13 @@ $string['jssectiondesc'] = 'Introduce el código Javascript personalizado.';
 // Cache definitions.
 $string['cachedef_userdata'] = 'El tiempo para guardar una sesión de un usuario específico.';
 
+// Section navigation ********************************.
+$string['nextsection'] = 'Siguiente';
+$string['previoussection'] = 'Anterior';
+
 // General ******************************************.
 $string['hide'] = 'Ocultar';
 $string['show'] = 'Mostrar';
+
+// Navbar Links menu *********************************.
+$string['linksmenu'] = 'Menu enlaces';
