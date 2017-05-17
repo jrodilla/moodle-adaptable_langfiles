@@ -69,7 +69,7 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 </div>
 </div>';
 
-
+$string['info'] = 'Adaptable versió: '.$CFG->version > 2015051100;
 
 $string['pluginname'] = 'Adaptable';
 $string['configtitle'] = 'Adaptable';
@@ -588,7 +588,7 @@ $string['breadcrumbtextcolordesc'] = 'Estableix el color de text de la guia d&#3
 $string['activebreadcrumb'] = 'Color de fons de la guia d&#39;exploració activa';
 $string['activebreadcrumbdesc'] = 'Estableix el color de fons de la guia d&#39;exploració activa.';
 
-$string['messagepopupbackground';] = 'Color de fons dels missatges emergents';
+$string['messagepopupbackground'] = 'Color de fons dels missatges emergents';
 $string['messagepopupbackgrounddesc'] = 'Estableix el color de fons de la capçalera dels missatges emergents.';
 
 $string['messagepopupcolor'] = 'Color de text dels missatges emergents';
