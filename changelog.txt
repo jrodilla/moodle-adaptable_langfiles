@@ -3,6 +3,8 @@ Version 1.4
 NEW
 headerbgimage
 headerbgimagedesc
+settingscolors
+settingsborders
 
 
 MODIFIED
