@@ -5,6 +5,8 @@ headerbgimage
 headerbgimagedesc
 settingscolors
 settingsborders
+settingstopicsweeks
+settingstopicsweeksdesc
 
 
 MODIFIED
