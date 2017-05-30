@@ -4,7 +4,7 @@ Adaptable language files
 Summary
 -------------------------------------
 This repository includes the Adaptable official language pack files available in:
-- Català (Spain)
+- Català (Andorra)
 - English (UK)
 - Spanish (Spain)
 
@@ -18,6 +18,7 @@ Copy the language folders to moodle_site/themes/adaptable/lang
 
 Version
 -------------------------------------
+1.4         2017053000
 1.3.3       2017051700
 1.3.2       2017050200
 1.3.1.1     2017011600
