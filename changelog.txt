@@ -5,7 +5,16 @@ headerbgimage
 headerbgimagedesc
 settingscolors
 settingsborders
-
+settingstopicsweeks
+settingstopicsweeksdesc
+topicsweeks
+topicsweeksdesc
 
 MODIFIED
-
+dashblocklayoutbuilder
+dashblocklayoutbuilderdesc
+dashboardblockregionsettings
+frontpagecoursesettings
+coursesettings
+coursesettingsheading
+coursesettingsdesc
