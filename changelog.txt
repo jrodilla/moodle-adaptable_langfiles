@@ -9,6 +9,7 @@ settingstopicsweeks
 settingstopicsweeksdesc
 topicsweeks
 topicsweeksdesc
+disabled
 
 MODIFIED
 dashblocklayoutbuilder
