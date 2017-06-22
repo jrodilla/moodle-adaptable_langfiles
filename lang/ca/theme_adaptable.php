@@ -49,8 +49,6 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <br>
 <h3>Suport Tècnic</h3>
 <p>Pots sol·licitar suport mitjançant la web de Adaptable (només en anglès) <a href="https://adaptable.ws/support/support-tickets" target="_blank">Get Technical Support</a></p>
-<br>
-<p>o pots preguntar en el forum de moodle:</p>
 <ul>
 <li>Anglès: <a href="https://moodle.org/mod/forum/discuss.php?d=340404" target="_blank">https://moodle.org/mod/forum/discuss.php?d=340404</a>
 <li>Espanyol: <a href="https://moodle.org/mod/forum/discuss.php?d=326804" target="_blank">https://moodle.org/mod/forum/discuss.php?d=326804</a>
@@ -68,6 +66,8 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 
 </div>
 </div>';
+
+
 
 $string['pluginname'] = 'Adaptable';
 $string['configtitle'] = 'Adaptable';
@@ -116,13 +116,14 @@ $string['settingsmessagescolors'] = 'Colors dels missatges emergents';
 $string['settingsfootercolors'] = 'Colors del peu de pàgina';
 $string['settingsfonts'] = 'Fonts';
 $string['analyticssettings'] = 'Analítica Web';
-
+$string['settingscolors'] = 'Colors';
+$string['settingsborders'] = 'Bores';
+$string['settingstopicsweeks'] = 'Temes / Setmanes'
 
 // Admin Menu Strings.
 $string['blocksettings'] = 'Blocs';
 $string['frontpagealertsettings'] = 'Alertes';
 $string['frontpageblockregionsettings'] = 'Creador de regions per a blocs';
-$string['frontpagealertboxssettings'] = 'Configuració d&#39;alertes';
 $string['dashboardblockregionsettings'] = 'Constructor de regions de l&#39;Área Personal';
 $string['frontpageblocksettings'] = 'Blocs promocionals';
 $string['frontpagetickersettings'] = 'Anuncis';
@@ -252,7 +253,7 @@ $string['sliderstyle1'] = 'Diapositives estil 1';
 $string['sliderstyle2'] = 'Diapositives estil 2';
 
 
-// Regiones para Bloques ***************************************************.
+// Regions per a Blocs ***************************************************.
 $string['blocklayoutbuilder'] = 'Creador de regions per a blocs';
 $string['blocklayoutbuilderdesc'] = 'A continuació pots crear la teva pròpia distribució de regions per als blocs de moodle a la pàgina principal.
 Per afegir contingut a aquestes regions necessitaràs <strong>Activar edició a la pàgina principal de Moodle</strong>.
@@ -288,7 +289,7 @@ $string['layoutcount1'] = 'Pots crear un màxim de ';
 $string['layoutcount2'] = ' regions per a blocs. Ara estàs utilitzant: ';
 
 
-// Bloques promocionales & Cuadros Informativos *************************************.
+// Blocs promocionals & Quadres Informatius *************************************.
 $string['marketingsettings'] = 'Blocs promocionals';
 $string['marketingsettingsheading'] = 'Personalitza els blocs promocionals que apareixen a la pàgina d&#39;inici. Veure la distribució <a href="./../theme/adaptable/pix/layout.png" target="_blank">aqui</a>';
 $string['marketingdesc'] = 'Disposes de dos quadres informatius als que pots aplicar diferents estils. A més pots activar el creador de regions
@@ -641,6 +642,10 @@ $string['coursesettings'] = 'Seccions del curs';
 $string['coursesettingsheading'] = 'Configuració de les seccions del curs.';
 $string['coursedesc'] = 'Configura les opcions de les seccions dels cursos com el títol, color de fons i bores.';
 
+// Topics / Weeks Settings.
+$string['topicsweeks'] = 'Format de curs Temes/Setmanes';
+$string['topicsweeksdesc'] = 'Estableix estils per al format de curs Temes/setmanes.';
+
 $string['coursesectionheaderbg'] = 'Color de fons de la capçalera';
 $string['coursesectionheaderbgdesc'] = 'Estableix el color de fons de la capçalera de la secció del curs.';
 
@@ -663,16 +668,43 @@ $string['coursesectionheaderborderradiusbottom'] = 'Radi de las cantonades de la
 $string['coursesectionheaderborderradiusbottomdesc'] = 'Estableix el radi de les cantonades de la bora inferior de la capçalera de la secció del curs.';
 
 $string['coursesectionborderstile'] = 'Estil de la bora de la secció del curs';
-$string['coursesectionborderstiledesc'] = 'Estableix l&#39;estil de la bora de la secció del curs.';
+$string['coursesectionborderstiledesc'] = 'Estableix l&#39;estil de la vora de la secció del curs.';
 
 $string['coursesectionborderwidth'] = 'Gruix de la bora de la secció';
-$string['coursesectionborderwidthdesc'] = 'Estableix el gruix de la bora de la secció del curs.';
+$string['coursesectionborderwidthdesc'] = 'Estableix el gruix de la vora de la secció del curs.';
 
 $string['coursesectionbordercolor'] = 'Color de la bora de la secció';
-$string['coursesectionbordercolordesc'] = 'Estableix el color de la bora de la secció del curs.';
+$string['coursesectionbordercolordesc'] = 'Estableix el color de la vora de la secció del curs.';
 
 $string['coursesectionborderradius'] = 'Radi de la bora de la secció';
-$string['coursesectionborderradiusdesc'] = 'Estableix el Radi de la bora de les cantonades de la secció del curs.';
+$string['coursesectionborderradiusdesc'] = 'Estableix el Radi de la vora de les cantonades de la secció del curs.';
+
+// Social Wall Settings.
+$string['socialwall'] = 'Mur Social';
+$string['socialwallheading'] = 'Paràmetres format Social';
+$string['socialwalldesc'] = 'Personalitza l&#39;aparença del <a href="https://moodle.org/plugins/format_socialwall">Curs en format Social</a> (if in use on your site)';
+
+$string['socialwallbackgroundcolor'] = 'Color de fons';
+$string['socialwallbackgroundcolordesc'] = 'Color de fons del curs Social.';
+
+$string['socialwallsectionradius'] = 'Radi de la vora';
+$string['socialwallsectionradiusdesc'] = 'Radi de la vora de les seccions del curs Social.';
+
+$string['socialwallbordertopstyle'] = 'Estil de la vora';
+$string['socialwallbordertopstyledesc'] = 'Estil de la vora de les seccions del curs Social.';
+
+$string['socialwallborderwidth'] = 'Amplada de la vora';
+$string['socialwallborderwidthdesc'] = 'Amplada de la vora de les seccions del curs Social.';
+
+$string['socialwallbordercolor'] = 'Color de la vora';
+$string['socialwallbordercolordesc'] = 'Color de la vora de les seccions del curs Social.';
+
+$string['socialwallactionlinkcolor'] = 'Color de l&#39;enllaç';
+$string['socialwallactionlinkcolordesc'] = 'Color de l&#39;enllaç al curs Social.';
+
+$string['socialwallactionlinkhovercolor'] = 'Color de l&#39;enllaç actiu';
+$string['socialwallactionlinkhovercolordesc'] = 'Color de l&#39;enllaç actiu al curs Social.';
+
 
 // Fonts ***********************************************************.
 $string['fontsettings'] = 'Fonts';
@@ -788,6 +820,9 @@ $string['headersettings'] = 'Capçalera';
 $string['headersettingsheading'] = 'Personalització de la capçalera.';
 $string['headerdesc'] = 'Mostrar alertes per avisar als usuaris, controlar la barra de navegació, mostrar el títol del lloc o el logotip, són algunes de les opcions de la capçalera.';
 
+
+$string['headerbgimage'] = 'Imatge de fons';
+$string['headerbgimagedesc'] = 'Estableix una imatge de fons per a la capçalera. La mida mínima és 1600x180px (1900x180px recomanat). La imatge ocuparà tota la capçalera. Pots afegir un color &#39;Color de fons de la capçalera superior&#39; o utilitzar <i>transparent</i> per a mostrar la imatge. En aquest cas, modificar el color del text  per a mostrar-ho correctament sobre la imatge.';
 
 $string['enableheading'] = 'Mostrar nom del curs';
 $string['enableheadingdesc'] = 'Estableix el mode de visualització del títol del curs a la capçalera.';
@@ -1048,33 +1083,6 @@ $string['alertbordercolorsuccessdesc'] = 'Color de la vora de les caixes d&#39;a
 $string['alerticonsuccess'] = 'Icona de l&#39;avís';
 $string['alerticonsuccessdesc'] = 'Ajusteu el<a href="http://fortawesome.github.io/Font-Awesome/icons/">Fonts impressionant icona </a> que es usedin en caixes d&#39;alerta tipus d&#39;anunci. Introduïu el nom de la icona sense el fa- prefix.';
 
-// Social Wall Settings ********************************************.
-$string['socialwall'] = 'Format Social Wall';
-$string['socialwallheading'] = 'Format Social Wall';
-$string['socialwalldesc'] = 'Personalitza l&#39;estil del <a href="https://moodle.org/plugins/format_socialwall"> Format de curs SocialWall</a> (si s&#39;utilitza al lloc)';
-
-$string['socialwallbackgroundcolor'] = 'Color de fons';
-$string['socialwallbackgroundcolordesc'] = 'Estableix el color de fons.';
-
-$string['socialwallsectionradius'] = 'Radi de la bora';
-$string['socialwallsectionradiusdesc'] = 'Estableix la bora del Radi de les seccions.';
-
-$string['socialwallbordertopstyle'] = 'Estil de la bora';
-$string['socialwallbordertopstyledesc'] = 'Estableix l&#39;estil de la bora de les seccions.';
-
-$string['socialwallborderwidth'] = 'Gruix de la bora';
-$string['socialwallborderwidthdesc'] = 'Estableix el gruix de la bora de les seccions.';
-
-$string['socialwallbordercolor'] = 'Color de la bora';
-$string['socialwallbordercolordesc'] = 'Estableix el color de la bora de les seccions.';
-
-$string['socialwallactionlinkcolor'] = 'Color dels enllaços d&#39;acció';
-$string['socialwallactionlinkcolordesc'] = 'Estableix el color dels enllaços d&#39;acció.';
-
-$string['socialwallactionlinkhovercolor'] = 'Color hover dels enllaços d&#39;acció';
-$string['socialwallactionlinkhovercolordesc'] = 'Estableix el color hover dels enllaços d&#39;acció.';
-
-
 // Mobile **********************************************************.
 $string['mobilesettings'] = 'Configuració per a dispositius mòbils';
 $string['mobilesettingsheading'] = 'Configura la plantilla per ser visualitzada en dispositius mòbils.';
@@ -1254,6 +1262,9 @@ $string['newmenu2triggerdesc'] = 'Estableix la paraula clau per al Menú despleg
 
 $string['enablemenus'] = 'Activar Menús';
 $string['enablemenusdesc'] = 'Per motius de rendiment, es recomana no activar-ho si no s&#39;utilitzen els menús.';
+
+$string['menuslinkright'] = 'Mostra l&#39;enllaç al menú a dalt a la dreta.';
+$string['menuslinkrightdesc'] = 'Si està activat, mostra l&#39;enllaç als menús, a la part superior dreta, al costat del menú de missatges.';
 
 $string['disablemenuscoursepages'] = 'Desactivar menús a les pàgines dels cursos';
 $string['disablemenuscoursepagesdesc'] = 'Activant aquesta opció els menús només es mostraran a les pàgines del lloc, la pàgina inicial, l&#39;Àrea Personal, etc. i no es mostrarà a les pàgines dels cursos.';
