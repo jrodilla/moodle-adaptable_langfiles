@@ -20,11 +20,13 @@ coursesettings
 coursesettingsheading
 coursesettingsdesc
 
-Version 1.4.1
+Version 1.5
 **************************************
 NEW
 side-post1
 region-course-top-a
+.
+.
 region-course-top-d
 coursepageblockregionsettings
 coursepageblocklayoutbuilder
@@ -56,8 +58,13 @@ coursesectionactivityquiztopbordercolor
 coursesectionactivityquiztopbordercolordesc
 coursesectionactivityquizbgcolor
 coursesectionactivityquizbgcolordesc
-
-
+coursepageheaderhidesitetitle
+coursepageheaderhidesitetitledesc
+settingsforumheading
+forumheaderbackgroundcolor
+forumheaderbackgroundcolordesc
+forumbodybackgroundcolor
+forumbodybackgroundcolordesc
 
 
 
@@ -67,3 +74,5 @@ region-frnt-market-a
 .
 .
 region-frnt-market-t
+searchboxpaddingdesc
+course
