@@ -77,28 +77,39 @@ $string['region-frnt-footer'] = 'Footer';
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';
 $string['frnt-footer'] = 'Blocks in this area will only be visible to admin users.';
+$string['side-post1'] = 'side bar in footer';
 
-$string['region-frnt-market-a'] = 'Market-a';
-$string['region-frnt-market-b'] = 'Market-b';
-$string['region-frnt-market-c'] = 'Market-c';
-$string['region-frnt-market-d'] = 'Market-d';
-$string['region-frnt-market-e'] = 'Market-e';
-$string['region-frnt-market-f'] = 'Market-f';
-$string['region-frnt-market-g'] = 'Market-g';
-$string['region-frnt-market-h'] = 'Market-h';
-$string['region-frnt-market-i'] = 'Market-i';
-$string['region-frnt-market-j'] = 'Market-j';
-$string['region-frnt-market-k'] = 'Market-k';
-$string['region-frnt-market-l'] = 'Market-l';
-$string['region-frnt-market-m'] = 'Market-m';
-$string['region-frnt-market-n'] = 'Market-n';
-$string['region-frnt-market-o'] = 'Market-o';
-$string['region-frnt-market-p'] = 'Market-p';
-$string['region-frnt-market-q'] = 'Market-q';
-$string['region-frnt-market-r'] = 'Market-r';
-$string['region-frnt-market-s'] = 'Market-s';
-$string['region-frnt-market-t'] = 'Market-t';
+$string['region-frnt-market-a'] = 'Page region 1';
+$string['region-frnt-market-b'] = 'Page region 2';
+$string['region-frnt-market-c'] = 'Page region 3';
+$string['region-frnt-market-d'] = 'Page region 4';
+$string['region-frnt-market-e'] = 'Page region 5';
+$string['region-frnt-market-f'] = 'Page region 6';
+$string['region-frnt-market-g'] = 'Page region 7';
+$string['region-frnt-market-h'] = 'Page region 8';
+$string['region-frnt-market-i'] = 'Page region 9';
+$string['region-frnt-market-j'] = 'Page region 10';
+$string['region-frnt-market-k'] = 'Page region 11';
+$string['region-frnt-market-l'] = 'Page region 12';
+$string['region-frnt-market-m'] = 'Page region 13';
+$string['region-frnt-market-n'] = 'Page region 14';
+$string['region-frnt-market-o'] = 'Page region 15';
+$string['region-frnt-market-p'] = 'Page region 16';
+$string['region-frnt-market-q'] = 'Page region 17';
+$string['region-frnt-market-r'] = 'Page region 18';
+$string['region-frnt-market-s'] = 'Page region 19';
+$string['region-frnt-market-t'] = 'Page region 20';
 
+// Course page block regions.
+$string['region-course-top-a'] = 'Course page top region 1';
+$string['region-course-top-b'] = 'Course page top region 2';
+$string['region-course-top-c'] = 'Course page top region 3';
+$string['region-course-top-d'] = 'Course page top region 4';
+
+$string['region-course-bottom-a'] = 'Course page bottom region 5';
+$string['region-course-bottom-b'] = 'Course page bottom region 6';
+$string['region-course-bottom-c'] = 'Course page bottom region 7';
+$string['region-course-bottom-d'] = 'Course page bottom region 8';
 
 // Settings page headings ******************************************.
 $string['settingsmaincolors'] = 'Main Colours';
@@ -125,6 +136,7 @@ $string['blocksettings'] = 'Block Settings';
 $string['frontpagealertsettings'] = 'Alert Box';
 $string['frontpageblockregionsettings'] = 'Block Region Builder';
 $string['dashboardblockregionsettings'] = 'Dashboard Block Region Builder';
+$string['coursepageblockregionsettings'] = 'Course page Block Region Builder';
 $string['frontpageblocksettings'] = 'Marketing Blocks';
 $string['frontpagetickersettings'] = 'Frontpage Ticker';
 $string['frontpageslidersettings'] = 'Frontpage Slider';
@@ -177,6 +189,9 @@ $string['tickertextprofilefielddesc'] = 'Add access rule using for custom profil
 
 $string['ticker'] = 'Announcements';
 
+$string['tickerwidth'] = 'Fixed Width';
+$string['tickerfullscreen'] = 'Full Screen width';
+
 // Slideshow *******************************************************.
 $string['slideshowsettings'] = 'Slideshow';
 $string['slideshowsettingsheading'] = 'Customize the carousel on the front page. See the layout <a href="./../theme/adaptable/pix/layout.png" target="_blank"> here</a>';
@@ -204,7 +219,7 @@ $string['sliderfullscreen'] = 'Slider full screen';
 $string['sliderfullscreendesc'] = 'Check this box to make the slider full screen (100% width)';
 
 $string['slideroption2'] = 'Choose Slider Type';
-$string['slideroption2desc'] = 'Choose Slider Type <strong>and then click SAVE</strong> to see color settings for your chosen slider';
+$string['slideroption2desc'] = 'Choose Slider Type <strong>and then click SAVE</strong> to see colour settings for your chosen slider';
 
 $string['slideroption2snippet'] = '<p>Sample HTML for Slider Captions:</p>
 <pre>
@@ -216,29 +231,29 @@ $string['slideroption2snippet'] = '<p>Sample HTML for Slider Captions:</p>
 $string['slidercount'] = 'Slider Count';
 $string['slidercountdesc'] = 'Select how many slides you want to add <strong>then click SAVE</strong> to load the input fields';
 
-$string['sliderh3color'] = 'Slider 1 H3 Color';
-$string['sliderh3colordesc'] = 'Choose the color you want for the slider 1 H3 tag';
+$string['sliderh3color'] = 'Slider 1 H3 Colour';
+$string['sliderh3colordesc'] = 'Choose the colour you want for the slider 1 H3 tag';
 
-$string['sliderh4color'] = 'Slider 1 H4 Color';
-$string['sliderh4colordesc'] = 'Choose the color you want for the slider 1 H4 tag';
+$string['sliderh4color'] = 'Slider 1 H4 Colour';
+$string['sliderh4colordesc'] = 'Choose the colour you want for the slider 1 H4 tag';
 
 $string['slidersubmitcolor'] = 'Slider 1 Submit Text';
-$string['slidersubmitcolordesc'] = 'Choose the text color of the Slider 1 submit button';
+$string['slidersubmitcolordesc'] = 'Choose the text colour of the Slider 1 submit button';
 
 $string['slidersubmitbgcolor'] = 'Slider 1 Submit bg';
-$string['slidersubmitbgcolordesc'] = 'Choose the background color of the Slider 1 submit button';
+$string['slidersubmitbgcolordesc'] = 'Choose the background colour of the Slider 1 submit button';
 
-$string['slider2h3color'] = 'Slider 2 H3 Text Color';
-$string['slider2h3colordesc'] = 'Choose the text color you want for the slider 2 H3 tag';
+$string['slider2h3color'] = 'Slider 2 H3 Text Colour';
+$string['slider2h3colordesc'] = 'Choose the text colour you want for the slider 2 H3 tag';
 
-$string['slider2h4color'] = 'Slider 2 H4 Text Color';
-$string['slider2h4colordesc'] = 'Choose the text color you want for the slider 2 H4 tag';
+$string['slider2h4color'] = 'Slider 2 H4 Text Colour';
+$string['slider2h4colordesc'] = 'Choose the text colour you want for the slider 2 H4 tag';
 
-$string['slider2h3bgcolor'] = 'Slider 2 H3 bg Color';
-$string['slider2h3bgcolordesc'] = 'Choose the background color you want for the slider 2 H3 tag';
+$string['slider2h3bgcolor'] = 'Slider 2 H3 bg Colour';
+$string['slider2h3bgcolordesc'] = 'Choose the background colour you want for the slider 2 H3 tag';
 
-$string['slider2h4bgcolor'] = 'Slider 2 H4 bg Color';
-$string['slider2h4bgcolordesc'] = 'Choose the background color you want for the slider 2 H4 tag';
+$string['slider2h4bgcolor'] = 'Slider 2 H4 bg Colour';
+$string['slider2h4bgcolordesc'] = 'Choose the background colour you want for the slider 2 H4 tag';
 
 $string['slideroption2submitcolor'] = 'Slider 2 Submit Text';
 $string['slideroption2submitcolordesc'] = 'Set a background colour for the submit text in slider style option 2 colour';
@@ -264,6 +279,14 @@ $string['dashblocklayoutbuilderdesc'] = 'Below you can build your own layout for
 To add content these regions you will need to <strong> turn editing on, on the dashboard page of Moodle</strong>.
 Then you can begin to drag/drop blocks into the regions you create!';
 
+$string['coursepagesidebarinfooterenabledsection'] = 'Sidebar location';
+$string['coursepagesidebarinfooterenabledsectiondesc'] = 'Use a full-width course page layout by moving the sidebar to footer.';
+
+$string['coursepageblocklayoutbuilder'] = 'Course Page Block Regions';
+$string['coursepageblocklayoutbuilderdesc'] = 'Below you can build your own layout for block regions on the course page.
+To add content these regions you will need to <strong> turn editing on, on the course page of Moodle</strong>.
+Then you can begin to drag/drop blocks into the regions you create!';
+
 $string['blocklayoutlayoutcheck'] = 'Check your layout';
 $string['blocklayoutlayoutcheckdesc'] = 'Use the tool below to check the number of blocks you have used and see a representation of your new layout.';
 $string['blocklayoutlayoutcount1'] = 'You can set a maximum of ';
@@ -275,6 +298,12 @@ $string['blocklayoutlayoutrowdesc'] = 'Add / set layout for block region row on 
 $string['dashblocklayoutlayoutrow'] = 'Dashboard Block Region Row ';
 $string['dashblocklayoutlayoutrowdesc'] = 'Add / set layout for block region row on Dashboard page.';
 
+$string['coursepageblocklayoutlayouttoprow'] = 'Course page Block Top Region Row ';
+$string['coursepageblocklayoutlayouttoprowdesc'] = 'Add / set layout for block region row on Course page.';
+
+$string['coursepageblocklayoutlayoutbottomrow'] = 'Course page Block Bottom Region Row ';
+$string['coursepageblocklayoutlayoutbottomrowdesc'] = 'Add / set layout for block region row on Course page.';
+
 $string['frontpageblocksenabled'] = 'Enable custom block region on front page';
 $string['frontpageblocksenableddesc'] = 'You can enable / disable custom block regions on the front page.
 You can then drag and drop blocks into the regions you created';
@@ -282,6 +311,13 @@ You can then drag and drop blocks into the regions you created';
 $string['dashblocksenabled'] = 'Enable custom block region on Dashboard page';
 $string['dashblocksenableddesc'] = 'You can enable / disable custom block regions on the Dashboard page.
 You can then drag and drop blocks into the regions you created';
+
+$string['coursepageblocksenabled'] = 'Enable custom block regions on Course page';
+$string['coursepageblocksenableddesc'] = 'You can enable / disable custom block regions (top and bottom) on the Course page.
+You can then drag and drop blocks into the regions you created';
+
+$string['coursepagesidebarinfooterenabled'] = 'Move sidebar to footer on Course page';
+$string['coursepagesidebarinfooterenableddesc'] = 'Wide course page layout by moving sidebar to footer.';
 
 $string['layoutcheck'] = 'Check your layout';
 $string['layoutcheckdesc'] = 'Use the tool below to check the number of blocks you have used and see a representation of your new layout.';
@@ -328,6 +364,7 @@ Note: BCU style is designed to work with images at top of block.';
 $string['bcustyle'] = 'BCU style';
 $string['coventrystyle'] = 'Coventry style';
 $string['nostyle'] = 'No style';
+$string['disabled'] = 'Disabled';
 
 
 // Footer **********************************************************.
@@ -492,8 +529,8 @@ $string['footerlinkcolordesc'] = 'Footer blocks link colour.';
 $string['headerbkcolor'] = 'Top header background colour';
 $string['headerbkcolordesc'] = 'Set the top header background colour.';
 
-$string['msgbadgecolor'] = 'Message badge background color.';
-$string['msgbadgecolordesc'] = 'Set the background color for the messages badge / bubble in the header (displays number of unread messages)';
+$string['msgbadgecolor'] = 'Message badge background colour.';
+$string['msgbadgecolordesc'] = 'Set the background colour for the messages badge / bubble in the header (displays number of unread messages)';
 
 $string['headerbkcolor2'] = 'Lower header background colour';
 $string['headerbkcolor2desc'] = 'Set the lower header background colour.';
@@ -522,8 +559,8 @@ $string['blocklinkcolordesc'] = 'Set the blocks link colour';
 $string['blocklinkhovercolor'] = 'Block link hover colour';
 $string['blocklinkhovercolordesc'] = 'Set the blocks link hover colour';
 
-$string['blockregionbackground'] = 'Block Region Backround Color';
-$string['blockregionbackgrounddesc'] = 'Background color of container holding custom block layouts on the front page';
+$string['blockregionbackground'] = 'Block Region Backround Colour';
+$string['blockregionbackgrounddesc'] = 'Background colour of container holding custom block layouts on the front page';
 
 $string['blockheaderbordertop'] = 'Block header top border thickness';
 $string['blockheaderbordertopdesc'] = 'Set the thickness of the top border of block headers';
@@ -636,18 +673,21 @@ $string['selectiontextdesc'] = 'Set the text colour when a text in the screen is
 $string['selectionbackground'] = 'Selection background colour';
 $string['selectionbackgrounddesc'] = 'Set the background colour when a text in the screen is selected.';
 
-
 // Course Formats *********************************************************.
 $string['coursesettings'] = 'Course Formats';
 $string['coursesettingsheading'] = 'Course Formats Settings';
 $string['coursesettingsdesc'] = 'Customize some of the most used Moodle course formats to fit the main design.';
+
+// Course Section background color.
+$string['coursesectionbgcolor'] = 'Course Section Background';
+$string['coursesectionbgcolordesc'] = 'Set the background colour of the course section.';
 
 // Topics / Weeks Settings.
 $string['topicsweeks'] = 'Topics/Weeks course format';
 $string['topicsweeksdesc'] = 'Set styles for the Topics/Weeks course format';
 
 $string['coursesectionheaderbg'] = 'Course Section Header Background';
-$string['coursesectionheaderbgdesc'] = 'Set the background color of the course section headers';
+$string['coursesectionheaderbgdesc'] = 'Set the background colour of the course section headers';
 
 $string['currentcolor'] = 'Current Course Section Highlight Colour';
 $string['currentcolordesc'] = 'Set the colour for the current course section highlight';
@@ -655,8 +695,8 @@ $string['currentcolordesc'] = 'Set the colour for the current course section hig
 $string['coursesectionheaderborderstyle'] = 'Course Section Header Border Style';
 $string['coursesectionheaderborderstyledesc'] = 'Set the style of the course section header border (only bottom border is used as outer container also has border)';
 
-$string['coursesectionheaderbordercolor'] = 'Course Section Header Border Color';
-$string['coursesectionheaderbordercolordesc'] = 'Set the color of the course section header border (only bottom border is used as outer container also has border)';
+$string['coursesectionheaderbordercolor'] = 'Course Section Header Border Colour';
+$string['coursesectionheaderbordercolordesc'] = 'Set the colour of the course section header border (only bottom border is used as outer container also has border)';
 
 $string['coursesectionheaderborderwidth'] = 'Course Section Header Border Width';
 $string['coursesectionheaderborderwidthdesc'] = 'Set the width of the course section header border (only bottom border is used as outer container also has border)';
@@ -673,19 +713,48 @@ $string['coursesectionborderstyledesc'] = 'Set the border style of course sectio
 $string['coursesectionborderwidth'] = 'Course Section Border Width';
 $string['coursesectionborderwidthdesc'] = 'Set the width of course section borders';
 
-$string['coursesectionbordercolor'] = 'Course Section Border Color';
-$string['coursesectionbordercolordesc'] = 'Set the border color of course sections';
+$string['coursesectionbordercolor'] = 'Course Section Border Colour';
+$string['coursesectionbordercolordesc'] = 'Set the border colour of course sections';
 
 $string['coursesectionborderradius'] = 'Course Section Border Radius';
 $string['coursesectionborderradiusdesc'] = 'Set the radius of course section borders (rounded corners)';
+
+// Course section activity styling.
+$string['coursesectionactivityuseadaptableicons'] = 'Use Adaptable Icon Set';
+$string['coursesectionactivityuseadaptableiconsdesc'] = 'Turn this on to use Adaptable icons. '.
+        'If turned off, please also ensure you remove the directories adaptable/pix_plugins and adaptable/pix_core/f to use '.
+        'default Moodle icons.';
+
+$string['coursesectionactivityiconsize'] = 'Course Section Activity Icon Size';
+$string['coursesectionactivityiconsizedesc'] = 'Set the icon size for activities / files (e.g. a value of "16px" '.
+        'will set it at 16px x 16px).';
+$string['coursesectionactivityborderwidth'] = 'Course Section Activity Border Width';
+$string['coursesectionactivityborderwidthdesc'] = 'Set the width of course section activity borders';
+
+$string['coursesectionactivitycolors'] = 'Course Section Activity Options';
+
+$string['coursesectionactivityassigntopbordercolor'] = 'Assignment activity top border display colour';
+$string['coursesectionactivityassigntopbordercolordesc'] = 'Set the colour of the top border.';
+$string['coursesectionactivityassignbgcolor'] = 'Assignment activity background colour';
+$string['coursesectionactivityassignbgcolordesc'] = 'Set the Assignment activity background colour.';
+
+$string['coursesectionactivityforumtopbordercolor'] = 'Forum activity top border display colour';
+$string['coursesectionactivityforumtopbordercolordesc'] = 'Set the colour of the top border.';
+$string['coursesectionactivityforumbgcolor'] = 'Forum activity background colour';
+$string['coursesectionactivityforumbgcolordesc'] = 'Set the Forum activity background colour.';
+
+$string['coursesectionactivityquiztopbordercolor'] = 'Quiz activity top border display colour';
+$string['coursesectionactivityquiztopbordercolordesc'] = 'Set the colour of the top border.';
+$string['coursesectionactivityquizbgcolor'] = 'Quiz activity background colour';
+$string['coursesectionactivityquizbgcolordesc'] = 'Set the Quiz activity background colour.';
 
 // Social Wall Settings.
 $string['socialwall'] = 'Social Wall';
 $string['socialwallheading'] = 'Social Wall Settings';
 $string['socialwalldesc'] = 'Customise the appearance of the <a href="https://moodle.org/plugins/format_socialwall">Social Wall Course Format</a> (if in use on your site)';
 
-$string['socialwallbackgroundcolor'] = 'Background color';
-$string['socialwallbackgroundcolordesc'] = 'The background color of a Social Wall course.';
+$string['socialwallbackgroundcolor'] = 'Background colour';
+$string['socialwallbackgroundcolordesc'] = 'The background colour of a Social Wall course.';
 
 $string['socialwallsectionradius'] = 'Border radius';
 $string['socialwallsectionradiusdesc'] = 'The border radius of Social Wall sections.';
@@ -696,14 +765,14 @@ $string['socialwallbordertopstyledesc'] = 'The border style of Social Wall secti
 $string['socialwallborderwidth'] = 'Border width';
 $string['socialwallborderwidthdesc'] = 'The border width of Social Wall sections.';
 
-$string['socialwallbordercolor'] = 'Border color';
-$string['socialwallbordercolordesc'] = 'The border color of Social Wall sections.';
+$string['socialwallbordercolor'] = 'Border colour';
+$string['socialwallbordercolordesc'] = 'The border colour of Social Wall sections.';
 
-$string['socialwallactionlinkcolor'] = 'Action link color';
-$string['socialwallactionlinkcolordesc'] = 'The color of action links in Social Wall.';
+$string['socialwallactionlinkcolor'] = 'Action link colour';
+$string['socialwallactionlinkcolordesc'] = 'The colour of action links in Social Wall.';
 
-$string['socialwallactionlinkhovercolor'] = 'Action link hover color';
-$string['socialwallactionlinkhovercolordesc'] = 'The color of action links when hovered in Social Wall.';
+$string['socialwallactionlinkhovercolor'] = 'Action link hover colour';
+$string['socialwallactionlinkhovercolordesc'] = 'The colour of action links when hovered in Social Wall.';
 
 
 // Fonts ***********************************************************.
@@ -851,6 +920,10 @@ $string['coursetitlemaxwidthdesc'] = 'Set the maximum width of the course title 
 $string['pageheaderheight'] = 'Page Header Height';
 $string['pageheaderheightdesc'] = 'Set the height of the main header area (containing logo and titles)';
 
+$string['coursepageheaderhidesitetitle'] = 'Hide site title on course pages';
+$string['coursepageheaderhidesitetitledesc'] = 'Hide site title, logo and search bar on course pages. Use this along with '.
+        'page header height setting to show a smaller header on course-related pages.';
+
 $string['breadcrumbtitle'] = 'Breadcrumb course name';
 $string['breadcrumbtitledesc'] = 'Set the mode to display the course title in the breadcrumb.';
 
@@ -864,9 +937,10 @@ You can set social icons under the <a href="./../admin/settings.php?section=them
 $string['socialorsearchsocial'] = 'Display social icons in header';
 $string['socialorsearchsearch'] = 'Display search box in header';
 
-$string['searchboxpaddingtop'] = 'Search box padding top';
-$string['searchboxpaddingtopdesc'] = 'Set padding above search box (if being used instead of social icons) <br />
-You can set social icons under the <a href="./../admin/settings.php?section=theme_adaptable_social">Header Social</a> settings page</strong>.';
+$string['searchboxpadding'] = 'Search box padding';
+$string['searchboxpaddingdesc'] = 'Set padding above search box (if being used instead of social icons) <br />' .
+        ' E.g. 5px 10px 5px 10px (top, right, bottom, left).<br>' .
+'You can set social icons under the <a href="./../admin/settings.php?section=theme_adaptable_social">Header Social</a> settings page</strong>.';
 
 $string['usernav'] = 'Header User';
 
@@ -1054,32 +1128,32 @@ $string['deprecated'] = 'MOODLE DEPRECATED VERSION. DO NOT USE ADAPTABLE IN THIS
 
 // Alerts Colors****************************************************.
 $string['alertcolorsheading'] = 'Customize top Alert Boxes';
-$string['alertcolorsheadingdesc'] = 'Set colors and icon.';
+$string['alertcolorsheadingdesc'] = 'Set colours and icon.';
 
-$string['alertcolorinfo'] = 'Info Color';
-$string['alertcolorinfodesc'] = 'Icon color of the Info type alert boxes';
-$string['alertbackgroundcolorinfo'] = 'Info Background Color';
-$string['alertbackgroundcolorinfodesc'] = 'Background color of the Info type alert boxes';
-$string['alertbordercolorinfo'] = 'Info Border Color';
-$string['alertbordercolorinfodesc'] = 'Border color of the Info type alert boxes';
+$string['alertcolorinfo'] = 'Info Colour';
+$string['alertcolorinfodesc'] = 'Icon colour of the Info type alert boxes';
+$string['alertbackgroundcolorinfo'] = 'Info Background Colour';
+$string['alertbackgroundcolorinfodesc'] = 'Background colour of the Info type alert boxes';
+$string['alertbordercolorinfo'] = 'Info Border Colour';
+$string['alertbordercolorinfodesc'] = 'Border colour of the Info type alert boxes';
 $string['alerticoninfo'] = 'Info Icon';
 $string['alerticoninfodesc'] = 'Set the <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icon</a> to be used in Info type alert boxes. Enter the icon name without the fa- prefix.';
 
-$string['alertcolorwarning'] = 'Warning Color';
-$string['alertcolorwarningdesc'] = 'Icon color of the Warning type alert boxes';
-$string['alertbackgroundcolorwarning'] = 'Warning Background Color';
-$string['alertbackgroundcolorwarningdesc'] = 'Background color of the Warning type alert boxes';
-$string['alertbordercolorwarning'] = 'Warning Border Color';
-$string['alertbordercolorwarningdesc'] = 'Border color of the Warning type alert boxes';
+$string['alertcolorwarning'] = 'Warning Colour';
+$string['alertcolorwarningdesc'] = 'Icon colour of the Warning type alert boxes';
+$string['alertbackgroundcolorwarning'] = 'Warning Background Colour';
+$string['alertbackgroundcolorwarningdesc'] = 'Background colour of the Warning type alert boxes';
+$string['alertbordercolorwarning'] = 'Warning Border Colour';
+$string['alertbordercolorwarningdesc'] = 'Border colour of the Warning type alert boxes';
 $string['alerticonwarning'] = 'Warning Icon';
 $string['alerticonwarningdesc'] = 'Set the <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icon</a> to be usedin in Warning type alert boxes. Enter the icon name without the fa- prefix.';
 
-$string['alertcolorsuccess'] = 'Announcement Color';
-$string['alertcolorsuccessdesc'] = 'Icon color of the Announcement type alert boxes';
-$string['alertbackgroundcolorsuccess'] = 'Announcement Background Color';
-$string['alertbackgroundcolorsuccessdesc'] = 'Background color of the Announcement type alert boxes';
-$string['alertbordercolorsuccess'] = 'Announcement Border Color';
-$string['alertbordercolorsuccessdesc'] = 'Border color of the Announcement type alert boxes';
+$string['alertcolorsuccess'] = 'Announcement Colour';
+$string['alertcolorsuccessdesc'] = 'Icon colour of the Announcement type alert boxes';
+$string['alertbackgroundcolorsuccess'] = 'Announcement Background Colour';
+$string['alertbackgroundcolorsuccessdesc'] = 'Background colour of the Announcement type alert boxes';
+$string['alertbordercolorsuccess'] = 'Announcement Border Colour';
+$string['alertbordercolorsuccessdesc'] = 'Border colour of the Announcement type alert boxes';
 $string['alerticonsuccess'] = 'Announcement Icon';
 $string['alerticonsuccessdesc'] = 'Set the <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome Icon</a> to be usedin in Announcement type alert boxes. Enter the icon name without the fa- prefix.';
 
@@ -1426,3 +1500,15 @@ $string['show'] = 'Show';
 
 // Navbar Links menu *********************************.
 $string['linksmenu'] = 'Links Menu';
+
+// Save / Discard button text *********************************.
+
+$string['savebuttontext'] = 'Save changes';
+$string['discardbuttontext'] = 'Cancel';
+
+// Forum settings.
+$string['settingsforumheading'] = 'Forum';
+$string['forumheaderbackgroundcolor'] = 'Forum post header background';
+$string['forumheaderbackgroundcolordesc'] = 'Background colour for a Forum post';
+$string['forumbodybackgroundcolor'] = 'Forum post body background';
+$string['forumbodybackgroundcolordesc'] = 'Background colour for a Forum post';

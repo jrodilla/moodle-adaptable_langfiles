@@ -59,7 +59,9 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <p>Próximamente</p>
 <br>
 <h3>Demo</h3>
-<p>Puedes ver una demostración del sitio y descargar un archivo de instalación en <a href="https://3-bits.com/demo/adaptable">https://3-bits.com/demo/adaptable</a></p>
+<p>Puedes ver una demostración del sitio y descargar un archivo de instalación en <a href="https://adaptable.ws/demo">https://adaptable.ws/demo</a></p>
+<br>
+<p>En <a href="https://adaptable.ws">https://adaptable.ws</a> también encontrarás consejos, trucos, descargas y soporte técnico.</p>
 <br>
 <p>Traducción es-ES: Fernando Acedo (3-bits.com)</p>
 <p>Traducción es-MX: Germán Valero (UNAM)</p>
@@ -77,28 +79,39 @@ $string['region-frnt-footer'] = 'Pie';
 $string['region-side-post'] = 'Derecha';
 $string['region-side-pre'] = 'Izquierda';
 $string['frnt-footer'] = 'Los bloques situados en esta zona solo son visibles para los administradores.';
+$string['side-post1'] = 'Barra lateral en el pie de página ';
 
-$string['region-frnt-market-a'] = 'Marketing-a';
-$string['region-frnt-market-b'] = 'Marketing-b';
-$string['region-frnt-market-c'] = 'Marketing-c';
-$string['region-frnt-market-d'] = 'Marketing-d';
-$string['region-frnt-market-e'] = 'Marketing-e';
-$string['region-frnt-market-f'] = 'Marketing-f';
-$string['region-frnt-market-g'] = 'Marketing-g';
-$string['region-frnt-market-h'] = 'Marketing-h';
-$string['region-frnt-market-i'] = 'Marketing-i';
-$string['region-frnt-market-j'] = 'Marketing-j';
-$string['region-frnt-market-k'] = 'Marketing-k';
-$string['region-frnt-market-l'] = 'Marketing-l';
-$string['region-frnt-market-m'] = 'Marketing-m';
-$string['region-frnt-market-n'] = 'Marketing-n';
-$string['region-frnt-market-o'] = 'Marketing-o';
-$string['region-frnt-market-p'] = 'Marketing-p';
-$string['region-frnt-market-q'] = 'Marketing-q';
-$string['region-frnt-market-r'] = 'Marketing-r';
-$string['region-frnt-market-s'] = 'Marketing-s';
-$string['region-frnt-market-t'] = 'Marketing-t';
+$string['region-frnt-market-a'] = 'Region-a';
+$string['region-frnt-market-b'] = 'Region-b';
+$string['region-frnt-market-c'] = 'Region-c';
+$string['region-frnt-market-d'] = 'Region-d';
+$string['region-frnt-market-e'] = 'Region-e';
+$string['region-frnt-market-f'] = 'Region-f';
+$string['region-frnt-market-g'] = 'Region-g';
+$string['region-frnt-market-h'] = 'Region-h';
+$string['region-frnt-market-i'] = 'Region-i';
+$string['region-frnt-market-j'] = 'Region-j';
+$string['region-frnt-market-k'] = 'Region-k';
+$string['region-frnt-market-l'] = 'Region-l';
+$string['region-frnt-market-m'] = 'Region-m';
+$string['region-frnt-market-n'] = 'Region-n';
+$string['region-frnt-market-o'] = 'Region-o';
+$string['region-frnt-market-p'] = 'Region-p';
+$string['region-frnt-market-q'] = 'Region-q';
+$string['region-frnt-market-r'] = 'Region-r';
+$string['region-frnt-market-s'] = 'Region-s';
+$string['region-frnt-market-t'] = 'Region-t';
 
+// Course page block regions.
+$string['region-course-top-a'] = 'Region Superior Página Curso 1';
+$string['region-course-top-b'] = 'Region Superior Página Curso 2';
+$string['region-course-top-c'] = 'Region Superior Página Curso 3';
+$string['region-course-top-d'] = 'Region Superior Página Curso 4';
+
+$string['region-course-bottom-a'] = 'Region Inferior Página Curso 5';
+$string['region-course-bottom-b'] = 'Region Inferior Página Curso 6';
+$string['region-course-bottom-c'] = 'Region Inferior Página Curso 7';
+$string['region-course-bottom-d'] = 'Region Inferior Página Curso 8';
 
 // Settings page headings ******************************************.
 $string['settingsmaincolors'] = 'Colores principales';
@@ -123,8 +136,9 @@ $string['settingstopicsweeks'] = 'Temas / Semanas';
 // Admin Menu Strings.
 $string['blocksettings'] = 'Bloques';
 $string['frontpagealertsettings'] = 'Alertas';
-$string['frontpageblockregionsettings'] = 'Creador de regiones para bloques';
+$string['frontpageblockregionsettings'] = 'Constructor de regiones para bloques';
 $string['dashboardblockregionsettings'] = 'Constructor de regiones del Área Personal';
+$string['coursepageblockregionsettings'] = 'Constructor de regiones para el Curso';
 $string['frontpageblocksettings'] = 'Bloques promocionales';
 $string['frontpagetickersettings'] = 'Anuncios';
 $string['frontpageslidersettings'] = 'Presentación diapositivas';
@@ -176,6 +190,9 @@ $string['tickertextprofilefield'] = 'Nombre del campo personalizado del perfíl 
 $string['tickertextprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
 
 $string['ticker'] = 'Anuncios';
+
+$string['tickerwidth'] = 'Ancho fijo';
+$string['tickerfullscreen'] = 'Ancho total de pantalla';
 
 // Slideshow *******************************************************.
 $string['slideshowsettings'] = 'Presentación de diapositivas';
@@ -254,7 +271,7 @@ $string['sliderstyle2'] = 'Diapositivas estilo 2';
 
 
 // Regiones para Bloques ***************************************************.
-$string['blocklayoutbuilder'] = 'Creador de regiones para bloques';
+$string['blocklayoutbuilder'] = 'Constructor de regiones para bloques';
 $string['blocklayoutbuilderdesc'] = 'A continuación puedes crear tu propia distribución de regiones para los bloques de moodle en la página principal.
 Para añadir contenido a estas regiones necesitarás <strong>Activar edición en la página principal de Moodle</strong>.
 Entonces podrás arrastrar y soltar los bloques en las regiones creadas.';
@@ -263,6 +280,14 @@ $string['dash_blocklayoutbuilder'] = 'Regiones del Área Personal';
 $string['dash_blocklayoutbuilderdesc'] = 'A continuación puedes crear tu propia estructura de regiones para bloques en el Área Personal.
 Para añadir dichas regiones necesitarás <strong>Activar Edición en la página del Área Personal</strong>.<br>
 Entonces podrás arrastrar y soltar bloques en las regiones que has creado';
+
+$string['coursepagesidebarinfooterenabledsection'] = 'Posición de la barra lateral';
+$string['coursepagesidebarinfooterenabledsectiondesc'] = 'Usa una estructura de página de curso de ancho completo moviendo la barra lateral al pie.';
+
+$string['coursepageblocklayoutbuilder'] = 'Región para bloques en la página del curso';
+$string['coursepageblocklayoutbuilderdesc'] = 'Puedes construir en la parte inferior una región para bloques en la página del curso.
+To add content these regions you will need to <strong> turn editing on, on the course page of Moodle</strong>.
+Then you can begin to drag/drop blocks into the regions you create!';
 
 $string['blocklayoutlayoutcheck'] = 'Comprueba la distribución';
 $string['blocklayoutlayoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
@@ -275,6 +300,12 @@ $string['blocklayoutlayoutrowdesc'] = 'Añade / establece la distribución de fi
 $string['dashblocklayoutlayoutrow'] = 'Fila de regiones del anel de Control ';
 $string['dashblocklayoutlayoutrowdesc'] = 'Añade / establece la estructura de las regiones para bloques en la página del Área Personal.';
 
+$string['coursepageblocklayoutlayouttoprow'] = 'Filas de la region superior de la página del curso ';
+$string['coursepageblocklayoutlayouttoprowdesc'] = 'Añade o modifica filas en la estructura de la región superior para bloques de la página del curso.';
+
+$string['coursepageblocklayoutlayoutbottomrow'] = 'Filas de la region inferior de la página del curso ';
+$string['coursepageblocklayoutlayoutbottomrowdesc'] = 'Añade o modifica filas en la estructura de la región inferior para bloques de la página del curso.';
+
 $string['frontpageblocksenabled'] = 'Activa las regiones para bloques en la página principal';
 $string['frontpageblocksenableddesc'] = 'Activa o desactiva las regiones para bloques de la página principal.
 Puedes arrastrar y soltar los bloques en las regiones creadas.';
@@ -283,7 +314,14 @@ $string['dashblocksenabled'] = 'Activar las regiones personalizadas en la págin
 $string['dashblocksenableddesc'] = 'Puedes activar / desactivar las regiones personalizadas de la página del Área Personal.
 Puedes arrastrar y soltar los bloques en las regiones que has creado';
 
-$string['layoutcheck'] = 'Comprueba la distribución';
+$string['coursepageblocksenabled'] = 'Mostrar las regiones personalizadas para bloques en la página del curso';
+$string['coursepageblocksenableddesc'] = 'Puedes mostrar la región de bloques personalizados (superior e inferior) en la página del curso.
+Podrás arrastrar y soltar los bloques en las regiones que has creado.';
+
+$string['coursepagesidebarinfooterenabled'] = 'Mover la barra lateral al pie';
+$string['coursepagesidebarinfooterenableddesc'] = 'Mover la barra lateral al pie de página para obtener más ancho de pantalla para el curso.';
+
+$string['layoutcheck'] = 'Comprueba la estructura';
 $string['layoutcheckdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques que has utilizado.';
 $string['layoutcount1'] = 'Puedes crear un máximo de ';
 $string['layoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
@@ -292,10 +330,10 @@ $string['layoutcount2'] = ' regiones para bloques. Ahora estás usando: ';
 // Bloques promocionales & Cuadros Informativos *************************************.
 $string['marketingsettings'] = 'Bloques promocionales';
 $string['marketingsettingsheading'] = 'Personaliza los bloques promocionales que aparecen en la página de inicio. Ver la distribución <a href="./../theme/adaptable/pix/layout.png" target="_blank">aqui</a>';
-$string['marketingdesc'] = 'Dispones de dos cuadros informativos a los que puedes aplicar diferentes estilos. Además puedes activar el creador de regiones
+$string['marketingdesc'] = 'Dispones de dos cuadros informativos a los que puedes aplicar diferentes estilos. Además puedes activar el constructor de regiones
 para bloques y decidir cuantos bloques quieres mostrar y su distribución en la página de inicio. Puedes ver la distribución de las diferentes regiones en el archivo  <a href="/adaptable/README.txt" target="_blank">README.txt</a>';
 
-$string['marketingbuilderheading'] = 'Creador de regiones para bloques promocionales';
+$string['marketingbuilderheading'] = 'Constructor de regiones para bloques promocionales';
 $string['marketingbuilderdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques promocionales que has utilizado.';
 
 $string['marketlayoutrow'] = 'Filas de regiones para bloques promocionales';
@@ -307,7 +345,7 @@ $string['marketdesc'] = 'Añade el código HTML del bloque promocional (ver el a
 $string['layoutaddcontent'] = 'Añade contenido a los bloques promocionales:';
 $string['layoutaddcontentdesc1'] = 'Has configurado ';
 $string['layoutaddcontentdesc2'] = ' bloques promocionales. Si estás conforme con la distribución añade el contenido de los bloques promocionales.
-Si no estás conforme, usa el creador de regiones para bloques promocionales para realizar cambios<br />';
+Si no estás conforme, usa el constructor de regiones para bloques promocionales para realizar cambios<br />';
 
 $string['infobox'] = 'Cuadro informativo 1';
 $string['infoboxdesc'] = 'Añade el código HTML del cuadro informativo 1 (ver el archivo <a href="./../theme/adaptable/README.txt" target="_blank">README</a> para más ejemplos)';
@@ -323,11 +361,12 @@ $string['frontpagemarketenableddesc'] = 'Activar los bloques promocionales en la
 
 $string['frontpagemarketoption'] = 'Estilo de los bloques promocionales';
 $string['frontpagemarketoptiondesc'] = 'Establece el estilo de los bloques promocionales. Configura el color de esta opción en la página de colores.
-Nota: El estilo BCU está creado para mostrar la imagen en la pparte superior del bloque.';
+Nota: El estilo BCU está creado para mostrar la imagen en la parte superior del bloque.';
 
 $string['bcustyle'] = 'Estilo BCU';
 $string['coventrystyle'] = 'Estilo Coventry';
 $string['nostyle'] = 'Sin estilo';
+$string['disabled'] = 'Desactivado';
 
 
 // Footer **********************************************************.
@@ -345,7 +384,7 @@ $string['footerblocksplacement1'] = 'Todo el sitio';
 $string['footerblocksplacement2'] = 'Página Inicial';
 $string['footerblocksplacement3'] = 'Nunca';
 
-$string['footerlayoutrow'] = 'Creador de regiones para los bloques del pie de página';
+$string['footerlayoutrow'] = 'Constructor de regiones para los bloques del pie de página';
 $string['footerlayoutrowdesc'] = 'Utiliza esta opción para ver la distribución creada y comprobar el número de bloques del pie de página que has utilizado.';
 
 $string['footnote'] = 'Texto del bloque del pie de página ';
@@ -636,15 +675,18 @@ $string['selectiontextdesc'] = 'Establece el color del texto seleccionado en pan
 $string['selectionbackground'] = 'Color de fondo del texto seleccionado';
 $string['selectionbackgrounddesc'] = 'Establece el color de fondo del texto seleccionado en pantalla.';
 
-
-// Course *********************************************************.
+// Formatos de curso *********************************************************.
 $string['coursesettings'] = 'Secciones del curso';
 $string['coursesettingsheading'] = 'Configuración de las secciones del curso.';
 $string['coursedesc'] = 'Configura las opciones de las secciones de los cursos como el título, color de fondo y bordes.';
 
-// Topics / Weeks Settings.
+// Course Section background color.
 $string['topicsweeks'] = 'Formato de curso Temas/Semanas';
 $string['topicsweeksdesc'] = 'Establece estilos para el formato de curso Temas/semanas.';
+
+// Topics / Weeks Settings.
+$string['topicsweeks'] = 'Formato Temas/Semanas';
+$string['topicsweeksdesc'] = 'Establece los estilos para el formato de curso Temas/Semanas.';
 
 $string['coursesectionheaderbg'] = 'Color de fondo de la cabecera';
 $string['coursesectionheaderbgdesc'] = 'Establece el color de fondo de la cabecera de la sección del curso.';
@@ -678,6 +720,35 @@ $string['coursesectionbordercolordesc'] = 'Establece el color del borde de la se
 
 $string['coursesectionborderradius'] = 'Radio del borde de la sección';
 $string['coursesectionborderradiusdesc'] = 'Establece el radio del borde de las esquinas de la sección del curso.';
+
+// Estilos de actividades.
+$string['coursesectionactivityuseadaptableicons'] = 'Use Adaptable Icon Set';
+$string['coursesectionactivityuseadaptableiconsdesc'] = 'Turn this on to use Adaptable icons. '.
+        'If turned off, please also ensure you remove the directories adaptable/pix_plugins and adaptable/pix_core/f to use '.
+        'default Moodle icons.';
+
+$string['coursesectionactivityiconsize'] = 'Course Section Activity Icon Size';
+$string['coursesectionactivityiconsizedesc'] = 'Set the icon size for activities / files (e.g. a value of "16px" '.
+        'will set it at 16px x 16px).';
+$string['coursesectionactivityborderwidth'] = 'Course Section Activity Border Width';
+$string['coursesectionactivityborderwidthdesc'] = 'Set the width of course section activity borders';
+
+$string['coursesectionactivitycolors'] = 'Course Section Activity Options';
+
+$string['coursesectionactivityassigntopbordercolor'] = 'Assignment activity top border display colour';
+$string['coursesectionactivityassigntopbordercolordesc'] = 'Set the colour of the top border.';
+$string['coursesectionactivityassignbgcolor'] = 'Assignment activity background colour';
+$string['coursesectionactivityassignbgcolordesc'] = 'Set the Assignment activity background colour.';
+
+$string['coursesectionactivityforumtopbordercolor'] = 'Forum activity top border display colour';
+$string['coursesectionactivityforumtopbordercolordesc'] = 'Set the colour of the top border.';
+$string['coursesectionactivityforumbgcolor'] = 'Forum activity background colour';
+$string['coursesectionactivityforumbgcolordesc'] = 'Set the Forum activity background colour.';
+
+$string['coursesectionactivityquiztopbordercolor'] = 'Quiz activity top border display colour';
+$string['coursesectionactivityquiztopbordercolordesc'] = 'Set the colour of the top border.';
+$string['coursesectionactivityquizbgcolor'] = 'Quiz activity background colour';
+$string['coursesectionactivityquizbgcolordesc'] = 'Set the Quiz activity background colour.';
 
 // Social Wall Settings.
 $string['socialwall'] = 'Social Wall';
@@ -851,6 +922,10 @@ $string['coursetitlemaxwidthdesc'] = 'Establece el ancho máximo del área donde
 $string['pageheaderheight'] = 'Altura de la cabecera';
 $string['pageheaderheightdesc'] = 'Establece la altura de la cabecera (incluyendo logo y títulos)';
 
+$string['coursepageheaderhidesitetitle'] = 'Ocultar el título del sitio en la página del curso';
+$string['coursepageheaderhidesitetitledesc'] = 'Ocultar el título del sitio, logo y caja de búsqueda en la página del curso.'.
+        'Usar junto a la configuración de la altura de la cabecera de página para mostrar una cabecera más reducida en las páginas relacionadas con cursos.';
+
 $string['breadcrumbtitle'] = 'Nombre del curso en la guía de exploración';
 $string['breadcrumbtitledesc'] = 'Establece el modo de visualización del título del curso en la guía de exploración.';
 
@@ -865,8 +940,9 @@ $string['socialorsearchsocial'] = 'Mostrar iconos de redes sociales';
 $string['socialorsearchsearch'] = 'Mostrar cuadro de búsqueda';
 
 $string['searchboxpaddingtop'] = 'Separación superior del cuadro de búsqueda';
-$string['searchboxpaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, del cuadro de búsqueda (si se muestra).<br />
-    <strong>Nota: La separación de los iconos de redes sociales puede configurarse en la sección "Redes sociales"</strong>.';
+$string['searchboxpaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, del cuadro de búsqueda (si se muestra en lugar de los iconos sociales)<br />'.
+        ' E.g. 5px 10px 5px 10px (top, right, bottom, left).<br>' .
+        'Los iconos sociales se pueden establecer en la sección <a href="./../admin/settings.php?section=theme_adaptable_social">Cabecersa Social</a></strong>.';
 
 $string['usernav'] = 'Barra de usuario';
 
@@ -975,7 +1051,7 @@ $string['tilescontactstitledesc'] = 'Muestra / Oculta el rol del contacto en el 
 $string['tilesshowallcontacts'] = 'Mostrar todos los contactos del curso';
 $string['tilesshowallcontactsdesc'] = 'Muestra todos los contactos del curso o solo el principal.';
 
-$string['course'] = 'Course';
+$string['course'] = 'Curso';
 
 
 // Alerts **********************************************************.
@@ -1336,7 +1412,7 @@ url|titulo|icono
 
 Ejemplo:
 
-http://localhost/moodle/course/search.php|Buscar en Moodle|fa-search
+http://example.com/course/search.php|Buscar en Moodle|fa-search
 https://facebook.com/|Facebook|fa-facebook-square
 https://twitter.com/|Twitter|fa-twitter-square
 https://instagram.com|Instagram|fa-instagram
@@ -1426,3 +1502,15 @@ $string['show'] = 'Mostrar';
 
 // Navbar Links menu *********************************.
 $string['linksmenu'] = 'Menu enlaces';
+
+// Save / Discard button text *********************************.
+
+$string['savebuttontext'] = 'Guardar cambios';
+$string['discardbuttontext'] = 'Cancelar';
+
+// Forum settings.
+$string['settingsforumheading'] = 'Foro';
+$string['forumheaderbackgroundcolor'] = 'Color de fondo de la cabecera de la entrada';
+$string['forumheaderbackgroundcolordesc'] = 'Color de fondo de la cabecera de una entrada.';
+$string['forumbodybackgroundcolor'] = 'Color de fondo del contenido de la entrada';
+$string['forumbodybackgroundcolordesc'] = 'Color de fondo del contenido de una entrada.';
