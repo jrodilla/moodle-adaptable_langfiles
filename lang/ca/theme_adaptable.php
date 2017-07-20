@@ -552,8 +552,8 @@ $string['blockbackgroundcolordesc'] = 'Estableix el color de fons dels blocs.';
 $string['blockheaderbackgroundcolor'] = 'Color de fons dels encapçalaments dels blocs';
 $string['blockheaderbackgroundcolordesc'] = 'Estableix el color de fons dels encapçalaments dels blocs.';
 
-$string['blockbordercolor'] = 'Color de la bora dels blocs';
-$string['blockbordercolordesc'] = 'Estableix el color de la bora dels blocs.';
+$string['blockbordercolor'] = 'Color de la vora dels blocs';
+$string['blockbordercolordesc'] = 'Estableix el color de la vora dels blocs.';
 
 $string['blocklinkcolor'] = 'Color d&#39;enllaç dels blocs';
 $string['blocklinkcolordesc'] = 'Estableix el color dels enllaços dels blocs.';
@@ -564,35 +564,35 @@ $string['blocklinkhovercolordesc'] = 'Estableix el color hover dels enllaços de
 $string['blockregionbackground'] = 'Color de fons de les regions per a blocs';
 $string['blockregionbackgrounddesc'] = 'Estableix el color de fons del contenidor del constructor de blocs de la pàgina principal.';
 
-$string['blockheaderbordertop'] = 'Gruix de la bora superior dels blocs';
-$string['blockheaderbordertopdesc'] = 'Estableix el gruix de la bora superior dels blocs.';
+$string['blockheaderbordertop'] = 'Gruix de la vora superior dels blocs';
+$string['blockheaderbordertopdesc'] = 'Estableix el gruix de la vora superior dels blocs.';
 
-$string['blockheaderborderleft'] = 'Gruix de la bora esquerra dels blocs';
-$string['blockheaderborderleftdesc'] = 'Estableix el gruix de la bora esquerra dels blocs.';
+$string['blockheaderborderleft'] = 'Gruix de la vora esquerra dels blocs';
+$string['blockheaderborderleftdesc'] = 'Estableix el gruix de la vora esquerra dels blocs.';
 
-$string['blockheaderborderright'] = 'Gruix de la bora dreta dels blocs';
-$string['blockheaderborderrightdesc'] = 'Estableix el gruix de la bora dreta dels blocs.';
+$string['blockheaderborderright'] = 'Gruix de la vora dreta dels blocs';
+$string['blockheaderborderrightdesc'] = 'Estableix el gruix de la vora dreta dels blocs.';
 
-$string['blockheaderborderbottom'] = 'Gruix de la bora inferior dels blocs';
-$string['blockheaderborderbottomdesc'] = 'Estableix el gruix de la bora inferior dels blocs.';
+$string['blockheaderborderbottom'] = 'Gruix de la vora inferior dels blocs';
+$string['blockheaderborderbottomdesc'] = 'Estableix el gruix de la vora inferior dels blocs.';
 
-$string['blockmainbordertop'] = 'Gruix de la bora superior del bloc central';
-$string['blockmainbordertopdesc'] = 'Estableix el gruix de la bora superior del bloc central.';
+$string['blockmainbordertop'] = 'Gruix de la vora superior del bloc central';
+$string['blockmainbordertopdesc'] = 'Estableix el gruix de la vora superior del bloc central.';
 
-$string['blockmainborderleft'] = 'Gruix de la bora esquerra del bloc central';
-$string['blockmainborderleftdesc'] = 'Estableix el gruix de la bora esquerra del bloc central.';
+$string['blockmainborderleft'] = 'Gruix de la vora esquerra del bloc central';
+$string['blockmainborderleftdesc'] = 'Estableix el gruix de la vora esquerra del bloc central.';
 
-$string['blockmainborderright'] = 'Gruix de la bora dreta del bloc central';
-$string['blockmainborderrightdesc'] = 'Estableix el gruix de la bora dreta del bloc central.';
+$string['blockmainborderright'] = 'Gruix de la vora dreta del bloc central';
+$string['blockmainborderrightdesc'] = 'Estableix el gruix de la vora dreta del bloc central.';
 
-$string['blockmainborderbottom'] = 'Gruix de la bora inferior del bloc central';
-$string['blockmainborderbottomdesc'] = 'Estableix el gruix de la bora inferior del bloc central.';
+$string['blockmainborderbottom'] = 'Gruix de la vora inferior del bloc central';
+$string['blockmainborderbottomdesc'] = 'Estableix el gruix de la vora inferior del bloc central.';
 
-$string['blockheaderbordertopstile'] = 'Estil de la bora dels blocs';
-$string['blockheaderbordertopstiledesc'] = 'Estableix l&#39;estil de la bora dels blocs laterals.';
+$string['blockheaderbordertopstile'] = 'Estil de la vora dels blocs';
+$string['blockheaderbordertopstiledesc'] = 'Estableix l&#39;estil de la vora dels blocs laterals.';
 
-$string['blockmainbordertopstile'] = 'Estil de la bora del bloc central';
-$string['blockmainbordertopstiledesc'] = 'Estableix l&#39;estil de la bora dels blocs centrals.';
+$string['blockmainbordertopstile'] = 'Estil de la vora del bloc central';
+$string['blockmainbordertopstiledesc'] = 'Estableix l&#39;estil de la vora dels blocs centrals.';
 
 $string['blockheadertopradius'] = 'Radi de les cantonades superiors dels blocs laterals';
 $string['blockheadertopradiusdesc'] = 'Radi de les cantonades superiors dels blocs laterals. Valor més alt és igual a efecte arrodonit.';
@@ -606,8 +606,8 @@ $string['blockmaintopradiusdesc'] = 'Radi de les cantonades superiors dels blocs
 $string['blockmainbottomradius'] = 'Radi de les cantonades inferiors dels blocs centrals';
 $string['blockmainbottomradiusdesc'] = 'Radi de les cantonades inferiors dels blocs centrals. Valor més alto és igual a efecte arrodonit.';
 
-$string['marketblockbordercolor'] = 'Color de la bora dels blocs promocionals';
-$string['marketblockbordercolordesc'] = 'Estableix el color de la bora dels blocs promocionals.';
+$string['marketblockbordercolor'] = 'Color de la vora dels blocs promocionals';
+$string['marketblockbordercolordesc'] = 'Estableix el color de la vora dels blocs promocionals.';
 
 $string['marketblocksbackgroundcolor'] = 'Color de fons de la regió dels blocs promocionals.';
 $string['marketblocksbackgroundcolordesc'] = 'Estableix el color de fons de la regió dels blocs promocionals.';
@@ -630,8 +630,8 @@ $string['dividinglinedesc'] = 'Estableix el color de la línia divisòria de la 
 $string['dividingline2'] = 'Color de la línia divisòria del peu de pàgina';
 $string['dividingline2desc'] = 'Estableix el color de la línia divisòria del peu de pàgina. Utilitza el mateix color que el peu per eliminar-la.';
 
-$string['navbarborder'] = 'Color de la bora inferior de la barra de navegació';
-$string['navbarborderdesc'] = 'Estableix el color de la bora inferior de la barra de navegació.';
+$string['navbarborder'] = 'Color de la vora inferior de la barra de navegació';
+$string['navbarborderdesc'] = 'Estableix el color de la vora inferior de la barra de navegació.';
 
 $string['navbarhover'] = 'Color Hover de la barra de navegació';
 $string['navbarhoverdesc'] = 'Estableix el color de fons al passar el cursor sobre els ítems del menú de la barra de navegació.';
@@ -694,31 +694,31 @@ $string['coursesectionheaderbgdesc'] = 'Estableix el color de fons de la capçal
 $string['currentcolor'] = 'Color de realç de la secció actual';
 $string['currentcolordesc'] = 'Estableix el color de realç de la secció actual.';
 
-$string['coursesectionheaderborderstile'] = 'Estil de la bora inferior de la capçalera';
-$string['coursesectionheaderborderstiledesc'] = 'Estableix l&#39;estil de la bora inferior de la capçalera de la secció del curs.';
+$string['coursesectionheaderborderstile'] = 'Estil de la vora inferior de la capçalera';
+$string['coursesectionheaderborderstiledesc'] = 'Estableix l&#39;estil de la vora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderbordercolor'] = 'Color de la bora inferior de la capçalera';
-$string['coursesectionheaderbordercolordesc'] = 'Estableix el color de la bora inferior de la capçalera de la secció del curs.';
+$string['coursesectionheaderbordercolor'] = 'Color de la vora inferior de la capçalera';
+$string['coursesectionheaderbordercolordesc'] = 'Estableix el color de la vora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderborderwidth'] = 'Gruix de la bora inferior de la capçalera';
-$string['coursesectionheaderborderwidthdesc'] = 'Estableix el Gruix de la bora inferior de la capçalera de la secció del curs.';
+$string['coursesectionheaderborderwidth'] = 'Gruix de la vora inferior de la capçalera';
+$string['coursesectionheaderborderwidthdesc'] = 'Estableix el Gruix de la vora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderborderradiustop'] = 'Radi de les cantonades de la bora superior de la capçalera';
-$string['coursesectionheaderborderradiustopdesc'] = 'Estableix el radi de les cantonades de la bora superior de la capçalera de la secció del curs.';
+$string['coursesectionheaderborderradiustop'] = 'Radi de les cantonades de la vora superior de la capçalera';
+$string['coursesectionheaderborderradiustopdesc'] = 'Estableix el radi de les cantonades de la vora superior de la capçalera de la secció del curs.';
 
-$string['coursesectionheaderborderradiusbottom'] = 'Radi de las cantonades de la bora inferior de la capçalera';
-$string['coursesectionheaderborderradiusbottomdesc'] = 'Estableix el radi de les cantonades de la bora inferior de la capçalera de la secció del curs.';
+$string['coursesectionheaderborderradiusbottom'] = 'Radi de las cantonades de la vora inferior de la capçalera';
+$string['coursesectionheaderborderradiusbottomdesc'] = 'Estableix el radi de les cantonades de la vora inferior de la capçalera de la secció del curs.';
 
-$string['coursesectionborderstile'] = 'Estil de la bora de la secció del curs';
+$string['coursesectionborderstile'] = 'Estil de la vora de la secció del curs';
 $string['coursesectionborderstiledesc'] = 'Estableix l&#39;estil de la vora de la secció del curs.';
 
-$string['coursesectionborderwidth'] = 'Gruix de la bora de la secció';
+$string['coursesectionborderwidth'] = 'Gruix de la vora de la secció';
 $string['coursesectionborderwidthdesc'] = 'Estableix el gruix de la vora de la secció del curs.';
 
-$string['coursesectionbordercolor'] = 'Color de la bora de la secció';
+$string['coursesectionbordercolor'] = 'Color de la vora de la secció';
 $string['coursesectionbordercolordesc'] = 'Estableix el color de la vora de la secció del curs.';
 
-$string['coursesectionborderradius'] = 'Radi de la bora de la secció';
+$string['coursesectionborderradius'] = 'Radi de la vora de la secció';
 $string['coursesectionborderradiusdesc'] = 'Estableix el Radi de la vora de les cantonades de la secció del curs.';
 
 // Estils d'activitats.
@@ -1042,8 +1042,8 @@ $string['frontpagerendererdefaultimagedesc'] = 'Puja la imatge que s&#39;utiliza
 $string['tilesshowcontacts'] = 'Mostrar els contactes del curs';
 $string['tilesshowcontactsdesc'] = 'Mostra / Oculta els contactes del curs.';
 
-$string['tilesbordercolor'] = 'Color de la bora dels blocs dels cursos';
-$string['tilesbordercolordesc'] = 'Estableix el color de la bora dels blocs dels cursos.';
+$string['tilesbordercolor'] = 'Color de la vora dels blocs dels cursos';
+$string['tilesbordercolordesc'] = 'Estableix el color de la vora dels blocs dels cursos.';
 
 $string['tilescontactstitle'] = 'Mostrar el rol dels contactes del curs';
 $string['tilescontactstitledesc'] = 'Mostra / Oculta el rol del contacte al curs. Si no es mostra, es mostrarà una imatge per a cada contacte.';
@@ -1245,8 +1245,8 @@ $string['dividinglinedesc'] = 'Estableix el color de la línia divisòria de la 
 $string['dividingline2'] = 'Línia divisòria del peu de pàgina';
 $string['dividingline2desc'] = 'Estableix el color de la línia divisòria del peu de pàgina.';
 
-$string['navbarborder'] = 'Color de la bora de la part inferior de la barra de navegació';
-$string['navbarborderdesc'] = 'Color de la bora de la part inferior de la barra de navegació.';
+$string['navbarborder'] = 'Color de la vora de la part inferior de la barra de navegació';
+$string['navbarborderdesc'] = 'Color de la vora de la part inferior de la barra de navegació.';
 
 $string['navbarhover'] = 'Color hover del botó de la barra de navegació';
 $string['navbarhoverdesc'] = 'Color dels botons de la barra de navegació al desplaçar el cursor per sobre.';
