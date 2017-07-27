@@ -118,7 +118,7 @@ $string['settingsfonts'] = 'Fonts';
 $string['analyticssettings'] = 'Analítica Web';
 $string['settingscolors'] = 'Colors';
 $string['settingsborders'] = 'Bores';
-$string['settingstopicsweeks'] = 'Temes / Setmanes'
+$string['settingstopicsweeks'] = 'Temes / Setmanes';
 
 // Admin Menu Strings.
 $string['blocksettings'] = 'Blocs';
