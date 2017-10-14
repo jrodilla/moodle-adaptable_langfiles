@@ -1,24 +1,10 @@
-Version 1.4
+Version 1.6
 **************************************
 NEW
-headerbgimage
-headerbgimagedesc
-settingscolors
-settingsborders
-settingstopicsweeks
-settingstopicsweeksdesc
-topicsweeks
-topicsweeksdesc
-disabled
 
 MODIFIED
-dashblocklayoutbuilder
-dashblocklayoutbuilderdesc
-dashboardblockregionsettings
-frontpagecoursesettings
-coursesettings
-coursesettingsheading
-coursesettingsdesc
+sitetitletextdesc
+
 
 Version 1.5
 **************************************
@@ -67,8 +53,6 @@ forumbodybackgroundcolor
 forumbodybackgroundcolordesc
 
 
-
-
 MODIFIED
 region-frnt-market-a
 .
@@ -76,3 +60,27 @@ region-frnt-market-a
 region-frnt-market-t
 searchboxpaddingdesc
 course
+
+
+Version 1.4
+**************************************
+NEW
+headerbgimage
+headerbgimagedesc
+settingscolors
+settingsborders
+settingstopicsweeks
+settingstopicsweeksdesc
+topicsweeks
+topicsweeksdesc
+disabled
+
+MODIFIED
+dashblocklayoutbuilder
+dashblocklayoutbuilderdesc
+dashboardblockregionsettings
+frontpagecoursesettings
+coursesettings
+coursesettingsheading
+coursesettingsdesc
+
