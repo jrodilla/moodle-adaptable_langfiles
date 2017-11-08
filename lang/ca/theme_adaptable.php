@@ -591,12 +591,6 @@ $string['dividinglinedesc'] = 'Estableix el color de la línia divisòria de la 
 $string['dividingline2'] = 'Color de la línia divisòria del peu de pàgina';
 $string['dividingline2desc'] = 'Estableix el color de la línia divisòria del peu de pàgina. Utilitza el mateix color que el peu per eliminar-la.';
 
-$string['navbarborder'] = 'Color de la bora inferior de la barra de navegació';
-$string['navbarborderdesc'] = 'Estableix el color de la bora inferior de la barra de navegació.';
-
-$string['navbarhover'] = 'Color Hover de la barra de navegació';
-$string['navbarhoverdesc'] = 'Estableix el color de fons al passar el cursor sobre els ítems del menú de la barra de navegació.';
-
 $string['breadcrumb'] = 'Color de fons de la guia d&#39;exploració';
 $string['breadcrumbdesc'] = 'Estableix el color de fons de la guia d&#39;exploració.';
 
@@ -1168,12 +1162,6 @@ $string['dividinglinedesc'] = 'Estableix el color de la línia divisòria de la 
 
 $string['dividingline2'] = 'Línia divisòria del peu de pàgina';
 $string['dividingline2desc'] = 'Estableix el color de la línia divisòria del peu de pàgina.';
-
-$string['navbarborder'] = 'Color de la bora de la part inferior de la barra de navegació';
-$string['navbarborderdesc'] = 'Color de la bora de la part inferior de la barra de navegació.';
-
-$string['navbarhover'] = 'Color hover del botó de la barra de navegació';
-$string['navbarhoverdesc'] = 'Color dels botons de la barra de navegació al desplaçar el cursor per sobre.';
 
 $string['showfooterblocks'] = 'Mostrar blocs al peu de pàgina';
 $string['showfooterblocksdesc'] = 'Mostrar / Ocultar els blocs personalitzables del peu de pàgina.';
