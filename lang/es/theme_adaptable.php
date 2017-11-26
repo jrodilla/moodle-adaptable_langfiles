@@ -65,10 +65,8 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <br>
 <p>Traducción es-ES: Fernando Acedo (3-bits.com)</p>
 <p>Traducción es-MX: Germán Valero (UNAM)</p>
-<p>Traducció ca-ES: Fernando Acedo (3-bits.com)</p>
 </div>
 </div>';
-
 
 
 $string['pluginname'] = 'Adaptable';
@@ -107,6 +105,8 @@ $string['region-course-top-a'] = 'Region Superior Página Curso 1';
 $string['region-course-top-b'] = 'Region Superior Página Curso 2';
 $string['region-course-top-c'] = 'Region Superior Página Curso 3';
 $string['region-course-top-d'] = 'Region Superior Página Curso 4';
+
+$string['region-news-slider-a'] = 'Region para presentación de diapositivas de cursos';
 
 $string['region-course-bottom-a'] = 'Region Inferior Página Curso 5';
 $string['region-course-bottom-b'] = 'Region Inferior Página Curso 6';
@@ -318,6 +318,12 @@ $string['coursepageblocksenabled'] = 'Mostrar las regiones personalizadas para b
 $string['coursepageblocksenableddesc'] = 'Puedes mostrar la región de bloques personalizados (superior e inferior) en la página del curso.
 Podrás arrastrar y soltar los bloques en las regiones que has creado.';
 
+$string['coursepagenewssliderblockregionheading'] = 'Región para bloque de diapositivas de noticias configurables';
+$string['coursepagenewssliderblockregionheadingdesc'] = 'Una región creada especialmente para el bloque de noticias que es parte del conjunto de bloques Adaptable UI. Esta región se muestra sobre las acticidades del curso en la página de curso. Añade primero el bloque Noticias <strong><a href="https://moodle.org/plugins/block_news_slider">Bloque de Noticias para Adaptable</a></strong> y configuralo para mostrarlo en esta región';
+
+$string['coursepageblocksliderenabled'] = 'Activar la región para el bloque de dispositivas personalizadas en la página de curso';
+$string['coursepageblocksliderenableddesc'] = 'Activar esta región en todas las páginas de cursos.';
+
 $string['coursepagesidebarinfooterenabled'] = 'Mover la barra lateral al pie';
 $string['coursepagesidebarinfooterenableddesc'] = 'Mover la barra lateral al pie de página para obtener más ancho de pantalla para el curso.';
 
@@ -420,6 +426,8 @@ $string['navbarsettings'] = 'Barra de navegación';
 $string['navbarsettingsheading'] = 'Personalizar la barra de navegación';
 $string['navbardesc'] = 'Controlar los diferentes elementos a mostrar en la barra de navegación.';
 
+$string['home'] = 'Inicio';
+
 if ($CFG->version > 2015051100) {
     $string['enablemy'] = 'Área Personal';
     $string['enablemydesc'] = 'Mostrar el enlace al Área Personal.';
@@ -448,6 +456,8 @@ $string['enableprivatefilesdesc'] = 'Mostrar el enlace a los archivos privados d
 
 $string['enablesearchbox'] = 'Activar cuadro de búsqueda';
 $string['enablesearchboxdesc'] = 'Mostrar el cuadro de búsqueda en la parte superior de la pantalla.';
+
+$string['searchcourses'] = 'Search Courses';
 
 $string['enablepref'] = 'Preferencias';
 $string['enableprefdesc'] = 'Mostrar el enlace a las preferencias del usuario.';
@@ -533,6 +543,9 @@ $string['headerbkcolordesc'] = 'Establece el color de fondo de la parte superior
 
 $string['msgbadgecolor'] = 'Color de fondo del marcador de mensajes.';
 $string['msgbadgecolordesc'] = 'Establece el color de fondo del marcador de mensajes en la cabecera (donde se muestra el número de mensajes no leidos)';
+
+$string['messagingbackgroundcolor'] = 'Color de fondo de la ventana principal de mensajes';
+$string['messagingbackgroundcolordesc'] = 'Establece el color de fondo de la ventana de mensajes principal.';
 
 $string['headerbkcolor2'] = 'Color de fondo de la parte inferior de la cabecera';
 $string['headerbkcolor2desc'] = 'Establece el color de fondo de la parte inferior de la cabecera.';
@@ -673,6 +686,10 @@ $string['selectionbackgrounddesc'] = 'Establece el color de fondo del texto sele
 $string['coursesettings'] = 'Secciones del curso';
 $string['coursesettingsheading'] = 'Configuración de las secciones del curso.';
 $string['coursedesc'] = 'Configura las opciones de las secciones de los cursos como el título, color de fondo y bordes.';
+
+// Common settings.
+$string['showyourprogress'] = 'Mostrar la etiqueta d&#39;Su progresod&#39; ';
+$string['showyourprogressdesc'] = 'Muestra / oculta la etiqueta d&#39;Su progresod&#39; en la parte superior del contenido del curso. Esta etiqueta es sólo informativa y puede ocultarse al alumno.';
 
 // Course Section background color.
 $string['topicsweeks'] = 'Formato de curso Temas/Semanas';
@@ -914,8 +931,7 @@ $string['pageheaderheight'] = 'Altura de la cabecera';
 $string['pageheaderheightdesc'] = 'Establece la altura de la cabecera (incluyendo logo y títulos)';
 
 $string['coursepageheaderhidesitetitle'] = 'Ocultar el título del sitio en la página del curso';
-$string['coursepageheaderhidesitetitledesc'] = 'Ocultar el título del sitio, logo y caja de búsqueda en la página del curso.'.
-        'Usar junto a la configuración de la altura de la cabecera de página para mostrar una cabecera más reducida en las páginas relacionadas con cursos.';
+$string['coursepageheaderhidesitetitledesc'] = 'Ocultar el título del sitio, logo y caja de búsqueda en la página del curso. Usar junto a la configuración de la altura de la cabecera de página para mostrar una cabecera más reducida en las páginas relacionadas con cursos.';
 
 $string['breadcrumbtitle'] = 'Nombre del curso en la guía de exploración';
 $string['breadcrumbtitledesc'] = 'Establece el modo de visualización del título del curso en la guía de exploración.';
@@ -929,6 +945,9 @@ $string['socialorsearchdesc'] = 'Puedes mostrar los iconos sociales o el cuadro 
 
 $string['socialorsearchsocial'] = 'Mostrar iconos de redes sociales';
 $string['socialorsearchsearch'] = 'Mostrar cuadro de búsqueda';
+
+$string['searchboxpadding'] = 'Separación alrededor del cuadro de búsqueda';
+$string['searchboxpaddingdesc'] = 'Establece la separación de la parte superior del cuadro de búsqueda (si se muestra en lugar de los iconos sociales) <br />Ejemplo: 5px 10px 5px 10px (superior, derecha, inferior, izquierda).<br> Puedes establecer los iconos sociales en la sección <a href="./../admin/settings.php?section=theme_adaptable_social">Redes sociales</a></strong>.';
 
 $string['searchboxpaddingtop'] = 'Separación superior del cuadro de búsqueda';
 $string['searchboxpaddingtopdesc'] = 'Permite ajustar la separación, en píxeles, del cuadro de búsqueda (si se muestra en lugar de los iconos sociales)<br />'.
@@ -959,12 +978,12 @@ $string['loadingcolordesc'] = 'Color del cargador situado en la parte superior d
 $string['sitetitle'] = 'Mostrar título del sitio';
 $string['sitetitledesc'] = 'Mostrar / Ocultar el título del sitio.';
 
-$string['sitetitletext'] = 'Nombre del sitio';
-$string['sitetitletextdesc'] = 'El nombre del sitio que se mostrará en la cabecera.';
-$string['sitetitlecustom'] = 'Usar nombre del sitio personalizado (introducir el texto en el siguiente campo)';
+$string['sitetitleoff'] = 'No mostrar nombre del sitio';
+$string['sitetitledefault'] = 'Mostrar nombre del sitio de Moodle (site name)';
+$string['sitetitlecustom'] = 'Mostrar nombre del sitio personalizado (introducir el texto en el siguiente campo)';
 
 $string['sitetitletext'] = 'Nombre del sitio';
-$string['sitetitletextdesc'] = 'Introducir el nombre del sitio que se mostrará en la cabecera (el nombre del sitio configurado en el apartado "Página Principal" no es mostrado por Adaptable)';
+$string['sitetitletextdesc'] = 'El nombre del sitio que se mostrará en la cabecera.';
 
 $string['frontpagelogin'] = 'Formulario de entrada en la cabecera';
 $string['frontpagelogindesc'] = 'Mostrar el formulario de entrada en la parte superior de la cabecera. En caso contrario, se mostrará solo el botón.';
@@ -973,8 +992,8 @@ $string['displaylogin'] = 'Mostrar la entrada de usuario';
 $string['displaylogindesc'] = 'Selecciona el método de entrada del usuario (cuando esté activado)';
 
 $string['displayloginbutton'] = 'Botón';
-$string['displayloginbox'] = 'Formulario';
-$string['displayloginno'] = 'Sin entrada';
+$string['displayloginbox'] = 'Formulario de entrada';
+$string['displayloginno'] = 'Sin formulario de entrada';
 
 $string['enablemessagemenu'] = 'Mostrar Menú Mensajes';
 $string['enablemessagemenudesc'] = 'Muestra el menú mensajes en la cabecera.';
@@ -1047,7 +1066,7 @@ $string['course'] = 'Curso';
 
 // Alerts **********************************************************.
 // Alert message if acting as other role.
-$string['actingasrole'] = 'Usted está actuando actualmente como un papel diferente';
+$string['actingasrole'] = 'Estás actuando actualmente como un papel diferente';
 
 // Alert Hidden Course.
 $string['alerthiddencourse'] = 'Advertencia del curso oculto';
@@ -1396,14 +1415,14 @@ El formato debe ser:
 url|titulo|icono
 
 Ejemplo:
-
+<pre>
 http://example.com/course/search.php|Buscar en Moodle|fa-search
 https://facebook.com/|Facebook|fa-facebook-square
 https://twitter.com/|Twitter|fa-twitter-square
 https://instagram.com|Instagram|fa-instagram
 http://example.com|Mi Web|fa-globe
-
-El listado de iconos se encuentra en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
+</pre>
+El listado de iconos ùedes encontrarlo en: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
 
 $string['socialsize'] = 'Configurar tamaño de los iconos sociales';
 $string['socialsizemobile'] = 'Configurar tamaño de los iconos sociales en móviles';
@@ -1481,6 +1500,9 @@ $string['cachedef_userdata'] = 'El tiempo para guardar una sesión de un usuario
 $string['nextsection'] = 'Siguiente';
 $string['previoussection'] = 'Anterior';
 
+$string['maincoursepage'] = 'Página principal';
+$string['jumpto'] = 'Saltar a ...';
+
 // General ******************************************.
 $string['hide'] = 'Ocultar';
 $string['show'] = 'Mostrar';
@@ -1489,7 +1511,6 @@ $string['show'] = 'Mostrar';
 $string['linksmenu'] = 'Menu enlaces';
 
 // Save / Discard button text *********************************.
-
 $string['savebuttontext'] = 'Guardar cambios';
 $string['discardbuttontext'] = 'Cancelar';
 

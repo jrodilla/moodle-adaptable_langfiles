@@ -319,10 +319,7 @@ $string['coursepageblocksenableddesc'] = 'You can enable / disable custom block 
 You can then drag and drop blocks into the regions you created';
 
 $string['coursepagenewssliderblockregionheading'] = 'Custom news slider block region';
-$string['coursepagenewssliderblockregionheadingdesc'] = 'A custom block region designed for use with the news slider that is part of Adaptable UI.' .
-'This region appears above course activities on a Course page.  To add news slider block, first install the <strong>' .
-'<a href="https://moodle.org/plugins/block_news_slider">Adaptable UI news slider</a></strong> and configure it to appear in the region' .
-'"course page slider region" on all course pages.';
+$string['coursepagenewssliderblockregionheadingdesc'] = 'A custom block region designed for use with the news slider that is part of Adaptable UI. This region appears above course activities on a Course page.  To add news slider block, first install the <strong><a href="https://moodle.org/plugins/block_news_slider">Adaptable UI news slider</a></strong> and configure it to appear in the region "course page slider region" on all course pages.';
 
 $string['coursepageblocksliderenabled'] = 'Enable custom slider block region on Course page';
 $string['coursepageblocksliderenableddesc'] = 'Enable this region on all course pages.';
@@ -691,8 +688,8 @@ $string['coursesettingsheading'] = 'Course Formats Settings';
 $string['coursesettingsdesc'] = 'Customize some of the most used Moodle course formats to fit the main design.';
 
 // Common settings.
-$string['showyourprogress'] = 'Show Your Progress label ';
-$string['showyourprogressdesc'] = 'Show / hide the Your Progress label in the top of the course content. This label is only for information purposes and can be hidden. ';
+$string['showyourprogress'] = 'Show d&#39;Your Progressd&#39; label ';
+$string['showyourprogressdesc'] = 'Show / hide the d&#39;Your Progressd&#39; label in the top of the course content. This label is only for information purposes and can be hidden. ';
 
 // Course Section background color.
 $string['coursesectionbgcolor'] = 'Course Section Background';
@@ -738,6 +735,7 @@ $string['coursesectionborderradiusdesc'] = 'Set the radius of course section bor
 // Course section activity styling.
 $string['coursesectionactivityuseadaptableicons'] = 'Use Adaptable Icon Set';
 $string['coursesectionactivityuseadaptableiconsdesc'] = 'Turn this on to use Adaptable icons. If turned off, please also ensure you remove the directories adaptable/pix_plugins and adaptable/pix_core/f to use default Moodle icons.';
+
 $string['coursesectionactivityiconsize'] = 'Course Section Activity Icon Size';
 $string['coursesectionactivityiconsizedesc'] = 'Set the icon size for activities / recursos (e.g. a value of "16px" will set it at 16px x 16px).';
 $string['coursesectionactivityborderwidth'] = 'Course Section Activity Border Width';
@@ -759,7 +757,6 @@ $string['coursesectionactivityquiztopbordercolor'] = 'Quiz activity top border d
 $string['coursesectionactivityquiztopbordercolordesc'] = 'Set the colour of the top border.';
 $string['coursesectionactivityquizbgcolor'] = 'Quiz activity background colour';
 $string['coursesectionactivityquizbgcolordesc'] = 'Set the Quiz activity background colour.';
-
 
 // Social Wall Settings.
 $string['socialwall'] = 'Social Wall';
@@ -955,6 +952,7 @@ $string['searchboxpaddingdesc'] = 'Set padding above search box (if being used i
 $string['enablesavecanceloverlay'] = 'Enable Save / Cancel overlay on settings pages';
 $string['enablesavecanceloverlaydesc'] = 'Display a Save / Cancel button overlay at the top
  of a settings page to make it easier to save settings.';
+
 
 $string['usernav'] = 'Header User';
 
@@ -1513,7 +1511,6 @@ $string['show'] = 'Show';
 $string['linksmenu'] = 'Links Menu';
 
 // Save / Discard button text *********************************.
-
 $string['savebuttontext'] = 'Save changes';
 $string['discardbuttontext'] = 'Cancel';
 
