@@ -688,8 +688,8 @@ $string['coursesettingsheading'] = 'Configuración de las secciones del curso.';
 $string['coursedesc'] = 'Configura las opciones de las secciones de los cursos como el título, color de fondo y bordes.';
 
 // Common settings.
-$string['showyourprogress'] = 'Mostrar la etiqueta d&#39;Su progresod&#39; ';
-$string['showyourprogressdesc'] = 'Muestra / oculta la etiqueta d&#39;Su progresod&#39; en la parte superior del contenido del curso. Esta etiqueta es sólo informativa y puede ocultarse al alumno.';
+$string['showyourprogress'] = 'Mostrar la etiqueta &#39;Su progreso&#39; ';
+$string['showyourprogressdesc'] = 'Muestra / oculta la etiqueta &#39;Su progreso&#39; en la parte superior del contenido del curso. Esta etiqueta es sólo informativa y puede ocultarse al alumno.';
 
 // Course Section background color.
 $string['topicsweeks'] = 'Formato de curso Temas/Semanas';

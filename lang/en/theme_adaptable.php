@@ -688,8 +688,8 @@ $string['coursesettingsheading'] = 'Course Formats Settings';
 $string['coursesettingsdesc'] = 'Customize some of the most used Moodle course formats to fit the main design.';
 
 // Common settings.
-$string['showyourprogress'] = 'Show d&#39;Your Progressd&#39; label ';
-$string['showyourprogressdesc'] = 'Show / hide the d&#39;Your Progressd&#39; label in the top of the course content. This label is only for information purposes and can be hidden. ';
+$string['showyourprogress'] = 'Show &#39;Your Progress&#39; label ';
+$string['showyourprogressdesc'] = 'Show / hide the &#39;Your Progress&#39; label in the top of the course content. This label is only for information purposes and can be hidden. ';
 
 // Course Section background color.
 $string['coursesectionbgcolor'] = 'Course Section Background';
