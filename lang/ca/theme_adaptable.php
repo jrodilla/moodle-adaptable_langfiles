@@ -77,6 +77,7 @@ $string['region-frnt-footer'] = 'Peu';
 $string['region-side-post'] = 'Dreta';
 $string['region-side-pre'] = 'Esquerra';
 $string['frnt-footer'] = 'Els blocs situats a aquesta zona, només són visibles pels administradors.';
+$string['side-post1'] = 'Barra lateral al peu de pàgina';
 
 $string['region-frnt-market-a'] = 'Marketing-a';
 $string['region-frnt-market-b'] = 'Marketing-b';
@@ -99,6 +100,18 @@ $string['region-frnt-market-r'] = 'Marketing-r';
 $string['region-frnt-market-s'] = 'Marketing-s';
 $string['region-frnt-market-t'] = 'Marketing-t';
 
+// Course page block regions.
+$string['region-course-top-a'] = 'Regió Superior Pàgina Curs 1';
+$string['region-course-top-b'] = 'Regió Superior Pàgina Curs 2';
+$string['region-course-top-c'] = 'Regió Superior Pàgina Curs 3';
+$string['region-course-top-d'] = 'Regió Superior Pàgina Curs 4';
+
+$string['region-news-slider-a'] = 'Regió per a presentació de diapositives de cursos';
+
+$string['region-course-bottom-a'] = 'Regió Inferior Pàgina Curs 5';
+$string['region-course-bottom-b'] = 'Regió Inferior Pàgina Curs 6';
+$string['region-course-bottom-c'] = 'Regió Inferior Pàgina Curs 7';
+$string['region-course-bottom-d'] = 'Regió Inferior Pàgina Curs 8';
 
 // Settings page headings ******************************************.
 $string['settingsmaincolors'] = 'Colors principals';
@@ -124,7 +137,8 @@ $string['settingstopicsweeks'] = 'Temes / Setmanes';
 $string['blocksettings'] = 'Blocs';
 $string['frontpagealertsettings'] = 'Alertes';
 $string['frontpageblockregionsettings'] = 'Creador de regions per a blocs';
-$string['dashboardblockregionsettings'] = 'Constructor de regions de l&#39;Área Personal';
+$string['dashboardblockregionsettings'] = 'Creador de regions de l&#39;Área Personal';
+$string['coursepageblockregionsettings'] = 'Creador de regions per al Curs';
 $string['frontpageblocksettings'] = 'Blocs promocionals';
 $string['frontpagetickersettings'] = 'Anuncis';
 $string['frontpageslidersettings'] = 'Presentació diapositives';
@@ -176,6 +190,9 @@ $string['tickertextprofilefield'] = 'Nom del camp personalitzat del perfil Field
 $string['tickertextprofilefielddesc'] = 'Afegeix una regla d&#39;accés utilitzant un camp de perfil personalitzat. Exemple: usertype=alumne';
 
 $string['ticker'] = 'Anuncis';
+
+$string['tickerwidth'] = 'Ample fix';
+$string['tickerfullscreen'] = 'Ample total de pantalla';
 
 // Slideshow *******************************************************.
 $string['slideshowsettings'] = 'Presentació de diapositives';
@@ -264,6 +281,14 @@ $string['dash_blocklayoutbuilderdesc'] = 'A continuació pots crear la teva prò
 Per a afegir aquestes regions necessitaràs <strong>Activar Edició a la pàgina de l&#39;Àrea Personal</strong>.<br>
 Llavors podràs arrossegar i deixar anar blocs a les regions que has creat.';
 
+$string['coursepagesidebarinfooterenabledsection'] = 'Posició de la barra lateral';
+$string['coursepagesidebarinfooterenabledsectiondesc'] = 'Utilitza una estructura de pàgina de curs d&#39;amplada complerta movent la barra lateral al peu.';
+
+$string['coursepageblocklayoutbuilder'] = 'Regió per a blocs a la pàgina del curs';
+$string['coursepageblocklayoutbuilderdesc'] = 'Pots construir a la part inferior una regió per a blocs a la pàgina del curs.
+Per afegir contingut a aquestes regions necessitaràs <strong> activar l&#39edició del curs a la pàgina de Moodle</strong>.
+Llavors podràs arrossegar i deixar anar el blocs a les regions que has creat!';
+
 $string['blocklayoutlayoutcheck'] = 'Comprova la distribució';
 $string['blocklayoutlayoutcheckdesc'] = 'Utilitza aquesta opció per veure la distribució creada i comprovar el nombre de blocs que has utilitzat.';
 $string['blocklayoutlayoutcount1'] = 'Pots crear un màxim de ';
@@ -275,6 +300,12 @@ $string['blocklayoutlayoutrowdesc'] = 'Afegeix / estableix la distribució de fi
 $string['dashblocklayoutlayoutrow'] = 'Fila de regions del Panell de Control ';
 $string['dashblocklayoutlayoutrowdesc'] = 'Afegeix / estableix l&#39;estructura de les regions per a blocs a la pàgina de l&#39;Àrea Personal.';
 
+$string['coursepageblocklayoutlayouttoprow'] = 'Fileres de la regió superior de la pàgina del curs';
+$string['coursepageblocklayoutlayouttoprowdesc'] = 'Afegeix o modifica fileres a l&#39;estructura de la regió superior per a blocs de la pàgina del curs.';
+
+$string['coursepageblocklayoutlayoutbottomrow'] = 'Fileres de la regió inferior de la pàgina del curs';
+$string['coursepageblocklayoutlayoutbottomrowdesc'] = 'Afegeix o modifica fileres a l&#39;estructura de la regió inferior per a blocs de la pàgina del curs';
+
 $string['frontpageblocksenabled'] = 'Activa les regions per a blocs a la pàgina principal';
 $string['frontpageblocksenableddesc'] = 'Activa o desactiva les regions per a blocs de la pàgina principal.
 Pots arrossegar i deixar anar els blocs a les regions creades';
@@ -282,6 +313,19 @@ Pots arrossegar i deixar anar els blocs a les regions creades';
 $string['dashblocksenabled'] = 'Activar les regions personalitzades a la pàgina de l&#39;Àrea Personal';
 $string['dashblocksenableddesc'] = 'Pots activar / desactivar les regions personalitzades de la pàgina de l&#39;Àrea Personal.
 Pots arrossegar i deixar anar els blocs a les regions que has creat';
+
+$string['coursepageblocksenabled'] = 'Mostra les regions personalitzades per a blocs a la pàgina del curs';
+$string['coursepageblocksenableddesc'] = 'Pots mostrar la regió de blocs personalitzats (superior i inferior) a la pàgina del curs.
+Podràs arrossegar i deixar anar els blocs a les regions que has creat.';
+
+$string['coursepagenewssliderblockregionheading'] = 'Regió per a bloc de diapositives de notícies configurables';
+$string['coursepagenewssliderblockregionheadingdesc'] = 'Una regió creada especialment per al bloc de notícies que és part del conjunt de blocs Adaptable UI. Aquesta regió es mostra sobre les activitats del curs a la pàgina de curs. Afegeix primer el bloc Notícies <strong><a href="https://moodle.org/plugins/block_news_slider">Bloc de Notícies per a Adaptable</a></strong> i configura&#39;l per a mostrar-ho a aquesta regió';
+
+$string['coursepageblocksliderenabled'] = 'Activar la regió per al bloc de diapositives personalitzades a la pàgina de curs';
+$string['coursepageblocksliderenableddesc'] = 'Activar aquesta regió a totes les pàgines de cursos.';
+
+$string['coursepagesidebarinfooterenabled'] = 'Moure la barra lateral al peu';
+$string['coursepagesidebarinfooterenableddesc'] = 'Moure la barra lateral al peu de pàgina per a obtenir més amplada de pantalla per al curs.';
 
 $string['layoutcheck'] = 'Comprova la distribució';
 $string['layoutcheckdesc'] = 'Utilitza aquesta opció per a veure la distribució creada i comprovar el nombre de blocs que has utilitzat.';
@@ -328,6 +372,7 @@ Nota: L&#39;estil BCU està creat per mostrar la imatge a la part superior del b
 $string['bcustyle'] = 'Estil BCU';
 $string['coventrystyle'] = 'Estil Coventry';
 $string['nostyle'] = 'Sense estil';
+$string['disabled'] = 'Desactivat';
 
 
 // Footer **********************************************************.
@@ -381,6 +426,8 @@ $string['navbarsettings'] = 'Barra de navegació';
 $string['navbarsettingsheading'] = 'Personalitzar la barra de navegació';
 $string['navbardesc'] = 'Controlar els diferents elements a mostrar a la barra de navegació.';
 
+$string['home'] = 'Inicio';
+
 if ($CFG->version > 2015051100) {
     $string['enablemy'] = 'Àrea Personal';
     $string['enablemydesc'] = 'Mostrar l&#39;enllaç a l&#39;Àrea Personal.';
@@ -409,6 +456,8 @@ $string['enableprivatefilesdesc'] = 'Mostrar l&#39;enllaç als arxius privats de
 
 $string['enablesearchbox'] = 'Activar quadre de cerca';
 $string['enablesearchboxdesc'] = 'Mostrar el quadre de cerca a la part superior de la pantalla.';
+
+$string['searchcourses'] = 'Buscar cursos';
 
 $string['enablepref'] = 'Preferències';
 $string['enableprefdesc'] = 'Mostrar l&#39;enllaç a les preferències de l&#39;usuari.';
@@ -494,6 +543,9 @@ $string['headerbkcolordesc'] = 'Estableix el color de fons de la part superior d
 
 $string['msgbadgecolor'] = 'Color de fons del marcador de missatges.';
 $string['msgbadgecolordesc'] = 'Estableix el color de fons del marcador de missatges de la capçalera (on es mostra el número de missatges no llegits)';
+
+$string['messagingbackgroundcolor'] = 'Color de fons de la finestra principal de missatges';
+$string['messagingbackgroundcolordesc'] = 'Estableix el color de fons de la finestra de missatges principal.';
 
 $string['headerbkcolor2'] = 'Color de fons de la part inferior de la capçalera';
 $string['headerbkcolor2desc'] = 'Estableix el color de fons de la part inferior de la capçalera.';
@@ -630,11 +682,18 @@ $string['selectiontextdesc'] = 'Estableix el color del text seleccionat a la pan
 $string['selectionbackground'] = 'Color de fons del text seleccionat';
 $string['selectionbackgrounddesc'] = 'Estableix el color de fons del text seleccionat a la pantalla.';
 
-
-// Course *********************************************************.
+// Formats de curs *********************************************************.
 $string['coursesettings'] = 'Seccions del curs';
 $string['coursesettingsheading'] = 'Configuració de les seccions del curs.';
 $string['coursedesc'] = 'Configura les opcions de les seccions dels cursos com el títol, color de fons i bores.';
+
+// Common settings.
+$string['showyourprogress'] = 'Mostrar l&#39;etiqueta d#39;El seu progrés&#39; ';
+$string['showyourprogressdesc'] = 'Mostra / oculta l&#39;etiqueta d&#39;El seu progrés&#39; a la part superior del contingut del curs. Aquesta etiqueta és només informativa i pot ocultar-se a l&#39;alumne.';
+
+// Course Section background color.
+$string['topicsweeks'] = 'Format de curs Temes/Setmanes';
+$string['topicsweeksdesc'] = 'Estableix estils per al format de curs Temes/setmanes.';
 
 // Topics / Weeks Settings.
 $string['topicsweeks'] = 'Format de curs Temes/Setmanes';
@@ -672,6 +731,32 @@ $string['coursesectionbordercolordesc'] = 'Estableix el color de la vora de la s
 
 $string['coursesectionborderradius'] = 'Radi de la bora de la secció';
 $string['coursesectionborderradiusdesc'] = 'Estableix el Radi de la vora de les cantonades de la secció del curs.';
+
+// Estilos de actividades.
+$string['coursesectionactivityuseadaptableicons'] = 'Utilitza el jocs d&#39;icones d&#39;Adaptable';
+$string['coursesectionactivityuseadaptableiconsdesc'] = 'Utilitta el joc d&#39icones d&#39activitats d&#39;Adatable en llo del de Moodle. Si el desactives, comprova que els directoris adaptable/pix_plugins i adaptable/pix_core/f estan eliminats per a poder utilitzar les icones per defecte de moodle.';
+
+$string['coursesectionactivityiconsize'] = 'Mida de les icones d&#39;activitats de les seccions del curs';
+$string['coursesectionactivityiconsizedesc'] = 'Estableix la mida de les icones d&#39;activitats / recursos (exemple: 16px estableix una mida de 16px x 16px).';
+$string['coursesectionactivityborderwidth'] = 'Gruix de la bora de les seccions dels cursos';
+$string['coursesectionactivityborderwidthdesc'] = 'Estableix el gruix de la bora de les seccions d&#39;activitats del curs.';
+
+$string['coursesectionactivitycolors'] = 'Opcions de les seccions del curs';
+
+$string['coursesectionactivityassigntopbordercolor'] = 'Color de la bora superior de l&#39;activitat Tasca';
+$string['coursesectionactivityassigntopbordercolordesc'] = 'Estableix el color de la bora superior de l&#39;activitat Tasca.';
+$string['coursesectionactivityassignbgcolor'] = 'Color de fons de l&#39;activitat Tasca';
+$string['coursesectionactivityassignbgcolordesc'] = 'Estableix el color de fons de l&#39;activitat Tasca.';
+
+$string['coursesectionactivityforumtopbordercolor'] = 'Color de la bora superior de l&#39;activitat Fòrum';
+$string['coursesectionactivityforumtopbordercolordesc'] = 'Estableix el color de la bora superior de l&#39;activitat Fòrum.';
+$string['coursesectionactivityforumbgcolor'] = 'Color de fons de la activitat Fòrum';
+$string['coursesectionactivityforumbgcolordesc'] = 'Estableix el color de fons de l&#39;activitat Fòrum.';
+
+$string['coursesectionactivityquiztopbordercolor'] = 'Color de la bora superior de l&#39;activitat Qüestionari';
+$string['coursesectionactivityquiztopbordercolordesc'] = 'Estableix el color de la bora superior de l&#39;activitat Qüestionari.';
+$string['coursesectionactivityquizbgcolor'] = 'Color de fons de l&#39;activitat Qüestionari';
+$string['coursesectionactivityquizbgcolordesc'] = 'Estableix el color de fons de l&#39;activitat Qüestionari.';
 
 // Social Wall Settings.
 $string['socialwall'] = 'Mur Social';
@@ -845,6 +930,9 @@ $string['coursetitlemaxwidthdesc'] = 'Estableix l&#39;amplada màxima de l&#39;�
 $string['pageheaderheight'] = 'Alçada de la capçalera';
 $string['pageheaderheightdesc'] = 'Estableix l&#39;alçada de la capçalera (incloent logotip i títols)';
 
+$string['coursepageheaderhidesitetitle'] = 'Ocultar el títol del lloc a la pàgina del curs';
+$string['coursepageheaderhidesitetitledesc'] = 'Ocultar el títol del lloc, logo i caixa de cerca a la pàgina del curs. Utilitzar conjuntament la configuració de l&#39;alçada de la capçalera de pàgina per a mostrar una capçalera més reduïda a les pàgines relacionades amb cursos.';
+
 $string['breadcrumbtitle'] = 'Nom del curs a la guia d&#39;exploració';
 $string['breadcrumbtitledesc'] = 'Estableix el mode de visualització del títol del curso a la guia d&#39;exploració.';
 
@@ -858,9 +946,13 @@ $string['socialorsearchdesc'] = 'Pots mostrar les icones socials o el quadre de 
 $string['socialorsearchsocial'] = 'Mostrar icones de xarxes socials';
 $string['socialorsearchsearch'] = 'Mostrar quadre de cerca';
 
+$string['searchboxpadding'] = 'Separació al voltant del quadre de cerca';
+$string['searchboxpaddingdesc'] = 'Estableix la separació de la part superior del quadre de cerca (si es mostra en lloc de les icones socials) <br />Exemple: 5px 10px 5px 10px (superior, dreta, inferior, esquerra).<br> Pots establir les icones socials a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Xarxes Socials</a></strong>.';
+
 $string['searchboxpaddingtop'] = 'Separació superior del quadre de cerca';
-$string['searchboxpaddingtopdesc'] = 'Permet ajustar la separació, en píxels, del quadre de cerca (si es mostra).<br />
-    <strong>Nota: La separació de les icones de xarxes socials pot configurar-se a la secció "Xarxes socials"</strong>.';
+$string['searchboxpaddingtopdesc'] = 'Permet ajustar la separació, en píxels, del quadre de cerca (si es mostra en lloc de les icones socials).<br />'
+          'E.g. 5px 10px 5px 10px (top, right, bottom, left).<br>'.
+        'Les icones socials es poden establerr a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Capçalera Social</a></strong>.';
 
 $string['usernav'] = 'Barra d&#39;usuari';
 
@@ -1314,38 +1406,38 @@ $string['toolsmenufielddesc'] = 'Afegeix una regla d&#39;accés utilitzant un ca
 
 
 // Social settings *************************************************.
-$string['socialsettings'] = 'Xarxes socials';
+$string['socialsettings'] = 'Xarxes Socials';
 $string['socialheading'] = 'Configuració de les icones de xarxes socials';
-$string['socialtitledesc'] = '<pre>Pots desactivar la cerca i activar les icones de xarxes socials al seu lloc.
-Per configurar les icones, introdueix una llista delimitada al campo "Llista d&#39;icones socials".
+$string['socialtitledesc'] = '<pre>Pots desactivar la cerca i activar les icones de xarxes socials en el seu lloc.
+Per a configurar les icones, introdueix una llista delimitada al camp "Llista d&#39;icones socials".
 El format ha de ser:
 
 url|títol|icona
 
 Exemple:
-
-http://localhost/moodle/course/search.php|Buscar en Moodle|fa-search
+<pre>
+http://example.com/course/search.php|Buscar a Moodle|fa-search
 https://facebook.com/|Facebook|fa-facebook-square
 https://twitter.com/|Twitter|fa-twitter-square
 https://instagram.com|Instagram|fa-instagram
 http://example.com|Mi Web|fa-globe
+</pre>
+La llista d&#39;icones pots trobar-la a: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
 
-El llistat d&#39;icones es troba a : <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
-
-$string['socialsize'] = 'Configurar la mida de les icones socials';
-$string['socialsizemobile'] = 'Configurar la mida de les icones socials a mòbils';
-$string['socialpaddingtop'] = 'Ajustar la separació sota les icones socials (altera la posició vertical)';
+$string['socialsize'] = 'Configurar mida de les icones socials';
+$string['socialsizemobile'] = 'Configurar mida de les icones socials en mòbils';
+$string['socialpaddingtop'] = 'Ajustar la separació a sota de les icones socials (altera la posició vertical)';
 
 $string['socialtarget'] = 'Format d&#39;apertura de la finestra d&#39;enllaços socials';
 $string['socialtargetdesc'] = 'Obrir la xarxa social a la mateixa finestra o a una nova';
 
-$string['socialsearchicon'] = 'Cercar a Moodle';
+$string['socialsearchicon'] = 'Buscar a Moodle';
 $string['socialsearchicondesc'] = 'Mostra el quadre de cerca al costat de les icones socials.';
 
-$string['socialicondesc'] = 'Selecciona l&#39;icona de Font Awesome. Per exemple: fa-facebook';
+$string['socialicondesc'] = 'Selecciona la icona de Font Awesome. Per exemple: fa-facebook';
 
 $string['socialiconlist'] = 'Llista d&#39;icones socials';
-$string['socialiconlistdesc'] = 'Introduir una llista delimitada per comes per configurar les icones de xarxes socials que necessites utilitzant el format: url|títol|icona';
+$string['socialiconlistdesc'] = 'Introduir una llista delimitada per comes per a configurar les icones de xarxes socials que necessitis utilitzant el format: url|títol|icona';
 
 // Analytics **********************************.
 $string['analyticssettings'] = 'Analítics';
@@ -1405,8 +1497,11 @@ $string['jssectiondesc'] = 'Introdueix el codi Javascript personalitzat.';
 $string['cachedef_userdata'] = 'El temps per desar una sessió d&#39;un usuari específic.';
 
 // Section navigation ********************************.
-$string['nextsection'] = 'Sigüent';
+$string['nextsection'] = 'Següent';
 $string['previoussection'] = 'Anterior';
+
+$string['maincoursepage'] = 'Pàgina principal';
+$string['jumpto'] = 'Saltar a ...';
 
 // General ******************************************.
 $string['hide'] = 'Ocultar';
@@ -1414,3 +1509,14 @@ $string['show'] = 'Mostrar';
 
 // Navbar Links menu *********************************.
 $string['linksmenu'] = 'Menú enllaços';
+
+// Save / Discard button text *********************************.
+$string['savebuttontext'] = 'Desar canvis';
+$string['discardbuttontext'] = 'Cancel·lar';
+
+// Forum settings.
+$string['settingsforumheading'] = 'Fòrum';
+$string['forumheaderbackgroundcolor'] = 'Color de fons de la capçalera de l&#39;entrada';
+$string['forumheaderbackgroundcolordesc'] = 'Color de fons de la capçalera d&#39;una entrada.';
+$string['forumbodybackgroundcolor'] = 'Color de fons del contingut de l&#39;entrada';
+$string['forumbodybackgroundcolordesc'] = 'Color de fons del contingut d&#39;una entrada.';
