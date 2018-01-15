@@ -19,6 +19,7 @@ Copy the language folders to moodle_site/themes/adaptable/lang
 
 Version
 -------------------------------------
+1.6         2018011500
 1.5         2017071700
 1.4         2017053000
 1.3.3       2017051700
