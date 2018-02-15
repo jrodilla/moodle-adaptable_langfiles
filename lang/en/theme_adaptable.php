@@ -1582,3 +1582,34 @@ $string['coursesectionactivityfurtherinformationlesson'] = 'Show lesson informat
 $string['coursesectionactivityfurtherinformationlessondesc'] = 'Show lesson information, such as submission status.  For teachers / admins, show number of submissions.';
 $string['coursesectionactivityfurtherinformationdata'] = 'Show database information';
 $string['coursesectionactivityfurtherinformationdatadesc'] = 'Show data information, such as submission status.  For teachers / admins, show number of submissions.';
+$string['coursesectionactivitymargintop'] = 'Top margin activity spacing';
+$string['coursesectionactivitymargintopdesc'] = 'Top margin spacing between activities';
+$string['coursesectionactivitymarginbottom'] = 'Bottom margin activity spacing.';
+$string['coursesectionactivitymarginbottomdesc'] = 'Bottom margin spacing between activities.';
+
+// Properties.
+$string['properties'] = 'Import / Export Settings';
+$string['propertiessub'] = 'Current theme settings';
+$string['propertiesdesc'] = 'In this section you can import / export current Adaptable theme settings (properties) in JSON format.' .
+' You can also view all current settings on this Moodle installation.';
+$string['propertiesproperty'] = 'Property';
+$string['propertiesvalue'] = 'Value';
+$string['propertiesexport'] = 'Export properties as a JSON string';
+$string['propertiesreturn'] = 'Return';
+$string['putpropertiesheading'] = 'Import theme settings';
+$string['putpropertiesname'] = 'Import properties';
+$string['putpropertiesdesc'] = 'Paste the JSON string and \'Save changes\'.  Warning!  Does not validate setting values and performs a \'Purge all caches\'.';
+
+$string['putpropertyreport'] = 'Report:';
+$string['putpropertyversion'] = 'version:';
+$string['putpropertyproperties'] = 'Properties';
+$string['putpropertyour'] = 'Our';
+$string['putpropertiesignorecti'] = 'Ignoring all course title image settings.';
+$string['putpropertiesreportfiles'] = 'Remember to upload the following files to their settings:';
+$string['putpropertiessettingsreport'] = 'Settings report:';
+$string['putpropertiesvalue'] = '->';
+$string['putpropertiesfrom'] = 'from';
+$string['putpropertieschanged'] = 'Changed:';
+$string['putpropertiesunchanged'] = 'Unchanged:';
+$string['putpropertiesadded'] = 'Added:';
+$string['putpropertiesignored'] = 'Ignored:';
