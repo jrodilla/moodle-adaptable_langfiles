@@ -1466,8 +1466,8 @@ $string['socialiconlistdesc'] = 'Introducir una lista delimitada por comas para 
 
 // Analytics **********************************.
 $string['analyticssettings'] = 'Analytics';
-$string['analyticssettingsheading'] = 'Configura Google Analytics y/o Piwik';
-$string['analyticssettingsdesc'] = 'Puedes configurar Google Analytics y/o Piwik para tu sitio moodle.';
+$string['analyticssettingsheading'] = 'Configura Google Analytics y/o Matomo';
+$string['analyticssettingsdesc'] = 'Puedes configurar Google Analytics y/o Matomo para tu sitio moodle.';
 
 // GA.
 $string ['googleanalyticssettings'] = 'Google Analytics';
@@ -1486,13 +1486,13 @@ $string['analyticscountdesc'] = 'Número de campos personalizados a introducir e
 $string ['analyticsprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
 $string ['analyticsprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
 
-// Piwik.
-$string['piwiksettings'] = 'Piwik';
-$string['piwiksettingsheading'] = 'Configurar Piwik';
+// Matomo (anteriormente Piwik).
+$string['piwiksettings'] = 'Matomo';
+$string['piwiksettingsheading'] = 'Configurar Matomo (anteriormente Piwik)';
 $string['piwiksettingsdesc'] = 'Generar una URL limpia para el rastreo avanzado.';
 
-$string['piwikenabled'] = 'Activar Piwik';
-$string['piwikenableddesc'] = 'Activar el rastreo de Piwik para Moodle.';
+$string['piwikenabled'] = 'Activar Matomo';
+$string['piwikenableddesc'] = 'Activar el rastreo de Matomo para Moodle.';
 
 $string['piwiksiteid'] = 'ID del sitio';
 $string['piwiksiteiddesc'] = 'Introducir la ID del sitio.';
@@ -1500,8 +1500,8 @@ $string['piwiksiteiddesc'] = 'Introducir la ID del sitio.';
 $string['piwikimagetrack'] = 'Rastreo de imagen';
 $string['piwikimagetrackdesc'] = 'Activar el rastreo por imagen para navegadores con JavaScript desactivado.';
 
-$string['piwiksiteurl'] = 'URL de Piwik';
-$string['piwiksiteurldesc'] = 'Introducir la dirección del sitio Piwik sin http (o https) ni la barra invertida.';
+$string['piwiksiteurl'] = 'URL de Matomo';
+$string['piwiksiteurldesc'] = 'Introducir la dirección del sitio Matomo sin http (o https) ni la barra invertida.';
 
 $string['piwiktrackadmin'] = 'Rastreo de administradores';
 $string['piwiktrackadmindesc'] = 'Activar el rastreo de administradores (no recommendado)';
@@ -1581,3 +1581,34 @@ $string['coursesectionactivityfurtherinformationlesson'] = 'Muestra información
 $string['coursesectionactivityfurtherinformationlessondesc'] = 'Muestra información del estado de las Lecciones, como enviada, etc. Para profesores y administradores muestra además el número de Lecciones enviadas.';
 $string['coursesectionactivityfurtherinformationdata'] = 'Muestra información de las Bases de Datos';
 $string['coursesectionactivityfurtherinformationdatadesc'] = 'Muestra información del estado de las Bases de Datos, como enviada, etc. Para profesores y administradores muestra además el número de Bases de Datos enviadas.';
+
+// Activity display margins.
+$string['coursesectionactivitymargintop'] = 'Margen superior';
+$string['coursesectionactivitymargintopdesc'] = 'Margen superior entre actividades';
+$string['coursesectionactivitymarginbottom'] = 'Margen inferior';
+$string['coursesectionactivitymarginbottomdesc'] = 'Margen inferior entre actividades.';
+
+// Properties.
+$string['properties'] = 'Importar / Exportar Configuración';
+$string['propertiessub'] = 'Configuración actual del tema';
+$string['propertiesdesc'] = 'En esta sección puedes importar / exportar la configuración de Adaptable (propiedades) en formato JSON. También puedes ver la configuración actual.';
+$string['propertiesproperty'] = 'Propiedad';
+$string['propertiesvalue'] = 'Valor';
+$string['propertiesexport'] = 'Exportar las propiedades en una cadena JSON';
+$string['propertiesreturn'] = 'Volver';
+$string['putpropertiesheading'] = 'Importar configuración';
+$string['putpropertiesname'] = 'Importar propiedades';
+$string['putpropertiesdesc'] = 'Pegar la cadena JSON y pulsar \'Guardar cambios \'.  Atención!  No se validan los valores y realiza un \'Purgar todas las cachés\'.';
+$string['putpropertyreport'] = 'Informe:';
+$string['putpropertyversion'] = 'versión:';
+$string['putpropertyproperties'] = 'Propiedades';
+$string['putpropertyour'] = 'Nuestro';
+$string['putpropertiesignorecti'] = 'Ignorando la configuración de las imagenes de titulo del curso.';
+$string['putpropertiesreportfiles'] = 'Recuerda subir los siguientes archivos a su configuración:';
+$string['putpropertiessettingsreport'] = 'Informe de configuración:';
+$string['putpropertiesvalue'] = '->';
+$string['putpropertiesfrom'] = 'desde';
+$string['putpropertieschanged'] = 'Modificados:';
+$string['putpropertiesunchanged'] = 'No modificados:';
+$string['putpropertiesadded'] = 'Añadidos:';
+$string['putpropertiesignored'] = 'Ignorados:';

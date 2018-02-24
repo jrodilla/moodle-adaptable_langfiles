@@ -1466,8 +1466,8 @@ $string['socialiconlistdesc'] = 'Enter a delimited list to setup the social icon
 
 // Analytics *********************************.
 $string['analyticssettings'] = 'Analytics';
-$string['analyticssettingsheading'] = 'Setup Google Analytics and/or Piwik';
-$string['analyticssettingsdesc'] = 'You can setup multiple codes for Google Analytics and targed them to user profile fields. Or you can use Piwik, the open source analytics.';
+$string['analyticssettingsheading'] = 'Setup Google Analytics and/or Matomo';
+$string['analyticssettingsdesc'] = 'You can setup multiple codes for Google Analytics and targed them to user profile fields. Or you can use Matomo, the open source analytics.';
 
 // GA.
 $string['googleanalyticssettings'] = 'Google Analytics';
@@ -1486,13 +1486,13 @@ $string['analyticscountdesc'] = 'The number of analytics fields to show in the e
 $string ['analyticsprofilefield'] = 'Custom Profile Field Name=Value (optional)';
 $string ['analyticsprofilefielddesc'] = 'Add access rule using for custom profile field eg: usertype=student';
 
-// Piwik.
-$string['piwiksettings'] = 'Piwik Analytics';
-$string['piwiksettingsheading'] = 'Setup Piwik';
+// Matomo (formely Piwik).
+$string['piwiksettings'] = 'Matomo (formely Piwik) Analytics';
+$string['piwiksettingsheading'] = 'Setup Matomo';
 $string['piwiksettingsdesc'] = 'Generate clean URL for in advanced tracking.';
 
 $string['piwikenabled'] = 'Enabled';
-$string['piwikenableddesc'] = 'Enable Piwik tracking for Moodle.';
+$string['piwikenableddesc'] = 'Enable Matomo tracking for Moodle.';
 
 $string['piwiksiteid'] = 'Site ID';
 $string['piwiksiteiddesc'] = 'Enter your Site ID.';
@@ -1500,8 +1500,8 @@ $string['piwiksiteiddesc'] = 'Enter your Site ID.';
 $string['piwikimagetrack'] = 'Image Tracking';
 $string['piwikimagetrackdesc'] = 'Enable Image Tracking for Moodle for browsers with JavaScript disabled.';
 
-$string['piwiksiteurl'] = 'Piwik URL';
-$string['piwiksiteurldesc'] = 'Enter your Piwik Analytics URL without http(s) or a trailing slash';
+$string['piwiksiteurl'] = 'Matomo URL';
+$string['piwiksiteurldesc'] = 'Enter your Matomo Analytics URL without http(s) or a trailing slash';
 
 $string['piwiktrackadmin'] = 'Tracking Admins';
 $string['piwiktrackadmindesc'] = 'Enable tracking of Admin users (not recommended)';
@@ -1547,7 +1547,6 @@ $string['forumbodybackgroundcolor'] = 'Forum post body background';
 $string['forumbodybackgroundcolordesc'] = 'Background colour for a Forum post';
 
 // Course page further information *********************.
-
 // Activity display *********************************.
 $string['answered'] = 'Answered';
 $string['attempted'] = 'Attempted';
@@ -1582,6 +1581,8 @@ $string['coursesectionactivityfurtherinformationlesson'] = 'Show lesson informat
 $string['coursesectionactivityfurtherinformationlessondesc'] = 'Show lesson information, such as submission status.  For teachers / admins, show number of submissions.';
 $string['coursesectionactivityfurtherinformationdata'] = 'Show database information';
 $string['coursesectionactivityfurtherinformationdatadesc'] = 'Show data information, such as submission status.  For teachers / admins, show number of submissions.';
+
+// Activity display margins.
 $string['coursesectionactivitymargintop'] = 'Top margin activity spacing';
 $string['coursesectionactivitymargintopdesc'] = 'Top margin spacing between activities';
 $string['coursesectionactivitymarginbottom'] = 'Bottom margin activity spacing.';
@@ -1590,8 +1591,7 @@ $string['coursesectionactivitymarginbottomdesc'] = 'Bottom margin spacing betwee
 // Properties.
 $string['properties'] = 'Import / Export Settings';
 $string['propertiessub'] = 'Current theme settings';
-$string['propertiesdesc'] = 'In this section you can import / export current Adaptable theme settings (properties) in JSON format.' .
-' You can also view all current settings on this Moodle installation.';
+$string['propertiesdesc'] = 'In this section you can import / export current Adaptable theme settings (properties) in JSON format. You can also view all current settings on this Moodle installation.';
 $string['propertiesproperty'] = 'Property';
 $string['propertiesvalue'] = 'Value';
 $string['propertiesexport'] = 'Export properties as a JSON string';
@@ -1599,7 +1599,6 @@ $string['propertiesreturn'] = 'Return';
 $string['putpropertiesheading'] = 'Import theme settings';
 $string['putpropertiesname'] = 'Import properties';
 $string['putpropertiesdesc'] = 'Paste the JSON string and \'Save changes\'.  Warning!  Does not validate setting values and performs a \'Purge all caches\'.';
-
 $string['putpropertyreport'] = 'Report:';
 $string['putpropertyversion'] = 'version:';
 $string['putpropertyproperties'] = 'Properties';
