@@ -132,6 +132,7 @@ $string['settingsanalytics'] = 'Analytics';
 $string['settingscolors'] = 'Colours';
 $string['settingsborders'] = 'Borders';
 $string['settingstopicsweeks'] = 'Topics / Weeks';
+$string['settingsblockicons'] = 'Icons';
 
 // Admin Menu Strings.
 $string['blocksettings'] = 'Block Settings';
@@ -426,6 +427,12 @@ $string['navbarsettings'] = 'Header Navbar';
 $string['navbarsettingsheading'] = 'Customize the navigation bar';
 $string['navbardesc'] = 'Allows you to control all of the elements that appear on the navigation bar.';
 
+$string['navbardisplayicons'] = 'Display icons';
+$string['navbardisplayiconsdesc'] = 'Display icons next to main menu headings';
+
+$string['navbardisplaysubmenuarrow'] = 'Display sub-menu arrow';
+$string['navbardisplaysubmenuarrowdesc'] = 'Display sub-menu arrow (downward facing) when a menu heading has sub-menu options.';
+
 $string['home'] = 'Home';
 
 if ($CFG->version > 2015051100) {
@@ -482,6 +489,16 @@ $string['enablemyhomedesc'] = 'Display a link to {$a}';
 $string['enableeventsdesc'] = 'Display a link to the calendar';
 
 $string['enablethiscoursedesc'] = 'Display a dropdown with activities from the current course';
+
+// Navbar styling *********************************************************.
+$string['headernavbarstylingheading'] = 'Navbar Styling';
+$string['headernavbarstylingheadingdesc'] = 'Styling options for the main navigation menu.';
+$string['navbardropdownborderradius'] = 'Dropdown menu border radius';
+$string['navbardropdownborderradiusdesc'] = 'Controls the border radius for dropdown menus (e.g. rounded corners).';
+$string['navbardropdownhovercolor'] = 'Dropdown menu hover colour';
+$string['navbardropdownhovercolordesc'] = 'Dropdown menu colour when hovering over menu items.';
+$string['navbardropdowntransitiontime'] = 'Navbar transition time';
+$string['navbardropdowntransitiontimedesc'] = 'Navbar transition effect time in seconds.  Provides a fade-in animation effect when hovering over a menu that has sub-menus.';
 
 // My courses menu *********************************************************.
 $string['enablemysitesdesc'] = 'Display a dropdown with a users courses';
@@ -582,12 +599,6 @@ $string['blockheaderbackgroundcolordesc'] = 'Set the heading background colour f
 
 $string['blockbordercolor'] = 'Block border colour';
 $string['blockbordercolordesc'] = 'Set the block border colour.';
-
-$string['blocklinkcolor'] = 'Block link colour';
-$string['blocklinkcolordesc'] = 'Set the blocks link colour';
-
-$string['blocklinkhovercolor'] = 'Block link hover colour';
-$string['blocklinkhovercolordesc'] = 'Set the blocks link hover colour';
 
 $string['blockregionbackground'] = 'Block Region Backround Colour';
 $string['blockregionbackgrounddesc'] = 'Background colour of container holding custom block layouts on the front page';
@@ -859,13 +870,22 @@ $string['menufontpadding'] = 'Padding for Navigation Items';
 $string['menufontpaddingdesc'] = 'Set the padding of the items in the main navigation bar.';
 
 $string['fontblockheadercolor'] = 'Blocks header font colour';
-$string['fontblockheadercolordesc'] = 'Set the colour of the header font moodle blocks, use html hex code.';
+$string['fontblockheadercolordesc'] = 'Set the colour of the header font moodle blocks, use html hex code. Note that this affects icon colour too.';
 
 $string['fontblockheaderweight'] = 'Blocks header font weight';
 $string['fontblockheaderweightdesc'] = 'Set the font weight used in the moodle blocks header. Select a value from 100 to 900 depending the font selected.';
 
 $string['fontblockheadersize'] = 'Blocks header font size';
 $string['fontblockheadersizedesc'] = 'Set the font size used in the moodle blocks header. Select a value fron the list.';
+
+
+// Icons ***********************************************************.
+$string['blockicons'] = 'Block Icons';
+$string['blockiconsdesc'] = 'Set this to show block icons in the block header area.';
+
+$string['blockiconsheadersize'] = 'Blocks header icon size';
+$string['blockiconsheadersizedesc'] = 'Set the font icon size used in the moodle blocks header. Select a value fron the list.';
+
 
 // Buttons *********************************************************.
 $string['buttonsettings'] = 'Buttons';
@@ -891,6 +911,14 @@ $string['editverticalpadding'] = 'Set vertical padding of editing buttons';
 $string['edithorizontalpadding'] = 'Set Horizontal padding of editing buttons';
 $string['edittopmargin'] = 'Set top margin of editing buttons';
 
+$string['buttoncancelbackgroundcolor'] = 'Background colour for Cancel button';
+$string['buttoncancelbackgroundcolordesc'] = 'Background colour for Cancel button.  Type <i>transparent</i> in the box for transparency.';
+
+$string['buttoncancelcolor'] = 'Cancel button colour';
+$string['buttoncancelcolordesc'] = 'Choose the colour for the Cancel button.';
+
+$string['buttondropshadow'] = 'Drop shadow decoration on bottom of button';
+$string['buttondropshadowdesc'] = 'Show a drop shadow (shading) on bottom of button.';
 
 // Login button.
 $string['logintextbutton'] = 'Log In';
@@ -966,6 +994,8 @@ $string['socialorsearch'] = 'Use Search Box or Social Icons';
 $string['socialorsearchdesc'] = 'You can set the theme to either display social icons or a search box in the header. <br />
 You can set social icons under the <a href="./../admin/settings.php?section=theme_adaptable_social">Header Social</a> settings page</strong>.';
 
+$string['socialorsearchnone'] = 'None';
+
 $string['socialorsearchsocial'] = 'Display social icons in header';
 $string['socialorsearchsearch'] = 'Display search box in header';
 
@@ -1037,6 +1067,9 @@ $string['enablezoomdesc'] = 'Allow users to toggle between fullscreen and fixed 
 
 $string['enableshowhideblocks'] = 'Enable Show Hide Blocks';
 $string['enableshowhideblocksdesc'] = 'Allows users to show / hide all blocks.';
+
+$string['enablenavbarwhenloggedout'] = 'Enable Navbar when logged out';
+$string['enablenavbarwhenloggedoutdesc'] = 'Shows the navbar even when logged out. Limited to Help and Tools menu only.';
 
 $string['fullscreenwidth'] = 'Full screen width.';
 $string['fullscreenwidthdesc'] = 'Set the max width of the theme when it is in full screen mode / zoom.';
@@ -1239,9 +1272,6 @@ $string['blocksidedesc'] = 'Control whether blocks appear on the left or right o
 $string['rightblocks'] = 'Right side';
 $string['leftblocks'] = 'Left side';
 
-$string['blockicons'] = 'Block Icons';
-$string['blockiconsdesc'] = 'Set this to show block icons in the block header area.';
-
 $string['emoticonsize'] = 'Emoticons size';
 $string['emoticonsizedesc'] = 'Set the height and width of the moodle emoticons.';
 
@@ -1293,7 +1323,7 @@ $string['activebreadcrumb'] = 'Active breadcrumb background colour';
 $string['activebreadcrumbdesc'] = 'Set the background colour of the active breadcrumb colour, and remainder of the breadcrumb bar.';
 
 $string['breadcrumbseparator'] = 'Breadcrumb separator';
-$string['breadcrumbseparatordesc'] = 'Set the <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome Icon</a> to be used as item separator in the breadcrumb. enter the icon name without the fa- prefix.';
+$string['breadcrumbseparatordesc'] = 'Set the <a href="https://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome Icon</a> to be used as item separator in the breadcrumb. enter the icon name without the fa- prefix.';
 
 $string['breadcrumbhome'] = 'Breadcrumb home';
 $string['breadcrumbhomedesc'] = 'Display home breadcrumb as an icon or as a text.';
@@ -1305,7 +1335,6 @@ $string['menufontsize'] = 'Font size for navigation bar';
 $string['menufontsizedesc'] = 'Set the size of the font used in the main navigation bar.';
 
 $string['enablemysitesdesc'] = 'Display a dropdown with a users courses';
-$string['enablethiscoursedesc'] = 'Display a dropdown with activities from the current course';
 
 $string['mysitesexclude'] = 'Enable excluding hidden courses';
 $string['mysitesinclude'] = 'Enable including hidden courses';
@@ -1486,7 +1515,10 @@ $string['analyticscountdesc'] = 'The number of analytics fields to show in the e
 $string ['analyticsprofilefield'] = 'Custom Profile Field Name=Value (optional)';
 $string ['analyticsprofilefielddesc'] = 'Add access rule using for custom profile field eg: usertype=student';
 
-// Matomo (formely Piwik).
+$string ['anonymizega'] = 'Anonymize the user IP';
+$string ['anonymizegadesc'] = 'Anonymize the user IP send to Google Analytics';
+
+// Matomo (formerly Piwik).
 $string['piwiksettings'] = 'Matomo (formely Piwik) Analytics';
 $string['piwiksettingsheading'] = 'Setup Matomo';
 $string['piwiksettingsdesc'] = 'Generate clean URL for in advanced tracking.';
@@ -1612,3 +1644,6 @@ $string['putpropertieschanged'] = 'Changed:';
 $string['putpropertiesunchanged'] = 'Unchanged:';
 $string['putpropertiesadded'] = 'Added:';
 $string['putpropertiesignored'] = 'Ignored:';
+
+// Privacy.
+$string['privacy:metadata'] = 'Adaptable do not store any individual user data.';

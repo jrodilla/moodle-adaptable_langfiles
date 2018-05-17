@@ -132,6 +132,7 @@ $string['analyticssettings'] = 'Analítica Web';
 $string['settingscolors'] = 'Colores';
 $string['settingsborders'] = 'Bordes';
 $string['settingstopicsweeks'] = 'Temas / Semanas';
+$string['settingsblockicons'] = 'Iconos';
 
 // Admin Menu Strings.
 $string['blocksettings'] = 'Bloques';
@@ -426,6 +427,12 @@ $string['navbarsettings'] = 'Barra de navegación';
 $string['navbarsettingsheading'] = 'Personalizar la barra de navegación';
 $string['navbardesc'] = 'Controlar los diferentes elementos a mostrar en la barra de navegación.';
 
+$string['navbardisplayicons'] = 'Mostrar iconos';
+$string['navbardisplayiconsdesc'] = 'Mostrar los iconos en los menus.';
+
+$string['navbardisplaysubmenuarrow'] = 'Mostrar flecha de despliegue sub-menu';
+$string['navbardisplaysubmenuarrowdesc'] = 'Mostrar la flecha (hacia abajo) de despliegue de sub-menu cuando los menus tengan sub-menus.';
+
 $string['home'] = 'Inicio';
 
 if ($CFG->version > 2015051100) {
@@ -482,6 +489,16 @@ $string['enablemyhomedesc'] = 'Mostrar un enlace a {$a}';
 $string['enableeventsdesc'] = 'Mostrar un enlace al calendario';
 
 $string['enablethiscoursedesc'] = 'Mostrar las actividades del curso actual';
+
+// Navbar styling *********************************************************.
+$string['headernavbarstylingheading'] = 'Estilos Navbar';
+$string['headernavbarstylingheadingdesc'] = 'Estilos para modificar los menus situados en la Navbar.';
+$string['navbardropdownborderradius'] = 'Radio del borde del menú desplegable';
+$string['navbardropdownborderradiusdesc'] = 'Modifica el radio del borde de los menus desplegables (esquinas redondeadas)';
+$string['navbardropdownhovercolor'] = 'Color hover del menú desplegable';
+$string['navbardropdownhovercolordesc'] = 'Color del menú desplegable cuando pasa el cursor por encima.';
+$string['navbardropdowntransitiontime'] = 'Tiempo de trandición';
+$string['navbardropdowntransitiontimedesc'] = 'Tiempo del evento de transición en segundos.  Muestra un efecto de fundido cuando el cursor pasa sobre el menú que contiene sub-menús.';
 
 // My courses menu *********************************************************.
 $string['enablemysitesdesc'] = 'Mostrar los cursos del usuario';
@@ -582,12 +599,6 @@ $string['blockheaderbackgroundcolordesc'] = 'Establece el color de fondo de los 
 
 $string['blockbordercolor'] = 'Color del borde de los bloques';
 $string['blockbordercolordesc'] = 'Establece el color del borde de los bloques.';
-
-$string['blocklinkcolor'] = 'Color de enlace de los bloques';
-$string['blocklinkcolordesc'] = 'Establece el color de los enlaces de los bloques.';
-
-$string['blocklinkhovercolor'] = 'Color de los enlaces de los bloques';
-$string['blocklinkhovercolordesc'] = 'Establece el color hover de los enlaces de los bloques.';
 
 $string['blockregionbackground'] = 'Color de fondo de las regiones para bloques';
 $string['blockregionbackgrounddesc'] = 'Establece el color de fondo del contenedor del constructor de bloques de la página principal.';
@@ -867,6 +878,15 @@ $string['fontblockheaderweightdesc'] = 'Establece grueso de la fuente de la cabe
 $string['fontblockheadersize'] = 'Tamaño de la fuente de la cabecera de la cabecera de los bloques de moodle';
 $string['fontblockheadersizedesc'] = 'Establece el tamaño de la fuente utilizada en la cabecera de los bloques de moodle. Seleccionar un valor de la lista.';
 
+
+// Icons ***********************************************************.
+$string['blockicons'] = 'Iconos de bloques';
+$string['blockiconsdesc'] = 'Establece si se muestran los iconos en la cabecera de los bloques.';
+
+$string['blockiconsheadersize'] = 'Tamaño iconos de bloques';
+$string['blockiconsheadersizedesc'] = 'Establece el tamaño del icono mostrado en la cabecera de los bloques. Seleccionar un valor de la lista.';
+
+
 // Buttons *********************************************************.
 $string['buttonsettings'] = 'Botones';
 $string['buttonsettingsheading'] = 'Personalizar los botones.';
@@ -882,15 +902,23 @@ $string['buttonhovercolor'] = 'Color Hover de los botones';
 $string['buttonhovercolordesc'] = 'Color del botón al pasar el cursor por encima.';
 
 $string['buttontextcolor'] = 'Color del texto de los botones';
-$string['buttontextcolordesc'] = 'Color del texto de los botones.';
+$string['buttontextcolordesc'] = 'Establece el color del texto de los botones.';
 
 $string['editfont'] = 'Color del texto de los botones de <i>Edición</i> y <i>Personalizar esta página</i>';
-$string['editfontdesc'] = 'establece el color del texto de los botones de <i>Edición</i> y <i>Personalizar esta página</i>';
+$string['editfontdesc'] = 'Establece el color del texto de los botones de <i>Edición</i> y <i>Personalizar esta página</i>';
 
 $string['editverticalpadding'] = 'Espaciado vertical de los botones de edición';
 $string['edithorizontalpadding'] = 'Espaciado horizontal de los botones de edición';
 $string['edittopmargin'] = 'Margen superior de los botones de edición';
 
+$string['buttoncancelbackgroundcolor'] = 'Color de fondo para el botón Cancelar';
+$string['buttoncancelbackgroundcolordesc'] = 'Establece el color de fondo para el botón Cancelar.  Introduce <i>transparent</i> para mostrar el fondo transparente.';
+
+$string['buttoncancelcolor'] = 'Color del texto del botón Cancelar';
+$string['buttoncancelcolordesc'] = 'Establece el color de texto para el botón Cancelar.';
+
+$string['buttondropshadow'] = 'Sombra de la parte superior del botón';
+$string['buttondropshadowdesc'] = 'Muestra una ligera sombra (sombreado) en la parte superior del botón.';
 
 // Boton Login.
 $string['logintextbutton'] = 'Entrar';
@@ -966,6 +994,8 @@ $string['socialorsearch'] = 'Mostrar cuadro de búsqueda o iconos sociales';
 $string['socialorsearchdesc'] = 'Puedes mostrar los iconos sociales o el cuadro de búsqueda en la cabecera. <br />
     <strong>Puedes configurar los iconos sociales en la sección "Redes sociales"</strong>.';
 
+$string['socialorsearchnone'] = 'Ninguno';
+
 $string['socialorsearchsocial'] = 'Mostrar iconos de redes sociales';
 $string['socialorsearchsearch'] = 'Mostrar cuadro de búsqueda';
 
@@ -1037,6 +1067,9 @@ $string['enablezoomdesc'] = 'Permite a los usuarios cambiar entre pantalla compl
 
 $string['enableshowhideblocks'] = 'Activar Mostrar/Ocultar bloques';
 $string['enableshowhideblocksdesc'] = 'Permite a los usuarios mostrar / ocultar los bloques laterales.';
+
+$string['enablenavbarwhenloggedout'] = 'Enable Navbar when logged out';
+$string['enablenavbarwhenloggedoutdesc'] = 'Shows the navbar even when logged out. Limited to Help and Tools menu only.';
 
 $string['fullscreenwidth'] = 'Ancho de pantalla completa';
 $string['fullscreenwidthdesc'] = 'Establece el ancho máximo de la pantalla en modo pantalla completa / zoom.';
@@ -1239,9 +1272,6 @@ $string['blocksidedesc'] = 'Mostrar los bloques en la columna derecha o izquierd
 $string['rightblocks'] = 'Columna derecha';
 $string['leftblocks'] = 'Columna izquierda';
 
-$string['blockicons'] = 'Mostrar iconos en los bloques';
-$string['blockiconsdesc'] = 'Mostrar / Ocultar un icono relacionado con el tipo de bloque al lado del encabezamiento.';
-
 $string['emoticonsize'] = 'Tamaño emoticonos';
 $string['emoticonsizedesc'] = 'Establece el tamaño (ancho y alto) de los emoticonos.';
 
@@ -1305,7 +1335,6 @@ $string['menufontsize'] = 'Tamaño de fuente de la barra de navegación';
 $string['menufontsizedesc'] = 'Establece el tamaño de fuente de la barra de navegación.';
 
 $string['enablemysitesdesc'] = 'Mostrar las actividades del curso';
-$string['enablethiscoursedesc'] = 'Mostrar un desplegable con las actividades del curso.';
 
 $string['mysitesexclude'] = 'Mostrar excluyendo los cursos ocultos';
 $string['mysitesinclude'] = 'Mostrar incluyendo los cursos ocultos';
@@ -1486,6 +1515,9 @@ $string['analyticscountdesc'] = 'Número de campos personalizados a introducir e
 $string ['analyticsprofilefield'] = 'Nombre del campo personalizado del perfíl Field Name=Value (opcional)';
 $string ['analyticsprofilefielddesc'] = 'Añade una regla de acceso usando un campo de perfil personalizado. Ejemplo: usertype=alumno';
 
+$string ['anonymizega'] = 'Anonimiza la IP del usuario';
+$string ['anonymizegadesc'] = 'Anonimiza la IP del usuario enviada a Google Analytics';
+
 // Matomo (anteriormente Piwik).
 $string['piwiksettings'] = 'Matomo';
 $string['piwiksettingsheading'] = 'Configurar Matomo (anteriormente Piwik)';
@@ -1612,3 +1644,6 @@ $string['putpropertieschanged'] = 'Modificados:';
 $string['putpropertiesunchanged'] = 'No modificados:';
 $string['putpropertiesadded'] = 'Añadidos:';
 $string['putpropertiesignored'] = 'Ignorados:';
+
+// Privacy.
+$string['privacy:metadata'] = 'Adaptable no almacena información personal de los usuarios.';
