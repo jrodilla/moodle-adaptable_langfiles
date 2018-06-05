@@ -132,6 +132,7 @@ $string['analyticssettings'] = 'Analítica Web';
 $string['settingscolors'] = 'Colors';
 $string['settingsborders'] = 'Bores';
 $string['settingstopicsweeks'] = 'Temes / Setmanes';
+$string['settingsblockicons'] = 'Icones';
 
 // Admin Menu Strings.
 $string['blocksettings'] = 'Blocs';
@@ -426,6 +427,12 @@ $string['navbarsettings'] = 'Barra de navegació';
 $string['navbarsettingsheading'] = 'Personalitzar la barra de navegació';
 $string['navbardesc'] = 'Controlar els diferents elements a mostrar a la barra de navegació.';
 
+$string['navbardisplayicons'] = 'Mostrar icones';
+$string['navbardisplayiconsdesc'] = 'Mostrar les icones als menús.';
+
+$string['navbardisplaysubmenuarrow'] = 'Mostrar fletxes de desplegament sub-menú';
+$string['navbardisplaysubmenuarrowdesc'] = 'Mostrar la fletxa (ca a avall) de desplegament de sub-menú quan els menús tinguin sub-menús.';
+
 $string['home'] = 'Inicio';
 
 if ($CFG->version > 2015051100) {
@@ -480,8 +487,26 @@ $string['noenrolments'] = 'No hi ha matriculacions.';
 
 $string['enablemyhomedesc'] = 'Mostrar un enllaç a {$a}';
 $string['enableeventsdesc'] = 'Mostrar un enllaç al calendari';
-$string['enablemysitesdesc'] = 'Mostrar els cursos de l&#39;usuari';
+
 $string['enablethiscoursedesc'] = 'Mostrar les activitats del curs actual';
+
+// Navbar styling *********************************************************.
+$string['headernavbarstylingheading'] = 'Estils Navbar';
+$string['headernavbarstylingheadingdesc'] = 'Estils per a modificar els menús situats a la Navbar.';
+$string['navbardropdownborderradius'] = 'Radi de la bora del menú desplegable';
+$string['navbardropdownborderradiusdesc'] = 'Modifica el radi de la borda dels menús desplegables (cantonades rodones)';
+$string['navbardropdownhovercolor'] = 'Color hover del menú desplegable';
+$string['navbardropdownhovercolordesc'] = 'Color del menú desplegable quan passa el cursor per sobre.';
+$string['navbardropdowntransitiontime'] = 'Temps de transició';
+$string['navbardropdowntransitiontimedesc'] = 'Temps de l&#39;esdeveniment de transició en segons.  Mostra un efecte de fusió quan el cursor passa sobre el menú que conté sub-menús.';
+
+// My courses menu *********************************************************.
+$string['enablemysitesdesc'] = 'Mostrar els cursos de l&#39;usuari';
+$string['headernavbarmycoursesheading'] = 'Menú Els meus Cursos';
+$string['headernavbarmycoursesheadingdesc'] = 'Totes les opcions del menú Els meus Cursos (Els meus Llocs) que mostren la llista dels cursos de l&#39;usuari';
+
+$string['enablemysitesrestriction'] = 'Restringir l&#39;accés a "Els meus Cursos"';
+$string['enablemysitesrestrictiondesc'] = 'Restringir l&#39;accés al menú "Els meus Cursos" utilitzant un camp de perfil personalitzat. Exemple: usertype=alumne';
 
 $string['mysitessortoverride'] = 'Activar l&#39;ordre personalitzat de "Els Meus Cursos"';
 $string['mysitessortoverridedesc'] = 'Utilitza camps personalitzats o textos (any, edat, ...) per colapsar els cursos en un desplegable.';
@@ -498,6 +523,13 @@ $string['mysitesmaxlengthdesc'] = 'Ajusta la longitud màxima del títol del cur
 
 $string['mycoursesmenulimit'] = 'Límit menú Els meus Cursos';
 $string['mycoursesmenulimitdesc'] = 'Estableix el nombre màxim de cursos que apareixen al menú Els Meus Cursos. 0 mostrarà tots els cursos.';
+
+$string['mysitesmenudisplay'] = 'Mode visualització menú Els meus Cursos';
+$string['mysitesmenudisplaydesc'] = 'Tria quin text s&#39;ha de mostrar als ítems del menú al passar el cursor per sobre.';
+$string['mysitesmenudisplayshortcodenohover'] = 'Mostrar el codi curt del curso i sense text al passar el cursor';
+$string['mysitesmenudisplayshortcodefullnameonhover'] = 'Mostrar el codi curt i el títol del curs al passar el cursor';
+$string['mysitesmenudisplayfullnamenohover'] = 'Mostrar el títol del curs sense text al passar el cursor';
+$string['mysitesmenudisplayfullnamefullnameonhover'] = 'Mostrar el títol llarg del curs al menú i al passar el cursor';
 
 $string['usernavheading'] = 'Personalitzar el menú d&#39;usuari';
 $string['usernavdesc'] = 'Permet personalitzar els elements que apareixen al menú d&#39;usuari.';
@@ -568,12 +600,6 @@ $string['blockheaderbackgroundcolordesc'] = 'Estableix el color de fons dels enc
 $string['blockbordercolor'] = 'Color de la bora dels blocs';
 $string['blockbordercolordesc'] = 'Estableix el color de la bora dels blocs.';
 
-$string['blocklinkcolor'] = 'Color d&#39;enllaç dels blocs';
-$string['blocklinkcolordesc'] = 'Estableix el color dels enllaços dels blocs.';
-
-$string['blocklinkhovercolor'] = 'Color dels enllaços dels blocs';
-$string['blocklinkhovercolordesc'] = 'Estableix el color hover dels enllaços dels blocs.';
-
 $string['blockregionbackground'] = 'Color de fons de les regions per a blocs';
 $string['blockregionbackgrounddesc'] = 'Estableix el color de fons del contenidor del constructor de blocs de la pàgina principal.';
 
@@ -601,11 +627,11 @@ $string['blockmainborderrightdesc'] = 'Estableix el gruix de la bora dreta del b
 $string['blockmainborderbottom'] = 'Gruix de la bora inferior del bloc central';
 $string['blockmainborderbottomdesc'] = 'Estableix el gruix de la bora inferior del bloc central.';
 
-$string['blockheaderbordertopstile'] = 'Estil de la bora dels blocs';
-$string['blockheaderbordertopstiledesc'] = 'Estableix l&#39;estil de la bora dels blocs laterals.';
+$string['blockheaderbordertopstyle'] = 'Estil de la bora dels blocs';
+$string['blockheaderbordertopstyledesc'] = 'Estableix l&#39;estil de la bora dels blocs laterals.';
 
-$string['blockmainbordertopstile'] = 'Estil de la bora del bloc central';
-$string['blockmainbordertopstiledesc'] = 'Estableix l&#39;estil de la bora dels blocs centrals.';
+$string['blockmainbordertopstyle'] = 'Estil de la bora del bloc central';
+$string['blockmainbordertopstyledesc'] = 'Estableix l&#39;estil de la bora dels blocs centrals.';
 
 $string['blockheadertopradius'] = 'Radi de les cantonades superiors dels blocs laterals';
 $string['blockheadertopradiusdesc'] = 'Radi de les cantonades superiors dels blocs laterals. Valor més alt és igual a efecte arrodonit.';
@@ -738,8 +764,16 @@ $string['coursesectionactivityuseadaptableiconsdesc'] = 'Utilitta el joc d&#39ic
 
 $string['coursesectionactivityiconsize'] = 'Mida de les icones d&#39;activitats de les seccions del curs';
 $string['coursesectionactivityiconsizedesc'] = 'Estableix la mida de les icones d&#39;activitats / recursos (exemple: 16px estableix una mida de 16px x 16px).';
+
+// These four settings actually refer to bottom border (it was originally all around border, but naming kept as it was originally).
 $string['coursesectionactivityborderwidth'] = 'Gruix de la bora de les seccions dels cursos';
 $string['coursesectionactivityborderwidthdesc'] = 'Estableix el gruix de la bora de les seccions d&#39;activitats del curs.';
+$string['coursesectionactivityborderstyle'] = 'Estil de la bora del botó de la secció d&#39;activitat del curs.';
+$string['coursesectionactivityborderstyledesc'] = 'Tria l&#39;estil del botó de la secció d&#39;activitat del curs.';
+$string['coursesectionactivitybordercolor'] = 'Color de la bora del botó de la secció d&#39;activitat del curs ';
+$string['coursesectionactivitybordercolordesc'] = 'Tria el color de la bora del botó de la secció d&#39;activitat del curs.';
+$string['coursesectionactivityleftborderwidth'] = 'Amplada de la bora esquerra de la secció d&#39;activitat';
+$string['coursesectionactivityleftborderwidthdesc'] = 'Tria l&#39;amplada de la bora esquerra de la secció d&#39;activitat.';
 
 $string['coursesectionactivitycolors'] = 'Opcions de les seccions del curs';
 
@@ -844,6 +878,15 @@ $string['fontblockheaderweightdesc'] = 'Estableix el gruix de la font de la cap�
 $string['fontblockheadersize'] = 'Mida de la font de la capçalera dels blocs de moodle';
 $string['fontblockheadersizedesc'] = 'Estableix la mida de la font utilitzada a la capçalera dels blocs de moodle. Seleccionar un valor de la llista.';
 
+
+// Icons ***********************************************************.
+$string['blockicons'] = 'Icones de blocs';
+$string['blockiconsdesc'] = 'Estableix si es mostren les icones a la capçalera dels blocs.';
+
+$string['blockiconsheadersize'] = 'Mida de les icones dels blocs';
+$string['blockiconsheadersizedesc'] = 'Estableix la mida de la icona mostrada a la capçalera dels blocs. Seleccionar un valor de la llista.';
+
+
 // Buttons *********************************************************.
 $string['buttonsettings'] = 'Botons';
 $string['buttonsettingsheading'] = 'Personalitzar els botons.';
@@ -868,6 +911,14 @@ $string['editverticalpadding'] = 'Espaiat vertical dels botons d&#39;edició';
 $string['edithorizontalpadding'] = 'Espaiat horitzontal dels botons d&#39;edició';
 $string['edittopmargin'] = 'Marge superior dels botons d&#39;edició';
 
+$string['buttoncancelbackgroundcolor'] = 'Color de fons per a el botó Cancel·lar';
+$string['buttoncancelbackgroundcolordesc'] = 'Estableix el color de fons per a el botó Cancel·lar.  Introdueix <i>transparent</i> per a mostrar el fons transparent.';
+
+$string['buttoncancelcolor'] = 'Color del text del botó Cancel·lar';
+$string['buttoncancelcolordesc'] = 'Estableix el color de text per a el botó Cancel·lar.';
+
+$string['buttondropshadow'] = 'Ombra de la part superior del botó';
+$string['buttondropshadowdesc'] = 'Mostra una lleugera ombra (ombrejat) a la part superior del botó.';
 
 // Boton Login.
 $string['logintextbutton'] = 'Entrar';
@@ -943,6 +994,8 @@ $string['socialorsearch'] = 'Mostrar quadre de cerca o icones socials';
 $string['socialorsearchdesc'] = 'Pots mostrar les icones socials o el quadre de cerca a la capçalera. <br />
     <strong>Pots configurar les icones socials a la secció "Xarxes socials"</strong>.';
 
+$string['socialorsearchnone'] = 'Cap';
+
 $string['socialorsearchsocial'] = 'Mostrar icones de xarxes socials';
 $string['socialorsearchsearch'] = 'Mostrar quadre de cerca';
 
@@ -950,7 +1003,7 @@ $string['searchboxpadding'] = 'Separació al voltant del quadre de cerca';
 $string['searchboxpaddingdesc'] = 'Estableix la separació de la part superior del quadre de cerca (si es mostra en lloc de les icones socials) <br />Exemple: 5px 10px 5px 10px (superior, dreta, inferior, esquerra).<br> Pots establir les icones socials a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Xarxes Socials</a></strong>.';
 
 $string['searchboxpaddingtop'] = 'Separació superior del quadre de cerca';
-$string['searchboxpaddingtopdesc'] = 'Permet ajustar la separació, en píxels, del quadre de cerca (si es mostra en lloc de les icones socials).<br />'.
+$string['searchboxpaddingtopdesc'] = 'Permet ajustar la separació, en píxels, del quadre de cerca (si es mostra en lloc de les icones socials).<br />'
           'E.g. 5px 10px 5px 10px (top, right, bottom, left).<br>'.
         'Les icones socials es poden establerr a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Capçalera Social</a></strong>.';
 
@@ -1015,9 +1068,14 @@ $string['enablezoomdesc'] = 'Permet als usuaris canviar entre pantalla complerta
 $string['enableshowhideblocks'] = 'Activar Mostrar/Ocultar blocs';
 $string['enableshowhideblocksdesc'] = 'Permet als usuaris mostrar / ocultar els blocs laterals.';
 
+$string['enablenavbarwhenloggedout'] = 'Activar barra de navegació quan surtis';
+$string['enablenavbarwhenloggedoutdesc'] = 'Mostra esdeveniments de la barra de navegació quan surtis. Limitat a Ajuda i Eines.';
+
 $string['fullscreenwidth'] = 'Amplada de pantalla completa';
 $string['fullscreenwidthdesc'] = 'Estableix l&#39;amplada màxima de la pantalla a mode pantalla complerta / zoom.';
 
+$string['headernavbarhelpheading'] = 'Enllaços d&#39;Ajuda i Opcions';
+$string['headernavbarhelpheadingdesc'] = 'Opcions per als ítems dels menús d&#39;ajuda.';
 
 // Help Links ******************************************************.
 $string['enablehelp'] = 'Enllaç d&#39;ajuda';
@@ -1214,9 +1272,6 @@ $string['blocksidedesc'] = 'Mostrar els blocs a la columna dreta o esquerra.';
 $string['rightblocks'] = 'Columna dreta';
 $string['leftblocks'] = 'Columna esquerra';
 
-$string['blockicons'] = 'Mostrar icones als blocs';
-$string['blockiconsdesc'] = 'Mostrar / Ocultar una icona relacionada amb el tipus de bloc al costat de la capçalera.';
-
 $string['emoticonsize'] = 'Mida emoticones';
 $string['emoticonsizedesc'] = 'Estableix la mida (amplada i alçada) de les emoticones.';
 
@@ -1280,11 +1335,10 @@ $string['menufontsize'] = 'Mida de font de la barra de navegació';
 $string['menufontsizedesc'] = 'Estableix la mida de font de la barra de navegació.';
 
 $string['enablemisitesdesc'] = 'Mostrar les activitats del curs';
-$string['enablethiscoursedesc'] = 'Mostrar un desplegable amb les activitats del curs.';
 
-$string['misitesexclude'] = 'Mostrar excloent els cursos ocults';
-$string['misitesinclude'] = 'Mostrar incloent els cursos ocults';
-$string['misitesdisabled'] = 'Desactivat';
+$string['mysitesexclude'] = 'Mostrar excloent els cursos ocults';
+$string['mysitesinclude'] = 'Mostrar incloent els cursos ocults';
+$string['mysitesdisabled'] = 'Desactivat';
 
 $string['frnt-footer'] = 'Els blocs d&#39;aquesta àrea només seran visibles per als administradors.';
 
@@ -1408,7 +1462,7 @@ $string['toolsmenufielddesc'] = 'Afegeix una regla d&#39;accés utilitzant un ca
 // Social settings *************************************************.
 $string['socialsettings'] = 'Xarxes Socials';
 $string['socialheading'] = 'Configuració de les icones de xarxes socials';
-$string['socialtitledesc'] = '<pre>Pots desactivar la cerca i activar les icones de xarxes socials en el seu lloc.
+$string['socialtitledesc'] = 'Pots desactivar la cerca i activar les icones de xarxes socials en el seu lloc.
 Per a configurar les icones, introdueix una llista delimitada al camp "Llista d&#39;icones socials".
 El format ha de ser:
 
@@ -1422,7 +1476,7 @@ https://twitter.com/|Twitter|fa-twitter-square
 https://instagram.com|Instagram|fa-instagram
 http://example.com|Mi Web|fa-globe
 </pre>
-La llista d&#39;icones pots trobar-la a: <a href="http://fortawesome.github.io/Font-Awesome/icons">http://fortawesome.github.io/Font-Awesome/icons</a>Font-Awesome</pre>';
+La llista d&#39;icones pots trobar-la a: <a href="http://fortawesome.github.io/Font-Awesome/icons">Font-Awesome</a>';
 
 $string['socialsize'] = 'Configurar mida de les icones socials';
 $string['socialsizemobile'] = 'Configurar mida de les icones socials en mòbils';
@@ -1461,13 +1515,16 @@ $string['analyticscountdesc'] = 'Nombre de camps personalitzats a introduir a l&
 $string ['analyticsprofilefield'] = 'Nom del camp personalitzat del perfíl Field Name=Value (opcional)';
 $string ['analyticsprofilefielddesc'] = 'Afegeix una regla d&#39;accés utilitzant un camp de perfil personalitzat. Exemple: usertipe=alumne';
 
-// Piwik.
-$string['piwiksettings'] = 'Piwik';
-$string['piwiksettingsheading'] = 'Configurar Piwik';
+$string ['anonymizega'] = 'Anonimiza la IP del usuario';
+$string ['anonymizegadesc'] = 'Anonimiza la IP del usuario enviada a Google Analytics';
+
+// Matomo (anteriormente Piwik)
+$string['piwiksettings'] = 'Matomo';
+$string['piwiksettingsheading'] = 'Configurar Matomo (anteriorment Piwik)';
 $string['piwiksettingsdesc'] = 'Generar una URL neta per al rastreig avançat.';
 
-$string['piwikenabled'] = 'Activar Piwik';
-$string['piwikenableddesc'] = 'Activar el rastreig de Piwik per a Moodle.';
+$string['piwikenabled'] = 'Activar Matomo';
+$string['piwikenableddesc'] = 'Activar el rastreig de Matomo per a Moodle.';
 
 $string['piwiksiteid'] = 'ID del lloc';
 $string['piwiksiteiddesc'] = 'Introduir la ID del lloc.';
@@ -1475,8 +1532,8 @@ $string['piwiksiteiddesc'] = 'Introduir la ID del lloc.';
 $string['piwikimagetrack'] = 'Rastreig d&#39;imatge';
 $string['piwikimagetrackdesc'] = 'Activar el rastreig per imatge per a navegadors amb JavaScript desactivat.';
 
-$string['piwiksiteurl'] = 'URL de Piwik';
-$string['piwiksiteurldesc'] = 'Introduir l&#39;adreça del lloc Piwik sense http (o https) ni la barra invertida.';
+$string['piwiksiteurl'] = 'URL de Matomo';
+$string['piwiksiteurldesc'] = 'Introduir l&#39;adreça del lloc Matomo sense http (o https) ni la barra invertida.';
 
 $string['piwiktrackadmin'] = 'Rastreig d&#39;administradors';
 $string['piwiktrackadmindesc'] = 'Activar el rastreig d&#39;administradors (no recomanat)';
@@ -1520,3 +1577,73 @@ $string['forumheaderbackgroundcolor'] = 'Color de fons de la capçalera de l&#39
 $string['forumheaderbackgroundcolordesc'] = 'Color de fons de la capçalera d&#39;una entrada.';
 $string['forumbodybackgroundcolor'] = 'Color de fons del contingut de l&#39;entrada';
 $string['forumbodybackgroundcolordesc'] = 'Color de fons del contingut d&#39;una entrada.';
+
+// Course page further information *********************.
+// Activity display *********************************.
+$string['answered'] = 'Contestada';
+$string['attempted'] = 'Intentada';
+$string['contributed'] = 'Aportada';
+$string['draft'] = 'Sense publicar per als alumnes';
+$string['due'] = 'Fet {$a}';
+$string['feedbackavailable'] = 'Retroacció disponible';
+$string['notanswered'] = 'No contestada';
+$string['notattempted'] = 'No intentada';
+$string['notcontributed'] = 'No aportada';
+$string['notsubmitted'] = 'No presentada';
+$string['overdue'] = 'Endarrerida';
+$string['reopened'] = 'Reoberta';
+$string['submitted'] = 'Presentada';
+
+$string['xofyanswered'] = '{$a->completed} de {$a->participants} contestades';
+$string['xofyattempted'] = '{$a->completed} de {$a->participants} intentades';
+$string['xofycontributed'] = '{$a->completed} de {$a->participants} aportades';
+$string['xofysubmitted'] = '{$a->completed} de {$a->participants} presentades';
+$string['xungraded'] = '{$a} sense classificar';
+
+$string['coursesectionactivityfurtherinformation'] = 'Més informació de la pàgina del curs';
+$string['coursesectionactivityfurtherinformationassign'] = 'Mostrar informació de les Tasques';
+$string['coursesectionactivityfurtherinformationassigndesc'] = 'Mostra l&#39;estat de les Tasques, com enviada, contestada, etc.  Per als professors i administradors mostra a més a més el número de tasques presentades.';
+$string['coursesectionactivityfurtherinformationquiz'] = 'Mostra informació dels Qüestionaris';
+$string['coursesectionactivityfurtherinformationquizdesc'] = 'Mostra informació de l&#39;estat dels qüestionaris com a enviats, contestats, etc. Per a professors i administradors mostra a més a més el número de qüestionaris enviats.';
+$string['coursesectionactivityfurtherinformationchoice'] = 'Mostra informació de les Consultes';
+$string['coursesectionactivityfurtherinformationchoicedesc'] = 'Mostra informació de l&#39;estat de les consultes com a enviada, contestada, etc. Per a professors i administradors mostra a més a més el número de consultes enviades.';
+$string['coursesectionactivityfurtherinformationfeedback'] = 'Mostra informació de les Retroaccions';
+$string['coursesectionactivityfurtherinformationfeedbackdesc'] = 'Mostra informació de l&#39;estat de les Retroaccions, com a enviades, etc. Per a professors i administradors mostra a més a més el número de Retroaccions enviades.';
+$string['coursesectionactivityfurtherinformationlesson'] = 'Mostra informació de les Lliçons';
+$string['coursesectionactivityfurtherinformationlessondesc'] = 'Mostra informació de l&#39;estat de les Lliçons, com a enviada, etc. Per a professors i administradors mostra a més a més el número de Lliçons enviades.';
+$string['coursesectionactivityfurtherinformationdata'] = 'Mostra informació de les Bases de Dades';
+$string['coursesectionactivityfurtherinformationdatadesc'] = 'Mostra informació de l&#39;estat de les Bases de Dades, com a enviada, etc. Per a professores i administradors mostra a més a més el número de Bases de Dades enviades.';
+
+// Activity display margins.
+$string['coursesectionactivitymargintop'] = 'Marge superior';
+$string['coursesectionactivitymargintopdesc'] = 'Marge superior entre activitats';
+$string['coursesectionactivitymarginbottom'] = 'Marge inferior';
+$string['coursesectionactivitymarginbottomdesc'] = 'Marge inferior entre activitats.';
+
+// Properties.
+$string['properties'] = 'Importar / Exportar Configuració';
+$string['propertiessub'] = 'Configuració actual del tema';
+$string['propertiesdesc'] = 'En aquesta secció pots importar / exportar la configuració d&#39;Adaptable (propietats) en formato JSON. També pots veure la configuració actual.';
+$string['propertiesproperty'] = 'Propietats';
+$string['propertiesvalue'] = 'Valor';
+$string['propertiesexport'] = 'Exportar les propietats en una cadena JSON';
+$string['propertiesreturn'] = 'Tornar';
+$string['putpropertiesheading'] = 'Importar configuració';
+$string['putpropertiesname'] = 'Importar propietats';
+$string['putpropertiesdesc'] = 'Enganxar la cadena JSON i clicar \'Desar canvis \'.  Atenció!  No es validen els valors i realitza un \'Purgar totes les caches\'.';
+$string['putpropertyreport'] = 'Informe:';
+$string['putpropertyversion'] = 'versió:';
+$string['putpropertyproperties'] = 'Propietats';
+$string['putpropertyour'] = 'Nostre';
+$string['putpropertiesignorecti'] = 'Ignorant la configuració de les imatges de títol del curso.';
+$string['putpropertiesreportfiles'] = 'Recorda pujar els següents arxius a la seva configuració:';
+$string['putpropertiessettingsreport'] = 'Informe de configuració:';
+$string['putpropertiesvalue'] = '->';
+$string['putpropertiesfrom'] = 'des de';
+$string['putpropertieschanged'] = 'Modificats:';
+$string['putpropertiesunchanged'] = 'No modificats:';
+$string['putpropertiesadded'] = 'Afegits:';
+$string['putpropertiesignored'] = 'Ignorats:';
+
+// Privacy.
+$string['privacy:metadata'] = 'Adaptable no emmagatzema informació personal dels usuaris.';
