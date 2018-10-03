@@ -1003,9 +1003,9 @@ $string['searchboxpadding'] = 'Separació al voltant del quadre de cerca';
 $string['searchboxpaddingdesc'] = 'Estableix la separació de la part superior del quadre de cerca (si es mostra en lloc de les icones socials) <br />Exemple: 5px 10px 5px 10px (superior, dreta, inferior, esquerra).<br> Pots establir les icones socials a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Xarxes Socials</a></strong>.';
 
 $string['searchboxpaddingtop'] = 'Separació superior del quadre de cerca';
-$string['searchboxpaddingtopdesc'] = 'Permet ajustar la separació, en píxels, del quadre de cerca (si es mostra en lloc de les icones socials).<br />'
-          'E.g. 5px 10px 5px 10px (top, right, bottom, left).<br>'.
-        'Les icones socials es poden establerr a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Capçalera Social</a></strong>.';
+$string['searchboxpaddingtopdesc'] = 'Permet ajustar la separació, en píxels, del quadre de cerca (si es mostra en lloc de les icones socials).<br />
+          E.g. 5px 10px 5px 10px (top, right, bottom, left).<br>.
+        Les icones socials es poden establerr a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Capçalera Social</a></strong>.';
 
 $string['usernav'] = 'Barra d&#39;usuari';
 
