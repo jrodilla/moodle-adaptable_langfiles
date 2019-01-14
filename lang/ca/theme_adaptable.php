@@ -61,12 +61,13 @@ Fernando Acedo (<a href="https://3-bits.com" target="_blank">3-bits.com</a>)</p>
 <h3>Demo</h3>
 <p>Pots veure una demostració del lloc i descarregar l&#39;arxiu d&#39;instal·lació a <a href="https://adaptable.ws/demo">https://adaptable.ws/demo</a></p>
 <br>
+<p>A <a href="https://adaptable.ws">https://adaptable.ws</a> també trobaràs consells, trucs, descàrregues i suport tècnic.</p>
+<br>
 <p>Traducció Català (ca-ES): Jordi Rodilla</p>
 
 
 </div>
 </div>';
-
 
 
 $string['pluginname'] = 'Adaptable';
@@ -107,6 +108,8 @@ $string['region-course-top-c'] = 'Regió Superior Pàgina Curs 3';
 $string['region-course-top-d'] = 'Regió Superior Pàgina Curs 4';
 
 $string['region-news-slider-a'] = 'Regió per a presentació de diapositives de cursos';
+
+$string['region-course-section-a'] = 'Regió inferior de la pàgina d&#39;activitat del curs';
 
 $string['region-course-bottom-a'] = 'Regió Inferior Pàgina Curs 5';
 $string['region-course-bottom-b'] = 'Regió Inferior Pàgina Curs 6';
@@ -325,6 +328,12 @@ $string['coursepagenewssliderblockregionheadingdesc'] = 'Una regió creada espec
 $string['coursepageblocksliderenabled'] = 'Activar la regió per al bloc de diapositives personalitzades a la pàgina de curs';
 $string['coursepageblocksliderenableddesc'] = 'Activar aquesta regió a totes les pàgines de cursos.';
 
+$string['coursepageactivitybottomblockregionheading'] = 'Regió inferior per a blocs d&#39;activitats del curs';
+$string['coursepageactivitybottomblockregionheadingdesc'] = 'Regió per a blocs que apareixen a la part inferior de la pàgina d&#39;activitats.';
+
+$string['coursepageblockactivitybottomenabled'] = 'Activar la regió inferior per a blocs de la pàgina del curs';
+$string['coursepageblockactivitybottomenableddesc'] = 'Activar la regió per a blocs situada a la part inferior de la pàgina del curs.';
+
 $string['coursepagesidebarinfooterenabled'] = 'Moure la barra lateral al peu';
 $string['coursepagesidebarinfooterenableddesc'] = 'Moure la barra lateral al peu de pàgina per a obtenir més amplada de pantalla per al curs.';
 
@@ -499,6 +508,16 @@ $string['navbardropdownhovercolor'] = 'Color hover del menú desplegable';
 $string['navbardropdownhovercolordesc'] = 'Color del menú desplegable quan passa el cursor per sobre.';
 $string['navbardropdowntransitiontime'] = 'Temps de transició';
 $string['navbardropdowntransitiontimedesc'] = 'Temps de l&#39;esdeveniment de transició en segons.  Mostra un efecte de fusió quan el cursor passa sobre el menú que conté sub-menús.';
+
+// This Course menu *********************************************************.
+$string['enablemysitesdesc'] = 'Mostra un desplegable amb les activitats del curs i altres opcions';
+$string['headernavbarthiscourseheading'] = 'Menú "Aquest curs"';
+$string['headernavbarthiscourseheadingdesc'] = 'En aquest menú, l&#39;alumne pot accedeix directament a totes les activitats del curs i a la llista de participants i les seves qualificacions.';
+
+$string['displayparticipants'] = 'Mostrar "Participants"';
+$string['displayparticipantsdesc'] = 'Mostra l&#39;ítem "Participants" al menú';
+$string['displaygrades'] = 'Mostrar "Qualificacions"';
+$string['displaygradesdesc'] = 'Mostra l&#39;ítem "Qualificcions" al menú';
 
 // My courses menu *********************************************************.
 $string['enablemysitesdesc'] = 'Mostrar els cursos de l&#39;usuari';
@@ -827,11 +846,17 @@ $string['fontdesc'] = 'Selecciona la font de <a href="https://www.google.com/fon
 $string['fontname'] = 'Font principal';
 $string['fontnamedesc'] = 'Estableix la font principal. Selecciona defecte o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
 
+$string['customfontname'] = 'Font principal personalitzada';
+$string['customfontnamedesc'] = 'Introdueix el nom de la font principal personalitzada només si has seleccionat &apos;Personalitzada&apos; al desplegable de la font principal.';
+
 $string['fontsize'] = 'Mida de la font principal';
 $string['fontsizedesc'] = 'Selecciona la mida per defecte de la font principal (en percentatge) utilitzada al lloc.';
 
 $string['fontheadername'] = 'Font encapçalaments';
 $string['fontheadernamedesc'] = 'Estableix la font dels encapçalaments utilitzats a la plantilla. Selecciona default o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+
+$string['customfontheadername'] = 'Font encapçalament personalitzada';
+$string['customfontheadernamedesc'] = 'Introdueix el nom de la font personalitzada dels encapçalaments només si has seleccionat &apos;Personalitzada&apos; al desplegable de la font d&#39;encapçalaments.';
 
 $string['fontcolor'] = 'Color de la font principal';
 $string['fontcolordesc'] = 'Estableix el color de la font principal.';
@@ -847,6 +872,9 @@ $string['fontheaderweightdesc'] = 'Estableix el Gruix de la font dels encapçala
 
 $string['fonttitlename'] = 'Font del títol del lloc';
 $string['fonttitlenamedesc'] = 'Estableix la font del títol del lloc situat en la capçalera. Selecciona default o una font de <a href="https://www.google.com/fonts" target="_blank">Google Fonts</a>.';
+
+$string['customfonttitlename'] = 'Font per a títols personalitzats';
+$string['customfonttitlenamedesc'] = 'Introdueix el nom de la font personalitzada dels títols només si has seleccionat &apos;Personalitzada&apos; al desplegable de la font de títols.';
 
 $string['fonttitlecolor'] = 'Color de la font del títol del lloc';
 $string['fonttitlecolordesc'] = 'Estableix el color de la font del títol del lloc situat en la capçalera.';
@@ -1003,8 +1031,9 @@ $string['searchboxpadding'] = 'Separació al voltant del quadre de cerca';
 $string['searchboxpaddingdesc'] = 'Estableix la separació de la part superior del quadre de cerca (si es mostra en lloc de les icones socials) <br />Exemple: 5px 10px 5px 10px (superior, dreta, inferior, esquerra).<br> Pots establir les icones socials a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Xarxes Socials</a></strong>.';
 
 $string['searchboxpaddingtop'] = 'Separació superior del quadre de cerca';
-$string['searchboxpaddingtopdesc'] = 'Permet ajustar la separació, en píxels, del quadre de cerca (si es mostra en lloc de les icones socials)<br />
-         E.g. 5px 10px 5px 10px (top, right, bottom, left)<br>Les icones socials es poden establir a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Capçalera Social</a></strong>';
+$string['searchboxpaddingtopdesc'] = 'Permet ajustar la separació, en píxels, del quadre de cerca (si es mostra en lloc de les icones socials)<br />'.
+         'E.g. 5px 10px 5px 10px (top, right, bottom, left)<br>'.
+		 'Les icones socials es poden establir a la secció <a href="./../admin/settings.php?section=theme_adaptable_social">Capçalera Social</a></strong>';
 
 $string['usernav'] = 'Barra d&#39;usuari';
 
@@ -1548,6 +1577,15 @@ $string['genericsettingsdescription'] = 'Introdueix el teu propi codi CSS i Java
 
 $string['jssection'] = 'Javascript personalitzat';
 $string['jssectiondesc'] = 'Introdueix el codi Javascript personalitzat.';
+
+$string['jssectionrestricted'] = 'Codi Javascript personalitzat condicional';
+$string['jssectionrestricteddesc'] = 'Introdueix el codi Javascript bassat al camp personalitzat de text. Aquest codi només s&#39;executarà si es compleix la condició.';
+
+$string['jssectionrestrictedprofilefield'] = 'Camp personalitzat per a Javascript';
+$string['jssectionrestrictedprofilefielddesc'] = 'Introdueix el camp personalitzat d&#39;usuari per a executar el codi de la part superior. Per exemple: facultat=ingenieria';
+
+$string['jssectionrestricteddashboardonly'] = 'Inclou codi Javascript només a la pàgina de l&#39;Àrea personal';
+$string['jssectionrestricteddashboardonlydesc'] = 'Mostra el codi Javascript només a l&#39;Àrea Personal. Si no, es mostra a tot el lloc.';
 
 // Cache definitions.
 $string['cachedef_userdata'] = 'El temps per desar una sessió d&#39;un usuari específic.';
